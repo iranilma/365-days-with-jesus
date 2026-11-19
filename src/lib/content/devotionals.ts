@@ -135,3 +135,56 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     evening_reflection_prompt: "As you look back over this first week, what is one sacred insight or peace God has given you?"
   }
 ];
+
+// Month day distribution for 365 days
+const DAYS_PER_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+/**
+ * Calculates month number (1..12) and day of month (1..31) from day number (1..365)
+ */
+export function getDayMonthMapping(dayNumber: number): { monthNumber: number; dayOfMonth: number } {
+  let day = Math.max(1, Math.min(365, dayNumber));
+  for (let m = 0; m < DAYS_PER_MONTH.length; m++) {
+    if (day <= DAYS_PER_MONTH[m]) {
+      return { monthNumber: m + 1, dayOfMonth: day };
+    }
+    day -= DAYS_PER_MONTH[m];
+  }
+  return { monthNumber: 12, dayOfMonth: 31 };
+}
+
+/**
+ * Retrieves a devotional entry by day number.
+ * Never silently falls back to Day 1.
+ * If the day has not yet been authored, returns a structured development placeholder.
+ */
+export function getDevotionalByDay(dayNumber: number): DevotionalEntry {
+  const safeDay = Math.max(1, Math.min(365, dayNumber));
+  const existing = DEVOTIONAL_ENTRIES.find((d) => d.day_number === safeDay);
+  if (existing) {
+    return existing;
+  }
+
+  const { monthNumber, dayOfMonth } = getDayMonthMapping(safeDay);
+
+  return {
+    day_number: safeDay,
+    month_number: monthNumber,
+    day_of_month: dayOfMonth,
+    title: `Day ${safeDay}: Seeking the Lord's Presence`,
+    scripture_primary_reference: "Lamentations 3:22-23",
+    scripture_primary_text: "It is because of Yahweh's loving kindnesses that we are not consumed, because his compassion doesn't fail. They are new every morning. Great is your faithfulness.",
+    scripture_translation: "World English Bible (WEB)",
+    reflection_body: `This devotional entry for Day ${safeDay} (Month ${monthNumber}, Day ${dayOfMonth}) is currently undergoing spiritual curation in our editorial library. Every day in 365 Days With Jesus is crafted with original, Scripture-centered reflections tailored for your daily quiet-time walk. In the meantime, dwell on God's fresh morning mercies today.`,
+    reflection_questions: [
+      `What is one grace or quiet mercy God has brought into your life today?`,
+      `How can you abide closely in Christ's presence throughout the next few hours?`
+    ],
+    guided_prayer: "Lord Jesus, I bring You my heart today. Even in moments of waiting, teach me to abide in Your peace and trust Your perfect timing. Anchor my thoughts in Your unfailing love. Amen.",
+    daily_intention: "I will walk today in quiet faith, trusting God with each small step.",
+    practical_action: "Pause right now for one quiet minute, breathe deeply, and thank God for His faithful companionship.",
+    evening_reflection_prompt: "Reflect on one moment today where God whispered peace to your heart.",
+    is_placeholder: true,
+  };
+}
+

@@ -21,6 +21,7 @@ export interface DevotionalEntry {
   daily_intention: string;
   practical_action: string;
   evening_reflection_prompt: string;
+  is_placeholder?: boolean;
 }
 
 export type PrayerCategory =

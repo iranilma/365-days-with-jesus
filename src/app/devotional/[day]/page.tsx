@@ -20,7 +20,7 @@ import {
   Volume2,
 } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
-import { DEVOTIONAL_ENTRIES } from "@/lib/content/devotionals";
+import { DEVOTIONAL_ENTRIES, getDevotionalByDay } from "@/lib/content/devotionals";
 import { MONTHLY_THEMES } from "@/lib/content/themes";
 import {
   getJournals,
@@ -39,10 +39,8 @@ export default function DevotionalDayPage({
   const router = useRouter();
   const dayNumber = parseInt(resolvedParams.day, 10) || 1;
 
-  // Find devotional entry or fallback to day 1
-  const entry =
-    DEVOTIONAL_ENTRIES.find((d) => d.day_number === dayNumber) ||
-    DEVOTIONAL_ENTRIES[0];
+  // Use authoritative resolver (never silently falls back to Day 1)
+  const entry = getDevotionalByDay(dayNumber);
 
   const theme =
     MONTHLY_THEMES.find((m) => m.month_number === entry.month_number) ||
@@ -198,6 +196,12 @@ export default function DevotionalDayPage({
         <p className="text-sm font-sans tracking-wide text-sanctuary-taupe uppercase">
           Theme of the Month: {theme.theme_title}
         </p>
+
+        {entry.is_placeholder && (
+          <div className="inline-block p-2.5 px-4 rounded-2xl bg-sanctuary-sageLight/70 border border-sanctuary-sage text-xs text-sanctuary-cocoa">
+            <span className="font-bold">Editorial Curation Notice:</span> Day {entry.day_number} is scheduled in the 365-day publication plan under Month {entry.month_number} ({theme.theme_title}). Below is the structured quiet-time liturgy for your reflection.
+          </div>
+        )}
 
         {/* Action Controls Pill */}
         <div className="flex items-center justify-center gap-2 pt-2">
