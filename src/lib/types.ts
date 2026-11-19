@@ -11,6 +11,7 @@ export interface DevotionalEntry {
   day_number: number;
   month_number: number;
   day_of_month: number;
+  weekly_subtheme?: string;
   title: string;
   scripture_primary_reference: string;
   scripture_primary_text: string;

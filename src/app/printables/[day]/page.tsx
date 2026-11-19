@@ -10,7 +10,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { BotanicalSprig } from "@/components/BotanicalElements";
-import { DEVOTIONAL_ENTRIES, getDevotionalByDay } from "@/lib/content/devotionals";
+import { getDevotionalEntry } from "@/lib/content/devotionals";
 import { MONTHLY_THEMES } from "@/lib/content/themes";
 import { getPrintFormat, setPrintFormat } from "@/lib/storage";
 import { PrintPageFormat } from "@/lib/types";
@@ -24,7 +24,7 @@ export default function PrintableDevotionalPage({
   const dayNumber = parseInt(resolvedParams.day, 10) || 1;
 
   // Use authoritative resolver (never silently falls back to Day 1)
-  const entry = getDevotionalByDay(dayNumber);
+  const entry = getDevotionalEntry(dayNumber);
 
   const theme =
     MONTHLY_THEMES.find((m) => m.month_number === entry.month_number) ||

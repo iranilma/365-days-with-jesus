@@ -14,7 +14,7 @@ import {
   SunMedium,
 } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
-import { DEVOTIONAL_ENTRIES } from "@/lib/content/devotionals";
+import { getDevotionalEntry } from "@/lib/content/devotionals";
 import { MONTHLY_THEMES } from "@/lib/content/themes";
 import {
   getGratitudes,
@@ -37,7 +37,7 @@ export default function DashboardPage() {
   });
   const [gratitudeSaved, setGratitudeSaved] = useState(false);
 
-  const todayDevotional = DEVOTIONAL_ENTRIES[0]; // Day 1
+  const todayDevotional = getDevotionalEntry(1); // Authoritative Day 1
   const currentTheme = MONTHLY_THEMES[0]; // Month 1
 
   useEffect(() => {
