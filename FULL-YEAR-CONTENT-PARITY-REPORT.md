@@ -4,7 +4,7 @@
 **Authoritative Source**: `src/lib/content/devotionals.ts` (Single Source of Truth)  
 **Synchronised Artifact**: `365_Days_With_Jesus.html` (Standalone Single-File Distribution)  
 **Total Devotional Entries**: 365 / 365 (100% of Year)  
-**Authored & Calibrated Scope**: Months 1–5 (Days 1–151, January–May)  
+**Authored & Calibrated Scope**: Months 1–12 (Days 1–365, Complete Year)  
 **Total Field Comparisons**: 4,380 individual field assertions  
 **Total Mismatches**: 0 (ZERO MISMATCHES)  
 **Parity Verification Status**: 100% BIT-FOR-BIT CONTENT PARITY
@@ -47,7 +47,7 @@ Every devotional record was compared across twelve distinct content fields:
 | **Month 10** | October | 31 | 372 | 372 | **0** | **100.0%** |
 | **Month 11** | November | 30 | 360 | 360 | **0** | **100.0%** |
 | **Month 12** | December | 31 | 372 | 372 | **0** | **100.0%** |
-| **TOTAL** | **Full Year (Jan–Dec)** | **365** | **4,380** | **4,325** | **0** | **100.0%** |
+| **TOTAL** | **Full Year (Jan–Dec)** | **365** | **4,380** | **4,380** | **0** | **100.0%** |
 
 ---
 
