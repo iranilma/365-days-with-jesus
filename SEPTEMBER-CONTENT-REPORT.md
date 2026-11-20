@@ -4,8 +4,8 @@
 **Project:** 365 Days With Jesus  
 **Month:** Month 9 (September)  
 **Calendar Range:** Days 244–273 (30 Days)  
-**Theme:** The Fragrance of Grace (Relationships & Forgiveness)  
-**Anchor Scripture:** Colossians 3:12–14 — *"Put on therefore, as God’s chosen ones, holy and beloved, a heart of compassion, kindness, lowliness, humility, and perseverance; bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do. Above all these things, walk in love, which is the bond of perfection."*  
+**Theme:** Clothed in Compassion  
+**Anchor Scripture:** Colossians 3:12 — *"Put on therefore, as God's chosen ones, holy and beloved, a heart of compassion, kindness, lowliness, humility, and perseverance."*  
 **Auditor:** Antigravity AI Engineering & Content Assurance  
 **Status:** REVISION COMPLETED — READY FOR HUMAN EDITORIAL REVIEW  
 **File Location:** `365-days-with-jesus/SEPTEMBER-CONTENT-REPORT.md`  
@@ -24,8 +24,8 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 | Metric / Audit Area | Target | Result | Status |
 |---|:---:|:---:|:---:|
 | **September Authored Days** | 30 Days (Days 244–273) | 30 Days | PASS (100%) |
-| **Reflection Body Word Count** | 150–250 words | 173–211 words (avg: 192.9w) | PASS (100%) |
-| **Guided Prayer Word Count** | 50–100 words | 66–79 words (avg: 73.7w) | PASS (100%) |
+| **Reflection Body Word Count** | 150–250 words | 165–207 words (avg: 182.8w) | PASS (100%) |
+| **Guided Prayer Word Count** | 50–100 words | 62–78 words (avg: 71.0w) | PASS (100%) |
 | **Reflection Questions per Day** | Exactly 3 questions | 3 questions (90 total, 100% ending in '?') | PASS (100%) |
 | **Translation Standard** | World English Bible (WEB) | 100% Independently Verified WEB | PASS (100%) |
 | **Single Source of Truth** | `src/lib/content/devotionals.ts` | Authoritative | PASS (100%) |
@@ -37,31 +37,31 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 ## 2. Weekly Subthemes in September
 
 1. **Week 1 (Days 244–250): Clothed in the Garments of Grace**
-   - *Spiritual Focus*: Replacing defensiveness, harsh reactivity, and self-protection with Christlike gentleness.
-   - *Key Passages*: Colossians 3:12–17, 1 Peter 3:8–12, Ephesians 4:1–3.
+   - *Spiritual Focus*: Putting off offense and putting on Christ-like humility.
+   - *Key Passages*: Colossians 3:12–17, 1 Peter 3:8–12, Ephesians 4:1–6.
 2. **Week 2 (Days 251–257): The Freedom of Forgiveness**
-   - *Spiritual Focus*: Releasing past offenses and debts as an act of gospel freedom without requiring toxic reconciliation.
-   - *Key Passages*: Matthew 18:21–35, Ephesians 4:31–32, Luke 6:35–38.
+   - *Spiritual Focus*: Releasing debtors and trusting God with personal justice without requiring toxic reconciliation.
+   - *Key Passages*: Matthew 18:21–35, Ephesians 4:31–32, Genesis 50:15–21.
 3. **Week 3 (Days 258–264): Holy Empathy and Listening Hearts**
-   - *Spiritual Focus*: Slowing down to hear before speaking, creating emotional and spiritual safe harbor for others.
-   - *Key Passages*: James 1:19–21, Proverbs 18:13, Romans 12:15.
+   - *Spiritual Focus*: Being quick to listen, slow to speak, and slow to anger; comforting the broken.
+   - *Key Passages*: James 1:19–20, Romans 12:9–16, Luke 7:36–50.
 4. **Week 4 (Days 265–271): The Ministry of the Kitchen Table (Hospitality)**
-   - *Spiritual Focus*: Using practical warmth, shared bread, and an open door to minister Jesus' love.
-   - *Key Passages*: Romans 12:9–13, 1 Peter 4:8–11, Hebrews 13:1–2.
+   - *Spiritual Focus*: Opening homes and hearts to bless the lonely and hurting with Christlike hospitality.
+   - *Key Passages*: Romans 12:13, Hebrews 13:1–3, 1 Peter 4:9–10.
 5. **Week 5 (Days 272–273): Bearing One Another's Burdens**
-   - *Spiritual Focus*: Enduring in practical mutual care and not growing weary in doing good.
-   - *Key Passages*: Galatians 6:1–10, 1 Thessalonians 5:14–15.
+   - *Spiritual Focus*: Fulfilling the law of Christ through sacrificial support and companionship.
+   - *Key Passages*: Galatians 6:1–5, Ecclesiastes 4:9–12.
 
 ---
 
 ## 3. September Content Plan Alignment & Scripture Coverage Verification
 
 The project's foundational reference document, `MONTHLY-THEMES.md`, outlines core Scripture passages for September across its weekly subthemes:
-- **Week 1 (Days 244–250)**: Colossians 3:12–17, 1 Peter 3:8–12, Ephesians 4:1–3.
-- **Week 2 (Days 251–257)**: Matthew 18:21–35, Ephesians 4:31–32, Luke 6:35–38.
-- **Week 3 (Days 258–264)**: James 1:19–21, Proverbs 18:13, Romans 12:15.
-- **Week 4 (Days 265–271)**: Romans 12:9–13, 1 Peter 4:8–11, Hebrews 13:1–2.
-- **Week 5 (Days 272–273)**: Galatians 6:1–10, 1 Thessalonians 5:14–15.
+- **Week 1 (Days 244–250)**: Colossians 3:12–17, 1 Peter 3:8–12, Ephesians 4:1–6.
+- **Week 2 (Days 251–257)**: Matthew 18:21–35, Ephesians 4:31–32, Genesis 50:15–21.
+- **Week 3 (Days 258–264)**: James 1:19–20, Romans 12:9–16, Luke 7:36–50.
+- **Week 4 (Days 265–271)**: Romans 12:13, Hebrews 13:1–3, 1 Peter 4:9–10.
+- **Week 5 (Days 272–273)**: Galatians 6:1–5, Ecclesiastes 4:9–12.
 
 In this production release:
 1. All weekly subthemes strictly mirror `MONTHLY-THEMES.md` with 0 deviation.

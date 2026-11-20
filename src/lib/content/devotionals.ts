@@ -1810,21 +1810,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Isaiah 53:5",
     scripture_primary_text: "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "As April begins, our reflections turn toward the cross of Christ, where the deepest work of divine reconciliation was accomplished. In our daily routines, we can be tempted to move quickly past the solemnity of Calvary, eager to celebrate Easter morning. Yet the joy of the resurrection is rooted in the reality of what Jesus bore on our behalf. Seven centuries before the crucifixion, the prophet Isaiah wrote of the suffering Servant who was pierced for our transgressions and crushed for our iniquities. The penalty that established our peace with God fell upon Christ. Through His willing sacrifice, we receive forgiveness, reconciliation, and the gift of God's peace. Scripture does not promise that believers are instantly spared from physical infirmity, emotional grief, or bodily distress in this present life. We still live in a fallen world marked by sorrow and weakness. But Isaiah points us to a deeper, enduring reality: our fundamental separation from God has been bridged, and our ultimate healing is secured in Christ. In moments of weariness or heartache, we can look to the Savior whose wounds testify to a love that never abandons us.",
+    reflection_body: "As April begins, our reflections turn toward the cross of Christ, where the deepest work of divine reconciliation was accomplished. In our daily routines, we can be tempted to move quickly past the solemnity of Calvary, eager to celebrate Easter morning. Yet the joy of the resurrection is rooted in the reality of what Jesus bore on our behalf. Seven centuries before the crucifixion, the prophet Isaiah wrote of the suffering Servant who was pierced for our transgressions and crushed for our iniquities. The penalty that established our peace with God fell upon Christ. Through His willing sacrifice, we receive forgiveness, reconciliation, and the gift of God's peace. Scripture does not promise that believers are instantly spared from physical infirmity, emotional grief, or bodily distress in this present life. We still live in a fallen world marked by sorrow and weakness. But Isaiah points us to a deeper, enduring reality: our fundamental separation from God has been bridged, and our ultimate healing is secured in Christ. In moments of weariness or heartache, we can look to the Savior whose wounds testify to a love that never abandons us.",
     reflection_questions: [
-        "How does knowing Christ bore your sins to bring you peace with God comfort you in present trials?",
-        "Why is it important to distinguish between eternal reconciliation and freedom from earthly suffering?",
-        "Where can you invite Christ's sustaining grace into an area of weakness or sorrow today?"
-      ],
-    guided_prayer:
-      "Gracious Savior, I pause in humble reverence before Your cross. Thank You for bearing the penalty for my sins and making peace between God and my soul. In seasons when my body feels frail or my heart carries sorrow, remind me that Your love is near and steadfast. Help me to rest in the eternal reconciliation You purchased, trusting Your grace to sustain me through every earthly trial. In Your holy name, Amen.",
-    daily_intention:
-      "I will rest in the peace and reconciliation secured for me through Christ's sacrifice.",
-    practical_action:
-      "Take a quiet moment today to thank Jesus for bearing your sins and giving you peace with God.",
-    evening_reflection_prompt:
-      "How did remembering Christ's sacrificial love bring quiet assurance to your heart today?"
+      "How does knowing Christ bore your sins to bring you peace with God comfort you in present trials?",
+      "Why is it important to distinguish between eternal reconciliation and freedom from earthly suffering?",
+      "Where can you invite Christ's sustaining grace into an area of weakness or sorrow today?"
+    ],
+    guided_prayer: "Gracious Savior, I pause in humble reverence before Your cross. Thank You for bearing the penalty for my sins and making peace between God and my soul. In seasons when my body feels frail or my heart carries sorrow, remind me that Your love is near and steadfast. Help me to rest in the eternal reconciliation You purchased, trusting Your grace to sustain me through every earthly trial. In Your holy name, Amen.",
+    daily_intention: "I will rest in the peace and reconciliation secured for me through Christ's sacrifice.",
+    practical_action: "Take a quiet moment today to thank Jesus for bearing your sins and giving you peace with God.",
+    evening_reflection_prompt: "How did remembering Christ's sacrificial love bring quiet assurance to your heart today?"
   },
   {
     day_number: 92,
@@ -1835,21 +1830,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Luke 22:42",
     scripture_primary_text: "saying, 'Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In the dark olive grove of Gethsemane, Jesus wrestled with the impending weight of the cross. The sweat falling from His brow like great drops of blood reveals the genuine anguish of His humanity. Yet in the apex of His distress, Jesus uttered the words that anchor Christian discipleship: 'Nevertheless, not my will, but yours, be done.' Gethsemane is the sacred place where honest prayer meets humble surrender. Many believers face cups they would never have chosen: prolonged physical illness, deep relational heartache, sudden bereavement, or difficult life transitions. It is not a sign of weak faith to honestly ask God if a cup of suffering might be removed; Jesus Himself offered that heartfelt petition. Holy maturity is found in the 'nevertheless' that follows. It is the quiet willingness to entrust our lives to the Father who raised Jesus from the dead. While Scripture does not promise that every difficult earthly circumstance will be reversed during this life, Christ's resurrection assures us that suffering does not have the final word. In eternal life, God will wipe away every tear, and in the present, His steadfast love is sufficient to sustain us.",
+    reflection_body: "In the dark olive grove of Gethsemane, Jesus wrestled with the impending weight of the cross. The sweat falling from His brow like great drops of blood reveals the genuine anguish of His humanity. Yet in the apex of His distress, Jesus uttered the words that anchor Christian discipleship: 'Nevertheless, not my will, but yours, be done.' Gethsemane is the sacred place where honest prayer meets humble surrender. Many believers face cups they would never have chosen: prolonged physical illness, deep relational heartache, sudden bereavement, or difficult life transitions. It is not a sign of weak faith to honestly ask God if a cup of suffering might be removed; Jesus Himself offered that heartfelt petition. Holy maturity is found in the 'nevertheless' that follows. It is the quiet willingness to entrust our lives to the Father who raised Jesus from the dead. While Scripture does not promise that every difficult earthly circumstance will be reversed during this life, Christ's resurrection assures us that suffering does not have the final word. In eternal life, God will wipe away every tear, and in the present, His steadfast love is sufficient to sustain us.",
     reflection_questions: [
-        "What difficult situation in your life are you currently bringing to God in honest prayer?",
-        "How does Jesus' prayer in Gethsemane encourage you to be completely honest with God about your pain?",
-        "How does the promise of eternal life give you perspective when earthly hardships remain unresolved?"
-      ],
-    guided_prayer:
-      "Lord Jesus, thank You for Your faithful obedience in the garden of Gethsemane. When my heart shrinks back from difficult seasons, teach me to bring my honest longings to God. When circumstances cannot be changed, grant me the grace to pray: not my will, but Yours be done. Anchor my soul in the promise of eternal life, and sustain me with Your peace today. Amen.",
-    daily_intention:
-      "I will entrust my unresolved circumstances and honest prayers to the faithful care of my Heavenly Father.",
-    practical_action:
-      "Take a quiet moment today to pray honestly about a heavy burden, concluding with a prayer of humble trust in God.",
-    evening_reflection_prompt:
-      "Where did you sense God's sustaining peace after entrusting a difficult situation to Him today?"
+      "What difficult situation in your life are you currently bringing to God in honest prayer?",
+      "How does Jesus' prayer in Gethsemane encourage you to be completely honest with God about your pain?",
+      "How does the promise of eternal life give you perspective when earthly hardships remain unresolved?"
+    ],
+    guided_prayer: "Lord Jesus, thank You for Your faithful obedience in the garden of Gethsemane. When my heart shrinks back from difficult seasons, teach me to bring my honest longings to God. When circumstances cannot be changed, grant me the grace to pray: not my will, but Yours be done. Anchor my soul in the promise of eternal life, and sustain me with Your peace today. Amen.",
+    daily_intention: "I will entrust my unresolved circumstances and honest prayers to the faithful care of my Heavenly Father.",
+    practical_action: "Take a quiet moment today to pray honestly about a heavy burden, concluding with a prayer of humble trust in God.",
+    evening_reflection_prompt: "Where did you sense God's sustaining peace after entrusting a difficult situation to Him today?"
   },
   {
     day_number: 93,
@@ -1860,21 +1850,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Philippians 2:8",
     scripture_primary_text: "And being found in human form, he humbled himself, becoming obedient to death, yes, the death of the cross.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "The Apostle Paul urges us to share the same mindset that was in Christ Jesus, who though existing in the form of God, did not view equality with God as something to be grasped for selfish advantage. Instead, He emptied Himself by taking the form of a servant. In Roman antiquity, crucifixion was designed to inflict extreme public humiliation and strip the victim of earthly standing. Yet the Lord of glory willingly entered into that degradation out of holy, self-giving love. In a culture that frequently equates worth with status, recognition, and self-promotion, the cross calls believers to an entirely different standard: Christlike humility. Biblical humility does not mean self-contempt, neglecting legitimate personal needs, denying our God-given dignity, or tolerating abuse and mistreatment. Rather, as Philippians 2 demonstrates, true humility is freedom from selfish ambition and empty conceit. It is a secure, loving posture that chooses to value others and serve with quiet integrity. When we act with kindness and care without seeking human praise, we reflect the gentle heart of the Servant King who gave Himself for us.",
+    reflection_body: "The Apostle Paul urges us to share the same mindset that was in Christ Jesus, who though existing in the form of God, did not view equality with God as something to be grasped for selfish advantage. Instead, He emptied Himself by taking the form of a servant. In Roman antiquity, crucifixion was designed to inflict extreme public humiliation and strip the victim of earthly standing. Yet the Lord of glory willingly entered into that degradation out of holy, self-giving love. In a culture that frequently equates worth with status, recognition, and self-promotion, the cross calls believers to an entirely different standard: Christlike humility. Biblical humility does not mean self-contempt, neglecting legitimate personal needs, denying our God-given dignity, or tolerating abuse and mistreatment. Rather, as Philippians 2 demonstrates, true humility is freedom from selfish ambition and empty conceit. It is a secure, loving posture that chooses to value others and serve with quiet integrity. When we act with kindness and care without seeking human praise, we reflect the gentle heart of the Servant King who gave Himself for us.",
     reflection_questions: [
-        "How does Christ's example of self-giving love redefine true humility for your daily life?",
-        "Why is it important to distinguish biblical humility from accepting mistreatment or neglecting legitimate needs?",
-        "What is one simple way you can serve or encourage someone today with quiet, genuine kindness?"
-      ],
-    guided_prayer:
-      "Lord Jesus, I stand in awe of Your self-giving love and willingness to humble Yourself for our redemption. Cleanse my heart from selfish ambition, pride, and the craving for human approval. Teach me to walk with genuine humility, valuing others and serving with quiet faithfulness, while resting securely in the dignity and love You have given me. In Your holy name, Amen.",
-    daily_intention:
-      "I will reflect Christ's gentle humility today, serving others with kindness and without seeking human praise.",
-    practical_action:
-      "Choose an act of quiet, unheralded kindness today—such as offering a sincere word of encouragement or yielding gracefully in a conversation.",
-    evening_reflection_prompt:
-      "How did practicing Christlike humility and patience bring a sense of peace to your interactions today?"
+      "How does Christ's example of self-giving love redefine true humility for your daily life?",
+      "Why is it important to distinguish biblical humility from accepting mistreatment or neglecting legitimate needs?",
+      "What is one simple way you can serve or encourage someone today with quiet, genuine kindness?"
+    ],
+    guided_prayer: "Lord Jesus, I stand in awe of Your self-giving love and willingness to humble Yourself for our redemption. Cleanse my heart from selfish ambition, pride, and the craving for human approval. Teach me to walk with genuine humility, valuing others and serving with quiet faithfulness, while resting securely in the dignity and love You have given me. In Your holy name, Amen.",
+    daily_intention: "I will reflect Christ's gentle humility today, serving others with kindness and without seeking human praise.",
+    practical_action: "Choose an act of quiet, unheralded kindness today—such as offering a sincere word of encouragement or yielding gracefully in a conversation.",
+    evening_reflection_prompt: "How did practicing Christlike humility and patience bring a sense of peace to your interactions today?"
   },
   {
     day_number: 94,
@@ -1885,21 +1870,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Luke 23:34",
     scripture_primary_text: "Jesus said, 'Father, forgive them, for they don’t know what they are doing.' Dividing his garments among them, they cast lots.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "While hanging upon the cross, enduring cruel mockery and excruciating physical agony, Jesus opened His mouth in prayer: 'Father, forgive them, for they don’t know what they are doing.' The first word from the cross was a plea for divine mercy upon His executioners. Forgiveness at Calvary was not a sentimental dismissal of wrongdoing, nor did it minimize the horror of sin. It was the supreme demonstration of divine love absorbing human evil. In our lives, many of us carry deep wounds from people who were thoughtless, cruel, or unrepentant. Forgiveness is rarely an instant emotional event; it is often a gradual, prayerful process that takes time. Biblical forgiveness does not require forgetting what occurred, pretending harm was trivial, automatically restoring broken trust, or pursuing reconciliation where safety is compromised. Nor does it require remaining in contact with someone who has caused harm. Rather, forgiveness is the intentional surrender of personal vengeance into the hands of a just and holy God. In releasing the desire for retaliation, we entrust justice to the Lord and allow His grace to guard our hearts in peace.",
+    reflection_body: "While hanging upon the cross, enduring cruel mockery and excruciating physical agony, Jesus opened His mouth in prayer: 'Father, forgive them, for they don’t know what they are doing.' The first word from the cross was a plea for divine mercy upon His executioners. Forgiveness at Calvary was not a sentimental dismissal of wrongdoing, nor did it minimize the horror of sin. It was the supreme demonstration of divine love absorbing human evil. In our lives, many of us carry deep wounds from people who were thoughtless, cruel, or unrepentant. Forgiveness is rarely an instant emotional event; it is often a gradual, prayerful process that takes time. Biblical forgiveness does not require forgetting what occurred, pretending harm was trivial, automatically restoring broken trust, or pursuing reconciliation where safety is compromised. Nor does it require remaining in contact with someone who has caused harm. Rather, forgiveness is the intentional surrender of personal vengeance into the hands of a just and holy God. In releasing the desire for retaliation, we entrust justice to the Lord and allow His grace to guard our hearts in peace.",
     reflection_questions: [
-        "How does viewing forgiveness as a gradual surrender of vengeance to God bring relief when emotions take time to heal?",
-        "Why is it vital to understand that forgiveness does not require reconciliation, automatic trust, or staying in unsafe situations?",
-        "What step of prayerful release can you take today regarding an offense or hurt from your past?"
-      ],
-    guided_prayer:
-      "Merciful Lord, thank You for the boundless grace demonstrated at the cross when You prayed for Your persecutors. When I wrestle with deep wounds or the pain of mistreatment, grant me patience with the process of forgiveness. Help me to surrender all desire for revenge into Your just hands. Protect my heart from bitterness while giving me the wisdom to maintain healthy, safe boundaries. In Jesus' name, Amen.",
-    daily_intention:
-      "I will entrust all judgment and vengeance to God, seeking His peace as I walk through the process of forgiveness.",
-    practical_action:
-      "In a quiet prayer, surrender any desire for retaliation to the Lord, asking Him for wisdom to maintain wise and safe boundaries.",
-    evening_reflection_prompt:
-      "Did entrusting justice to God help bring a measure of calm and relief to your mind today?"
+      "How does viewing forgiveness as a gradual surrender of vengeance to God bring relief when emotions take time to heal?",
+      "Why is it vital to understand that forgiveness does not require reconciliation, automatic trust, or staying in unsafe situations?",
+      "What step of prayerful release can you take today regarding an offense or hurt from your past?"
+    ],
+    guided_prayer: "Merciful Lord, thank You for the boundless grace demonstrated at the cross when You prayed for Your persecutors. When I wrestle with deep wounds or the pain of mistreatment, grant me patience with the process of forgiveness. Help me to surrender all desire for revenge into Your just hands. Protect my heart from bitterness while giving me the wisdom to maintain healthy, safe boundaries. In Jesus' name, Amen.",
+    daily_intention: "I will entrust all judgment and vengeance to God, seeking His peace as I walk through the process of forgiveness.",
+    practical_action: "In a quiet prayer, surrender any desire for retaliation to the Lord, asking Him for wisdom to maintain wise and safe boundaries.",
+    evening_reflection_prompt: "Did entrusting justice to God help bring a measure of calm and relief to your mind today?"
   },
   {
     day_number: 95,
@@ -1910,21 +1890,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "John 19:30",
     scripture_primary_text: "When Jesus therefore had received the vinegar, he said, 'It is finished.' He bowed his head, and gave up his spirit.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "From the cross, Jesus spoke a profound word of divine accomplishment: Tetelestai—'It is finished.' This was not a cry of defeat, but a declaration that the Father's redemptive work was complete. In the Greek text, the verb teleō conveys bringing a task to its intended goal, completing an assigned mission, or fully discharging an obligation. When Jesus bowed His head, the sacrificial work of atonement was accomplished, the prophetic scriptures were fulfilled, and the way of reconciliation with God was opened forever. Yet many believers live as though Christ's sacrifice were only a down payment, feeling an anxious pressure to complete their standing before God through self-imposed guilt, endless penance, or religious striving. Hear the finality of the Savior's declaration: His work on our behalf is complete. We cannot add to what Christ has fulfilled, nor can our human efforts improve upon His perfect sacrifice. While discipleship calls us to daily obedience and love, our acceptance before God rests entirely upon what Jesus accomplished at Calvary. Rest your heart today in the finished redemption of Christ, trusting that His grace is sufficient for your salvation and peace.",
+    reflection_body: "From the cross, Jesus spoke a profound word of divine accomplishment: Tetelestai—'It is finished.' This was not a cry of defeat, but a declaration that the Father's redemptive work was complete. In the Greek text, the verb teleō conveys bringing a task to its intended goal, completing an assigned mission, or fully discharging an obligation. When Jesus bowed His head, the sacrificial work of atonement was accomplished, the prophetic scriptures were fulfilled, and the way of reconciliation with God was opened forever. Yet many believers live as though Christ's sacrifice were only a down payment, feeling an anxious pressure to complete their standing before God through self-imposed guilt, endless penance, or religious striving. Hear the finality of the Savior's declaration: His work on our behalf is complete. We cannot add to what Christ has fulfilled, nor can our human efforts improve upon His perfect sacrifice. While discipleship calls us to daily obedience and love, our acceptance before God rests entirely upon what Jesus accomplished at Calvary. Rest your heart today in the finished redemption of Christ, trusting that His grace is sufficient for your salvation and peace.",
     reflection_questions: [
-        "How does knowing that Christ's redemptive work is complete bring relief from religious striving?",
-        "What burden of guilt or self-condemnation can you entrust to the grace of the cross today?",
-        "How does resting in Christ's finished work inspire grateful obedience rather than passive complacency?"
-      ],
-    guided_prayer:
-      "Victorious Savior, I thank You for Your completed work upon the cross. Thank You that through Your willing sacrifice, the work of redemption is accomplished and my reconciliation with God is secure. Deliver me from the anxiety of trying to earn what You have freely given. Teach me to rest in Your finished righteousness, walking in joyful obedience and peace today. In Your holy name, Amen.",
-    daily_intention:
-      "I will rest in the completed redemptive work of Christ, trusting His grace for my standing with God.",
-    practical_action:
-      "Whenever feelings of self-condemnation arise today, pause and thank Jesus that His work on your behalf is finished.",
-    evening_reflection_prompt:
-      "What quiet peace entered your spirit today as you rested in the finished work of Christ?"
+      "How does knowing that Christ's redemptive work is complete bring relief from religious striving?",
+      "What burden of guilt or self-condemnation can you entrust to the grace of the cross today?",
+      "How does resting in Christ's finished work inspire grateful obedience rather than passive complacency?"
+    ],
+    guided_prayer: "Victorious Savior, I thank You for Your completed work upon the cross. Thank You that through Your willing sacrifice, the work of redemption is accomplished and my reconciliation with God is secure. Deliver me from the anxiety of trying to earn what You have freely given. Teach me to rest in Your finished righteousness, walking in joyful obedience and peace today. In Your holy name, Amen.",
+    daily_intention: "I will rest in the completed redemptive work of Christ, trusting His grace for my standing with God.",
+    practical_action: "Whenever feelings of self-condemnation arise today, pause and thank Jesus that His work on your behalf is finished.",
+    evening_reflection_prompt: "What quiet peace entered your spirit today as you rested in the finished work of Christ?"
   },
   {
     day_number: 96,
@@ -1955,21 +1930,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Luke 23:55-56",
     scripture_primary_text: "The women, who had come with him out of Galilee, followed after, and saw the tomb, and how his body was laid. They returned, and prepared spices and ointments. On the Sabbath they rested according to the commandment.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Holy Saturday stands between the anguish of Good Friday and the triumph of the resurrection. On this quiet day, Jesus lay silent in the stone tomb of Joseph of Arimathea. The disciples were bewildered by grief, and the faithful women who had followed Jesus prepared burial spices before resting on the Sabbath according to the commandment. Consider the gravity of that Saturday: their beloved Lord was dead, their expectations seemed crushed, and heaven offered no immediate explanation. Yet even in the midst of sorrow, these women chose obedience, quietly observing the holy rest commanded in God's law. We often experience seasons that feel like Saturday: a difficult circumstance remains unresolved, prayers seem to echo in silence, and we cannot perceive how God will bring resolution. The temptation in such quiet seasons is to give way to panic or attempt to control outcomes by self-effort. While scripture does not claim that God is always working in identical ways during every silence, Holy Saturday demonstrates that God's redemptive plan was not undone by the grave. We can entrust our unresolved situations to the God whose faithfulness remains steady even when our eyes cannot see the dawn.",
+    reflection_body: "Holy Saturday stands between the anguish of Good Friday and the triumph of the resurrection. On this quiet day, Jesus lay silent in the stone tomb of Joseph of Arimathea. The disciples were bewildered by grief, and the faithful women who had followed Jesus prepared burial spices before resting on the Sabbath according to the commandment. Consider the gravity of that Saturday: their beloved Lord was dead, their expectations seemed crushed, and heaven offered no immediate explanation. Yet even in the midst of sorrow, these women chose obedience, quietly observing the holy rest commanded in God's law. We often experience seasons that feel like Saturday: a difficult circumstance remains unresolved, prayers seem to echo in silence, and we cannot perceive how God will bring resolution. The temptation in such quiet seasons is to give way to panic or attempt to control outcomes by self-effort. While scripture does not claim that God is always working in identical ways during every silence, Holy Saturday demonstrates that God's redemptive plan was not undone by the grave. We can entrust our unresolved situations to the God whose faithfulness remains steady even when our eyes cannot see the dawn.",
     reflection_questions: [
-        "What situation in your life currently feels unresolved or quiet as you wait upon God?",
-        "How does the example of the women resting in obedience encourage you when answers seem delayed?",
-        "What helps you release anxious striving and entrust your future to God's care?"
-      ],
-    guided_prayer:
-      "Faithful God, when my circumstances seem unresolved and my prayers are met with silence, grant me a quiet heart. Help me not to panic or lean upon my own understanding. Teach me to walk in patient obedience, trusting that Your sovereign care never wavers. I place my unresolved concerns into Your gentle hands, resting in Your holy presence today. Amen.",
-    daily_intention:
-      "I will practice quiet trust in God today, releasing the need to control unresolved outcomes.",
-    practical_action:
-      "Identify one unresolved matter causing you anxiety and consciously place it in God's keeping in prayer.",
-    evening_reflection_prompt:
-      "Did choosing quiet trust in God bring a sense of rest to your mind today?"
+      "What situation in your life currently feels unresolved or quiet as you wait upon God?",
+      "How does the example of the women resting in obedience encourage you when answers seem delayed?",
+      "What helps you release anxious striving and entrust your future to God's care?"
+    ],
+    guided_prayer: "Faithful God, when my circumstances seem unresolved and my prayers are met with silence, grant me a quiet heart. Help me not to panic or lean upon my own understanding. Teach me to walk in patient obedience, trusting that Your sovereign care never wavers. I place my unresolved concerns into Your gentle hands, resting in Your holy presence today. Amen.",
+    daily_intention: "I will practice quiet trust in God today, releasing the need to control unresolved outcomes.",
+    practical_action: "Identify one unresolved matter causing you anxiety and consciously place it in God's keeping in prayer.",
+    evening_reflection_prompt: "Did choosing quiet trust in God bring a sense of rest to your mind today?"
   },
   {
     day_number: 98,
@@ -1980,21 +1950,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "1 Peter 1:3",
     scripture_primary_text: "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Easter morning reveals the historical victory of Jesus Christ over the grave. The stone was rolled away from the tomb, and as the disciples observed, the linen cloths were lying there, with the face cloth that had been on Jesus' head rolled up in a place by itself. Peter, who had denied Jesus in shame on the night of His betrayal, writes with awe from the reality of the resurrection: God has caused us to be born again to a 'living hope.' Biblical hope is not fragile wishful thinking or optimism based on favorable circumstances. Rather, it is a living, enduring hope grounded in historical reality: Jesus Christ was bodily raised from the dead. While Scripture does not promise that every earthly sorrow, illness, or broken circumstance will be resolved or reversed during our lifetime, the resurrection guarantees that suffering does not possess the final word. In Christ, our future is secure, and God's redemptive grace sustains us through every present valley. When grief or fatigue presses upon your soul, anchor your heart in the living Lord who conquered death and whose mercy endures forever.",
+    reflection_body: "Easter morning reveals the historical victory of Jesus Christ over the grave. The stone was rolled away from the tomb, and as the disciples observed, the linen cloths were lying there, with the face cloth that had been on Jesus' head rolled up in a place by itself. Peter, who had denied Jesus in shame on the night of His betrayal, writes with awe from the reality of the resurrection: God has caused us to be born again to a 'living hope.' Biblical hope is not fragile wishful thinking or optimism based on favorable circumstances. Rather, it is a living, enduring hope grounded in historical reality: Jesus Christ was bodily raised from the dead. While Scripture does not promise that every earthly sorrow, illness, or broken circumstance will be resolved or reversed during our lifetime, the resurrection guarantees that suffering does not possess the final word. In Christ, our future is secure, and God's redemptive grace sustains us through every present valley. When grief or fatigue presses upon your soul, anchor your heart in the living Lord who conquered death and whose mercy endures forever.",
     reflection_questions: [
-        "How does Peter's testimony of a 'living hope' differ from fragile, worldly wishful thinking?",
-        "Why is it reassuring that Christian hope is grounded in the historical fact of Christ's resurrection?",
-        "How can the living hope of the resurrection give you endurance in an unresolved earthly trial?"
-      ],
-    guided_prayer:
-      "Living Lord Jesus, I praise You for Your bodily resurrection from the dead! Thank You for giving me a living hope that is not shaken by earthly uncertainties, aging, or sorrow. In seasons when circumstances are difficult, anchor my heart in the truth of Your empty tomb. Let the reality of Your victory over death give me quiet endurance and steadfast faith today. In Your holy name, Amen.",
-    daily_intention:
-      "I will anchor my thoughts in the living hope of Christ's resurrection today.",
-    practical_action:
-      "Take a quiet walk or pause today to thank God for the historical reality of Jesus' resurrection from the dead.",
-    evening_reflection_prompt:
-      "How did meditating on a living hope bring quiet steadiness to your heart during the day?"
+      "How does Peter's testimony of a 'living hope' differ from fragile, worldly wishful thinking?",
+      "Why is it reassuring that Christian hope is grounded in the historical fact of Christ's resurrection?",
+      "How can the living hope of the resurrection give you endurance in an unresolved earthly trial?"
+    ],
+    guided_prayer: "Living Lord Jesus, I praise You for Your bodily resurrection from the dead! Thank You for giving me a living hope that is not shaken by earthly uncertainties, aging, or sorrow. In seasons when circumstances are difficult, anchor my heart in the truth of Your empty tomb. Let the reality of Your victory over death give me quiet endurance and steadfast faith today. In Your holy name, Amen.",
+    daily_intention: "I will anchor my thoughts in the living hope of Christ's resurrection today.",
+    practical_action: "Take a quiet walk or pause today to thank God for the historical reality of Jesus' resurrection from the dead.",
+    evening_reflection_prompt: "How did meditating on a living hope bring quiet steadiness to your heart during the day?"
   },
   {
     day_number: 99,
@@ -2005,21 +1970,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "John 20:15-16",
     scripture_primary_text: "Jesus said to her, 'Woman, why are you weeping? Who are you looking for?' She, supposing him to be the gardener, said to him, 'Sir, if you have carried him away, tell me where you have laid him, and I will take him away.' Jesus said to her, 'Mary.' She turned and said to him, 'Rabboni!' which is to say, 'Teacher!'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Mary Magdalene stood outside the garden tomb weeping, overcome by deep sorrow. Her grief was so overwhelming that when the risen Jesus appeared, she did not recognize Him, assuming He was the caretaker of the grounds. It is a deeply human picture: in seasons of acute loss or heartbreak, our sorrow can obscure our perception of God's nearness. Yet notice the tenderness with which Christ responded. He did not dismiss Mary's tears or reprove her confusion. Instead, He met her directly within her sorrow and spoke her name: 'Mary.' In that personal utterance, she recognized her Lord and answered in reverence, 'Rabboni!' The risen Savior does not demand that we hide our grief or pretend our pain does not exist. He meets Mary at the site of her deepest sadness, revealing that death has been conquered and that He knows His followers personally. When tears or burdens weigh heavily upon you, remember that Jesus sees your sorrow and calls you by name. He walks alongside you in every valley, offering His comforting presence and grounding your heart in the certainty of His resurrection life.",
+    reflection_body: "Mary Magdalene stood outside the garden tomb weeping, overcome by deep sorrow. Her grief was so overwhelming that when the risen Jesus appeared, she did not recognize Him, assuming He was the caretaker of the grounds. It is a deeply human picture: in seasons of acute loss or heartbreak, our sorrow can obscure our perception of God's nearness. Yet notice the tenderness with which Christ responded. He did not dismiss Mary's tears or reprove her confusion. Instead, He met her directly within her sorrow and spoke her name: 'Mary.' In that personal utterance, she recognized her Lord and answered in reverence, 'Rabboni!' The risen Savior does not demand that we hide our grief or pretend our pain does not exist. He meets Mary at the site of her deepest sadness, revealing that death has been conquered and that He knows His followers personally. When tears or burdens weigh heavily upon you, remember that Jesus sees your sorrow and calls you by name. He walks alongside you in every valley, offering His comforting presence and grounding your heart in the certainty of His resurrection life.",
     reflection_questions: [
-        "How does knowing that Jesus met Mary in her grief encourage you when facing sorrow?",
-        "In what practical ways can you listen for the reassuring voice of Scripture when overwhelmed?",
-        "What personal burden can you bring honestly before the risen Savior today?"
-      ],
-    guided_prayer:
-      "Risen Lord, thank You for meeting me with gentleness when sorrow or confusion clouds my vision. Thank You that You know my name and do not turn away from my tears. Help me to hear Your comforting voice in the quiet moments of this day. May the reality of Your resurrection give me quiet strength and hope as I walk with You. Amen.",
-    daily_intention:
-      "I will seek the presence of the risen Christ, knowing He meets me with gentleness in every sorrow.",
-    practical_action:
-      "In a moment of quiet today, bring your genuine thoughts and tears to Jesus, thanking Him for His nearness.",
-    evening_reflection_prompt:
-      "How did recognizing Christ's presence bring comfort to your spirit throughout the day?"
+      "How does knowing that Jesus met Mary in her grief encourage you when facing sorrow?",
+      "In what practical ways can you listen for the reassuring voice of Scripture when overwhelmed?",
+      "What personal burden can you bring honestly before the risen Savior today?"
+    ],
+    guided_prayer: "Risen Lord, thank You for meeting me with gentleness when sorrow or confusion clouds my vision. Thank You that You know my name and do not turn away from my tears. Help me to hear Your comforting voice in the quiet moments of this day. May the reality of Your resurrection give me quiet strength and hope as I walk with You. Amen.",
+    daily_intention: "I will seek the presence of the risen Christ, knowing He meets me with gentleness in every sorrow.",
+    practical_action: "In a moment of quiet today, bring your genuine thoughts and tears to Jesus, thanking Him for His nearness.",
+    evening_reflection_prompt: "How did recognizing Christ's presence bring comfort to your spirit throughout the day?"
   },
   {
     day_number: 100,
@@ -2030,21 +1990,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Luke 24:5-6",
     scripture_primary_text: "As they were frightened, and bowed down their faces to the earth, they said to them, 'Why do you seek the living among the dead? He isn't here, but is risen.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "On the first Easter morning, the faithful women arrived at the tomb carrying burial spices to care for the body of Jesus. Their actions were born of profound love, loyalty, and deep sorrow. When the angels asked, 'Why do you seek the living among the dead? He isn't here, but is risen,' they were not rebuking the women’s grief. Bereavement, sorrow over lost hopes, and the pain of difficult endings are genuine, holy aspects of the human experience. The angelic announcement did not demand an immediate end to tears, but proclaimed an astonishing historical reality: physical death did not hold Jesus Christ. In the Christian life, deep sorrow and enduring hope can walk together. We mourn real losses—the death of loved ones, the end of cherished seasons, and the ache of broken dreams—yet we do not grieve as those who have no hope. The resurrection does not ask us to pretend that painful endings do not hurt. Instead, it assures our hearts that Christ is alive today, walking with us in our grief, and that death and heartbreak will not have the ultimate word.",
+    reflection_body: "On the first Easter morning, the faithful women arrived at the tomb carrying burial spices to care for the body of Jesus. Their actions were born of profound love, loyalty, and deep sorrow. When the angels asked, 'Why do you seek the living among the dead? He isn't here, but is risen,' they were not rebuking the women’s grief. Bereavement, sorrow over lost hopes, and the pain of difficult endings are genuine, holy aspects of the human experience. The angelic announcement did not demand an immediate end to tears, but proclaimed an astonishing historical reality: physical death did not hold Jesus Christ. In the Christian life, deep sorrow and enduring hope can walk together. We mourn real losses—the death of loved ones, the end of cherished seasons, and the ache of broken dreams—yet we do not grieve as those who have no hope. The resurrection does not ask us to pretend that painful endings do not hurt. Instead, it assures our hearts that Christ is alive today, walking with us in our grief, and that death and heartbreak will not have the ultimate word.",
     reflection_questions: [
-        "How does knowing that the angels did not rebuke the women's grief validate your own seasons of sorrow?",
-        "In what ways can living Christian hope and genuine human grief coexist in a believer's heart?",
-        "What loss or difficult ending can you entrust to the living Savior today, knowing He walks with you?"
-      ],
-    guided_prayer:
-      "Living Lord, I thank You that death could not hold You and that You are alive forevermore. When grief, loss, or the pain of difficult endings weighs upon my heart, remind me that You understand my sorrow. Help me to hold fast to the living hope of Your resurrection, trusting that Your presence walks with me through every valley of tears. In Your holy name, Amen.",
-    daily_intention:
-      "I will hold onto the living hope of the resurrection, allowing God's presence to comfort me in every sorrow.",
-    practical_action:
-      "When feelings of grief or loss surface today, offer them gently to Christ, resting in the assurance that He is alive and near.",
-    evening_reflection_prompt:
-      "How did the living presence of Christ bring quiet reassurance to your heart during moments of sadness today?"
+      "How does knowing that the angels did not rebuke the women's grief validate your own seasons of sorrow?",
+      "In what ways can living Christian hope and genuine human grief coexist in a believer's heart?",
+      "What loss or difficult ending can you entrust to the living Savior today, knowing He walks with you?"
+    ],
+    guided_prayer: "Living Lord, I thank You that death could not hold You and that You are alive forevermore. When grief, loss, or the pain of difficult endings weighs upon my heart, remind me that You understand my sorrow. Help me to hold fast to the living hope of Your resurrection, trusting that Your presence walks with me through every valley of tears. In Your holy name, Amen.",
+    daily_intention: "I will hold onto the living hope of the resurrection, allowing God's presence to comfort me in every sorrow.",
+    practical_action: "When feelings of grief or loss surface today, offer them gently to Christ, resting in the assurance that He is alive and near.",
+    evening_reflection_prompt: "How did the living presence of Christ bring quiet reassurance to your heart during moments of sadness today?"
   },
   {
     day_number: 101,
@@ -2075,21 +2030,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Romans 6:4",
     scripture_primary_text: "We were buried therefore with him through baptism to death, that just as Christ was raised from the dead through the glory of the Father, so we also might walk in newness of life.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In Romans 6:4, the apostle Paul reveals that Christ's resurrection is not only a future promise, but the pattern for our present walk of faith. Through union with Christ, our old self was crucified and buried with Him, so that just as Christ was raised by the glory of the Father, we too might 'walk in newness of life.' The word 'newness' (kainotēs) points to a fresh quality of existence governed by grace rather than the dominion of sin. Walking in newness of life does not mean believers will never feel difficult emotions such as sorrow, anxiety, or anger. Emotions are part of our God-given human experience in a fallen world. Rather, Paul is speaking of our liberation from the tyrannical rule of sin. We are no longer compelled to let bitterness dictate our actions, let deceit govern our relationships, or live trapped in destructive behaviors. In Christ, we have been reconciled to God and given the Holy Spirit to guide our steps. When challenging feelings or temptations arise, we can turn to the Lord with honesty, choosing to walk in truth, humility, and grace as people made alive in Christ.",
+    reflection_body: "In Romans 6:4, the apostle Paul reveals that Christ's resurrection is not only a future promise, but the pattern for our present walk of faith. Through union with Christ, our old self was crucified and buried with Him, so that just as Christ was raised by the glory of the Father, we too might 'walk in newness of life.' The word 'newness' (kainotēs) points to a fresh quality of existence governed by grace rather than the dominion of sin. Walking in newness of life does not mean believers will never feel difficult emotions such as sorrow, anxiety, or anger. Emotions are part of our God-given human experience in a fallen world. Rather, Paul is speaking of our liberation from the tyrannical rule of sin. We are no longer compelled to let bitterness dictate our actions, let deceit govern our relationships, or live trapped in destructive behaviors. In Christ, we have been reconciled to God and given the Holy Spirit to guide our steps. When challenging feelings or temptations arise, we can turn to the Lord with honesty, choosing to walk in truth, humility, and grace as people made alive in Christ.",
     reflection_questions: [
-        "How does distinguishing between human emotions and destructive behaviors bring clarity to your spiritual walk?",
-        "What does it mean for your daily decisions that you are no longer under the dominion of sin?",
-        "Where can you choose a response of grace, truth, or patience in a challenging situation today?"
-      ],
-    guided_prayer:
-      "Father of Glory, thank You that through union with Jesus Christ, I am freed from the dominion of sin and invited to walk in newness of life. When I experience difficult emotions or stress, teach me not to give way to destructive reactions, but to bring my honest heart to You. Guide my steps in integrity, kindness, and truth today. Through Jesus Christ our Lord, Amen.",
-    daily_intention:
-      "I will walk in the newness of life in Christ, choosing responses guided by grace and truth.",
-    practical_action:
-      "When a stressful emotion arises today, pause, acknowledge the feeling before God, and choose a constructive, grace-filled response.",
-    evening_reflection_prompt:
-      "How did remembering your new life in Christ help you respond with patience and wisdom today?"
+      "How does distinguishing between human emotions and destructive behaviors bring clarity to your spiritual walk?",
+      "What does it mean for your daily decisions that you are no longer under the dominion of sin?",
+      "Where can you choose a response of grace, truth, or patience in a challenging situation today?"
+    ],
+    guided_prayer: "Father of Glory, thank You that through union with Jesus Christ, I am freed from the dominion of sin and invited to walk in newness of life. When I experience difficult emotions or stress, teach me not to give way to destructive reactions, but to bring my honest heart to You. Guide my steps in integrity, kindness, and truth today. Through Jesus Christ our Lord, Amen.",
+    daily_intention: "I will walk in the newness of life in Christ, choosing responses guided by grace and truth.",
+    practical_action: "When a stressful emotion arises today, pause, acknowledge the feeling before God, and choose a constructive, grace-filled response.",
+    evening_reflection_prompt: "How did remembering your new life in Christ help you respond with patience and wisdom today?"
   },
   {
     day_number: 103,
@@ -2100,21 +2050,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "1 Corinthians 15:55, 57",
     scripture_primary_text: "'Death, where is your sting? Hades, where is your victory?'... But thanks be to God, who gives us the victory through our Lord Jesus Christ.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In 1 Corinthians 15, the apostle Paul proclaims the ultimate triumph of the gospel over mortality. Quoting the prophetic scriptures, he rejoices that death has been swallowed up in victory through our Lord Jesus Christ. Scripture does not minimize death; Paul candidly calls death 'the last enemy that will be destroyed' (1 Corinthians 15:26). In this present world, we still feel the heavy sting of bereavement, the frailty of our physical bodies, and the sorrow of separation when loved ones pass away. Christ’s resurrection does not mean that earthly trials, illnesses, or losses cease to be painful, nor does it guarantee earthly immunity from suffering. Rather, Paul’s triumphant declaration gives us unshakeable eternal hope: through Christ's victory over the grave, physical death is no longer the final word for those who belong to Him. Death has lost its ultimate power to sever us from God's love. We can face the uncertainties and losses of earthly life with quiet courage, knowing that our Savior has conquered the grave and that our eternal future is securely anchored in His resurrection life.",
+    reflection_body: "In 1 Corinthians 15, the apostle Paul proclaims the ultimate triumph of the gospel over mortality. Quoting the prophetic scriptures, he rejoices that death has been swallowed up in victory through our Lord Jesus Christ. Scripture does not minimize death; Paul candidly calls death 'the last enemy that will be destroyed' (1 Corinthians 15:26). In this present world, we still feel the heavy sting of bereavement, the frailty of our physical bodies, and the sorrow of separation when loved ones pass away. Christ’s resurrection does not mean that earthly trials, illnesses, or losses cease to be painful, nor does it guarantee earthly immunity from suffering. Rather, Paul’s triumphant declaration gives us unshakeable eternal hope: through Christ's victory over the grave, physical death is no longer the final word for those who belong to Him. Death has lost its ultimate power to sever us from God's love. We can face the uncertainties and losses of earthly life with quiet courage, knowing that our Savior has conquered the grave and that our eternal future is securely anchored in His resurrection life.",
     reflection_questions: [
-        "Why is it comforting that Scripture acknowledges death as a real enemy, yet one that Christ has defeated?",
-        "How does the promise of Christ's victory over the grave give you strength when facing earthly losses?",
-        "In what area of your life does the hope of eternal life bring courage to your heart today?"
-      ],
-    guided_prayer:
-      "Lord God, thank You for the glorious victory You have given us through our Lord Jesus Christ. When the fear of death, illness, or loss troubles my heart, anchor my soul in the reality of the empty tomb. Grant me courage to face earthly uncertainties with quiet faith, resting in the blessed hope that death has been swallowed up in eternal victory. Through Christ our Lord, Amen.",
-    daily_intention:
-      "I will face the day with quiet courage, anchored in Christ's eternal victory over death.",
-    practical_action:
-      "Take a moment today to thank God for the gift of eternal life through Jesus Christ, letting it quiet your fears.",
-    evening_reflection_prompt:
-      "How did meditating on Christ's victory bring peace to your mind when facing temporal concerns today?"
+      "Why is it comforting that Scripture acknowledges death as a real enemy, yet one that Christ has defeated?",
+      "How does the promise of Christ's victory over the grave give you strength when facing earthly losses?",
+      "In what area of your life does the hope of eternal life bring courage to your heart today?"
+    ],
+    guided_prayer: "Lord God, thank You for the glorious victory You have given us through our Lord Jesus Christ. When the fear of death, illness, or loss troubles my heart, anchor my soul in the reality of the empty tomb. Grant me courage to face earthly uncertainties with quiet faith, resting in the blessed hope that death has been swallowed up in eternal victory. Through Christ our Lord, Amen.",
+    daily_intention: "I will face the day with quiet courage, anchored in Christ's eternal victory over death.",
+    practical_action: "Take a moment today to thank God for the gift of eternal life through Jesus Christ, letting it quiet your fears.",
+    evening_reflection_prompt: "How did meditating on Christ's victory bring peace to your mind when facing temporal concerns today?"
   },
   {
     day_number: 104,
@@ -2125,21 +2070,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Revelation 1:17-18",
     scripture_primary_text: "When I saw him, I fell at his feet like a dead man. He laid his right hand on me, saying, 'Don’t be afraid. I am the first and the last, and the Living one. I was dead, and behold, I am alive forevermore. Amen. I have the keys of Death and of Hades.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "When the apostle John was exiled on the rugged island of Patmos, he was granted a vision of the glorified Christ. Overwhelmed by His majesty, John collapsed in reverent awe. Yet notice the compassionate posture of the Savior: He laid His right hand upon John and spoke reassuring words: 'Don’t be afraid... I am the Living One. I was dead, and behold, I am alive forevermore.' Jesus then declared that He holds the keys of Death and of Hades. In biblical imagery, holding keys denotes supreme authority over life, death, and eternity. This does not mean that God directly authors or causes every painful rejection, closed door, disappointment, or illness we experience in a broken world. Rather, it means that no earthly power, circumstance, or trial can overthrow Christ’s ultimate authority or separate believers from His redemptive care. If you find yourself in a season of isolation, fatigue, or uncertainty, remember that the living Savior draws near to comfort you. He who conquered death holds your eternal destiny securely in His hands, inviting you to rest in His unfailing grace today.",
+    reflection_body: "When the apostle John was exiled on the rugged island of Patmos, he was granted a vision of the glorified Christ. Overwhelmed by His majesty, John collapsed in reverent awe. Yet notice the compassionate posture of the Savior: He laid His right hand upon John and spoke reassuring words: 'Don’t be afraid... I am the Living One. I was dead, and behold, I am alive forevermore.' Jesus then declared that He holds the keys of Death and of Hades. In biblical imagery, holding keys denotes supreme authority over life, death, and eternity. This does not mean that God directly authors or causes every painful rejection, closed door, disappointment, or illness we experience in a broken world. Rather, it means that no earthly power, circumstance, or trial can overthrow Christ’s ultimate authority or separate believers from His redemptive care. If you find yourself in a season of isolation, fatigue, or uncertainty, remember that the living Savior draws near to comfort you. He who conquered death holds your eternal destiny securely in His hands, inviting you to rest in His unfailing grace today.",
     reflection_questions: [
-        "How does Jesus laying His hand on John demonstrate His personal compassion toward those who are overwhelmed?",
-        "Why is it reassuring that Christ holds authority over eternity, even when earthly circumstances are difficult?",
-        "What fear or uncertainty can you release to the Living Savior today as you hear Him say, 'Don’t be afraid'?"
-      ],
-    guided_prayer:
-      "Glorified Lord Jesus, You are the First and the Last, the Living Savior who reigns forever. When isolation, fatigue, or closed doors in life leave me feeling anxious, lay Your comforting hand upon my heart and whisper: 'Don’t be afraid.' Thank You that my eternal future is held securely in Your gracious hands. Teach me to trust You through every circumstance today. Amen.",
-    daily_intention:
-      "I will rest in the comforting presence of Christ, trusting that my life and future are in His hands.",
-    practical_action:
-      "When feeling overwhelmed today, pause and remember Christ's reassuring words: 'Don’t be afraid; I am the Living One.'",
-    evening_reflection_prompt:
-      "Did remembering Christ's sovereign care and nearness bring comfort to your spirit today?"
+      "How does Jesus laying His hand on John demonstrate His personal compassion toward those who are overwhelmed?",
+      "Why is it reassuring that Christ holds authority over eternity, even when earthly circumstances are difficult?",
+      "What fear or uncertainty can you release to the Living Savior today as you hear Him say, 'Don’t be afraid'?"
+    ],
+    guided_prayer: "Glorified Lord Jesus, You are the First and the Last, the Living Savior who reigns forever. When isolation, fatigue, or closed doors in life leave me feeling anxious, lay Your comforting hand upon my heart and whisper: 'Don’t be afraid.' Thank You that my eternal future is held securely in Your gracious hands. Teach me to trust You through every circumstance today. Amen.",
+    daily_intention: "I will rest in the comforting presence of Christ, trusting that my life and future are in His hands.",
+    practical_action: "When feeling overwhelmed today, pause and remember Christ's reassuring words: 'Don’t be afraid; I am the Living One.'",
+    evening_reflection_prompt: "Did remembering Christ's sovereign care and nearness bring comfort to your spirit today?"
   },
   {
     day_number: 105,
@@ -2150,21 +2090,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Isaiah 61:1",
     scripture_primary_text: "The Spirit of the Lord Yahweh is on me; because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives, and release to those who are bound;",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In the synagogue at Nazareth, Jesus read this very passage from Isaiah, announcing that this prophetic promise was fulfilled in His coming (Luke 4:18–21). The Messiah’s mission is marked by deep compassion for the humble, the captive, and the brokenhearted. The Hebrew word for 'bind up' (chabash) describes the tender act of wrapping and bandaging a wound. Jesus does not turn away from human suffering; He draws near to those who carry the ache of sorrow, disappointment, and fractured relationships. It is essential to recognize what this passage reveals. Christ’s anointing brings spiritual redemption, genuine comfort, and the enduring hope of the gospel. It is not a contractual guarantee of immediate emotional relief or instantaneous physical healing in this life. Continued grief, chronic illness, or ongoing emotional struggle is never a sign of deficient faith. Rather, Scripture assures us that in our deepest weakness, Christ meets us with His sustaining presence. You do not need to hide your wounds or pretend to be self-sufficient; the Savior invites you to bring your broken heart to Him, receiving His tender mercy for each day.",
+    reflection_body: "In the synagogue at Nazareth, Jesus read this very passage from Isaiah, announcing that this prophetic promise was fulfilled in His coming (Luke 4:18–21). The Messiah’s mission is marked by deep compassion for the humble, the captive, and the brokenhearted. The Hebrew word for 'bind up' (chabash) describes the tender act of wrapping and bandaging a wound. Jesus does not turn away from human suffering; He draws near to those who carry the ache of sorrow, disappointment, and fractured relationships. It is essential to recognize what this passage reveals. Christ’s anointing brings spiritual redemption, genuine comfort, and the enduring hope of the gospel. It is not a contractual guarantee of immediate emotional relief or instantaneous physical healing in this life. Continued grief, chronic illness, or ongoing emotional struggle is never a sign of deficient faith. Rather, Scripture assures us that in our deepest weakness, Christ meets us with His sustaining presence. You do not need to hide your wounds or pretend to be self-sufficient; the Savior invites you to bring your broken heart to Him, receiving His tender mercy for each day.",
     reflection_questions: [
-        "How does knowing that Jesus draws near to bind up broken hearts bring comfort in times of sorrow?",
-        "Why is it important to remember that ongoing physical or emotional struggle is not a sign of weak faith?",
-        "What genuine hurt or weariness can you bring to the Savior today, resting in His compassionate care?"
-      ],
-    guided_prayer:
-      "Lord Jesus, thank You for Your tender heart toward the broken and weary. When my spirit carries hidden grief, disappointment, or physical distress, remind me that You are near. Deliver me from the false belief that ongoing struggle reflects a lack of faith. Wrap my heart in Your comforting grace, and grant me the endurance and peace I need to walk faithfully today. In Your name, Amen.",
-    daily_intention:
-      "I will bring my authentic sorrow and weakness to Christ, trusting in His gentle and sustaining grace.",
-    practical_action:
-      "Spend a few moments in honest prayer today, sharing your genuine heart with Jesus without feeling the need to hide your pain.",
-    evening_reflection_prompt:
-      "How did resting in Christ's compassion bring quiet comfort to your soul today?"
+      "How does knowing that Jesus draws near to bind up broken hearts bring comfort in times of sorrow?",
+      "Why is it important to remember that ongoing physical or emotional struggle is not a sign of weak faith?",
+      "What genuine hurt or weariness can you bring to the Savior today, resting in His compassionate care?"
+    ],
+    guided_prayer: "Lord Jesus, thank You for Your tender heart toward the broken and weary. When my spirit carries hidden grief, disappointment, or physical distress, remind me that You are near. Deliver me from the false belief that ongoing struggle reflects a lack of faith. Wrap my heart in Your comforting grace, and grant me the endurance and peace I need to walk faithfully today. In Your name, Amen.",
+    daily_intention: "I will bring my authentic sorrow and weakness to Christ, trusting in His gentle and sustaining grace.",
+    practical_action: "Spend a few moments in honest prayer today, sharing your genuine heart with Jesus without feeling the need to hide your pain.",
+    evening_reflection_prompt: "How did resting in Christ's compassion bring quiet comfort to your soul today?"
   },
   {
     day_number: 106,
@@ -2175,21 +2110,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Isaiah 61:3",
     scripture_primary_text: "to give to them a garland for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness; that they may be called trees of righteousness, the planting of Yahweh, that he may be glorified.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In the prophetic ministry of Isaiah, ashes were a visible sign of profound grief, humiliation, and loss. When sorrow struck an ancient community, mourners sat in dust, signifying complete destitution. Yet in Isaiah 61, the prophet announces God's covenant promise to the afflicted: the Lord provides a garland of beauty instead of ashes, the oil of joy for mourning, and a garment of praise for a heavy spirit. This passage does not promise that every earthly loss will be erased or that grief can be quickly dismissed with forced cheerfulness. Grief is a real and honorable response to loss in a broken world. Rather, the prophet directs our hope to God's enduring mercy and His power to bring spiritual life out of desolation. God honors those who mourn and grants them grace to stand as 'trees of righteousness, the planting of Yahweh.' Even when circumstances leave us feeling depleted, God's redeeming work is quietly active, cultivating steadfast character and deep dependence on Him. Our sorrow is not meaningless in His sight, and His comfort remains a reliable refuge for every wounded heart.",
+    reflection_body: "In the prophetic ministry of Isaiah, ashes were a visible sign of profound grief, humiliation, and loss. When sorrow struck an ancient community, mourners sat in dust, signifying complete destitution. Yet in Isaiah 61, the prophet announces God's covenant promise to the afflicted: the Lord provides a garland of beauty instead of ashes, the oil of joy for mourning, and a garment of praise for a heavy spirit. This passage does not promise that every earthly loss will be erased or that grief can be quickly dismissed with forced cheerfulness. Grief is a real and honorable response to loss in a broken world. Rather, the prophet directs our hope to God's enduring mercy and His power to bring spiritual life out of desolation. God honors those who mourn and grants them grace to stand as 'trees of righteousness, the planting of Yahweh.' Even when circumstances leave us feeling depleted, God's redeeming work is quietly active, cultivating steadfast character and deep dependence on Him. Our sorrow is not meaningless in His sight, and His comfort remains a reliable refuge for every wounded heart.",
     reflection_questions: [
-        "How does Isaiah's promise of comfort help you navigate seasons of heaviness without forced cheer?",
-        "What does it mean for your life to be rooted as a 'tree of righteousness' through difficult times?",
-        "Where can you look for God's quiet comfort and grace in a current area of difficulty?"
-      ],
-    guided_prayer:
-      "Compassionate God, You see the brokenness and sorrow that touch our earthly lives. Thank You that You do not despise our grief, but offer Your holy comfort and peace. When my spirit feels heavy, clothe me in Your grace and grant me patient endurance. Plant my roots deep in Your righteousness, that my life may quietly honor and glorify You. In Jesus' name, Amen.",
-    daily_intention:
-      "I will look to God for comfort, allowing His grace to sustain my spirit in seasons of heaviness.",
-    practical_action:
-      "Offer an honest prayer of praise to God today, not ignoring your burdens, but honoring His unchanging faithfulness.",
-    evening_reflection_prompt:
-      "In what ways did God provide a quiet sense of comfort or endurance during your day?"
+      "How does Isaiah's promise of comfort help you navigate seasons of heaviness without forced cheer?",
+      "What does it mean for your life to be rooted as a 'tree of righteousness' through difficult times?",
+      "Where can you look for God's quiet comfort and grace in a current area of difficulty?"
+    ],
+    guided_prayer: "Compassionate God, You see the brokenness and sorrow that touch our earthly lives. Thank You that You do not despise our grief, but offer Your holy comfort and peace. When my spirit feels heavy, clothe me in Your grace and grant me patient endurance. Plant my roots deep in Your righteousness, that my life may quietly honor and glorify You. In Jesus' name, Amen.",
+    daily_intention: "I will look to God for comfort, allowing His grace to sustain my spirit in seasons of heaviness.",
+    practical_action: "Offer an honest prayer of praise to God today, not ignoring your burdens, but honoring His unchanging faithfulness.",
+    evening_reflection_prompt: "In what ways did God provide a quiet sense of comfort or endurance during your day?"
   },
   {
     day_number: 107,
@@ -2200,21 +2130,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Psalm 30:5",
     scripture_primary_text: "For his anger is but for a moment. His favor is for a lifetime. Weeping may stay for the night, but joy comes in the morning.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Psalm 30 is a song of thanksgiving in which David remembers God's deliverance from distress and danger. With poetic sensitivity, the psalmist contrasts the transient nature of human affliction with the enduring reality of divine favor: 'Weeping may stay for the night, but joy comes in the morning.' In human experience, the 'night' of sorrow often lasts far longer than a few calendar hours; it can encompass extended seasons of bereavement, chronic illness, loneliness, or relational heartache. Scripture does not present this verse as a formula predicting that sorrow will end on a neat earthly timetable, nor does it dismiss the deep ache of prolonged trials. Rather, the psalmist anchors our hope in the unshakeable character of God: His covenant love and favor endure for a lifetime. Tears and lament are real and honored by God, but they do not possess the final word in a believer's story. The resurrection of Jesus Christ stands as God's eternal pledge that light overcomes darkness. As you navigate seasons of hardship, hold fast to the assurance that God's steadfast love remains your steady refuge through every dark valley.",
+    reflection_body: "Psalm 30 is a song of thanksgiving in which David remembers God's deliverance from distress and danger. With poetic sensitivity, the psalmist contrasts the transient nature of human affliction with the enduring reality of divine favor: 'Weeping may stay for the night, but joy comes in the morning.' In human experience, the 'night' of sorrow often lasts far longer than a few calendar hours; it can encompass extended seasons of bereavement, chronic illness, loneliness, or relational heartache. Scripture does not present this verse as a formula predicting that sorrow will end on a neat earthly timetable, nor does it dismiss the deep ache of prolonged trials. Rather, the psalmist anchors our hope in the unshakeable character of God: His covenant love and favor endure for a lifetime. Tears and lament are real and honored by God, but they do not possess the final word in a believer's story. The resurrection of Jesus Christ stands as God's eternal pledge that light overcomes darkness. As you navigate seasons of hardship, hold fast to the assurance that God's steadfast love remains your steady refuge through every dark valley.",
     reflection_questions: [
-        "How does knowing that God's favor is lifelong encourage you during extended seasons of sorrow?",
-        "Why is it helpful to recognize that Psalm 30 does not promise a quick, predictable timeline for ending grief?",
-        "What reminder of God's steadfast love can you hold onto as a refuge today?"
-      ],
-    guided_prayer:
-      "Faithful Father, thank You that Your covenant love and favor endure through every season of life. When seasons of sorrow or uncertainty feel prolonged, give me the patience and faith to wait upon You. Keep my heart anchored in Your steadfast promises, knowing that grief will not have the final say. Sustain my spirit with Your comfort and peace today. In Christ's name, Amen.",
-    daily_intention:
-      "I will trust in God's enduring favor, knowing His steadfast love outlasts every season of sorrow.",
-    practical_action:
-      "When feeling weary today, pause and recite Psalm 30:5, anchoring your heart in God's eternal faithfulness.",
-    evening_reflection_prompt:
-      "What reminder of God's enduring presence and favor sustained your heart today?"
+      "How does knowing that God's favor is lifelong encourage you during extended seasons of sorrow?",
+      "Why is it helpful to recognize that Psalm 30 does not promise a quick, predictable timeline for ending grief?",
+      "What reminder of God's steadfast love can you hold onto as a refuge today?"
+    ],
+    guided_prayer: "Faithful Father, thank You that Your covenant love and favor endure through every season of life. When seasons of sorrow or uncertainty feel prolonged, give me the patience and faith to wait upon You. Keep my heart anchored in Your steadfast promises, knowing that grief will not have the final say. Sustain my spirit with Your comfort and peace today. In Christ's name, Amen.",
+    daily_intention: "I will trust in God's enduring favor, knowing His steadfast love outlasts every season of sorrow.",
+    practical_action: "When feeling weary today, pause and recite Psalm 30:5, anchoring your heart in God's eternal faithfulness.",
+    evening_reflection_prompt: "What reminder of God's enduring presence and favor sustained your heart today?"
   },
   {
     day_number: 108,
@@ -2225,21 +2150,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Psalm 30:11-12",
     scripture_primary_text: "You have turned my mourning into dancing for me. You have removed my sackcloth, and clothed me with gladness, to the end that my heart may sing praise to you, and not be silent. Yahweh my God, I will give thanks to you forever.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In ancient Israel, sackcloth was a coarse garment worn as an outward expression of raw mourning and lamentation. David sings with profound gratitude that God intervened in his season of distress, removing his sackcloth and clothing him with gladness so that his soul might offer praise. It is important to read this testimony with pastoral care. Grief is not a spiritual defect, and sorrow cannot be forced to adhere to an artificial timetable. God does not demand that you immediately cast aside your grief or force a cheerful countenance before your heart is ready. Rather, David’s psalm offers a gentle promise: sorrow does not hold a permanent claim over the life of a believer. In God’s patient timing and grace, healing and joy can quietly accompany and eventually outlast the deepest seasons of lament. Even when grief is still present, the seed of worship can remain alive in a believer’s heart. Allow God to meet you exactly where you are today, trusting that in His faithful care, morning light will gently break upon your soul.",
+    reflection_body: "In ancient Israel, sackcloth was a coarse garment worn as an outward expression of raw mourning and lamentation. David sings with profound gratitude that God intervened in his season of distress, removing his sackcloth and clothing him with gladness so that his soul might offer praise. It is important to read this testimony with pastoral care. Grief is not a spiritual defect, and sorrow cannot be forced to adhere to an artificial timetable. God does not demand that you immediately cast aside your grief or force a cheerful countenance before your heart is ready. Rather, David’s psalm offers a gentle promise: sorrow does not hold a permanent claim over the life of a believer. In God’s patient timing and grace, healing and joy can quietly accompany and eventually outlast the deepest seasons of lament. Even when grief is still present, the seed of worship can remain alive in a believer’s heart. Allow God to meet you exactly where you are today, trusting that in His faithful care, morning light will gently break upon your soul.",
     reflection_questions: [
-        "How does David's psalm encourage you to trust that sorrow will not have the final say in your life?",
-        "Why is it freeing to know that God does not demand you rush your grief or force superficial cheerfulness?",
-        "What small evidence of God's kindness can you give thanks for today, even amidst lingering sorrow?"
-      ],
-    guided_prayer:
-      "Gracious God, thank You for David's testimony that You are able to turn mourning into gladness. When my heart is grieving or heavy with sorrow, give me patience with myself and trust in Your timing. Thank You that You do not demand superficial happiness, but gently sustain me with Your love. In Your time, restore joy to my spirit, and keep my heart anchored in praise. Amen.",
-    daily_intention:
-      "I will trust God with my grief and my healing, knowing His gentle grace sustains me in every season.",
-    practical_action:
-      "If your heart is heavy today, offer a quiet prayer of thanksgiving for one simple reminder of God's steadfast love.",
-    evening_reflection_prompt:
-      "Did allowing yourself to be honest about your feelings bring a sense of God's gentle presence to your day?"
+      "How does David's psalm encourage you to trust that sorrow will not have the final say in your life?",
+      "Why is it freeing to know that God does not demand you rush your grief or force superficial cheerfulness?",
+      "What small evidence of God's kindness can you give thanks for today, even amidst lingering sorrow?"
+    ],
+    guided_prayer: "Gracious God, thank You for David's testimony that You are able to turn mourning into gladness. When my heart is grieving or heavy with sorrow, give me patience with myself and trust in Your timing. Thank You that You do not demand superficial happiness, but gently sustain me with Your love. In Your time, restore joy to my spirit, and keep my heart anchored in praise. Amen.",
+    daily_intention: "I will trust God with my grief and my healing, knowing His gentle grace sustains me in every season.",
+    practical_action: "If your heart is heavy today, offer a quiet prayer of thanksgiving for one simple reminder of God's steadfast love.",
+    evening_reflection_prompt: "Did allowing yourself to be honest about your feelings bring a sense of God's gentle presence to your day?"
   },
   {
     day_number: 109,
@@ -2250,21 +2170,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "2 Corinthians 1:3-4",
     scripture_primary_text: "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort; who comforts us in all our affliction, that we may be able to comfort those who are in any affliction, through the comfort with which we ourselves are comforted by God.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Paul opens 2 Corinthians by praising 'the Father of mercies and God of all comfort.' The Greek word for comfort (paraklesis) describes God drawing alongside His people to provide strength, solace, and compassionate support. Paul notes that as we receive God's comfort in our afflictions, we often develop a deeper capacity to comfort others who face trials. It is vital to understand this passage without placing an unhealthy burden upon those who suffer. God does not inflict pain as a qualification for service, nor is every wounded person obligated to turn their suffering into a public ministry or platform. Healing is not contingent upon sharing your story, and no one is required to revisit past trauma to prove spiritual maturity. First and foremost, God comforts you because He loves you and cares for your hurting heart. If and when empathy for others flows naturally from your experienced grace, it is a fruit of God's love, not a burdensome duty. Rest in the tender comfort of the Father today, knowing that His mercy is given freely for your own healing and peace.",
+    reflection_body: "Paul opens 2 Corinthians by praising 'the Father of mercies and God of all comfort.' The Greek word for comfort (paraklesis) describes God drawing alongside His people to provide strength, solace, and compassionate support. Paul notes that as we receive God's comfort in our afflictions, we often develop a deeper capacity to comfort others who face trials. It is vital to understand this passage without placing an unhealthy burden upon those who suffer. God does not inflict pain as a qualification for service, nor is every wounded person obligated to turn their suffering into a public ministry or platform. Healing is not contingent upon sharing your story, and no one is required to revisit past trauma to prove spiritual maturity. First and foremost, God comforts you because He loves you and cares for your hurting heart. If and when empathy for others flows naturally from your experienced grace, it is a fruit of God's love, not a burdensome duty. Rest in the tender comfort of the Father today, knowing that His mercy is given freely for your own healing and peace.",
     reflection_questions: [
-        "How does knowing that God comforts you simply because He loves you bring rest to your spirit?",
-        "Why is it important to remember that healing and sharing your story are not mandatory obligations?",
-        "In what area of your life do you need to receive the gentle comfort of the Father today?"
-      ],
-    guided_prayer:
-      "Father of mercies and God of all comfort, thank You for drawing close to me in my times of trial and weakness. Thank You that Your comfort is a gift of Your love, not a demand for performance. When my heart is weary, let me rest quietly in Your tender care. Help me to receive Your mercy today, and fill my soul with Your gentle peace. In Jesus' name, Amen.",
-    daily_intention:
-      "I will rest in the comfort and mercy of the Father today, receiving His grace without feeling pressure to perform.",
-    practical_action:
-      "Take a quiet rest today, thanking God that His love is unconditional and His comfort is freely given to you.",
-    evening_reflection_prompt:
-      "How did resting in God's mercy and comfort bring peace to your heart throughout the day?"
+      "How does knowing that God comforts you simply because He loves you bring rest to your spirit?",
+      "Why is it important to remember that healing and sharing your story are not mandatory obligations?",
+      "In what area of your life do you need to receive the gentle comfort of the Father today?"
+    ],
+    guided_prayer: "Father of mercies and God of all comfort, thank You for drawing close to me in my times of trial and weakness. Thank You that Your comfort is a gift of Your love, not a demand for performance. When my heart is weary, let me rest quietly in Your tender care. Help me to receive Your mercy today, and fill my soul with Your gentle peace. In Jesus' name, Amen.",
+    daily_intention: "I will rest in the comfort and mercy of the Father today, receiving His grace without feeling pressure to perform.",
+    practical_action: "Take a quiet rest today, thanking God that His love is unconditional and His comfort is freely given to you.",
+    evening_reflection_prompt: "How did resting in God's mercy and comfort bring peace to your heart throughout the day?"
   },
   {
     day_number: 110,
@@ -2275,21 +2190,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Joel 2:25",
     scripture_primary_text: "I will restore to you the years that the swarming locust has eaten, the great locust, the grasshopper, and the caterpillar, my great army which I sent among you.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "The prophet Joel addressed a people devastated by a catastrophic locust invasion that stripped their agricultural land and left their economy ruined. In Joel 2, following a call to national repentance, God gave a covenant promise to restore what the locusts had consumed. It is easy for believers today to read this passage as an individual prosperity guarantee, imagining that God promises to literally reverse chronological time or compensate every missed personal opportunity. Yet biblical restoration is far richer and deeper than a worldly contract. While we cannot retrieve lost years or undo past decisions and hardships, God in His mercy meets us in the present. He takes the broken pieces of our lives and works redemptively within them, cultivating humility, compassion, and spiritual maturity that might never have grown otherwise. God does not promise a life untouched by regret or loss, but He promises that His grace is sufficient for today. Even after difficult or wasted seasons, the Lord can bring forth genuine spiritual fruit, renewed devotion, and a life that honors Him.",
+    reflection_body: "The prophet Joel addressed a people devastated by a catastrophic locust invasion that stripped their agricultural land and left their economy ruined. In Joel 2, following a call to national repentance, God gave a covenant promise to restore what the locusts had consumed. It is easy for believers today to read this passage as an individual prosperity guarantee, imagining that God promises to literally reverse chronological time or compensate every missed personal opportunity. Yet biblical restoration is far richer and deeper than a worldly contract. While we cannot retrieve lost years or undo past decisions and hardships, God in His mercy meets us in the present. He takes the broken pieces of our lives and works redemptively within them, cultivating humility, compassion, and spiritual maturity that might never have grown otherwise. God does not promise a life untouched by regret or loss, but He promises that His grace is sufficient for today. Even after difficult or wasted seasons, the Lord can bring forth genuine spiritual fruit, renewed devotion, and a life that honors Him.",
     reflection_questions: [
-        "How does understanding the covenant context of Joel 2 protect us from treating God's promises like a prosperity formula?",
-        "In what ways can God produce spiritual fruit and maturity out of painful or difficult past seasons?",
-        "What past regret do you need to release into God's forgiving and redeeming hands today?"
-      ],
-    guided_prayer:
-      "Lord God of Grace, I bring before You the seasons of my life that feel marked by regret, sorrow, or lost time. Thank You that Your mercy is new every morning and that my past cannot thwart Your redemptive work. Help me not to live in bitter regret over what cannot be undone, but to serve You faithfully today. Bear good fruit in my life for Your glory. Amen.",
-    daily_intention:
-      "I will focus on serving God faithfully today, trusting His redeeming grace with my past.",
-    practical_action:
-      "Release one lingering regret to the Lord in prayer, asking Him to give you wisdom and purpose in this present season.",
-    evening_reflection_prompt:
-      "Did you experience freedom from past regrets as you trusted God with your life today?"
+      "How does understanding the covenant context of Joel 2 protect us from treating God's promises like a prosperity formula?",
+      "In what ways can God produce spiritual fruit and maturity out of painful or difficult past seasons?",
+      "What past regret do you need to release into God's forgiving and redeeming hands today?"
+    ],
+    guided_prayer: "Lord God of Grace, I bring before You the seasons of my life that feel marked by regret, sorrow, or lost time. Thank You that Your mercy is new every morning and that my past cannot thwart Your redemptive work. Help me not to live in bitter regret over what cannot be undone, but to serve You faithfully today. Bear good fruit in my life for Your glory. Amen.",
+    daily_intention: "I will focus on serving God faithfully today, trusting His redeeming grace with my past.",
+    practical_action: "Release one lingering regret to the Lord in prayer, asking Him to give you wisdom and purpose in this present season.",
+    evening_reflection_prompt: "Did you experience freedom from past regrets as you trusted God with your life today?"
   },
   {
     day_number: 111,
@@ -2300,21 +2210,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Romans 8:28",
     scripture_primary_text: "We know that all things work together for good for those who love God, for those who are called according to his purpose.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Romans 8:28 is among the most cherished verses in the New Testament, yet it is often misunderstood and applied unhelpfully to people in the midst of deep grief. The apostle Paul does not claim that every event in this fallen world is good in itself. Evil, tragedy, betrayal, disease, and death are real evils, not hidden goods, and God does not require evil to accomplish His purposes. What Paul affirms is something far more profound: in all things—even in the midst of suffering and hardship—God works sovereignly and redemptively for the good of those who love Him. The 'good' Paul has in mind is defined in the subsequent verse: being conformed to the image of His Son (Romans 8:29). God does not promise that earthly life will be comfortable, prosperous, or free from pain. Rather, He assures us that no suffering, loss, or affliction has the power to separate us from His love or defeat His ultimate purpose for our redemption. When trials press upon your heart, rest in the knowledge that God's redemptive power is greater than any tragedy you face.",
+    reflection_body: "Romans 8:28 is among the most cherished verses in the New Testament, yet it is often misunderstood and applied unhelpfully to people in the midst of deep grief. The apostle Paul does not claim that every event in this fallen world is good in itself. Evil, tragedy, betrayal, disease, and death are real evils, not hidden goods, and God does not require evil to accomplish His purposes. What Paul affirms is something far more profound: in all things—even in the midst of suffering and hardship—God works sovereignly and redemptively for the good of those who love Him. The 'good' Paul has in mind is defined in the subsequent verse: being conformed to the image of His Son (Romans 8:29). God does not promise that earthly life will be comfortable, prosperous, or free from pain. Rather, He assures us that no suffering, loss, or affliction has the power to separate us from His love or defeat His ultimate purpose for our redemption. When trials press upon your heart, rest in the knowledge that God's redemptive power is greater than any tragedy you face.",
     reflection_questions: [
-        "Why is it comforting to know that God does not call evil or tragedy good, yet works redemptively through suffering?",
-        "How does defining 'good' as being conformed to Christ reshape your perspective on personal trials?",
-        "What difficult situation in your life can you entrust to God's sovereign care today?"
-      ],
-    guided_prayer:
-      "Sovereign Lord, thank You that no hardship, sorrow, or trial is outside Your redeeming reach. Forgive me when I struggle to trust You in painful moments. Help me remember that while suffering is not good in itself, Your grace is able to work redemptively through all things to conform me to the likeness of Jesus. Anchor my heart in Your unfailing love today. Amen.",
-    daily_intention:
-      "I will trust that God's redemptive grace is greater than any hardship I face today.",
-    practical_action:
-      "Pray for someone walking through a trial, asking God to give them comfort and strength without offering clichéd answers.",
-    evening_reflection_prompt:
-      "How did focusing on God's redemptive purpose help you navigate the challenges of your day?"
+      "Why is it comforting to know that God does not call evil or tragedy good, yet works redemptively through suffering?",
+      "How does defining 'good' as being conformed to Christ reshape your perspective on personal trials?",
+      "What difficult situation in your life can you entrust to God's sovereign care today?"
+    ],
+    guided_prayer: "Sovereign Lord, thank You that no hardship, sorrow, or trial is outside Your redeeming reach. Forgive me when I struggle to trust You in painful moments. Help me remember that while suffering is not good in itself, Your grace is able to work redemptively through all things to conform me to the likeness of Jesus. Anchor my heart in Your unfailing love today. Amen.",
+    daily_intention: "I will trust that God's redemptive grace is greater than any hardship I face today.",
+    practical_action: "Pray for someone walking through a trial, asking God to give them comfort and strength without offering clichéd answers.",
+    evening_reflection_prompt: "How did focusing on God's redemptive purpose help you navigate the challenges of your day?"
   },
   {
     day_number: 112,
@@ -2325,21 +2230,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Ephesians 1:19-20",
     scripture_primary_text: "and what is the exceeding greatness of his power toward us who believe, according to that working of the strength of his might which he worked in Christ, when he raised him from the dead, and made him to sit at his right hand in the heavenly places,",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In Ephesians 1, Paul offers a pastoral prayer that the eyes of believers' hearts would be enlightened to grasp the spiritual riches given to them in Christ. He highlights 'the exceeding greatness of his power toward us who believe.' Paul defines this power by its greatest cosmic demonstration: the mighty working of God's strength that raised Jesus Christ from the dead and exalted Him above all earthly and spiritual rulers. It is crucial to understand resurrection power in its authentic biblical context. It is not an abstract energy source, a spiritual battery we tap into for personal productivity, or a technique for self-actualization. Rather, it is God's sovereign power at work in the church and within believers to preserve our faith, transform our hearts, and sustain us in holiness. When you face moral trials, spiritual warfare, or the weariness of daily obedience, remember that the God who overcame the grave is the one who keeps you. His power is demonstrated not in self-sufficient triumph, but in sustaining grace that upholds us in human weakness.",
+    reflection_body: "In Ephesians 1, Paul offers a pastoral prayer that the eyes of believers' hearts would be enlightened to grasp the spiritual riches given to them in Christ. He highlights 'the exceeding greatness of his power toward us who believe.' Paul defines this power by its greatest cosmic demonstration: the mighty working of God's strength that raised Jesus Christ from the dead and exalted Him above all earthly and spiritual rulers. It is crucial to understand resurrection power in its authentic biblical context. It is not an abstract energy source, a spiritual battery we tap into for personal productivity, or a technique for self-actualization. Rather, it is God's sovereign power at work in the church and within believers to preserve our faith, transform our hearts, and sustain us in holiness. When you face moral trials, spiritual warfare, or the weariness of daily obedience, remember that the God who overcame the grave is the one who keeps you. His power is demonstrated not in self-sufficient triumph, but in sustaining grace that upholds us in human weakness.",
     reflection_questions: [
-        "How does Paul's description of resurrection power differ from worldly concepts of personal energy or strength?",
-        "In what areas of your spiritual life do you need God's sustaining power rather than your own self-reliance?",
-        "How does knowing Christ is exalted above all rulers give you peace regarding worldly uncertainties?"
-      ],
-    guided_prayer:
-      "Almighty Father, open the eyes of my heart to understand the surpassing greatness of Your power toward those who believe. Forgive me when I reduce Your power to a tool for my own plans. Thank You that the same power that raised Jesus from the dead is actively preserving my faith and guiding my life. Uphold me today by Your mighty grace. In Jesus' name, Amen.",
-    daily_intention:
-      "I will rely on God's sovereign power to sustain my faith and guide my obedience today.",
-    practical_action:
-      "Pause before tackling a demanding task today and pray for God's sustaining grace and wisdom.",
-    evening_reflection_prompt:
-      "In what moments today did you rely on God's strength rather than your own limited capacity?"
+      "How does Paul's description of resurrection power differ from worldly concepts of personal energy or strength?",
+      "In what areas of your spiritual life do you need God's sustaining power rather than your own self-reliance?",
+      "How does knowing Christ is exalted above all rulers give you peace regarding worldly uncertainties?"
+    ],
+    guided_prayer: "Almighty Father, open the eyes of my heart to understand the surpassing greatness of Your power toward those who believe. Forgive me when I reduce Your power to a tool for my own plans. Thank You that the same power that raised Jesus from the dead is actively preserving my faith and guiding my life. Uphold me today by Your mighty grace. In Jesus' name, Amen.",
+    daily_intention: "I will rely on God's sovereign power to sustain my faith and guide my obedience today.",
+    practical_action: "Pause before tackling a demanding task today and pray for God's sustaining grace and wisdom.",
+    evening_reflection_prompt: "In what moments today did you rely on God's strength rather than your own limited capacity?"
   },
   {
     day_number: 113,
@@ -2350,21 +2250,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Romans 8:11",
     scripture_primary_text: "But if the Spirit of him who raised up Jesus from the dead dwells in you, he who raised up Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In Romans 8:11, the apostle Paul articulates the great Christian hope concerning the physical body. If the Holy Spirit who raised Jesus from the dead dwells in you, God will also give life to your mortal bodies at the final resurrection through that same indwelling Spirit. This passage provides profound theological comfort, pointing directly to the future bodily resurrection of all believers. Paul is not offering a formula for immediate physical stamina, instant healing, or the reversal of bodily fatigue in our present earthly life. Believers continue to experience physical illness, the toll of aging, and the inevitable weakness of mortal frames. Yet we are not left in despair. The Holy Spirit dwelling within us is the pledge and guarantee that our present physical decay is not the final chapter of our existence. Just as Christ was bodily raised from the dead, so too will our mortal bodies be raised imperishable and glorious at His return. This eternal hope gives us patience and courage to endure physical limitations today, knowing our future is secure in God.",
+    reflection_body: "In Romans 8:11, the apostle Paul articulates the great Christian hope concerning the physical body. If the Holy Spirit who raised Jesus from the dead dwells in you, God will also give life to your mortal bodies at the final resurrection through that same indwelling Spirit. This passage provides profound theological comfort, pointing directly to the future bodily resurrection of all believers. Paul is not offering a formula for immediate physical stamina, instant healing, or the reversal of bodily fatigue in our present earthly life. Believers continue to experience physical illness, the toll of aging, and the inevitable weakness of mortal frames. Yet we are not left in despair. The Holy Spirit dwelling within us is the pledge and guarantee that our present physical decay is not the final chapter of our existence. Just as Christ was bodily raised from the dead, so too will our mortal bodies be raised imperishable and glorious at His return. This eternal hope gives us patience and courage to endure physical limitations today, knowing our future is secure in God.",
     reflection_questions: [
-        "How does the biblical promise of a future bodily resurrection provide comfort when facing physical weakness or illness?",
-        "Why is it important to distinguish between future bodily resurrection and present earthly vitality?",
-        "How can the assurance of eternity help you endure physical or emotional weariness today?"
-      ],
-    guided_prayer:
-      "Everliving God, I thank You for the indwelling presence of Your Holy Spirit, who raised Jesus Christ from the dead. When my physical body feels weak, tired, or burdened by illness, anchor my soul in the promise of the future resurrection. Help me to steward my body well, while fixing my hope on the day when Christ will make all things new. In His precious name, Amen.",
-    daily_intention:
-      "I will anchor my hope in the future resurrection of the body, trusting God through physical weakness.",
-    practical_action:
-      "Take a quiet walk or rest today, thanking God for the gift of life and the eternal hope of bodily resurrection.",
-    evening_reflection_prompt:
-      "Did reflecting on the promise of future resurrection bring peace to your mind amidst physical fatigue today?"
+      "How does the biblical promise of a future bodily resurrection provide comfort when facing physical weakness or illness?",
+      "Why is it important to distinguish between future bodily resurrection and present earthly vitality?",
+      "How can the assurance of eternity help you endure physical or emotional weariness today?"
+    ],
+    guided_prayer: "Everliving God, I thank You for the indwelling presence of Your Holy Spirit, who raised Jesus Christ from the dead. When my physical body feels weak, tired, or burdened by illness, anchor my soul in the promise of the future resurrection. Help me to steward my body well, while fixing my hope on the day when Christ will make all things new. In His precious name, Amen.",
+    daily_intention: "I will anchor my hope in the future resurrection of the body, trusting God through physical weakness.",
+    practical_action: "Take a quiet walk or rest today, thanking God for the gift of life and the eternal hope of bodily resurrection.",
+    evening_reflection_prompt: "Did reflecting on the promise of future resurrection bring peace to your mind amidst physical fatigue today?"
   },
   {
     day_number: 114,
@@ -2375,21 +2270,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Philippians 3:10",
     scripture_primary_text: "that I may know him, and the power of his resurrection, and the fellowship of his sufferings, becoming conformed to his death,",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Writing from imprisonment, the apostle Paul expressed the supreme desire of his life: to know Christ intimately, to experience the power of His resurrection, and to share in the fellowship of His sufferings, being conformed to His death. Paul is not romanticizing suffering or suggesting that hardships are inherently desirable. Nor does he claim that God deliberately inflicts suffering as a mandatory doorway to spiritual intimacy. Rather, Paul recognizes that following Jesus in a fallen world entails real opposition, sacrifice, and adversity. In Paul's theology, resurrection power and the fellowship of Christ's sufferings are held in sacred balance. When we face trials, persecution, or grief for Christ's sake, we discover that we are not isolated; we are sharing in the fellowship of our Savior, who walked the road of sorrow before us. Christ's resurrection power does not exempt us from difficulty, but empowers us to remain faithful, loving, and steadfast through it. As you navigate the demands and trials of discipleship, seek to know Christ deeply, trusting that His resurrection life will sustain you through every hardship.",
+    reflection_body: "Writing from imprisonment, the apostle Paul expressed the supreme desire of his life: to know Christ intimately, to experience the power of His resurrection, and to share in the fellowship of His sufferings, being conformed to His death. Paul is not romanticizing suffering or suggesting that hardships are inherently desirable. Nor does he claim that God deliberately inflicts suffering as a mandatory doorway to spiritual intimacy. Rather, Paul recognizes that following Jesus in a fallen world entails real opposition, sacrifice, and adversity. In Paul's theology, resurrection power and the fellowship of Christ's sufferings are held in sacred balance. When we face trials, persecution, or grief for Christ's sake, we discover that we are not isolated; we are sharing in the fellowship of our Savior, who walked the road of sorrow before us. Christ's resurrection power does not exempt us from difficulty, but empowers us to remain faithful, loving, and steadfast through it. As you navigate the demands and trials of discipleship, seek to know Christ deeply, trusting that His resurrection life will sustain you through every hardship.",
     reflection_questions: [
-        "How does Paul's desire to know Christ challenge superficial ideas of the Christian life?",
-        "What does it mean to experience the fellowship of Christ's presence in seasons of hardship?",
-        "How does resurrection power enable you to remain faithful when following Jesus requires sacrifice?"
-      ],
-    guided_prayer:
-      "Lord Jesus, my heart's deepest prayer is to know You more truly and walk closely with You each day. When discipleship brings hardship, misunderstanding, or sacrifice, comfort me with the fellowship of Your presence. Let the power of Your resurrection sustain my faith, that I may remain steadfast and reflect Your love in all circumstances. In Your holy name, Amen.",
-    daily_intention:
-      "I will seek to know Christ intimately today, drawing upon His resurrection life for steadfast obedience.",
-    practical_action:
-      "Read Philippians 3:7–11 slowly today, making Paul's prayer of knowing Christ your personal petition.",
-    evening_reflection_prompt:
-      "In what moments today did you sense the comfort and strength of Christ walking with you?"
+      "How does Paul's desire to know Christ challenge superficial ideas of the Christian life?",
+      "What does it mean to experience the fellowship of Christ's presence in seasons of hardship?",
+      "How does resurrection power enable you to remain faithful when following Jesus requires sacrifice?"
+    ],
+    guided_prayer: "Lord Jesus, my heart's deepest prayer is to know You more truly and walk closely with You each day. When discipleship brings hardship, misunderstanding, or sacrifice, comfort me with the fellowship of Your presence. Let the power of Your resurrection sustain my faith, that I may remain steadfast and reflect Your love in all circumstances. In Your holy name, Amen.",
+    daily_intention: "I will seek to know Christ intimately today, drawing upon His resurrection life for steadfast obedience.",
+    practical_action: "Read Philippians 3:7–11 slowly today, making Paul's prayer of knowing Christ your personal petition.",
+    evening_reflection_prompt: "In what moments today did you sense the comfort and strength of Christ walking with you?"
   },
   {
     day_number: 115,
@@ -2400,21 +2290,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Colossians 3:1-2",
     scripture_primary_text: "If then you were raised together with Christ, seek the things that are above, where Christ is, seated on the right hand of God. Set your mind on the things that are above, not on the things that are on the earth.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In Colossians 3:1–2, the apostle Paul presents both a foundational spiritual reality and an active daily calling. Because believers have been raised with Christ, Paul commands: 'Seek the things that are above, where Christ is, seated on the right hand of God. Set your mind on the things that are above, not on the things that are on the earth.' Notice the precise focus of the passage: Christ Himself is seated in glory at the right hand of God, having completed His earthly work. (In Ephesians 2:6, Paul similarly notes that God has raised us up and seated us with Christ in the heavenly realms.) Setting our minds on things above is a conscious orientation of the heart toward Christ's kingdom, truth, and love. It does not mean withdrawing from daily life or neglecting practical earthly responsibilities. Rather, it means fulfilling our work, relationships, and duties with a heavenly perspective. When daily pressures, deadlines, and temporal frustrations threaten to overwhelm your peace, choose to reset your focus on Christ who reigns supreme. Earthly troubles are temporary, but Christ's kingdom and His promises endure forever.",
+    reflection_body: "In Colossians 3:1–2, the apostle Paul presents both a foundational spiritual reality and an active daily calling. Because believers have been raised with Christ, Paul commands: 'Seek the things that are above, where Christ is, seated on the right hand of God. Set your mind on the things that are above, not on the things that are on the earth.' Notice the precise focus of the passage: Christ Himself is seated in glory at the right hand of God, having completed His earthly work. (In Ephesians 2:6, Paul similarly notes that God has raised us up and seated us with Christ in the heavenly realms.) Setting our minds on things above is a conscious orientation of the heart toward Christ's kingdom, truth, and love. It does not mean withdrawing from daily life or neglecting practical earthly responsibilities. Rather, it means fulfilling our work, relationships, and duties with a heavenly perspective. When daily pressures, deadlines, and temporal frustrations threaten to overwhelm your peace, choose to reset your focus on Christ who reigns supreme. Earthly troubles are temporary, but Christ's kingdom and His promises endure forever.",
     reflection_questions: [
-        "How does Colossians 3:1–2 direct our attention to Christ seated at God's right hand?",
-        "What does it look like in practice to set your mind on heavenly realities while fulfilling everyday responsibilities?",
-        "Where can you deliberately reset your focus on Christ's eternal kingdom during stressful moments today?"
-      ],
-    guided_prayer:
-      "Ascended Lord Jesus, You are seated in majesty at the right hand of God the Father. When my mind becomes consumed with temporal frustrations, daily pressures, or worldly anxieties, lift my gaze to You. Help me to set my mind on things above—on Your eternal truth, Your righteousness, and Your kingdom. May Your heavenly peace govern my thoughts and actions today. Amen.",
-    daily_intention:
-      "I will set my mind on things above, looking to Christ who is seated at God's right hand.",
-    practical_action:
-      "When feeling distracted or pressured by daily tasks today, pause for thirty seconds and meditate on Christ reigning in majesty.",
-    evening_reflection_prompt:
-      "How did keeping a heavenly perspective bring peace and focus to your thoughts today?"
+      "How does Colossians 3:1–2 direct our attention to Christ seated at God's right hand?",
+      "What does it look like in practice to set your mind on heavenly realities while fulfilling everyday responsibilities?",
+      "Where can you deliberately reset your focus on Christ's eternal kingdom during stressful moments today?"
+    ],
+    guided_prayer: "Ascended Lord Jesus, You are seated in majesty at the right hand of God the Father. When my mind becomes consumed with temporal frustrations, daily pressures, or worldly anxieties, lift my gaze to You. Help me to set my mind on things above—on Your eternal truth, Your righteousness, and Your kingdom. May Your heavenly peace govern my thoughts and actions today. Amen.",
+    daily_intention: "I will set my mind on things above, looking to Christ who is seated at God's right hand.",
+    practical_action: "When feeling distracted or pressured by daily tasks today, pause for thirty seconds and meditate on Christ reigning in majesty.",
+    evening_reflection_prompt: "How did keeping a heavenly perspective bring peace and focus to your thoughts today?"
   },
   {
     day_number: 116,
@@ -2425,21 +2310,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "2 Corinthians 5:17",
     scripture_primary_text: "Therefore if anyone is in Christ, he is a new creation. The old things have passed away. Behold, they have become new.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "In 2 Corinthians 5:17, Paul declares the heart of gospel transformation: anyone who is in Christ is a new creation (kainē ktisis). The old order of spiritual condemnation and alienation has passed away, and reconciliation with God has begun. This verse proclaims the believer's complete forgiveness and new standing in Christ. However, being a new creation does not mean that all earthly consequences of past actions instantly disappear. A forgiven believer may still need to manage practical responsibilities, financial debts, or life changes with wisdom and humility. Where relationships have experienced strain, reconciliation is a worthy pursuit only when it is truly safe, mutual, and wise. Scripture never commands believers to expose themselves to abuse, threat, or manipulation; personal forgiveness and godly boundaries walk hand in hand. Grace does not rewrite history, but it redeems the person living today. You are no longer defined by past failures, old guilt, or the labels of the world; you are defined by your union with Christ. Walk forward in the freedom of your new identity, honoring God with integrity, wisdom, and a clean conscience.",
+    reflection_body: "In 2 Corinthians 5:17, Paul declares the heart of gospel transformation: anyone who is in Christ is a new creation (kainē ktisis). The old order of spiritual condemnation and alienation has passed away, and reconciliation with God has begun. This verse proclaims the believer's complete forgiveness and new standing in Christ. However, being a new creation does not mean that all earthly consequences of past actions instantly disappear. A forgiven believer may still need to manage practical responsibilities, financial debts, or life changes with wisdom and humility. Where relationships have experienced strain, reconciliation is a worthy pursuit only when it is truly safe, mutual, and wise. Scripture never commands believers to expose themselves to abuse, threat, or manipulation; personal forgiveness and godly boundaries walk hand in hand. Grace does not rewrite history, but it redeems the person living today. You are no longer defined by past failures, old guilt, or the labels of the world; you are defined by your union with Christ. Walk forward in the freedom of your new identity, honoring God with integrity, wisdom, and a clean conscience.",
     reflection_questions: [
-        "What does it mean for your daily walk that you are a new creation in Christ?",
-        "Why is it vital to understand that forgiveness can coexist with wise, protective boundaries when reconciliation is unsafe?",
-        "Where can you walk in the freedom of your new identity with integrity and wisdom today?"
-      ],
-    guided_prayer:
-      "Heavenly Father, thank You for the truth that in Christ I am a new creation. Thank You that my past sins and failures no longer define my standing before You. Grant me wisdom, humility, and courage to walk in integrity, honoring You in my daily responsibilities while maintaining wise and healthy boundaries where needed. May my life reflect the beauty of Your redeeming grace. Amen.",
-    daily_intention:
-      "I will walk in the freedom of my new creation in Christ with wisdom, humility, and healthy boundaries.",
-    practical_action:
-      "If you have an unresolved earthly matter, take one prayerful, wise step toward repair where safe and appropriate, or entrust an unsafe situation to God while keeping protective boundaries.",
-    evening_reflection_prompt:
-      "How did resting in your identity as a new creation in Christ guide your actions and choices today?"
+      "What does it mean for your daily walk that you are a new creation in Christ?",
+      "Why is it vital to understand that forgiveness can coexist with wise, protective boundaries when reconciliation is unsafe?",
+      "Where can you walk in the freedom of your new identity with integrity and wisdom today?"
+    ],
+    guided_prayer: "Heavenly Father, thank You for the truth that in Christ I am a new creation. Thank You that my past sins and failures no longer define my standing before You. Grant me wisdom, humility, and courage to walk in integrity, honoring You in my daily responsibilities while maintaining wise and healthy boundaries where needed. May my life reflect the beauty of Your redeeming grace. Amen.",
+    daily_intention: "I will walk in the freedom of my new creation in Christ with wisdom, humility, and healthy boundaries.",
+    practical_action: "If you have an unresolved earthly matter, take one prayerful, wise step toward repair where safe and appropriate, or entrust an unsafe situation to God while keeping protective boundaries.",
+    evening_reflection_prompt: "How did resting in your identity as a new creation in Christ guide your actions and choices today?"
   },
   {
     day_number: 117,
@@ -2450,21 +2330,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Galatians 2:20",
     scripture_primary_text: "I have been crucified with Christ, and it is no longer I that live, but Christ lives in me. That life which I now live in the flesh, I live by faith in the Son of God, who loved me, and gave himself up for me.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Galatians 2:20 captures the core of Paul's understanding of Christian discipleship. The Christian life is not a strenuous attempt to copy Jesus by sheer human willpower, nor is it an ongoing exercise of self-reliant moralism. Rather, Paul explains that his old, self-justifying self was crucified with Christ, and that the risen Christ now lives within him through the Holy Spirit. Notice the careful distinction Paul maintains: 'the life which I now live in the flesh, I live by faith in the Son of God, who loved me and gave himself up for me.' Paul does not confuse believers with Christ, nor does he suggest that human personality is erased. Christ's historical Incarnation was unique, once-for-all, and unrepeatable. In believers, Christ dwells spiritually through faith, guiding our minds, shaping our affections, and empowering our obedience. When you face difficult decisions, demanding relationships, or feelings of personal inadequacy, you are not left to your own frail resources. Turn to Christ in prayer, trusting that His indwelling grace and wisdom are sufficient to guide every step of your journey.",
+    reflection_body: "Galatians 2:20 captures the core of Paul's understanding of Christian discipleship. The Christian life is not a strenuous attempt to copy Jesus by sheer human willpower, nor is it an ongoing exercise of self-reliant moralism. Rather, Paul explains that his old, self-justifying self was crucified with Christ, and that the risen Christ now lives within him through the Holy Spirit. Notice the careful distinction Paul maintains: 'the life which I now live in the flesh, I live by faith in the Son of God, who loved me and gave himself up for me.' Paul does not confuse believers with Christ, nor does he suggest that human personality is erased. Christ's historical Incarnation was unique, once-for-all, and unrepeatable. In believers, Christ dwells spiritually through faith, guiding our minds, shaping our affections, and empowering our obedience. When you face difficult decisions, demanding relationships, or feelings of personal inadequacy, you are not left to your own frail resources. Turn to Christ in prayer, trusting that His indwelling grace and wisdom are sufficient to guide every step of your journey.",
     reflection_questions: [
-        "How does living by faith in the Son of God differ from exhausting self-effort?",
-        "Why is it important to distinguish between Christ's unique Incarnation and His spiritual presence in believers?",
-        "What specific interaction today calls for relying on Christ's wisdom rather than self-reliance?"
-      ],
-    guided_prayer:
-      "Lord Jesus, thank You that I have been crucified with You, and that You now live within me. Thank You for loving me and giving Yourself up for me on the cross. Forgive me when I rely on my own frail strength to live the Christian life. Teach me to walk by faith in You each day, depending on Your grace and following Your gentle guidance. May Your selfless love shine through my ordinary life today. In Your holy name, Amen.",
-    daily_intention:
-      "I will live today by faith in the Son of God, depending on His indwelling grace and wisdom.",
-    practical_action:
-      "When tempted toward frustration or anxiety today, pause and whisper a prayer trusting Christ's wisdom to guide you.",
-    evening_reflection_prompt:
-      "In what moments today did you experience the quiet strength of relying on Christ by faith?"
+      "How does living by faith in the Son of God differ from exhausting self-effort?",
+      "Why is it important to distinguish between Christ's unique Incarnation and His spiritual presence in believers?",
+      "What specific interaction today calls for relying on Christ's wisdom rather than self-reliance?"
+    ],
+    guided_prayer: "Lord Jesus, thank You that I have been crucified with You, and that You now live within me. Thank You for loving me and giving Yourself up for me on the cross. Forgive me when I rely on my own frail strength to live the Christian life. Teach me to walk by faith in You each day, depending on Your grace and following Your gentle guidance. May Your selfless love shine through my ordinary life today. In Your holy name, Amen.",
+    daily_intention: "I will live today by faith in the Son of God, depending on His indwelling grace and wisdom.",
+    practical_action: "When tempted toward frustration or anxiety today, pause and whisper a prayer trusting Christ's wisdom to guide you.",
+    evening_reflection_prompt: "In what moments today did you experience the quiet strength of relying on Christ by faith?"
   },
   {
     day_number: 118,
@@ -2475,21 +2350,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Ephesians 3:20-21",
     scripture_primary_text: "Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us, to him be the glory in the assembly and in Christ Jesus to all generations forever and ever. Amen.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "Paul concludes his magnificent prayer in Ephesians 3 with a doxology of boundless praise. Describing God's sovereign capacity, Paul writes that God is able to do 'exceedingly abundantly above all that we ask or think, according to the power that works in us.' It is vital to read this passage within its biblical context. Paul is not offering a blank check or guaranteeing that God will fulfill every personal dream, ambition, or private request according to our earthly expectations. Rather, Paul has been praying that the church would be strengthened with power through the Spirit, rooted in divine love, and filled with all the fullness of God. The exceeding greatness of God's power is displayed primarily in the spiritual transformation of His people and the eternal glory of Christ in the church. God's wisdom far surpasses human comprehension; often His answers look different than we anticipated, leading us deeper into holiness, love, and perseverance. Bring your prayers to God with reverence and trust, knowing that His sovereign ability to accomplish His redemptive purposes far exceeds anything we can imagine.",
+    reflection_body: "Paul concludes his magnificent prayer in Ephesians 3 with a doxology of boundless praise. Describing God's sovereign capacity, Paul writes that God is able to do 'exceedingly abundantly above all that we ask or think, according to the power that works in us.' It is vital to read this passage within its biblical context. Paul is not offering a blank check or guaranteeing that God will fulfill every personal dream, ambition, or private request according to our earthly expectations. Rather, Paul has been praying that the church would be strengthened with power through the Spirit, rooted in divine love, and filled with all the fullness of God. The exceeding greatness of God's power is displayed primarily in the spiritual transformation of His people and the eternal glory of Christ in the church. God's wisdom far surpasses human comprehension; often His answers look different than we anticipated, leading us deeper into holiness, love, and perseverance. Bring your prayers to God with reverence and trust, knowing that His sovereign ability to accomplish His redemptive purposes far exceeds anything we can imagine.",
     reflection_questions: [
-        "How does the context of Ephesians 3 focus God's power on spiritual maturity and love rather than personal wish-fulfillment?",
-        "Why is it reassuring that God's wisdom in answering prayer is greater than our limited human imagination?",
-        "What request can you bring to God today with trust in His perfect will and sovereign ability?"
-      ],
-    guided_prayer:
-      "Almighty God, I praise You for Your infinite power and wisdom that surpass all human understanding. Forgive me when I seek to fit Your purposes into my own limited expectations. Thank You for the work of Your Holy Spirit within the church and within my heart. Accomplish Your holy will in my life, and let Christ be glorified through all generations. In His name, Amen.",
-    daily_intention:
-      "I will pray with confidence in God's power, trusting His wisdom to answer according to His holy purpose.",
-    practical_action:
-      "Pray for your local church or community today, asking God to display His glory and love in and through them.",
-    evening_reflection_prompt:
-      "How did remembering God's surpassing wisdom bring peace to your prayer life today?"
+      "How does the context of Ephesians 3 focus God's power on spiritual maturity and love rather than personal wish-fulfillment?",
+      "Why is it reassuring that God's wisdom in answering prayer is greater than our limited human imagination?",
+      "What request can you bring to God today with trust in His perfect will and sovereign ability?"
+    ],
+    guided_prayer: "Almighty God, I praise You for Your infinite power and wisdom that surpass all human understanding. Forgive me when I seek to fit Your purposes into my own limited expectations. Thank You for the work of Your Holy Spirit within the church and within my heart. Accomplish Your holy will in my life, and let Christ be glorified through all generations. In His name, Amen.",
+    daily_intention: "I will pray with confidence in God's power, trusting His wisdom to answer according to His holy purpose.",
+    practical_action: "Pray for your local church or community today, asking God to display His glory and love in and through them.",
+    evening_reflection_prompt: "How did remembering God's surpassing wisdom bring peace to your prayer life today?"
   },
   {
     day_number: 119,
@@ -2500,21 +2370,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "2 Corinthians 4:17-18",
     scripture_primary_text: "For our light affliction, which is for the moment, works for us more and more exceedingly an eternal weight of glory; while we don’t look at the things which are seen, but at the things which are not seen. For the things which are seen are temporal, but the things which are not seen are eternal.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "When Paul speaks of 'our light affliction, which is for the moment,' he does not dismiss human suffering as trivial. Paul himself endured severe beatings, shipwrecks, imprisonment, hunger, and relentless peril. By any human standard, his trials were agonizing and heavy. Yet when Paul placed his suffering beside the vast horizon of eternity, he recognized that present afflictions are temporal, whereas the glory God is preparing is eternal and immeasurable. Scripture does not teach that suffering is mechanically converted into heavenly reward, nor does it ask us to minimize real sorrow. Rather, Paul offers pastoral perspective: our present trials, however painful, do not have the final say. They belong to a visible, passing world, while God's eternal promises—redemption, resurrection, and communion with Christ—remain steadfast forever. We are called to look beyond the visible, fleeting troubles of this life and fix the eyes of faith upon the unseen realities of God's kingdom. Let this eternal perspective guard your heart against despair, giving you endurance and hope as you walk through present trials.",
+    reflection_body: "When Paul speaks of 'our light affliction, which is for the moment,' he does not dismiss human suffering as trivial. Paul himself endured severe beatings, shipwrecks, imprisonment, hunger, and relentless peril. By any human standard, his trials were agonizing and heavy. Yet when Paul placed his suffering beside the vast horizon of eternity, he recognized that present afflictions are temporal, whereas the glory God is preparing is eternal and immeasurable. Scripture does not teach that suffering is mechanically converted into heavenly reward, nor does it ask us to minimize real sorrow. Rather, Paul offers pastoral perspective: our present trials, however painful, do not have the final say. They belong to a visible, passing world, while God's eternal promises—redemption, resurrection, and communion with Christ—remain steadfast forever. We are called to look beyond the visible, fleeting troubles of this life and fix the eyes of faith upon the unseen realities of God's kingdom. Let this eternal perspective guard your heart against despair, giving you endurance and hope as you walk through present trials.",
     reflection_questions: [
-        "How does Paul's contrast between temporal affliction and eternal glory help you navigate current hardships?",
-        "What does it look like in practical terms to fix your gaze on unseen, eternal realities?",
-        "How can keeping an eternal perspective protect your heart from despair during difficult seasons?"
-      ],
-    guided_prayer:
-      "Eternal Lord, when present trials and weariness press heavily upon my spirit, lift my eyes to Your eternal promises. Help me not to lose heart amidst temporal struggles, but to remember that my current sorrow is passing, while Your glory is everlasting. Teach me to walk by faith, fixing my gaze on the unseen realities of Your kingdom. In Jesus' precious name, Amen.",
-    daily_intention:
-      "I will look beyond present afflictions and fix the eyes of my heart on God's eternal promises.",
-    practical_action:
-      "When encountering a trial or frustration today, pause and remind yourself of the enduring, eternal kingdom of God.",
-    evening_reflection_prompt:
-      "How did keeping an eternal perspective provide comfort and balance to your thoughts today?"
+      "How does Paul's contrast between temporal affliction and eternal glory help you navigate current hardships?",
+      "What does it look like in practical terms to fix your gaze on unseen, eternal realities?",
+      "How can keeping an eternal perspective protect your heart from despair during difficult seasons?"
+    ],
+    guided_prayer: "Eternal Lord, when present trials and weariness press heavily upon my spirit, lift my eyes to Your eternal promises. Help me not to lose heart amidst temporal struggles, but to remember that my current sorrow is passing, while Your glory is everlasting. Teach me to walk by faith, fixing my gaze on the unseen realities of Your kingdom. In Jesus' precious name, Amen.",
+    daily_intention: "I will look beyond present afflictions and fix the eyes of my heart on God's eternal promises.",
+    practical_action: "When encountering a trial or frustration today, pause and remind yourself of the enduring, eternal kingdom of God.",
+    evening_reflection_prompt: "How did keeping an eternal perspective provide comfort and balance to your thoughts today?"
   },
   {
     day_number: 120,
@@ -2525,21 +2390,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Revelation 21:4-5",
     scripture_primary_text: "He will wipe away from them every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away. He who sits on the throne said, 'Behold, I make all things new.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body:
-      "As April concludes, Scripture points us to the glorious horizon of Christian hope: God's promised new creation. In Revelation 21, the apostle John envisions the day when God will dwell with His people and personally wipe away every tear from their eyes. Death, mourning, crying, and pain will be no more, for the former order of things will have passed away. From the throne comes the sovereign declaration: 'Behold, I make all things new.' It is vital to understand this passage as the ultimate cosmic and eternal redemption promised by God at the consummation of history. Revelation 21 is not a guarantee that every earthly heartache, chronic illness, broken relationship, or disappointment will be resolved during this present life. Believers continue to navigate real losses and unfulfilled longings in a fallen world. Yet the resurrection of Jesus Christ assures us that our present suffering is not the final chapter. The day is coming when God will bring full, everlasting restoration, banishing death and sorrow forever. Let this eternal promise anchor your soul with courage, giving you quiet perseverance and steadfast hope as you walk with Christ each day.",
+    reflection_body: "As April concludes, Scripture points us to the glorious horizon of Christian hope: God's promised new creation. In Revelation 21, the apostle John envisions the day when God will dwell with His people and personally wipe away every tear from their eyes. Death, mourning, crying, and pain will be no more, for the former order of things will have passed away. From the throne comes the sovereign declaration: 'Behold, I make all things new.' It is vital to understand this passage as the ultimate cosmic and eternal redemption promised by God at the consummation of history. Revelation 21 is not a guarantee that every earthly heartache, chronic illness, broken relationship, or disappointment will be resolved during this present life. Believers continue to navigate real losses and unfulfilled longings in a fallen world. Yet the resurrection of Jesus Christ assures us that our present suffering is not the final chapter. The day is coming when God will bring full, everlasting restoration, banishing death and sorrow forever. Let this eternal promise anchor your soul with courage, giving you quiet perseverance and steadfast hope as you walk with Christ each day.",
     reflection_questions: [
-        "How does the promise of God's future new creation provide comfort during unresolved earthly heartaches?",
-        "Why is it important to distinguish between God's ultimate eternal restoration and our present earthly experience?",
-        "How can the assurance that God will wipe away every tear give you endurance for today's responsibilities?"
-      ],
-    guided_prayer:
-      "Sovereign Lord, I praise You for the blessed hope of the new creation. Thank You that death, sorrow, crying, and pain will not endure forever. When my earthly journey is marked by unresolved grief, physical weakness, or disappointment, anchor my heart in the certainty of Your eternal promises. Strengthen my faith to walk faithfully today, looking forward to the day when You make all things new. In Jesus' name, Amen.",
-    daily_intention:
-      "I will walk in steadfast hope, anchored in God's promise of the eternal new creation.",
-    practical_action:
-      "Take a quiet moment today to read Revelation 21:1–5, allowing its eternal perspective to bring peace to your spirit.",
-    evening_reflection_prompt:
-      "How has meditating on the promise of the new creation brought courage and perspective to your heart?"
+      "How does the promise of God's future new creation provide comfort during unresolved earthly heartaches?",
+      "Why is it important to distinguish between God's ultimate eternal restoration and our present earthly experience?",
+      "How can the assurance that God will wipe away every tear give you endurance for today's responsibilities?"
+    ],
+    guided_prayer: "Sovereign Lord, I praise You for the blessed hope of the new creation. Thank You that death, sorrow, crying, and pain will not endure forever. When my earthly journey is marked by unresolved grief, physical weakness, or disappointment, anchor my heart in the certainty of Your eternal promises. Strengthen my faith to walk faithfully today, looking forward to the day when You make all things new. In Jesus' name, Amen.",
+    daily_intention: "I will walk in steadfast hope, anchored in God's promise of the eternal new creation.",
+    practical_action: "Take a quiet moment today to read Revelation 21:1–5, allowing its eternal perspective to bring peace to your spirit.",
+    evening_reflection_prompt: "How has meditating on the promise of the new creation brought courage and perspective to your heart?"
   },
   {
     day_number: 121,
@@ -3315,7 +3175,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "In which daily environments (at work, in friendships, or at home) do you find it hardest to be 'quick to hear'?",
       "What happens to the temperature of a difficult conversation when you intentionally pause and listen before replying?",
       "How can practicing patient, uninterrupted listening reflect Christ's love to someone in your community today?"
-],
+    ],
     guided_prayer: "Wise Counselor, forgive my tendency to speak impulsively, react defensively, or let anger dictate my words. Teach me the holy restraint of being quick to hear, slow to speak, and slow to anger. Grant me attentive ears that listen with empathy and grace in my family, workplace, and community. Set a guard over my mouth today, that my speech may bring peace and de-escalate tension in every relationship. In Jesus' name, Amen.",
     daily_intention: "I will be quick to listen and slow to speak today, honoring others with patient attention.",
     practical_action: "In your conversations today, wait three seconds after someone finishes speaking before offering your reply.",
@@ -3355,7 +3215,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "How have careless or harsh words affected your own life, and what did that teach you about the weight of speech?",
       "While thoughtful words cannot fix every wound, how can a timely word of encouragement bring genuine relief to someone today?",
       "In what relationship or setting could you choose gentleness and restraint instead of a sharp reaction?"
-],
+    ],
     guided_prayer: "Lord of Truth and Grace, forgive me for the times my words have been rash, sharp, or piercing like a sword. Heal any lingering wounds in my own heart caused by painful words spoken to me. Cleanse my lips and purify my motives today. Make my tongue an instrument of healing, comfort, and restorative encouragement to everyone I encounter. In Jesus' name, Amen.",
     daily_intention: "My words will bring healing rather than wounds today, dispensing the soothing medicine of grace.",
     practical_action: "Reach out to someone who is hurting and speak a word of sincere, biblical comfort into their life today.",
@@ -3835,7 +3695,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "How does understanding Psalm 91 through covenant security, rather than physical immunity, protect your faith during trials?",
       "What does it mean to you that no earthly trouble or illness can sever you from the love of God in Christ?",
       "How can you rest in God's providential care tonight while still living with realistic wisdom in a fallen world?"
-],
+    ],
     guided_prayer: "Lord of Heaven's Armies, I thank You for Your providential care that encompasses my life and my household. Forgive my anxious fears that catastrophe will sever me from Your grace. I trust that no circumstance can separate my soul from Your eternal love. Thank You for commanding Your angels to watch over my steps. I rest securely in Your sovereign faithfulness today. Amen.",
     daily_intention: "I will walk without fear today, confident that the Lord has commanded His angels to guard my steps.",
     practical_action: "Pray a prayer of divine protection over each doorway of your home today, dedicating your dwelling to the Lord.",
@@ -3875,7 +3735,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "How does the lexical meaning of 'nimtsa me'od' (readily found, proved in distress) change how you approach God in prayer?",
       "Why is it comforting that Psalm 46 acknowledges the reality of 'trouble' rather than pretending life is always easy?",
       "In what specific challenge today do you need to lean on God as your present strength rather than your own reserves?"
-],
+    ],
     guided_prayer: "Ever-Present God, how comforting it is to know that You are immediately near in every season of life. Forgive me for looking around in panic as though I were abandoned. When trouble presses in, be my refuge and my strength. When my knees shake and my heart grows faint, let Your sustaining grace carry me through. I lean my entire weight upon Your proved and faithful help today. In Jesus' name, Amen.",
     daily_intention: "I will not panic today, for God is my refuge, my strength, and my immediately present help.",
     practical_action: "When an unexpected stress strikes today, stop and whisper Psalm 46:1: 'God is my very present help right now.'",
@@ -4255,7 +4115,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "How does the biblical poetic image of God as your sheltering 'shade' bring comfort to your spirit today?",
       "What daytime pressures (the sun) or quiet nighttime concerns (the moon) do you need to place under God's watchful care?",
       "Why is it encouraging to remember that God's protective presence encompasses both day and night without interruption?"
-],
+    ],
     guided_prayer: "Faithful Keeper, thank You for being my sheltering shade at every hour of the day and night. Forgive me for carrying unnecessary anxiety through the hours of darkness. Thank You that You stand beside me as my constant protector. Overshadow my thoughts, my home, and my work with Your peace. In the heat of midday and in the quiet of midnight, I rest safely under Your wings. In Jesus' name, Amen.",
     daily_intention: "Yahweh is my canopy of shade; He protects my vulnerable places both day and night.",
     practical_action: "Step outside or look toward the light today, thanking God that His sheltering presence is actively overshadowing your life.",
@@ -4815,7 +4675,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "How does the poetic image of 'green pastures' remind you of God's abundant provision for your soul?",
       "In what areas of your daily life are you tempted to strive in self-reliance rather than resting in the Shepherd's care?",
       "What would it look like practically to pause and accept God's gift of spiritual rest today?"
-],
+    ],
     guided_prayer: "Good Shepherd, thank You for Your faithful care and abundant provision over my life. Forgive my anxious striving and my tendency to hurry through life without resting in Your presence. Lead my soul into the green pastures of Your grace today. Quiet my restless heart with the assurance that You know my needs and watch over my steps. I choose to lay down my burdens and rest securely in Your love. In Jesus' name, Amen.",
     daily_intention: "I will rest in the Good Shepherd's care, trusting His abundant provision for my soul.",
     practical_action: "Take a five-minute pause today to sit in stillness, thanking the Good Shepherd for His provision.",
@@ -4835,7 +4695,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "What noisy distractions or rushing demands are currently crowding out your inner peace?",
       "How does the Hebrew image of 'mei menuchot' (waters of quiet rest) speak to your current need for spiritual refreshment?",
       "How can you intentionally create a quiet moment to drink from the living water of Christ's presence today?"
-],
+    ],
     guided_prayer: "Gentle Shepherd, lead my hurried heart beside the still waters of Your presence today. Forgive me for lingering near the noise and rushing currents of this world until my soul is overwhelmed. Take me by the hand and draw me into quiet communion with You. Calm the racing thoughts within my mind and satisfy my spiritual thirst with Your grace. I rest my spirit in Your deep, abiding peace today. In Jesus' name, Amen.",
     daily_intention: "I will follow the Good Shepherd to quiet resting places, drinking deeply of His peace.",
     practical_action: "Turn off background noise for fifteen minutes today and sit quietly in God's presence.",
@@ -4855,7 +4715,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "In what specific way does your soul feel in need of God's gentle restoration (shuv) today?",
       "Why is it liberating to know that God restores you 'for his name's sake' rather than based on your own perfect performance?",
       "What is one righteous, peaceful step you can take today under the Good Shepherd's guidance?"
-],
+    ],
     guided_prayer: "Faithful Shepherd, thank You that when my energy is depleted and my spirit feels faint, You do not abandon me to exhaustion. Thank You for reviving my soul and restoring my hope for Your name's sake. Forgive my foolish self-reliance and my attempts to carry burdens in my own strength. Guide my feet back onto paths of righteousness today, and replenish my heart with Your steadfast love. In Jesus' name, Amen.",
     daily_intention: "I will let the Good Shepherd restore my soul today, trusting His faithful guidance.",
     practical_action: "Write down one area where you feel depleted and commit it to God, asking Him to revive your spirit.",
@@ -4875,7 +4735,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "Have you ever felt so exhausted that you whispered, 'It is enough'? How does God's gentle response to Elijah comfort you?",
       "Why is it vital to recognize that physical and emotional rest is an act of humble faith rather than spiritual defeat?",
       "What practical boundary or pause do you need to embrace today to care for your weary body and heart?"
-],
+    ],
     guided_prayer: "Compassionate Father, thank You for Your tender mercy toward me when I reach the end of my strength. Forgive me for believing that fatigue is a spiritual failure. When demands feel overwhelming and I am tempted to cry 'it is enough,' remind me that You understand my human limits. Grant me the humble grace to pause, rest my body, and receive Your quiet, nourishing comfort today. In Jesus' name, Amen.",
     daily_intention: "I will honor my human limits today, trusting that God meets my exhaustion with gentle compassion.",
     practical_action: "Identify one exhausting task that can wait, and dedicate that time to rest and quiet prayer.",
@@ -4895,7 +4755,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "What concerns or racing thoughts most often disrupt your peace when you lie down to sleep?",
       "How is going to sleep an act of spiritual surrender and trust in God's sovereign control?",
       "What does it mean for your heart that Yahweh ALONE makes you live in true safety?"
-],
+    ],
     guided_prayer: "Yahweh of Peace, I thank You that my safety does not depend on earthly defenses or human assurances. You alone make me dwell in unshakeable safety. When nighttime fears and anxious thoughts gather around my bed, banish them with Your presence. Grant me the grace to lay myself down and sleep in peace tonight, knowing my life is held securely in Your covenant love. In Jesus' name, Amen.",
     daily_intention: "I will surrender my worries to God tonight, resting peacefully in His sovereign keeping.",
     practical_action: "As you lay your head on your pillow tonight, breathe out your unfinished tasks and whisper Psalm 4:8.",
@@ -4915,7 +4775,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "In what specific area does your soul feel parched and in need of God's saturating grace today?",
       "How does the promise of Jeremiah 31:25 reassure you that God notices and cares for your sorrowful exhaustion?",
       "What would it look like to present your empty vessel to God in quiet prayer instead of striving harder?"
-],
+    ],
     guided_prayer: "Faithful Father, You see the deep places of weariness and sorrow that I carry in my heart. Forgive me for trying to quench my spiritual thirst at broken cisterns that leave me dry. I bring my empty soul to You today. Fulfill Your gracious promise in my life: saturate my weary heart and replenish my sorrowful spirit with the living water of Your Holy Spirit. I rest in Your abundance today. In Jesus' name, Amen.",
     daily_intention: "I will come to God with an open heart, trusting Him to saturate my weary soul with His grace.",
     practical_action: "Pause during a moment of thirst today, take a slow drink of water, and pray: 'Lord, saturate my soul with Your peace.'",
@@ -4935,7 +4795,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "What current challenge or responsibility makes you feel that 'the journey is too great for you'?",
       "Why is accepting physical and spiritual nourishment an act of obedience rather than weakness?",
       "How can you allow God to feed your spirit with His Word before facing today's demands?"
-],
+    ],
     guided_prayer: "Gracious Lord, thank You for acknowledging that the journey of life is often too great for my fragile strength. Forgive my stubborn pride that tries to press forward on empty reserves. I accept Your invitation to arise, receive nourishment from Your Word, and rest in Your presence. Feed my heart with Your truth today, that I may walk forward in Your strength rather than my own. In Jesus' name, Amen.",
     daily_intention: "I will acknowledge my limitations and lean on God's supernatural strength for the road ahead.",
     practical_action: "Read a nourishing passage of Scripture slowly today, treating it as spiritual food for your journey.",
@@ -4955,7 +4815,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "In what ways do you still catch yourself trying to 'earn' God's acceptance through performance or striving?",
       "What does it mean practically for you to 'rest from your works' in the light of Christ's finished salvation?",
       "How can you practice the holy diligence of entering into God's rest today?"
-],
+    ],
     guided_prayer: "Lord Jesus, thank You for the promised Sabbath rest that You have purchased for Your people. Forgive my relentless impulse to earn Your love through human striving and performance. I cease from my anxious works today. I rest my entire soul upon Your finished redemptive work. Teach me the holy discipline of trusting Your grace, and let my heart dwell in the tranquil peace of Your presence. In Your name, Amen.",
     daily_intention: "I will cease from anxious striving and enter into the peaceful Sabbath rest of Christ's finished work.",
     practical_action: "Whenever you feel the urge to prove yourself today, mentally declare: 'Christ's work is finished, and I rest in Him.'",
@@ -4975,7 +4835,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "What past failure or regret does the enemy most frequently use to whisper condemnation to your heart?",
       "How does the truth of 'no condemnation in Christ' liberate you to experience genuine spiritual rest?",
       "How will you walk today as someone who is completely acquitted and beloved by God?"
-],
+    ],
     guided_prayer: "Precious Savior, thank You for bearing my judgment on the cross so that I might hear the glorious verdict of 'no condemnation.' Forgive me for re-crucifying myself with self-punishing guilt and shame. I silence the accusing voice of the enemy with the blood of Jesus. Fill my heart with the liberating joy of the Spirit of life, and let me live today in the unshakeable peace of Your grace. In Your holy name, Amen.",
     daily_intention: "I will walk in the freedom of the Spirit today, rejoicing that there is no condemnation in Christ.",
     practical_action: "Whenever a thought of guilt or unworthiness arises today, speak aloud: 'There is now no condemnation in Christ Jesus.'",
@@ -4995,7 +4855,7 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
       "How do the words 'God did' relieve the pressure to produce your own righteousness and worth?",
       "What is the difference between living in the striving energy of the flesh and walking in the rest of the Spirit?",
       "As you conclude this month on 'Rest for the Weary Heart,' what is the greatest truth God has taught you about resting in Him?"
-],
+    ],
     guided_prayer: "Almighty and Loving God, what my weak, striving flesh could never accomplish, You did through Your beloved Son! Thank You that my righteousness and peace rest entirely in what Christ has done. Forgive my foolish attempts to save myself through anxious works. As I step forward, teach me to walk continually in the gentle rhythms of Your Holy Spirit, resting deeply in the fullness of Your grace. In Jesus' triumphant name, Amen.",
     daily_intention: "I will walk in the power of the Spirit today, resting completely in what God has done through Christ.",
     practical_action: "Reflect on the phrase 'God did' throughout the day, releasing every need to prove yourself.",
@@ -5126,20 +4986,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 9,
     day_of_month: 7,
     weekly_subtheme: "Clothed in the Garments of Grace",
-    title: "The Fragrance of Compassion",
-    scripture_primary_reference: "2 Corinthians 2:14-15",
-    scripture_primary_text: "Now thanks be to God, who always leads us in triumph in Christ, and reveals through us the sweet aroma of his knowledge in every place. For we are a sweet aroma of Christ to God,",
+    title: "Doing All in the Name of the Lord Jesus",
+    scripture_primary_reference: "Colossians 3:17",
+    scripture_primary_text: "Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father, through him.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In the Roman world, when a triumphant general returned from a victorious military campaign, the Senate awarded him a lavish victory parade through the streets of Rome. As the procession wound its way toward the temple of Jupiter, priests carried burning censers filled with sweet, fragrant incense, filling the air with a pervasive, unmistakable perfume for miles around. Paul draws upon this magnificent spectacle to describe the Christian walk: 'Now thanks be to God, who always leads us in triumph in Christ, and reveals through us the sweet aroma of his knowledge in every place.' When you walk through your day clothed in Christ's compassion, you emit a celestial fragrance. People may not know your theological creeds or your church affiliation, but they can smell the sweetness of Christ in your patience, your gentle tone, and your humble kindness. Conversely, a bitter, complaining, judgmental Christian emits a foul, repulsive odor that drives people away from the Gospel. You are the aroma of Christ in your office, in your home, at the checkout counter, and in hospital corridors. Let the sweet perfume of Jesus linger in every room you leave today.",
+    reflection_body: "Paul concludes his portrait of the clothed believer by anchoring every human action in the exalted name of Jesus. When you put on compassion, kindness, and humility, these graces are not designed for public display or personal moral achievement. They are worn for Christ. To do all things in His name means that your ordinary kitchen conversations, your emails at work, your private prayers, and your quiet acts of forbearance carry His signature. Every word spoken in patience becomes an offering to the Father. When you feel unappreciated, overlooked, or tempted to harbor quiet irritation over repetitive duties, Paul’s instruction reframes your daily sphere. You are not serving difficult people or cold systems in your own strength; you are acting as an ambassador of the Savior. Doing all in His name also frees you from anxious perfectionism. You do not have to perform to secure God’s favor; you are already beloved in Christ. In word and deed, thanksgiving becomes the natural atmosphere of your heart, transforming ordinary routines into holy ground.",
     reflection_questions: [
-      "What kind of 'aroma' do your daily attitudes and tone leave behind in the rooms you inhabit?",
-      "How does Christ's victory parade reframe your daily duties as an opportunity to spread His sweet fragrance?",
-      "How can you intentionally release the sweet aroma of Christ's kindness in a tense environment today?"
+      "What routine task or difficult conversation today can you consciously dedicate to the name of Jesus?",
+      "How does knowing you represent Christ change the way you respond when your efforts go unnoticed by others?",
+      "In what practical way can you cultivate an atmosphere of thanksgiving in your home or workplace this afternoon?"
     ],
-    guided_prayer: "Triumphant Lord, I thank You that You lead me in Your victory parade through Jesus Christ. I surrender my life to be a sweet censer of Your presence. Cleanse my soul of the foul odors of cynicism, complaint, and self-pity. Let the sweet perfume of Christ's compassion, joy, and peace emanate from my words and actions today, drawing thirsty souls to know and love my Savior. In His name, Amen.",
-    daily_intention: "I will be the sweet aroma of Christ today, leaving the fragrance of His love in every room I enter.",
-    practical_action: "Leave a thoughtful note, an unexpected gift, or a warm word of appreciation to brighten someone's physical environment today.",
-    evening_reflection_prompt: "Did someone sense the comforting sweetness of Christ's presence through your words and actions today?"
+    guided_prayer: "Lord Jesus, I surrender my words, my thoughts, and my daily duties into Your holy hands. When frustration tempts me to speak hastily or self-righteously, clothe me afresh in Your gentle humility. May everything I touch today reflect Your tender compassion and truth. Free me from seeking human applause, and teach me to find complete satisfaction in honoring Your name. Thank You for Your steadfast grace. Amen.",
+    daily_intention: "Today I will do every ordinary duty and speak every word in the sacred name of Jesus.",
+    practical_action: "Before answering your next message or entering a demanding room, pause for ten seconds and whisper, 'For Your name alone, Lord Jesus.'",
+    evening_reflection_prompt: "Where did you sense Christ's gentle presence guiding your words or actions during the quiet demands of this day?"
   },
   {
     day_number: 251,
@@ -5226,20 +5086,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 9,
     day_of_month: 12,
     weekly_subtheme: "The Freedom of Forgiveness",
-    title: "Releasing Vengeance to God",
-    scripture_primary_reference: "Romans 12:19",
-    scripture_primary_text: "Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, 'Vengeance belongs to me; I will repay, says the Lord.'",
+    title: "Am I in the Place of God?",
+    scripture_primary_reference: "Genesis 50:19",
+    scripture_primary_text: "Joseph said to them, 'Don’t be afraid, for am I in the place of God?'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "When someone betrays our trust, slanders our name, or inflicts deep emotional wounds upon us, human nature burns for vindication. We want to see them exposed, punished, and brought to justice. If we cannot strike back physically, we plot revenge mentally: we imagine cutting speeches where we demolish their arguments, or we secretly rejoice when misfortune strikes them. But the Apostle Paul commands: 'Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, 'Vengeance belongs to me; I will repay, says the Lord.'' Notice the tender address: 'beloved.' Paul speaks as a loving father. Taking revenge is like grabbing the gavel from the hand of the Supreme Judge of the universe and attempting to execute vigilante justice. Human justice is clumsy, biased, and contaminated by our own sinful pride. When you take revenge, you poison your own soul. But when you step back and 'give place to God's wrath,' you entrust the scales of justice to the only One who knows all hearts, sees all secrets, and judges with perfect righteousness. God will balance the books. Step down from the bench. Let God be God.",
+    reflection_body: "When his brothers trembled before him after their father Jacob died, expecting long-delayed retaliation, Joseph responded with profound theological clarity: 'Am I in the place of God?' Joseph understood that withholding forgiveness and executing vengeance is an attempt to usurp the judgment seat of the Almighty. Forgiveness is not pretending that betrayal never happened, nor does it require reckless trust or subjecting oneself to continued emotional or physical harm. True forgiveness is a deliberate, holy transfer of the debt from your fragile hands into the sovereign hands of God. When someone has wronged you, lied about you, or broken sacred confidences, the natural instinct of the wounded soul is to demand repayment. Yet holding the courtroom gavel exhausts your spirit and traps you in bitterness. Joseph freed himself from decades of potential resentment by acknowledging that God alone is the righteous Judge. By releasing the right to retaliate, you step out of the judgment seat and into the open freedom of grace. God will deal justly; you are free to live unburdened.",
     reflection_questions: [
-      "Why is it so tempting to seek our own vindication and take matters into our own hands?",
-      "What does it mean practically to 'step down from the judge's bench' and give place to God's righteous judgment?",
-      "How does knowing that God will execute perfect, righteous justice free you from needing revenge?"
+      "Is there a past offense or broken trust you have been trying to avenge in your thoughts or emotions?",
+      "How does realizing that God alone occupies the judgment seat bring relief to your weary soul?",
+      "What healthy boundaries do you need to maintain while still releasing bitter resentment to the Lord?"
     ],
-    guided_prayer: "Righteous Judge of All the Earth, I step down from the judgment bench today. Forgive my vengeful thoughts, my desire to retaliate, and my secret cravings to see my offenders punished. You alone see all secrets and weigh all motives with perfect justice. I hand every grievance, every betrayal, and every injustice over to Your sovereign court. Free my heart from the heavy burden of seeking revenge, and fill me with Your peace. Amen.",
-    daily_intention: "I step down from the judge's bench today, trusting God to handle all justice with perfect righteousness.",
-    practical_action: "Whenever a desire to retaliate crosses your mind today, whisper: 'Vengeance belongs to the Lord; I choose peace.'",
-    evening_reflection_prompt: "Did relinquishing the desire for vindication bring a profound sense of relief to your heart today?"
+    guided_prayer: "Sovereign Father, I confess how easily I cling to hurt and secretly nurse grievances against those who wounded me. Today I step down from the judgment seat. I lay every past offense, every broken promise, and every bitter memory into Your righteous hands. Grant me the grace to release the debt completely. Guard my heart from bitterness, and teach me to rest securely in Your justice and love. Amen.",
+    daily_intention: "I refuse to occupy God's judgment seat today; I release all vengeance and entrust justice to Him.",
+    practical_action: "Write down the initials of someone whose past harm you have rehearsed mentally, pray a blessing over their repentance, and tear the paper as a sign of release.",
+    evening_reflection_prompt: "Did you feel lighter today as you chose to leave justice and vindication in the hands of God?"
   },
   {
     day_number: 256,
@@ -5326,100 +5186,100 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 9,
     day_of_month: 17,
     weekly_subtheme: "Holy Empathy and Listening Hearts",
-    title: "The Ministry of Silent Presence",
-    scripture_primary_reference: "Job 2:13",
-    scripture_primary_text: "So they sat down with him on the ground seven days and seven nights, and no one spoke a word to him, for they saw that his grief was very great.",
+    title: "Swift to Hear, Slow to Speak",
+    scripture_primary_reference: "James 1:19",
+    scripture_primary_text: "So, then, my beloved brothers, let every man be swift to hear, slow to speak, and slow to anger;",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "When Job lost all ten of his children, his vast wealth, and his health in a single catastrophic day, three of his friends—Eliphaz, Bildad, and Zophar—traveled long distances to comfort him. When they saw Job sitting in ashes scraping his boils, unrecognizable from grief, they tore their robes, sprinkled dust on their heads, and sat down on the ground beside him. For seven days and seven nights, they sat in the dust with Job, and 'no one spoke a word to him, for they saw that his grief was very great.' For those seven days, Job's friends were magnificent comforters! Their ministry of silent presence honored Job's unspeakable sorrow. It was only when they opened their mouths on day eight to offer theological explanations and blame Job for his suffering that they became 'miserable comforters.' There is immense spiritual power in holy silence. When a friend's world has collapsed, do not feel compelled to fill the awkward void with chatter. The gift of your physical presence—sitting on the couch, folding laundry in silence, bringing a warm soup, simply being there—communicates more love than words could ever convey. Honor grief with holy silence today.",
+    reflection_body: "James offers a masterclass in holy empathy with three brief imperatives: be swift to hear, slow to speak, and slow to anger. In a loud culture characterized by instant reactions, defensive posturing, and hurried assumptions, listening has become a rare and sacred virtue. Most people do not listen to understand; they listen merely to prepare their rebuttal. For Christian women navigating complicated relationships, caring for aging relatives, or walking alongside hurting friends, listening is often the greatest ministry of love. When someone opens their heart in vulnerability, jumping in with immediate advice, theological corrections, or easy platitudes often silences their grief rather than comforting their soul. Jesus never rushed past human sorrow; He asked tender questions and heard the cry behind the words. Being slow to speak requires deep humility and self-control. It trusts that the Holy Spirit is already at work in the other person's heart. Today, resist the urge to formulate your response while another person is speaking. Offer the quiet gift of an unhurried, attentive presence.",
     reflection_questions: [
-      "Why does the gift of simply 'being there' in silence often provide deeper comfort than spoken words?",
-      "When have you felt the pressure to speak when quiet presence would have been far more compassionate?",
-      "How can you offer the practical ministry of presence to someone around you who is overwhelmed by grief?"
+      "Who in your circle currently needs you to listen attentively without offering immediate advice or correction?",
+      "In what situations do you feel the strongest temptation to react quickly or defensively in conversation?",
+      "How can practicing stillness before answering reflect the gentle listening heart of Jesus to someone today?"
     ],
-    guided_prayer: "Lord of Compassion, thank You for the profound comfort of Your silent presence in my own dark valleys. Forgive my nervous chatter and my foolish attempts to explain away deep mysteries of suffering. Teach me the sacred ministry of silence. Give me the grace to sit in the dust with those who hurt, listening with my whole heart and offering love that needs no words. Let my presence be an anchor of Christ's peace. Amen.",
-    daily_intention: "I will practice the ministry of silent, loving presence today, honoring another's grief without needing to speak.",
-    practical_action: "Offer practical, quiet support to someone carrying a heavy load today (drop off a meal, run an errand) without demanding conversation.",
-    evening_reflection_prompt: "Did offering quiet, supportive presence bring relief and comfort to someone who was struggling today?"
+    guided_prayer: "Gentle Lord, quiet the noise and hurry in my heart. Forgive me for the times I have spoken foolishly or cut off someone who simply needed to be heard. Grant me the fruit of self-control today. Make me swift to listen, slow to offer hasty solutions, and slow to become irritated. May my ears be tuned to the Holy Spirit and my speech seasoned with Your grace and truth. Amen.",
+    daily_intention: "Today I will listen with patience, humility, and full attention before offering any reply.",
+    practical_action: "In your next conversation today, deliberately pause for three full seconds after the other person finishes speaking before you respond.",
+    evening_reflection_prompt: "Did you give someone the gift of unhurried listening today, and what did you learn by staying quiet?"
   },
   {
     day_number: 261,
     month_number: 9,
     day_of_month: 18,
     weekly_subtheme: "Holy Empathy and Listening Hearts",
-    title: "Bearing Burdens of Love",
-    scripture_primary_reference: "Galatians 6:2",
-    scripture_primary_text: "Bear one another’s burdens, and so fulfill the law of Christ.",
+    title: "Associating with the Humble",
+    scripture_primary_reference: "Romans 12:16",
+    scripture_primary_text: "Be of the same mind one toward another. Don’t set your mind on high things, but associate with the humble. Don’t be wise in your own conceits.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "What is the 'law of Christ'? Throughout the Gospels, Jesus summarized the entirety of the law into two great commandments: love God with all your heart, and love your neighbor as yourself. On the night before His death, He added: 'A new commandment I give to you, that you love one another, even as I have loved you.' Now, in Galatians 6:2, the Apostle Paul reveals how that royal law of love is practically fulfilled in daily community: 'Bear one another’s burdens, and so fulfill the law of Christ.' The Greek word for 'burdens' (bare) refers to a crushing, suffocating weight—like a boulder that has fallen onto a traveler's chest, leaving her pinned to the ground and unable to breathe. God never designed human beings to carry boulders alone. When a sister in Christ is pinned beneath the boulder of cancer, divorce, severe depression, or financial crisis, we cannot stand on the sidewalk shouting cheerful advice. We must kneel in the mud, get our hands under the boulder, and lift with all our might! Bearing someone's burden costs you something: it costs your time, your emotional energy, and your resources. But that sacrificial lift is where the beauty of Jesus is made visible to the world. Help lift a burden today.",
+    reflection_body: "Holy empathy cannot survive where spiritual pride or social comparison quietly rules. Paul commands believers to cultivate mutual harmony by deliberately turning away from worldly status-seeking and associating with the humble. Society constantly tempts us to cultivate relationships that elevate our reputation, flatter our pride, or offer social advantage. In contrast, Jesus consistently moved toward the marginalized, the unglamorous, and those whom society dismissed. To have a listening heart, you must lay down the illusion that you are superior in discernment, wisdom, or spiritual maturity. When you sit with someone who is struggling, grieving, or socially awkward, holy empathy refuses to look down upon their trial. True Christian fellowship is lived at foot-washing level. Walking in harmony means recognizing that every believer is a recipient of identical mercy. You do not minister from a high tower of self-righteousness; you sit beside fellow sinners redeemed by the same precious blood. By choosing humility, you dismantle barriers and build a welcoming sanctuary where authentic healing and mutual care can flourish.",
     reflection_questions: [
-      "Who in your community is currently pinned beneath a heavy boulder of suffering or exhaustion?",
-      "What does it practically cost you (time, money, emotional energy) to help bear someone else's burden?",
-      "How does lifting another person's load fulfill the royal law of Jesus in your everyday life?"
+      "Are there people in your church or neighborhood you have quietly avoided because of subtle social or spiritual pride?",
+      "How does remembering your own absolute dependence on Christ's mercy soften your posture toward struggling individuals?",
+      "What is one practical step you can take this week to welcome and encourage someone who feels overlooked?"
     ],
-    guided_prayer: "Lord Jesus, You took the crushing boulder of my sin and guilt upon Your own shoulders and carried it to Calvary. Thank You for bearing my ultimate burden. Forgive my self-absorbed schedule that refuses to stop and help others who are stumbling under heavy loads. Give me strong, loving hands to help bear the burdens of my brothers and sisters today. May my sacrificial love bring honor to Your holy law. In Your name, Amen.",
-    daily_intention: "I will fulfill the law of Christ today by helping someone carry an overwhelming emotional or practical burden.",
-    practical_action: "Choose one tangible burden from someone else's shoulders (babysitting, making a meal, running an errand) and carry it for them today.",
-    evening_reflection_prompt: "Did helping lift someone else's load bring deep joy and purpose to your heart today?"
+    guided_prayer: "Lord Jesus, strip away every trace of pride, self-importance, and subtle superiority from my heart. Remind me that everything I have has been received purely by grace. Give me eyes to see people as You see them, valuing the humble and extending warmth to the lonely. Help me walk beside others in genuine harmony, clothed in Your tender mercy and love. Amen.",
+    daily_intention: "I will reject pride and social comparison, choosing instead to honor and listen to the humble.",
+    practical_action: "Reach out to someone who is often overlooked in your community—send an encouraging text, make a phone call, or offer a sincere compliment.",
+    evening_reflection_prompt: "Where did God give you an opportunity to practice humility and genuine connection with someone today?"
   },
   {
     day_number: 262,
     month_number: 9,
     day_of_month: 19,
     weekly_subtheme: "Holy Empathy and Listening Hearts",
-    title: "Channels of Divine Comfort",
-    scripture_primary_reference: "2 Corinthians 1:3-4",
-    scripture_primary_text: "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort; who comforts us in all our affliction, that we may be able to comfort those who are in any affliction, through the comfort with which we ourselves are comforted by God.",
+    title: "An Alabaster Jar of Tears",
+    scripture_primary_reference: "Luke 7:37-38",
+    scripture_primary_text: "Behold, a woman in the city who was a sinner, when she knew that he was reclining in the Pharisee’s house, brought an alabaster jar of ointment. Standing behind at his feet weeping, she began to wet his feet with her tears, and she wiped them with the hair of her head, kissed his feet, and anointed them with the ointment.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Have you ever asked God in the middle of a painful trial, 'Lord, why am I going through this? What possible purpose could there be in this heartbreak?' While we may not understand all the mysteries of suffering, the Apostle Paul reveals one of God's most breathtaking redemptive purposes in 2 Corinthians 1: God comforts us in all our affliction so that we may be equipped to comfort others in their affliction with the exact same comfort we received from Him! Notice the divine recycling of pain: God never wastes a single drop of your suffering. The grief you walked through, the medical battle you survived, the betrayal that broke your heart, and the panic attacks that drove you to your knees have all become your divine credentials. You have been through the fire, and you know what it feels like. When you meet another woman entering that same dark valley, you do not speak as an ivory-tower theorist; you speak as a wounded healer. You can look into her eyes and say, 'I have been where you are sitting, and God’s grace is sufficient.' Your past pain is your greatest ministry tool. Let God comfort others through your scars.",
+    reflection_body: "In the home of Simon the Pharisee, an unnamed woman crashed the religious gathering, carrying an alabaster flask of fragrant ointment. Knowing her reputation, Simon looked on with cold judgment, calculating her unworthiness. But Jesus saw something entirely different: a broken heart pouring out genuine repentance, reverence, and unreserved love. While Simon withheld even common hospitality—providing no water for foot washing—this woman bathed the Savior's dusty feet with her tears and dried them with her hair. Jesus did not pull His feet away in disgust, nor did He rebuke her emotional vulnerability. He received her tears as holy worship. This sacred encounter exposes the profound contrast between religious self-righteousness and the tender heart of God. When people around you are weeping or wrestling under the weight of brokenness, they do not need self-righteous scolding. They need the safe, compassionate presence of Christ. Like Jesus, you are called to welcome broken people with tenderness, recognizing that tears shed in repentance and grief are precious in the eyes of God.",
     reflection_questions: [
-      "What past heartbreak or valley of suffering has God comforted you through in your life?",
-      "How can your past scars become a source of life-giving comfort and hope to someone walking that path today?",
-      "Why is a 'wounded healer' who has survived pain far more credible than someone who has never suffered?"
+      "How does Jesus' gentle reception of this weeping woman comfort you in your own seasons of sorrow or regret?",
+      "Are you more likely to respond to messy, hurting people with religious wariness or Christlike compassion?",
+      "What alabaster offering of love, surrender, or time can you pour out at Jesus' feet today?"
     ],
-    guided_prayer: "Father of Mercies and God of All Comfort, I thank You that You never waste my tears or ignore my afflictions. Thank You for every season of sorrow where Your supernatural comfort carried my heart. Consecrate my past pain today. Use my scars as instruments of healing and hope. Give me divine appointments with women who are walking through valleys I have survived, that I may comfort them with the very comfort You gave me. In Jesus' name, Amen.",
-    daily_intention: "My past suffering is not wasted; God will use my scars to bring comfort and hope to other hurting souls.",
-    practical_action: "Reach out to someone currently facing a trial you walked through in the past, offering hope and understanding.",
-    evening_reflection_prompt: "Did sharing how God comforted you in the past bring light and hope to someone's dark valley today?"
+    guided_prayer: "Merciful Savior, thank You that You never turn away the brokenhearted or despise the tears of those who seek You. Forgive me when I have looked upon struggling people with critical eyes instead of Your tender empathy. Soften my heart to receive and comfort others with the same lavish compassion You have shown to me. May my life be an offering of fragrant devotion to You. Amen.",
+    daily_intention: "I will honor brokenhearted vulnerability and extend Christ's tender compassion without judgment.",
+    practical_action: "Spend ten quiet minutes in prayer without speaking any demands, simply offering your heart and thanksgiving at Jesus' feet.",
+    evening_reflection_prompt: "Did you encounter someone today who needed grace rather than judgment, and how did you respond?"
   },
   {
     day_number: 263,
     month_number: 9,
     day_of_month: 20,
     weekly_subtheme: "Holy Empathy and Listening Hearts",
-    title: "A Heart Touched by Weakness",
-    scripture_primary_reference: "Hebrews 4:15",
-    scripture_primary_text: "For we don’t have a high priest who can’t be touched with the feeling of our infirmities, but one who has been in all points tempted like we are, yet without sin.",
+    title: "Do You See This Woman?",
+    scripture_primary_reference: "Luke 7:44",
+    scripture_primary_text: "Turning to the woman, he said to Simon, 'Do you see this woman? I entered into your house, and you gave me no water for my feet, but she has wet my feet with her tears, and wiped them with the hair of her head.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In ancient religions, gods were depicted as distant, impassive, and detached deities who looked down upon human suffering from mountaintops with cold indifference. The Greek philosophers believed in the concept of apatheia—that a true god must be incapable of feeling pain or emotion, because feeling emotion implied vulnerability. But the author of Hebrews presents the glorious, shocking reality of our Great High Priest, Jesus Christ: 'For we don’t have a high priest who can’t be touched with the feeling of our infirmities, but one who has been in all points tempted like we are, yet without sin.' The Greek word translated 'touched with the feeling' is sumpathesai—He feels our infirmities with us! Jesus knows what it feels like to be physically exhausted, to have a headache, to be betrayed by a close friend, to be misunderstood by His own family, and to weep over the death of a loved one. He was tempted in every way we are, yet without sin. When you kneel in prayer today, you are not talking to a stone wall or a distant computer algorithm. You are talking to a Savior whose heart aches with your weakness. He understands. Approach Him with bold confidence.",
+    reflection_body: "Jesus turned toward the weeping woman, but He addressed Simon with an arresting question: 'Do you see this woman?' Simon saw only a scandalous sinner, a category to be avoided, a disruption to his respectable dinner. But Jesus saw a precious daughter of God responding to redeeming grace. To truly love someone with holy empathy, you must first learn to see them. It is terribly easy to reduce people to their annoying habits, their political opinions, their past mistakes, or their social status. We look at them, but we do not see them. We do not see their silent heartache, their sleepless nights, their hidden regrets, or their hunger for mercy. Jesus looked beneath the surface of social expectation and beheld her genuine faith. When you ask the Lord for eyes of compassion, He begins to show you people as they truly are—fragile souls in desperate need of His transforming love. Today, ask God to give you spiritual sight. Before you judge or dismiss anyone, ask yourself: 'Do I really see this person through the eyes of Jesus?'",
     reflection_questions: [
-      "How does knowing that Jesus personally experienced human exhaustion and temptation change your prayers?",
-      "What weakness or struggle do you feel most embarrassed to bring to God, and how does Hebrews 4:15 heal that fear?",
-      "How can you reflect Christ's approachable, empathetic posture toward those who are struggling around you?"
+      "Is there someone in your life whom you have reduced to a label, a grievance, or a personality conflict?",
+      "What would it look like to ask God to help you see that person with His compassionate eyes today?",
+      "How has Jesus looked past your own failures and seen you with unconditional, redeeming love?"
     ],
-    guided_prayer: "High Priest and Loving Savior, how deeply I thank You that You understand my human frailty. You took on human flesh, tasted our tears, carried our sorrows, and were tempted in all points just as we are. Deliver me from the lie that You are distant or impatient with my weakness. I come boldly to Your throne of grace today, receiving Your mercy, Your empathy, and Your timely help. In Your precious name, Amen.",
-    daily_intention: "I have a High Priest who intimately understands my weaknesses; I will approach Him with bold trust today.",
-    practical_action: "Bring your most vulnerable, unpolished weakness before Jesus today, thanking Him that He understands completely.",
-    evening_reflection_prompt: "Did the assurance of Christ's intimate empathy bring comfort and courage to your heart today?"
+    guided_prayer: "Lord Jesus, open the eyes of my heart. Deliver me from superficial judgments, harsh labels, and selfish indifference. When I am tempted to dismiss or criticize someone, stop me and whisper, 'Do you see this person?' Teach me to look beneath external appearances and perceive the ache, the worth, and the need for grace in those around me. Let Your love flow freely through me. Amen.",
+    daily_intention: "Today I will ask God to help me truly see people through the eyes of Christ's tender compassion.",
+    practical_action: "Choose one difficult person in your family or circle and pray for God to bless their spiritual well-being and reveal His love to them.",
+    evening_reflection_prompt: "Whom did you truly see today, beyond their outward manner or flaws, through the eyes of Jesus?"
   },
   {
     day_number: 264,
     month_number: 9,
     day_of_month: 21,
     weekly_subtheme: "Holy Empathy and Listening Hearts",
-    title: "Empathy in the Midst of Sorrow",
-    scripture_primary_reference: "John 11:35",
-    scripture_primary_text: "Jesus wept.",
+    title: "Loved Much, Forgiven Much",
+    scripture_primary_reference: "Luke 7:47",
+    scripture_primary_text: "Therefore I tell you, her sins, which are many, are forgiven, for she loved much. But one to whom little is forgiven, loves little.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "John 11:35 is the shortest verse in the English Bible, consisting of just two simple words: 'Jesus wept.' Yet those two words contain the deepest ocean of divine empathy in human history. Jesus was standing outside the tomb of His beloved friend Lazarus. Mary and Martha were collapsed in grief, surrounded by weeping mourners. Here is the breathtaking wonder: Jesus knew with absolute, 100% certainty that in less than five minutes, He was going to shout, 'Lazarus, come forth!' and His friend would walk out of that tomb alive, healthy, and laughing! He knew that the story had a glorious, triumphant ending. Yet before He performed the miracle, Jesus stopped and wept. Why? Because He entered the emotional agony of Mary and Martha. He felt the horrific, unnatural sting of death that has devastated the human race since the fall. He did not dismiss their tears with a flippant, 'Don't cry, wait till you see what I'm about to do!' He honored their pain by weeping with them. If you are walking through sorrow today, know that Jesus is weeping with you. He does not belittle your grief; He shares it. Rest in the tender tears of your Savior.",
+    reflection_body: "Jesus reveals the divine secret of lavish love: those who realize how deeply they have been forgiven are the ones who love the most extravagantly. Simon felt very little need for mercy, and consequently, his heart was cold, cautious, and calculating. He offered Jesus the bare minimum of courtesy. The weeping woman, on the other hand, was acutely aware of her immense debt of sin. Receiving the staggering reality of Christ's pardon caused her love to overflow in unrestrained worship and tenderness. When your own heart feels cold, irritable, or impatient toward others, the remedy is not trying harder to generate emotional warmth. The remedy is returning to the foot of the cross and contemplating the staggering breadth of your own forgiveness. You were redeemed not because you were righteous, but because Jesus took your debt upon Himself. When you live in constant awe of Calvary, extending empathy, patience, and forgiveness to others ceases to be an exhausting chore. It becomes the natural, joyous reflex of a soul that has been forgiven much and loves deeply.",
     reflection_questions: [
-      "Why is it so significant that Jesus wept even though He knew He was about to raise Lazarus from the dead?",
-      "How does the image of a weeping Savior comfort your heart when you are walking through deep grief?",
-      "How does Jesus weeping give you permission to experience honest, unhurried sorrow without feeling unspiritual?"
+      "When was the last time you sat in quiet awe of how completely Jesus has forgiven your sins?",
+      "How does meditating on the lavish mercy you received change your capacity to bear with frustrating people?",
+      "In what practical way can your gratitude for forgiveness overflow into generous love toward someone today?"
     ],
-    guided_prayer: "Tender, Weeping Savior, I bow in awe before the depth of Your holy empathy. Thank You that You never dismiss my grief or belittle my tears. When my heart aches and sorrow overwhelms my soul, remind me that You weep with me. Thank You that death, pain, and separation will not have the final word in my story. Until the day of resurrection, anchor my soul in the tenderness of Your tears. In Jesus' name, Amen.",
-    daily_intention: "I will honor the sacredness of human sorrow today, knowing that Jesus weeps with those who hurt.",
-    practical_action: "Take five quiet minutes to acknowledge an unresolved sorrow or loss in your life, letting Jesus sit with your tears.",
-    evening_reflection_prompt: "Did sensing Jesus' compassionate tears bring healing and comfort to your soul today?"
+    guided_prayer: "Precious Savior, how great is the debt You have canceled for me! When I consider my past failures, my pride, and my wandering thoughts, I am overwhelmed by the riches of Your mercy. Keep me forever at the foot of Your cross. Forgive me when my love grows cold or stingy. Let the knowledge of how much I have been forgiven ignite in me a tender, resilient love for others. Amen.",
+    daily_intention: "Because I have been forgiven so much by Jesus, I will love generously and without hesitation today.",
+    practical_action: "Speak a word of sincere gratitude to someone who has shown you patience or kindness during a difficult season.",
+    evening_reflection_prompt: "Did the memory of Christ's immense forgiveness soften your responses and warm your heart today?"
   },
   {
     day_number: 265,
@@ -5526,20 +5386,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 9,
     day_of_month: 27,
     weekly_subtheme: "The Ministry of the Kitchen Table (Hospitality)",
-    title: "The Open Door of Grace",
-    scripture_primary_reference: "Revelation 3:20",
-    scripture_primary_text: "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him, and will dine with him, and he with me.",
+    title: "Let Brotherly Love Continue",
+    scripture_primary_reference: "Hebrews 13:1",
+    scripture_primary_text: "Let brotherly love continue.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In Revelation 3:20, Jesus paints one of the most intimate, domestic pictures in the entire Bible. The King of Kings, who holds the keys of death and Hades, does not kick down the door of your heart with imperial force; He stands outside on the porch, knocking gently and waiting: 'Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him, and will dine with him, and he with me.' Notice the invitation: He wants to 'dine' with you. In the ancient world, sharing a meal was the ultimate sign of covenant intimacy, friendship, and mutual acceptance. Jesus does not want a cold, formal meeting in a boardroom; He wants to sit across from you at your kitchen table! He wants you to pour Him a cup of coffee, set out the bread, and tell Him everything on your heart. And notice: you dine with Him, and He with you. It is a two-way fellowship of love. Many of us keep Jesus locked in the front hallway of religious duty, never inviting Him into the private kitchen of our daily lives. Open the door wide today. Let the King of Glory sit at your table.",
+    reflection_body: "The author of Hebrews opens his closing practical exhortations with a simple, decisive command: 'Let brotherly love continue.' Notice the word 'continue.' Love is easy to initiate during seasons of novelty, emotional warmth, or shared enthusiasm. But genuine Christian love must endure through the long haul—through misunderstandings, schedule fatigue, cultural tension, and personal disagreements. In the context of hospitality and community life, love is not merely a warm feeling; it is a persevering commitment to keep the door of your heart unlocked. It means continuing to check on the lonely widow after the funeral flowers have withered. It means continuing to pray for an estranged relative with quiet hope. It means continuing to show up with warm soup, gentle words, and faithful presence when relationships require patience. In an individualistic world where people quickly cut ties and isolate themselves at the first hint of friction, Christ calls His daughters to steadfast, durable affection. Rooted in His unchanging covenant love, you can allow brotherly kindness to outlast every obstacle.",
     reflection_questions: [
-      "Have you kept Jesus in a formal 'front hallway' of religion rather than welcoming Him into your everyday life?",
-      "What does it mean practically for Jesus to sit across from you at your kitchen table and dine with you?",
-      "What area of your private thoughts, habits, or worries do you need to open the door to Jesus for today?"
+      "In which relationship is God calling you to let love continue, even when it feels demanding or unreciprocated?",
+      "What habits help you maintain long-term faithfulness in caring for friends and family without burning out?",
+      "How does Christ's unending, steadfast love for you empower you to keep loving when feelings fade?"
     ],
-    guided_prayer: "Lord Jesus, I hear Your gentle knock at the door of my heart today. Forgive me for leaving You outside while I exhaust myself with the frantic noise of this world. I turn the handle and throw the door wide open! Come in, Lord. Sit at the table of my life. Share my meals, my conversations, my tears, and my joys. Let my heart be a warm, welcoming sanctuary where You love to dwell. In Your precious name, Amen.",
-    daily_intention: "I will open the door of my heart to Jesus today, welcoming Him into every intimate detail of my life.",
-    practical_action: "Set an intentional moment during a meal today to pause, thank Jesus, and talk to Him as a friend seated beside you.",
-    evening_reflection_prompt: "Did welcoming Jesus into your ordinary routines bring sweet companionship and peace to your day?"
+    guided_prayer: "Faithful God, Your love toward me has never wavered for a single second. Forgive me for the times my love has been conditional, impatient, or quick to retreat. Pour Your Holy Spirit afresh into my heart today, so that brotherly love may continue in all my relationships. Give me endurance to serve, patience to bear, and grace to keep caring, even when love requires sacrifice. In Jesus' name, Amen.",
+    daily_intention: "I will practice persevering, durable love today, refusing to let weariness or offense close my heart.",
+    practical_action: "Send an encouraging note or text to a friend or sister in Christ whom you have not contacted in several weeks.",
+    evening_reflection_prompt: "Where did God help you persevere in patience and brotherly love during the day's interactions?"
   },
   {
     day_number: 271,
@@ -5566,40 +5426,40 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 9,
     day_of_month: 29,
     weekly_subtheme: "Bearing One Another's Burdens",
-    title: "Do Not Grow Weary in Doing Good",
-    scripture_primary_reference: "Galatians 6:9",
-    scripture_primary_text: "Let’s not become weary in doing good, for we will reap in due season, if we don’t give up.",
+    title: "Fulfilling the Law of Christ",
+    scripture_primary_reference: "Galatians 6:2",
+    scripture_primary_text: "Bear one another’s burdens, and so fulfill the law of Christ.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Compassion is exhausting. When you spend months and years caring for an aging parent with dementia, praying for a prodigal child who shows no signs of repentance, serving in a church ministry where few volunteer, or pouring love into a difficult marriage, compassion fatigue is a very real danger. The emotional gas tank runs dry, cynicism whispers that your efforts are futile, and the temptation to throw up your hands and quit becomes overwhelming. The Apostle Paul knew this weariness intimately. That is why he issues an urgent, tender rallying cry in Galatians 6:9: 'Let’s not become weary in doing good, for we will reap in due season, if we don’t give up.' Notice the divine guarantee: 'we will reap.' The harvest is not a gamble; it is an absolute certainty promised by God. But notice the condition: 'in due season, if we don't give up.' A farmer does not plant seeds in the morning and harvest fruit by noon; between the planting and the reaping lies a long, silent season of cultivation. Do not interpret the silence of the season as the failure of the harvest. Every seed of kindness, prayer, and sacrificial love you have sown in tears is alive under the soil. Keep going. The harvest is coming.",
+    reflection_body: "Paul reveals that the law of Christ—the royal commandment of love—is practically fulfilled when believers shoulder one another's heavy weights. Life in a broken world carries many exhausting burdens: the quiet agony of chronic illness, the weight of grief, financial anxieties, relational stress, and spiritual exhaustion. God never designed human beings to carry these loads in solitary isolation. When you step beside a weary sister to listen to her heartache, prepare a nourishing meal, pray over her tears, or simply sit in compassionate silence, you are literally carrying her burden. You cannot remove every trial, but you can prevent her from collapsing under the crushing weight. Bearing burdens is messy and sacrificial; it requires you to adjust your schedule and expend emotional energy. Yet this is the very heart of the gospel. Jesus took our crushing load of sin and sorrow upon Himself at Calvary. As you bear the burdens of others today, you embody the gentle, shoulder-to-shoulder love of Christ in a hurting world.",
     reflection_questions: [
-      "In what specific area of doing good have you been feeling the heavy weight of compassion fatigue?",
-      "Why is it tempting to give up right before God's 'due season' of harvest arrives?",
-      "What promise of Scripture can you hold onto today to keep you from abandoning your faithful service?"
+      "Whose burden has God placed within your reach, and what practical help can you offer them this week?",
+      "Are you willing to let others help carry your own burdens, or does self-sufficient pride keep you silent?",
+      "How does remembering that Jesus carried your ultimate burden inspire you to support others joyfully?"
     ],
-    guided_prayer: "Lord of the Harvest, You know the quiet exhaustion of my soul. I confess that my hands feel heavy and my heart has grown weary of doing good without seeing visible results. Forgive my impatience and discouragement. Strengthen my feeble knees today. Remind me that no seed sown in faith is ever lost. Grant me holy endurance to keep loving, keep serving, and keep praying, trusting that in due season I will reap a harvest of joy. Amen.",
-    daily_intention: "I will not grow weary in doing good today; I will keep planting seeds of grace, trusting God's harvest.",
-    practical_action: "Identify one area where you felt like giving up this week, and take one small, faithful step forward today.",
-    evening_reflection_prompt: "Did renewing your hope in God's harvest bring fresh strength and endurance to your tasks today?"
+    guided_prayer: "Lord Jesus, You carried the intolerable weight of my sin and sorrow upon the cross so that I might walk in freedom. Teach me to share that same sacrificial love. Show me who is staggering under a heavy load today, and give me the willingness, time, and humility to help carry it. Deliver me from self-centered hurry, and let Your compassion flow through my hands and words. Amen.",
+    daily_intention: "I will actively look for opportunities today to help lift the heavy burdens of someone in need.",
+    practical_action: "Offer a specific, tangible act of service to someone under stress—drop off groceries, run an errand, or watch a child.",
+    evening_reflection_prompt: "How did God use you today to lighten another person's load, and how did He sustain your own spirit?"
   },
   {
     day_number: 273,
     month_number: 9,
     day_of_month: 30,
     weekly_subtheme: "Bearing One Another's Burdens",
-    title: "Doing Good to All",
-    scripture_primary_reference: "Galatians 6:10",
-    scripture_primary_text: "So then, as we have opportunity, let’s do what is good to all men, and especially to those who are of the household of faith.",
+    title: "Two Are Better Than One",
+    scripture_primary_reference: "Ecclesiastes 4:9-10",
+    scripture_primary_text: "Two are better than one, because they have a good reward for their labor. For if they fall, the one will lift up his fellow; but woe to him who is alone when he falls, and doesn’t have another to lift him up.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "As September comes to a close, completing our journey through the garments of compassion, Paul leaves us with a clear, operational commission for our daily lives: 'So then, as we have opportunity, let’s do what is good to all men, and especially to those who are of the household of faith.' Notice the phrase: 'as we have opportunity.' An opportunity is not something you have to manufacture or force; an opportunity is a divine appointment that walks right across your daily path. It is the frazzled mother in the grocery checkout line whose toddler is screaming; it is the lonely widow in your church who needs a ride to the pharmacy; it is the coworker who looks pale and burdened; it is the sister in Christ who needs someone to pray with her over the phone. You cannot fix all the suffering in the world, but you can do good to the person standing directly in front of you. When you clothe yourself in Christ's compassion every morning, your eyes are trained to spot these golden opportunities. As you step across the threshold into October, step forward as an ambassador of Christ's tenderness. Do good to all. Love the household of faith. Clothe the world in the compassion of Jesus.",
+    reflection_body: "Solomon articulates a timeless principle of divine wisdom: human beings were created for companionship and mutual support. 'Two are better than one... For if they fall, the one will lift up his fellow.' In an era of digital hyper-connectivity, genuine spiritual intimacy is increasingly rare. Many women live deeply isolated lives, projecting an image of calm competence while quietly stumbling under private exhaustion. Solomon warns with holy honesty: 'Woe to him who is alone when he falls.' Walking in community requires the vulnerability to admit that you need help, as well as the readiness to extend a lifting hand when your companion stumbles. When a friend experiences a collapse of confidence, a health crisis, or spiritual doubt, the enemy wants to isolate them in shame. But a true brother or sister in Christ rushes in with grace, reaches down into the dust, and helps them stand back up on the promises of God. Do not walk your spiritual pilgrimage alone. Cultivate deep, trusted companionships rooted in Christ, where falling is met with restorative grace.",
     reflection_questions: [
-      "What 'divine opportunity' to do good has crossed your path recently that you almost walked past?",
-      "Why does Paul place a special priority on caring for 'those who are of the household of faith'?",
-      "How has meditating on compassion, forgiveness, and hospitality throughout September transformed your relationships?"
+      "Do you have trusted spiritual companions who have permission to speak truth and lift you when you stumble?",
+      "Is there someone you know who has fallen into discouragement and needs a gentle, lifting hand today?",
+      "What holds you back from being vulnerable with other believers about your own weaknesses and struggles?"
     ],
-    guided_prayer: "Lord of All Goodness, thank You for clothing my soul in Your compassion, tender mercy, and unfailing love throughout this month. Open my eyes today to see the divine opportunities You place directly in my path. Give me a generous heart, willing hands, and loving words to do good to all people, especially my brothers and sisters in Christ. May my life be an open doorway of Your grace to a hurting world. In Jesus' precious name, Amen.",
-    daily_intention: "I will seize every divine opportunity to do good today, reflecting the lavish compassion of my Savior.",
-    practical_action: "Take fifteen quiet minutes today to celebrate the end of September, asking God for fresh eyes of compassion for October.",
-    evening_reflection_prompt: "How has walking in compassion throughout September deepened your love for God and others?"
+    guided_prayer: "Heavenly Father, thank You for the sacred gift of Christian community. Deliver me from the lie of self-sufficiency and the isolation of pride. Give me faithful companions who point me to Jesus when I grow weak, and give me the tender strength to lift others when they fall. May our mutual love and support bring glory to Your name and reflect Your covenant faithfulness. In Jesus' name, Amen.",
+    daily_intention: "I will cultivate genuine Christian companionship today, lifting others with grace and walking in community.",
+    practical_action: "Reach out to a close Christian friend, thank them for their companionship in your walk of faith, and ask how you can pray for them.",
+    evening_reflection_prompt: "Did you walk in the safety of holy fellowship today, and whom were you able to encourage?"
   },
   {
     day_number: 274,
@@ -5726,20 +5586,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 10,
     day_of_month: 7,
     weekly_subtheme: "Commanded to Be Brave",
-    title: "Strong in the Lord",
-    scripture_primary_reference: "Ephesians 6:10",
-    scripture_primary_text: "Finally, be strong in the Lord, and in the strength of his might.",
+    title: "He Will Not Fail You Nor Forsake You",
+    scripture_primary_reference: "Deuteronomy 31:6",
+    scripture_primary_text: "Be strong and courageous. Don’t be afraid, nor be scared of them; for Yahweh your God, he it is who does go with you. He will not fail you nor forsake you.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "As the Apostle Paul prepares to introduce the spiritual armor of God in Ephesians 6, he lays down the foundational power source for all Christian warfare: 'Finally, be strong in the Lord, and in the strength of his might.' Notice with extreme care where your strength comes from. Paul does not say, 'Be strong in your own positive attitude,' 'Be strong in your willpower,' or 'Be strong in your past experience.' If you attempt to fight spiritual battles—anxiety, temptation, family strife, cultural darkness—in your own natural strength, the enemy will chew you up and spit you out before breakfast. We are entirely insufficient for spiritual warfare. But Paul commands us to be strong 'in the Lord, and in the strength of His might.' In the original Greek, Paul uses three different words for power in this single verse: dynamis (inherent power), kratos (exercised dominion), and ischus (overcoming strength). It is the same overwhelming power that shattered the tomb of Jesus and seated Him at the right hand of the Father! You do not have to generate your own strength today. Plug your fragile life into the infinite power grid of the Almighty. You are strong in Him.",
+    reflection_body: "As Moses prepared to hand over leadership to Joshua on the plains of Moab, he delivered this ringing promise to all Israel: 'Be strong and courageous... for Yahweh your God, he it is who does go with you. He will not fail you nor forsake you.' Biblical bravery is never an exercise in self-manufactured willpower or positive thinking. It is an act of simple, grounded trust in a God who never abandons His people. When facing daunting tasks, unfamiliar life transitions, or frightening medical diagnoses, fear often whispers that you are completely alone. But Moses dismantled that lie by pointing to the sovereign Companion who marches at your side. Notice the double assurance: He will not fail you (He will never prove inadequate or drop the ball), and He will not forsake you (He will never walk away in frustration). Because the Lord goes before you and surrounds your steps, you can look intimidating obstacles in the eye without panic. You do not need to know the future; you only need to know that your faithful God is already there.",
     reflection_questions: [
-      "Where have you been trying to fight spiritual battles with mere human willpower and natural energy?",
-      "How does knowing that Christ's resurrection power is your power source reframe your daily battles?",
-      "What does it look like practically to 'plug into the strength of His might' when you feel depleted?"
+      "What current circumstance or looming decision is tempting you to feel frightened or abandoned?",
+      "How does the truth that God will never fail or forsake you give you the courage to take the next step?",
+      "What difference does it make to know that God walks ahead of you into every unknown tomorrow?"
     ],
-    guided_prayer: "Mighty Lord, I acknowledge my utter weakness and insufficiency to fight the battles of life in my own power. Forgive my prideful self-reliance. Today, I turn away from my fragile strength and choose to be strong in the Lord and in the strength of Your might. Fill my spirit with resurrection power. Overcome every enemy, demolish every lie, and lead me forward in Your triumphant strength. In Jesus' mighty name, Amen.",
-    daily_intention: "I am not strong in myself; I am strong in the Lord and in the unconquerable power of His might today.",
-    practical_action: "When you feel physically or emotionally weak today, stop and pray: 'Lord, let Your might be my strength right now.'",
-    evening_reflection_prompt: "Did relying on God's strength rather than your own energy sustain you through a demanding task today?"
+    guided_prayer: "Almighty God, You are my fortress and my faithful guide. When fear whispers that I am alone or that my situation is hopeless, anchor my soul in Your eternal promise. Thank You that You will never fail me, never abandon me, and never leave my side. Fill me with holy courage today, not in my own wisdom, but in Your abiding presence and mighty strength. In Jesus' name, Amen.",
+    daily_intention: "Because the Lord goes with me and will never forsake me, I will be strong and courageous today.",
+    practical_action: "Whenever anxiety surfaces today, immediately recite Deuteronomy 31:6 aloud: 'Yahweh my God goes with me; He will not fail me nor forsake me.'",
+    evening_reflection_prompt: "Where did you experience God's steadying presence overcoming your fears during the course of this day?"
   },
   {
     day_number: 281,
@@ -5846,40 +5706,40 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 10,
     day_of_month: 13,
     weekly_subtheme: "The Courage of Quiet Obedience",
-    title: "Where You Go, I Will Go",
-    scripture_primary_reference: "Ruth 1:16",
-    scripture_primary_text: "Ruth said, 'Don’t urge me to leave you, and to return from following you, for where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God will be my God.'",
+    title: "Choosing Faithfulness Over Worldly Pleasure",
+    scripture_primary_reference: "Hebrews 11:24-25",
+    scripture_primary_text: "By faith, Moses, when he had grown up, refused to be called the son of Pharaoh’s daughter, choosing rather to share ill treatment with God’s people than to enjoy the pleasures of sin for a time;",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Ruth stood at an agonizing crossroad on the dusty road between Moab and Bethlehem. Her husband was dead, her brother-in-law was dead, her father-in-law was dead, and her bitter, grieving mother-in-law Naomi was urging her to return to her homeland, her pagan family, and the comfort of the familiar. To go to Bethlehem meant entering a foreign culture as a despised Moabitess widow with zero financial security, zero marital prospects, and zero social standing. Yet Ruth clung to Naomi and spoke words of legendary covenant bravery: 'where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God will be my God.' Ruth was choosing an unseen God over visible Moabite security. She was burning her bridges to the past and stepping out onto the bare promises of Yahweh. And because of that brave decision of loyalty, Ruth stepped into the lineage of King David and Jesus Christ Himself! Faithful obedience in the ordinary, unglamorous choices of life sets off generational ripples of glory. Step out of your comfort zone today. Follow God into the unknown.",
+    reflection_body: "Moses faced a monumental fork in the road: remain in the royal palaces of Egypt with its unparalleled luxury, prestige, and worldly security, or identify with the despised, enslaved people of God. The writer of Hebrews records that 'by faith, Moses... refused to be called the son of Pharaoh’s daughter, choosing rather to share ill treatment with God’s people than to enjoy the pleasures of sin for a time.' True courage often looks like quiet, costly renunciation. It takes boldness to say 'no' to cultural promotion, ungodly compromises, and comfortable compromises when they violate the call of God. Moses recognized that the pleasures of sin are real, but they are fleeting and hollow. Faith gave him spiritual x-ray vision to see past the golden glitter of Egypt to the eternal weight of glory. For Christian women today, quiet obedience often means turning down lucrative compromises, walking away from gossip, or standing for righteousness when everyone else conforms. When you choose faithfulness over fleeting pleasure, God honors your courage with His lasting peace.",
     reflection_questions: [
-      "What comfortable 'Moab' of familiar habits or compromises is God calling you to leave behind?",
-      "Why does following God into the unknown often look like a terrible idea to worldly logic?",
-      "How does Ruth's story encourage you that God honors quiet loyalty and brave, ordinary obedience?"
+      "In what area of your life is God asking you to refuse worldly compromise and choose faithful obedience?",
+      "Why are the temporary pleasures of comfort or cultural approval so tempting, and how does faith expose their vanity?",
+      "How does Moses' decision encourage you to hold fast to Christ, even when obedience involves sacrifice?"
     ],
-    guided_prayer: "God of Ruth, thank You for calling me out of the empty idols of my past into the rich inheritance of Your covenant family. Forgive my reluctance to leave my comfort zones. Grant me Ruth's brave, loyal heart today. Where You lead, I will go; where You stay, I will stay. I anchor my soul to You, trusting that You will weave my humble obedience into Your eternal tapestry of redemption. In Jesus' name, Amen.",
-    daily_intention: "I will step out of my comfort zone today, following God with unshakeable loyalty and faith.",
-    practical_action: "Make a decision today to let go of a past comfort or compromise that is holding back your spiritual growth.",
-    evening_reflection_prompt: "Did stepping forward in faithful obedience bring a sense of divine adventure and joy to your day?"
+    guided_prayer: "Lord God, give me the discerning faith of Moses. Deliver me from the seductive glitter of worldly compromise and the fear of human disapproval. Grant me holy boldness to refuse whatever dishonors You, and give me joy in choosing the path of faithful obedience. Remind me that the rewards of Christ far outweigh every treasure this world can offer. In Your precious name, Amen.",
+    daily_intention: "I will choose quiet, courageous faithfulness to God over fleeting comfort and worldly approval.",
+    practical_action: "Identify one subtle area where you have been tempted to compromise your standards, and make a clear decision today to honor Christ.",
+    evening_reflection_prompt: "Did you stand firm in quiet obedience today, and how did God confirm His peace in your heart?"
   },
   {
     day_number: 287,
     month_number: 10,
     day_of_month: 14,
     weekly_subtheme: "The Courage of Quiet Obedience",
-    title: "Under Whose Wings You Came to Trust",
-    scripture_primary_reference: "Ruth 2:12",
-    scripture_primary_text: "May Yahweh repay your work, and a full reward be given you from Yahweh, the God of Israel, under whose wings you have come to take refuge.",
+    title: "Seeing Him Who Is Invisible",
+    scripture_primary_reference: "Hebrews 11:26-27",
+    scripture_primary_text: "accounting the reproach of Christ greater riches than the treasures of Egypt; for he looked for the reward. By faith, he left Egypt, not fearing the wrath of the king; for he endured, as seeing him who is invisible.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "When Ruth arrived in Bethlehem, she did not sit in the corner feeling sorry for herself; she put on her apron, walked out into the barley fields, and began gleaning dropped grain behind the reapers in the hot sun. When Boaz, the owner of the field, noticed her integrity and quiet sacrifice, he pronounced a prophetic blessing over her head: 'May Yahweh repay your work, and a full reward be given you from Yahweh, the God of Israel, under whose wings you have come to take refuge.' Boaz recognized what Ruth had done: she had left everything she knew to take refuge under the wings of the God of Israel! And notice how God repaid her: Boaz became her kinsman-redeemer, married her, bought back her family land, and provided a safe, wealthy home where she gave birth to Obed, the grandfather of David. When you take refuge under God's wings, you are never the loser in the transaction. God is no woman’s debtor. Every sacrifice you make for Christ—every career ambition you surrender, every relationship you walk away from for the sake of holiness, every quiet act of service—will be repaid with interest in the kingdom of God. Trust His wings today.",
+    reflection_body: "What was the secret of Moses’ unshakeable endurance? Hebrews tells us: 'he endured, as seeing him who is invisible.' Moses walked away from the fury of the most powerful monarch on earth, not because he was naturally fearless, but because the invisible God was more real to him than the visible Pharaoh. When you fix your eyes on unseen, eternal realities, the threats and pressures of this visible world lose their paralyzing power. Moses accounted the reproach of Christ—sharing in the suffering and rejection of God's redemptive plan—greater riches than all the stored gold of Egypt. He had his eyes fixed on the eternal reward. When you face intimidating circumstances, hostile workplace cultures, or complicated family opposition, your heart will falter if you only look at visible obstacles. But when you gaze upon the invisible King through the eyes of faith and Scripture, fear shrinks to its proper size. The One who stands with you is infinitely greater than any earthly power. Keep looking to Him, and you will endure.",
     reflection_questions: [
-      "What sacrifice of comfort or ambition have you made to follow and serve Jesus Christ?",
-      "How does the promise of God giving a 'full reward' encourage your heart when service feels unnoticed?",
-      "How have you experienced the protective, providing wings of the God of Israel in your own life?"
+      "What visible pressure or earthly opposition is currently tempting you to lose heart?",
+      "How can you actively cultivate spiritual vision to see 'Him who is invisible' amidst daily routines?",
+      "Why is suffering for Christ's sake considered 'greater riches' than all the treasures this world can provide?"
     ],
-    guided_prayer: "Kinsman-Redeemer, I take refuge under Your mighty, sheltering wings today. Thank You that You see every hidden sacrifice, every bead of sweat, and every quiet act of obedience. Forgive my doubts that following You will leave me empty-handed. You are a generous rewarder of those who seek You. Cover my life, my home, and my work with Your abundant favor, and lead me into the fullness of Your redemption. Amen.",
-    daily_intention: "I take refuge under the wings of Yahweh today, trusting Him to reward my faithful work in His time.",
-    practical_action: "Encourage a sister in Christ who has made quiet, unseen sacrifices for her family or church today.",
-    evening_reflection_prompt: "Did resting under God's providing wings bring peace and assurance to your evening?"
+    guided_prayer: "O King of kings, You are the invisible, eternal God, reigning supreme over all the powers of heaven and earth. Forgive me for being so easily intimidated by the visible pressures and loud opinions of this world. Fix my spiritual gaze upon You. Teach me to count reproach for Your sake as sacred honor, and grant me steadfast endurance as I walk by faith, seeing Your unseen hand. Amen.",
+    daily_intention: "I will look beyond visible obstacles today and fix my spiritual eyes upon my invisible, sovereign God.",
+    practical_action: "Step outside or look out a window for five minutes, turn your thoughts completely away from earthly problems, and meditate on God's invisible majesty.",
+    evening_reflection_prompt: "When visible pressures arose today, did you remember that the unseen Lord was standing with you?"
   },
   {
     day_number: 288,
@@ -6006,20 +5866,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 10,
     day_of_month: 21,
     weekly_subtheme: "Standing Firm in Spiritual Armor",
-    title: "Taking Every Thought Captive",
-    scripture_primary_reference: "2 Corinthians 10:5",
-    scripture_primary_text: "throwing down imaginations and every high thing that is exalted against the knowledge of God, and bringing every thought into captivity to the obedience of Christ;",
+    title: "Stand Firm and Let All Be Done in Love",
+    scripture_primary_reference: "1 Corinthians 16:13-14",
+    scripture_primary_text: "Watch! Stand firm in the faith! Be courageous! Be strong! Let all that you do be done in love.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The Apostle Paul uses military language to describe how a believer must govern her internal thought life: 'throwing down imaginations and every high thing that is exalted against the knowledge of God, and bringing every thought into captivity to the obedience of Christ.' Notice the vivid military metaphor: 'bringing into captivity.' In ancient warfare, when an enemy spy or rebel was caught within the city walls, the guards did not invite him to dinner, offer him a guest bedroom, and listen politely to his treasonous plans. They tackled him to the ground, bound his wrists in iron chains, and dragged him off to the fortress dungeon! Yet how often do we treat toxic, rebellious thoughts like honored guests? A thought of catastrophic panic, a memory of bitter grievance, or a seductive fantasy knocks on the door of our mind, and we invite it in, fix it a cup of tea, and entertain it for three hours until our soul is miserable. Paul says: arrest the thought! Drag it into the light of Jesus Christ. If it does not bow its knee to Christ's truth, throw it in chains and cast it out.",
+    reflection_body: "Paul delivers four rapid-fire military charges, followed immediately by an essential Christian safeguard: 'Watch! Stand firm in the faith! Be courageous! Be strong! Let all that you do be done in love.' Spiritual warfare requires alertness and unwavering conviction. You cannot afford to sleep spiritually when the enemy prowls like a roaring lion. Standing firm in the faith means refusing to let culture dilute your biblical convictions. But notice the vital harmony Paul establishes: holy courage must never degenerate into harshness, arrogance, or aggressive combativeness. 'Let all that you do be done in love.' The strength of a Christian is seen not in how loudly she argues, but in how deeply she loves while holding fast to truth. Spiritual armor is not worn to crush people; it is worn to stand firm against spiritual deception while ministering the gentle, redemptive love of Christ. When strength is seasoned with Christlike charity, it becomes an unshakeable testimony of gospel power. Stand firm in truth today, and let every word and deed be wrapped in love.",
     reflection_questions: [
-      "What treasonous thoughts (bitterness, catastrophic 'what-ifs', self-pity) have you been entertaining lately?",
-      "Why is it dangerous to let stray, ungodly thoughts linger in your mind unchecked?",
-      "What does it look like practically to 'arrest' a toxic thought the moment it enters your consciousness?"
+      "In what area of your life do you need to be more alert and watchful against spiritual deception?",
+      "How do you maintain a firm stand on biblical truth without becoming harsh, combative, or defensive?",
+      "What would it look like for your strongest convictions to be communicated with genuine, Christlike love today?"
     ],
-    guided_prayer: "Commander of My Soul, I confess that I have often allowed anxious, bitter, and faithless thoughts to wander freely through the corridors of my mind. Today, by the authority of Jesus Christ, I declare martial law over my thought life. I throw down every proud imagination that exalts itself against You. I take every rogue thought captive to the obedience of Christ, filling my mind with Your truth and peace. Amen.",
-    daily_intention: "I will arrest every rogue thought today, bringing my entire thought life into captive obedience to Christ.",
-    practical_action: "The moment a toxic or fearful thought enters your mind today, say firmly: 'I take that thought captive in Jesus' name.'",
-    evening_reflection_prompt: "Did actively arresting negative thoughts protect your emotional peace and focus throughout the day?"
+    guided_prayer: "Lord Jesus, make me spiritually vigilant and steadfast in faith. When cultural currents push me to compromise, anchor my feet upon Your holy Word. Deliver me, Lord, from the twin traps of cowardly silence and self-righteous harshness. Clothe my courage in deep, selfless love, so that everything I do may honor Your truth and draw others to Your grace. In Your mighty name, Amen.",
+    daily_intention: "I will be vigilant, courageous, and unshakeable in faith today, ensuring that all I do is done in love.",
+    practical_action: "Identify an area where you have felt defensive, and pray for God to replace your irritation with firm, loving clarity.",
+    evening_reflection_prompt: "Did you stand firm in biblical truth today while maintaining a gentle, loving spirit toward others?"
   },
   {
     day_number: 295,
@@ -6066,300 +5926,300 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 10,
     day_of_month: 24,
     weekly_subtheme: "Courage to Speak Truth in Love",
-    title: "Unashamed of the Gospel",
-    scripture_primary_reference: "Romans 1:16",
-    scripture_primary_text: "For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes; for the Jew first, and also for the Greek.",
+    title: "Filled with the Spirit to Speak Boldly",
+    scripture_primary_reference: "Acts 4:31",
+    scripture_primary_text: "When they had prayed, the place was shaken where they were gathered together. They were all filled with the Holy Spirit, and they spoke the word of God with boldness.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "When Paul wrote to the church in Rome, he was writing to believers living in the glittering, decadent capital of the Roman Empire. Rome was intoxicated with imperial power, military legions, philosophical arrogance, and pagan spectacles. To preach that a poor Jewish carpenter who was executed as a criminal on a Roman cross outside Jerusalem was the Lord and Savior of the universe seemed like total lunacy to the Roman mind. Yet Paul thunders with unshakeable conviction: 'For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes.' The Greek word for 'power' is dynamis—the raw, cosmic dynamite of God! Human philosophies can reform behavior, self-help books can offer tips, and education can inform the intellect; but only the Gospel of Jesus Christ has the supernatural dynamite to shatter the power of sin, rescue a soul from hell, heal a broken heart, and impart eternal life! You have the ultimate medicine for the world's terminal illness. Never hang your head in shame over the Gospel. Stand tall. It is the power of God.",
+    reflection_body: "When the early church was threatened with arrest and commanded to stop speaking in the name of Jesus, they did not organize a political protest, nor did they retreat in terror. They fell to their knees in corporate prayer, crying out for holy boldness. God answered immediately: the place was shaken, they were filled with the Holy Spirit, and they spoke the word of God with courage. Biblical boldness is not a personality trait. It is not natural extroversion, loud confidence, or argumentative skill. Genuine spiritual boldness is a supernatural fruit of the Holy Spirit's presence. When you feel inadequate, timid, or tongue-tied in sharing your faith or defending biblical truth, you do not need to muster human willpower. You need to pray for the empowering presence of the Spirit. The same Spirit who gave trembling disciples courage to proclaim the resurrected Christ to hostile rulers lives inside of you. When you ask God for boldness to speak truth in love, He grants the right words, the right timing, and the quiet authority of heaven.",
     reflection_questions: [
-      "Have you ever felt embarrassed or self-conscious about sharing the Gospel in educated or secular circles?",
-      "Why is the Gospel described as 'dynamite' power compared to human self-help philosophies?",
-      "What does it look like practically for you to live completely 'unashamed of the Good News' in your daily life?"
+      "In what conversation or setting have you felt hesitant to speak up for Christ or biblical truth?",
+      "How does knowing that boldness is a gift of the Holy Spirit free you from relying on your own personality?",
+      "What specific request for holy boldness can you bring to God in prayer right now?"
     ],
-    guided_prayer: "Glorious Savior, I declare today with Paul: I am not ashamed of the Gospel of Jesus Christ! Forgive me for the times I have stayed silent out of fear of being mocked by secular culture. Your Gospel is the supernatural dynamite of God that broke my chains, erased my guilt, and saved my soul. Give me unshakeable confidence in the power of the cross. Let my life boldly proclaim the good news of salvation to everyone I meet. Amen.",
-    daily_intention: "I am completely unashamed of the Gospel of Christ; it is the power of God for salvation in my life.",
-    practical_action: "Share an encouraging Christian resource, testimony, or scripture with someone who doesn't know Christ today.",
-    evening_reflection_prompt: "Did standing unashamed in your faith bring a deep sense of dignity and spiritual strength to your day?"
+    guided_prayer: "Holy Spirit, I confess my natural timidity and fear of human opinion. Fill me afresh today with Your heavenly presence and power. When You open a door for me to share Christ, encourage a struggling friend, or speak biblical truth, remove my anxiety and give me holy boldness. Let my words be clear, gracious, and saturated with Your love. In Jesus' name, Amen.",
+    daily_intention: "I will rely upon the Holy Spirit today for the courage to speak God's truth with love and boldness.",
+    practical_action: "Pray specifically for one friend or family member who does not know Christ, asking God for an open door to share His hope.",
+    evening_reflection_prompt: "Did you sense the Holy Spirit giving you courage to speak up or share grace during your day?"
   },
   {
     day_number: 298,
     month_number: 10,
     day_of_month: 25,
     weekly_subtheme: "Courage to Speak Truth in Love",
-    title: "Speaking Truth to Power",
-    scripture_primary_reference: "Daniel 3:16-18",
-    scripture_primary_text: "Shadrach, Meshach, and Abednego answered the king, 'Nebuchadnezzar, we have no need to answer you in this matter. If it be so, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king. But if not, let it be known to you, O king, that we will not serve your gods, nor worship the golden image which you have set up.'",
+    title: "Defending the Rights of the Needy",
+    scripture_primary_reference: "Proverbs 31:9",
+    scripture_primary_text: "Open your mouth, judge righteously, and defend the rights of the poor and needy.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "King Nebuchadnezzar erected a ninety-foot statue of gold on the plain of Dura and commanded that when the music played, every official must fall prostrate and worship, or be thrown alive into a superheated blast furnace. In the vast crowd of thousands of kneeling officials, three young Jewish men stood upright like stone pillars: Shadrach, Meshach, and Abednego. When the furious emperor gave them one final chance to bow, their response became one of the greatest monuments of faith in history: 'Our God whom we serve is able to deliver us... But if not, let it be known to you, O king, that we will not serve your gods!' Look at that magnificent phrase: 'But if not.' Their faith was not a transactional contract that depended on God rescuing them from physical pain. They were saying: 'Even if God chooses not to put out the fire, He is still the only true God, and we will never bow to your idols!' In our culture, the golden idols of secular conformity demand that you bow your knee. But when you possess a 'but if not' faith, the threats of this world lose all their power over you. Stand tall when the music plays.",
+    reflection_body: "King Lemuel’s mother gave him timeless royal counsel: 'Open your mouth, judge righteously, and defend the rights of the poor and needy.' Holy courage is never selfish; its highest calling is to stand up and advocate for those who cannot defend themselves. In every society, the vulnerable, the elderly, the unborn, the impoverished, and the broken are frequently ignored or exploited. Silence in the face of injustice is often a form of cowardice. As women of God, we are summoned to open our mouths with righteous clarity and gentle courage. Speaking up for the vulnerable may cause social discomfort or invite criticism from those who prefer convenient quiet. But Jesus was always the defender of the friendless and the champion of the overlooked. When you use your voice, your influence, your votes, and your resources to shelter those who are suffering, you reflect the righteous heart of the King. Ask God today to show you where your voice can bring protection, dignity, and truth to someone in need.",
     reflection_questions: [
-      "What modern 'golden idols' (cultural compromise, materialism, moral conformity) are pressuring you to bow?",
-      "What is the difference between a transactional faith and a courageous 'but if not' faith?",
-      "What gives you the strength to stand upright when everyone around you is bowing to compromise?"
+      "Who around you lacks a voice or is suffering quietly without someone to advocate for their needs?",
+      "What fears hold you back from speaking up on behalf of the vulnerable in your community or circle?",
+      "How does Jesus' advocacy for you as your Great High Priest inspire you to defend others with love?"
     ],
-    guided_prayer: "God of the Fire, I worship You alone as the sovereign King of the universe. Forgive my cowardly compromises when cultural pressure urges me to bow to modern idols. Grant me the unyielding, defiant courage of Shadrach, Meshach, and Abednego. Strengthen my soul with a 'but if not' faith. Even when obedience brings hardship, fire, or rejection, I will not bow to the gods of this world. I belong exclusively to You. In Jesus' mighty name, Amen.",
-    daily_intention: "I will stand upright for God today, refusing to bow to cultural compromise, come what may.",
-    practical_action: "Identify an area where you have felt pressured to compromise your standards, and make a firm commitment to stand firm.",
-    evening_reflection_prompt: "Did choosing to stand firm in your convictions bring a clear conscience and deep peace today?"
+    guided_prayer: "Righteous Lord, You are the defender of the fatherless, the protector of the widow, and the shelter of the poor. Give me courage to open my mouth and advocate for those who have no voice. Forgive me when I have remained silent to protect my own comfort or reputation. Fill my speech with Your wisdom and justice, and let my life reflect Your compassionate heart for the needy. In Jesus' name, Amen.",
+    daily_intention: "I will use my voice and influence today to protect, encourage, and advocate for the vulnerable.",
+    practical_action: "Support a ministry, pregnancy resource center, or local shelter that actively serves and defends the poor and needy.",
+    evening_reflection_prompt: "Where did God give you an opportunity to speak up for truth or stand beside someone in need today?"
   },
   {
     day_number: 299,
     month_number: 10,
     day_of_month: 26,
     weekly_subtheme: "Courage to Speak Truth in Love",
-    title: "A Gentle Answer That Persuades",
-    scripture_primary_reference: "Proverbs 16:21",
-    scripture_primary_text: "The wise in heart shall be called prudent; and the sweetness of the lips increases learning.",
+    title: "Speaking the Truth in Love",
+    scripture_primary_reference: "Ephesians 4:15",
+    scripture_primary_text: "but speaking truth in love, we may grow up in all things into him, who is the head, Christ,",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "King Solomon reveals a profound psychological and spiritual insight in Proverbs 16:21: 'The wise in heart shall be called prudent; and the sweetness of the lips increases learning.' Many Christians believe that speaking truth requires being loud, confrontational, abrasive, and combative. We imagine that if we are not yelling or winning arguments on social media, we are compromising truth. But Solomon declares that true persuasion happens through sweetness! If you deliver truth with harsh arrogance, people's emotional defenses instantly slam shut; they do not hear your truth because your sour tone drowns out the message. But when truth is spoken with 'sweetness of the lips'—with warm courtesy, respectful dignity, and gentle love—it disarms defensiveness and opens the human heart to learn. Courage to speak truth does not mean being obnoxious; the highest courage is delivering uncompromising, biblical truth through the soft, disarming vehicle of Christ's gentle sweetness. When you face difficult conversations about morality, faith, or family issues, let the sweetness of your lips open the doorway for God's truth to enter.",
+    reflection_body: "Paul articulates the supreme balance of Christian maturity: 'speaking truth in love.' Truth without love is brutal, destructive, and Pharisaical; it bludgeons people and drives them away from the cross. Love without truth is sentimental, cowardly, and deceitful; it leaves people trapped in bondage and eternal danger. The gospel demands both in inseparable union. Speaking the truth in love requires immense courage and deep humility. It means loving someone enough to have that difficult, honest conversation about sin, compromise, or dangerous habits, but doing so with tears, gentleness, and complete self-examination. Your goal is never to win an argument or prove yourself superior; your goal is redemption, healing, and spiritual growth. As you speak truth wrapped in sincere love, the body of Christ matures and reflects its glorious Head. Before you address a hard topic with family, friends, or coworkers, inspect your heart. If your motivation is not Christ's love, remain silent until the Holy Spirit purifies your purpose. When truth is ministered in love, it heals.",
     reflection_questions: [
-      "Have you ever seen a true point ruined because the speaker delivered it with harshness and pride?",
-      "Why does 'sweetness of the lips' increase learning and disarm defensive people?",
-      "How can you speak a necessary, hard truth in your family or workplace today with genuine sweetness?"
+      "Is there a hard truth you need to communicate to someone in your life with gentle, Christlike love?",
+      "Do you tend to lean more toward harsh truth-telling or cowardly conflict avoidance, and how can grace balance you?",
+      "How has someone speaking the truth to you in genuine love helped you mature and draw closer to Jesus?"
     ],
-    guided_prayer: "Wise and Gentle Counselor, forgive me for the times I have spoken truth harshly, seeking to win arguments rather than win hearts. Cleanse my heart of arrogance and self-righteousness. Teach me the supernatural art of sweet speech. Let Your truth be delivered from my lips with courtesy, humility, and gentle grace, that those who hear may be drawn to the beauty and wisdom of Jesus Christ. In His name, Amen.",
-    daily_intention: "I will pair holy truth with sweet grace today, seeking to win hearts rather than win arguments.",
-    practical_action: "Before entering a difficult conversation today, pray: 'Lord, give me sweetness of lips that increases understanding.'",
-    evening_reflection_prompt: "Did speaking truth with gentleness and sweetness help bring clarity and peace to a conversation today?"
+    guided_prayer: "Loving Father, You spoke the supreme truth of the gospel to me when I was still lost in sin, and You wrapped it in lavish grace. Teach me to speak truth in love. Deliver me from passive silence that compromises truth, and from harsh speech that wounds without healing. May my words always build up, bring light, and reflect the beautiful heart of my Savior Jesus Christ. Amen.",
+    daily_intention: "I will unite uncompromised truth with tender love in every conversation and interaction today.",
+    practical_action: "Before having a challenging conversation today, write down three affirming, loving truths about the other person to set your tone.",
+    evening_reflection_prompt: "Did you communicate truth with gentleness and love today, reflecting the character of Christ?"
   },
   {
     day_number: 300,
     month_number: 10,
     day_of_month: 27,
     weekly_subtheme: "Courage to Speak Truth in Love",
-    title: "Salt and Light in the Darkness",
-    scripture_primary_reference: "Matthew 5:13-14",
-    scripture_primary_text: "You are the salt of the earth, but if the salt has lost its flavor, with what will it be salted? It is then good for nothing, but to be cast out and trodden under the feet of men. You are the light of the world. A city located on a hill can’t be hidden.",
+    title: "Grounded Against Deceitful Winds",
+    scripture_primary_reference: "Ephesians 4:14",
+    scripture_primary_text: "that we may no longer be children, tossed back and forth and carried about with every wind of doctrine, by the trickery of men, in craftiness, after the wiles of error;",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Jesus uses two everyday household elements to define the identity and mission of His followers: salt and light. In the ancient world, before refrigeration, salt was the primary preservative that prevented meat from rotting; it arrested decay and added rich flavor to food. Light, by its very nature, dispels darkness; even a tiny candle in a pitch-black cave instantly pushes back the shadows. Jesus says: 'You are the salt of the earth... You are the light of the world.' Notice that Jesus does not say you have to create salt or manufacture light; you ARE salt and light by virtue of being in Christ! But notice the warning: salt is only useful if it maintains its distinct salty bite; if it becomes contaminated and tasteless, it is good for nothing. And light is only useful if it is placed on a lampstand where it illuminates the room. A Christian woman who blends completely into the corrupt moral culture around her has lost her saltiness. You were made to stand out! You were made to preserve morality, bring heavenly flavor, and shine like a radiant city on a hill. Do not hide your light today.",
+    reflection_body: "Paul warns the Ephesian church against spiritual infantilism: being like rudderless boats tossed about by every changing wave and gust of cultural doctrine. The modern world is saturated with craftiness, subtle deceptions, and persuasive philosophies that dress up worldly indulgence as spiritual enlightenment. Without deep biblical roots, believers easily drift with cultural fads, moral confusion, and emotional compromise. Spiritual courage requires you to anchor your anchor deep into the immutable truth of God's Word. When spiritual winds blow fiercely, a mature Christian woman does not panic or sway with the crowd; she tests every message, book, podcast, and trend against the unchanging Scriptures. Being grounded in truth allows you to discern error before it poisons your soul or disrupts your home. Do not be satisfied with spiritual shallowness. Dig into the Word, sit under sound biblical teaching, and let the truth of God make you unshakeable amidst the deceptive breezes of our day.",
     reflection_questions: [
-      "In what subtle ways are you tempted to blend in with worldly culture and lose your spiritual 'saltiness'?",
-      "How does your ordinary presence in your home or workplace act as salt to arrest decay and bring flavor?",
-      "What practical step can you take today to shine the light of Christ on someone sitting in emotional darkness?"
+      "What cultural ideas or modern trends have you found yourself uncritically accepting without checking Scripture?",
+      "How does consistent, daily immersion in God's Word protect your mind from being tossed about by deceit?",
+      "What spiritual disciplines help you maintain strong doctrinal roots when popular opinions pressure you to conform?"
     ],
-    guided_prayer: "Light of the World, thank You for calling me to be salt and light in this dark, decaying generation. Forgive me for the ways I have allowed fear and conformity to dim my witness or dilute my saltiness. Make me distinct for Your glory. Let my life preserve righteousness, bring the rich flavor of heaven into my relationships, and shine as an unshakeable beacon of Christ's truth and hope. In Jesus' mighty name, Amen.",
-    daily_intention: "I am salt and light in this world today; I will preserve truth and shine with Christ's radiant love.",
-    practical_action: "Do one intentional act today that brings the light of Christ into a dark or cynical environment.",
-    evening_reflection_prompt: "Did shining the light of kindness and integrity change the atmosphere around you today?"
+    guided_prayer: "Lord God of Truth, thank You for the solid rock of Your Word. In a world of shifting values and subtle deception, anchor my heart in Your eternal truth. Give me spiritual discernment to recognize error, and grant me the courage to stand firm upon Scripture. Guard my thoughts, my home, and my church from being led astray by false teaching, and keep me mature in Christ. Amen.",
+    daily_intention: "I will anchor my mind in the unshakeable truth of God's Word, refusing to drift with cultural trends.",
+    practical_action: "Identify one cultural assumption that contradicts Scripture, and write down two biblical verses that refute it with truth.",
+    evening_reflection_prompt: "Did you stand grounded in biblical conviction today when faced with worldly opinions or doubts?"
   },
   {
     day_number: 301,
     month_number: 10,
     day_of_month: 28,
     weekly_subtheme: "Courage to Speak Truth in Love",
-    title: "In Season and Out of Season",
-    scripture_primary_reference: "2 Timothy 4:2",
-    scripture_primary_text: "preach the word; be urgent in season and out of season; reprove, rebuke, and exhort, with all patience and teaching.",
+    title: "Knit Together to Build Up in Love",
+    scripture_primary_reference: "Ephesians 4:16",
+    scripture_primary_text: "from whom all the body, being fitted and knit together through that which every joint supplies, according to the working in due measure of each individual part, makes the body increase to the building up of itself in love.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Paul wrote his final letter to young Timothy from a subterranean dungeon in Rome, knowing that his execution was imminent. As an old spiritual father passing the baton to a young pastor, Paul issues a solemn, urgent charge: 'preach the word; be urgent in season and out of season; reprove, rebuke, and exhort, with all patience and teaching.' What does it mean to be faithful 'in season and out of season'? 'In season' is when the culture respects Christianity, when church attendance is popular, when friends applaud your faith, and when life is comfortable. 'Out of season' is when biblical truth is mocked by society, when speaking for Christ is unpopular, when moral convictions cost you career advancement, and when you feel tired and misunderstood. Paul says: be urgent in both seasons! Truth does not change with cultural weather. When culture drifts, a Christian woman anchors her soul to the eternal Word of God. And notice the manner: 'with all patience and teaching.' We do not scream at the world in anger; we patiently, lovingly instruct people in the beauty of God's truth. Stand firm in season and out of season today.",
+    reflection_body: "Paul paints an exquisite portrait of the church as an organic body, connected directly to Christ the Head and knit together through every supporting joint. Notice the phrase: 'according to the working in due measure of each individual part.' In the Kingdom of God, there are no useless members, no redundant sisters, and no spectator seats. You have been assigned a vital, unique role in the body of Christ. When you timidly hide your gifts, withdraw from fellowship, or assume that your contribution does not matter, the whole body suffers a lack. It takes courage to step into your God-given calling, to use your spiritual gifts, and to supply what God has entrusted to you. As each part works in its appointed measure—praying, serving, teaching, encouraging, giving—the entire church increases and builds itself up in love. Your quiet faithfulness, your hospitable home, your intercessory prayers, and your spoken words of grace are essential ligaments in God's eternal building. Step forward in faith and supply what Christ has placed within you.",
     reflection_questions: [
-      "Are you tempted to be bold in your faith only when it is comfortable and 'in season'?",
-      "How can you cultivate spiritual stamina to remain faithful when biblical values are unpopular and 'out of season'?",
-      "What does it mean to speak truth 'with all patience and teaching' rather than hostile frustration?"
+      "What specific gift, ability, or role has God entrusted to you to build up your local church or community?",
+      "Have you been holding back from serving out of fear, comparison, or a feeling of insignificance?",
+      "How does knowing that the whole body needs your unique contribution encourage you to step forward in faith?"
     ],
-    guided_prayer: "Unchanging God, Your Word is settled in heaven forever. Forgive my cowardice when culture turns against biblical truth and faith becomes 'out of season.' Grant me the steadfast endurance of the Apostle Paul. Anchor my convictions in Your eternal Word. Empower me to be urgent, faithful, and courageous in every season of life, speaking Your truth with all patience, love, and grace. In Jesus' holy name, Amen.",
-    daily_intention: "I will stand firm in God's truth today, faithful in season and out of season, anchored in Christ.",
-    practical_action: "Read 2 Timothy 4:1-8 today, letting Paul's finishing charge ignite fresh courage in your soul.",
-    evening_reflection_prompt: "Did holding steady in your convictions bring a clear conscience and spiritual peace to your evening?"
+    guided_prayer: "Lord Jesus, You are the Head of the church, and You have sovereignly placed each member in the body as it pleased You. Thank You for giving me a place, a purpose, and a calling in Your Kingdom. Forgive me when I compare myself to others or hold back out of fear. Empower me to supply what You have given me with joyful diligence, so that Your church may be strengthened and built up in love. Amen.",
+    daily_intention: "I will courageously use my gifts today to encourage, build up, and strengthen the body of Christ.",
+    practical_action: "Encourage a leader, volunteer, or fellow member in your local church by letting them know how their service has blessed you.",
+    evening_reflection_prompt: "Where did you use your gifts or words today to strengthen and encourage someone in the body of Christ?"
   },
   {
     day_number: 302,
     month_number: 10,
     day_of_month: 29,
     weekly_subtheme: "Leaving a Legacy of Faithfulness",
-    title: "Sincere Faith Passed Down",
-    scripture_primary_reference: "2 Timothy 1:5",
-    scripture_primary_text: "having been reminded of the sincere faith that is in you; which lived first in your grandmother Lois, and your mother Eunice, and, I am persuaded, in you also.",
+    title: "I Have Kept the Faith",
+    scripture_primary_reference: "2 Timothy 4:7",
+    scripture_primary_text: "I have fought the good fight. I have finished the course. I have kept the faith.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "When the Apostle Paul looked at young Timothy—one of the greatest apostolic leaders of the early church—he did not trace Timothy's spiritual pedigree to a prestigious theological seminary or powerful political connections. Paul traced Timothy's faith to two quiet, faithful women in a provincial home: 'having been reminded of the sincere faith that is in you; which lived first in your grandmother Lois, and your mother Eunice, and, I am persuaded, in you also.' Lois and Eunice never wrote a book of the Bible; they never preached to thousands in the Roman Colosseum; they had no public titles. But they had something infinitely greater: a 'sincere faith'—an unhypocritical, authentic, living relationship with God. Day after ordinary day, they prayed over young Timothy, taught him the Hebrew Scriptures at the kitchen table, and modeled Christlike character in the ordinary routines of home life. Never underestimate the generational power of a faithful woman! The prayers you whisper over your children and grandchildren, the scriptures you read to them, and the integrity you model when life is hard are depositing eternal gold into the next generation. Tend your legacy today.",
+    reflection_body: "Facing imminent martyrdom in a cold Roman dungeon, the apostle Paul looked back over his life with triumphant serenity: 'I have fought the good fight. I have finished the course. I have kept the faith.' Notice that Paul did not say he won every earthly dispute or achieved worldly acclaim. His triumph was that he stayed in the fight, ran his appointed lane without quitting, and guarded the precious treasure of the gospel uncompromised. The Christian life is a marathon of perseverance, not a short sprint. There will be seasons of exhaustion, times of heartbreak, and moments when continuing feels almost impossible. But true spiritual legacy is built by staying faithful one day at a time. Keeping the faith means holding fast to Jesus through suffering, trusting His promises in the dark, and refusing to abandon your post. When you reach the finish line of your life, the only accolade that will matter is hearing your Master say, 'Well done, good and faithful servant.' Keep running with your eyes on Christ.",
     reflection_questions: [
-      "Who are the godly women (mothers, grandmothers, mentors) who passed the baton of faith to you?",
-      "What does 'sincere, unhypocritical faith' look like in the ordinary daily routines of your home?",
-      "What spiritual deposit of faith, prayer, and character are you currently making into the next generation?"
+      "What current struggle feels like a prolonged battle, and how does Paul's perseverance encourage you to stay faithful?",
+      "What does 'keeping the faith' look like practically in your current season of life and duties?",
+      "How does the promise of finishing your race in Christ's arms give you strength to run today's lap with joy?"
     ],
-    guided_prayer: "God of Generations, thank You for the faithful grandmothers and mothers like Lois and Eunice who poured sincere faith into the next generation. Forgive me for underestimating the power of quiet, daily faithfulness in my home. Cleanse my heart of all hypocrisy. Let my faith be sincere, living, and vibrant. May the seeds of prayer, truth, and love I plant today produce a rich harvest of faith in generations to come. In Jesus' name, Amen.",
-    daily_intention: "I will invest in an eternal legacy of sincere faith today, knowing my daily faithfulness matters to God.",
-    practical_action: "Pray a specific, intentional prayer of blessing over each child, grandchild, or young person in your sphere of influence today.",
-    evening_reflection_prompt: "Did knowing that your quiet faithfulness has generational impact bring fresh encouragement to your heart today?"
+    guided_prayer: "Faithful Lord, You are the author and finisher of my faith. When the course feels long and my strength grows weak, remind me of the eternal prize that awaits me in Your presence. Give me grace to fight the good fight against doubt and sin, to run with steady perseverance, and to keep the faith uncompromised until my very last breath. Thank You that Your grace is sufficient for every step. Amen.",
+    daily_intention: "I will run my race today with patient endurance, guarding the faith and looking to Jesus.",
+    practical_action: "Identify the one spiritual habit that most strengthens your endurance (Scripture reading, prayer, Sabbath rest) and protect it today.",
+    evening_reflection_prompt: "Did you run your race today with quiet endurance, keeping faith in Christ through every demand?"
   },
   {
     day_number: 303,
     month_number: 10,
     day_of_month: 30,
     weekly_subtheme: "Leaving a Legacy of Faithfulness",
-    title: "Telling the Generation to Come",
-    scripture_primary_reference: "Psalm 78:4",
-    scripture_primary_text: "We will not hide them from their children, telling to the generation to come the praises of Yahweh, his strength, and his wondrous works that he has done.",
+    title: "The Stored-Up Crown of Righteousness",
+    scripture_primary_reference: "2 Timothy 4:8",
+    scripture_primary_text: "From now on, there is stored up for me the crown of righteousness, which the Lord, the righteous judge, will give to me on that day; and not to me only, but also to all those who have loved his appearing.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The psalmist Asaph sounds a generational trumpet in Psalm 78:4: 'We will not hide them from their children, telling to the generation to come the praises of Yahweh, his strength, and his wondrous works that he has done.' Human history is always only one generation away from spiritual amnesia. If one generation fails to tell their children who God is and what He has done, the next generation will grow up cynical, secular, and lost. Asaph commands us: do not hide the stories! Tell the generation to come! Tell your children and grandchildren how God answered your prayers when you had no money for groceries. Tell them how God healed your broken heart after a devastating loss. Tell them how God gave you peace during cancer treatments. Tell them about the cross, the empty tomb, and the power of the Holy Spirit. When young people hear your living, personal testimonies of God's miraculous faithfulness, faith becomes tangible to them. It moves from dry history into living reality. Be a master storyteller of God's wondrous works today.",
+    reflection_body: "Paul lifts his eyes beyond the executioner’s sword to the coronation that awaits him in glory: 'there is stored up for me the crown of righteousness, which the Lord, the righteous judge, will give to me on that day.' Then he adds words of profound comfort for every ordinary believer: 'and not to me only, but also to all those who have loved his appearing.' The crown of righteousness is not reserved exclusively for apostles, great martyrs, or famous missionaries. It is promised to every faithful woman who loves Jesus, longingly anticipates His return, and lives in joyful obedience to His Word. When your daily sacrifices seem unseen, when you quietly serve difficult family members, or when you endure trials without public recognition, remember that your reward is securely stored up in heaven. Earthly judges are often biased and unfair, but Christ is the righteous Judge who sees every secret prayer and every tear. Live today with eternity in view, knowing that your labor in the Lord is never in vain.",
     reflection_questions: [
-      "What personal stories of God's miraculous faithfulness and answers to prayer have you experienced?",
-      "Have you shared those stories with the young people in your family or community, or are they hidden?",
-      "How can you intentionally weave testimonies of God's goodness into your everyday family conversations?"
+      "How does knowing that an eternal crown of righteousness is stored up for you change your perspective on daily hardships?",
+      "What does it mean for your soul to truly 'love His appearing' in the midst of daily responsibilities?",
+      "Are you looking to earthly recognition for your worth, or resting in the righteous judgment of Christ?"
     ],
-    guided_prayer: "Faithful Storyteller of the Ages, You have done wondrous works in my life, carrying me through deep waters and answering prayers with miraculous grace. Forgive my forgetfulness and my silence. I will not hide Your deeds from the generation to come! Give me the wisdom and opportunity to tell my children, grandchildren, and friends of Your strength and wondrous works. May Your praise echo in our home forever. In Jesus' name, Amen.",
-    daily_intention: "I will tell the generation to come of Yahweh's wondrous works today, passing down living testimonies of faith.",
-    practical_action: "Share one personal story of God's answered prayer with a child, family member, or friend today.",
-    evening_reflection_prompt: "Did sharing a testimony of God's past faithfulness ignite fresh faith and joy in your conversation today?"
+    guided_prayer: "Righteous Judge and Loving Savior, thank You that my eternal destiny is secure in Your hands. When I am tempted to seek human praise or grow weary of unseen service, turn my eyes toward heaven. Fill my heart with longing for Your glorious return. Keep me faithful in the ordinary duties of today, rejoicing in the crown of righteousness You have promised to all who love You. Amen.",
+    daily_intention: "I will live today in the light of eternity, knowing my eternal reward is safely kept by Christ.",
+    practical_action: "Do one quiet act of love or service today that no one else will ever see, doing it solely for the eyes of Jesus.",
+    evening_reflection_prompt: "Did the reality of heaven and Christ's promised reward bring peace and joy to your soul today?"
   },
   {
     day_number: 304,
     month_number: 10,
     day_of_month: 31,
     weekly_subtheme: "Leaving a Legacy of Faithfulness",
-    title: "A Good Report Through Faith",
-    scripture_primary_reference: "Hebrews 11:2",
-    scripture_primary_text: "For by this, the elders obtained a good report.",
+    title: "Running the Race Looking to Jesus",
+    scripture_primary_reference: "Hebrews 12:1-2",
+    scripture_primary_text: "Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us, looking to Jesus, the author and finisher of our faith,",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "As October draws to a close, marking the end of our journey through courage and calling, the author of Hebrews points to the great hall of faith: 'For by this, the elders obtained a good report.' The elders—Abraham, Sarah, Moses, Rahab, David, and millions of unnamed saints throughout history—did not obtain a good report because they lived flawless, easy lives free of mistakes. Abraham made blunders; Sarah laughed in doubt; David had moral failures; Rahab was a former prostitute. Yet they obtained heaven’s good report because of one thing: faith! When God called them, they trusted Him. When God commanded them to be brave, they stepped forward in trembling obedience. When the journey was hard, they persevered. And at the end of their earthly race, Almighty God stood up and gave them a 'good report'—a standing ovation in heaven! That same good report is waiting for you. You have walked through October learning to be strong, to wear God's armor, to speak truth, and to leave a legacy. Step forward into November with holy courage. Your life is obtaining a good report in heaven.",
+    reflection_body: "The author of Hebrews invites us into the grand amphitheater of redemptive history. Surrounded by the great cloud of witnesses—the saints of old who proved God’s faithfulness through trials—we are commanded to run our own appointed course with perseverance. But notice the crucial instruction: we must first 'lay aside every weight and the sin which so easily entangles us.' A runner cannot compete wearing heavy overcoats or tangled cords. Weights are not always outright sins; they are often good things, unnecessary obligations, chronic worries, or bitter resentments that drain your spiritual vitality. Lay them down at the starting line. And how do we run without collapsing? By 'looking to Jesus, the author and finisher of our faith.' Do not look at your own weak feet; do not look sideways in comparison with other runners; look to the Savior who endured the cross for the joy set before Him. He began the good work in you, and He will carry it across the finish line.",
     reflection_questions: [
-      "How does knowing that the heroes of faith were flawed human beings like us give you courage?",
-      "What does it mean to your soul to know that God desires to give your life a 'good report' through faith?",
-      "How has meditating on courage throughout October prepared you for the new season that begins tomorrow?"
+      "What unnecessary weight, worry, or entangling sin is currently hindering your spiritual race?",
+      "How does fixing your eyes on Jesus keep you from the discouragement of comparing your journey to others?",
+      "What joy set before you in Christ gives you strength to persevere through today's difficult stretches?"
     ],
-    guided_prayer: "Author and Finisher of My Faith, I thank You for the great cloud of witnesses who have walked the path of courage before me. Thank You that You do not demand perfection, but sincere, persistent faith. Forgive my trembling doubts. As I complete this month of courage, strengthen my heart to run my race with endurance. May my life, my obedience, and my love obtain a good report in Your sight forever. In Jesus' victorious name, Amen.",
-    daily_intention: "I will run my race with holy courage today, trusting God to grant my life a good report through faith.",
-    practical_action: "Take fifteen quiet minutes today to celebrate the end of October, thanking God for the courage He has built in you.",
-    evening_reflection_prompt: "How has meditating on biblical courage throughout October deepened your faith and confidence in God?"
+    guided_prayer: "Lord Jesus, You are the pioneer and perfecter of my faith. Today I choose to lay down the heavy weights of worry, past regrets, and entangling sins that slow me down. Help me fix my gaze steadfastly upon You. When my strength falters, remind me of the joy set before me in Your presence. Thank You for running with me and carrying me across the finish line. In Your glorious name, Amen.",
+    daily_intention: "I will lay aside every unnecessary weight today and run my race with perseverance, eyes fixed on Jesus.",
+    practical_action: "Identify one mental worry or resentment you have been carrying, consciously hand it to Jesus in prayer, and refuse to pick it back up.",
+    evening_reflection_prompt: "Did you keep your eyes fixed on Jesus today, and what unnecessary weight did He help you lay down?"
   },
   {
     day_number: 305,
     month_number: 11,
     day_of_month: 1,
     weekly_subtheme: "An Altar in the Ordinary",
-    title: "Rejoice Always",
-    scripture_primary_reference: "1 Thessalonians 5:16",
-    scripture_primary_text: "Rejoice always.",
+    title: "Bless Yahweh and Forget Not His Benefits",
+    scripture_primary_reference: "Psalm 103:1-2",
+    scripture_primary_text: "Praise Yahweh, my soul! All that is within me, praise his holy name! Praise Yahweh, my soul, and don’t forget all his benefits;",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "As November opens before us and the autumn leaves fall, our thoughts naturally turn toward gratitude. Yet the Apostle Paul introduces this sacred season not with a suggestion, but with two radical, uncompromising words: 'Rejoice always.' Look at that absolute word: always. Paul does not say, 'Rejoice when your bank account is full,' 'Rejoice when your children are thriving,' or 'Rejoice when your health is flawless.' Biblical rejoicing is not a fickle emotional mood dependent upon favorable earthly conditions; biblical joy is a supernatural, spiritual decision anchored in the unchanging reality of Jesus Christ. Earthly happiness rises and falls with your circumstances; divine joy rises from the empty tomb of Jesus! Even when grief touches your family, even when physical pain aches in your joints, and even when the future seems foggy, the reasons to rejoice in Christ remain completely untouched. You are redeemed by blood, you are sealed by the Holy Spirit, your name is written in heaven, and your eternal inheritance cannot fade. Joy is a defiant act of spiritual warfare against despair. Strike the blow today. Choose to rejoice.",
+    reflection_body: "David begins his greatest hymn of thanksgiving not by addressing other people, but by commanding his own soul: 'Praise Yahweh, my soul! All that is within me, praise his holy name! Praise Yahweh, my soul, and don’t forget all his benefits.' Human nature suffers from chronic spiritual amnesia. When circumstances are smooth, we take God's blessings for granted; when trials strike, we quickly forget His past deliverances. Thanksgiving is an intentional spiritual discipline that refuses to let the soul forget. David calls upon 'all that is within me'—his intellect, his emotions, his memory, his will—to join in sacred praise. Building an altar in the ordinary begins with deliberately rehearsing the countless benefits God pours into your life every single day: breath in your lungs, clothes on your back, bread on your table, and above all, the eternal redemption purchased by Christ. When you summon your soul to remember God's goodness, gratitude rises like holy incense, clearing away the fog of discontent and filling your home with joy.",
     reflection_questions: [
-      "What current circumstance makes the command to 'rejoice always' feel difficult or challenging?",
-      "What is the vital difference between shallow earthly happiness and deep, Christ-centered joy?",
-      "What unshakeable spiritual reality can you choose to rejoice in today despite your troubles?"
+      "What specific blessings or answered prayers have you taken for granted over the past few weeks?",
+      "How can you actively preach to your own soul to remember God's benefits when you wake up feeling discouraged?",
+      "What ordinary provision in your home right now can become an altar of thanksgiving to the Lord?"
     ],
-    guided_prayer: "God of My Joy, I bow before You today with a willing heart. Forgive me for allowing fickle earthly circumstances to dictate my joy. When sorrow, stress, and fatigue threaten to drag my spirit into grumbling and despair, remind me of who You are and what You have done. You are my Savior, my Shepherd, and my eternal King. I choose to rejoice in You today, finding my deep delight in Your presence. In Jesus' name, Amen.",
-    daily_intention: "I will choose supernatural joy today, rejoicing in Christ regardless of my circumstances.",
-    practical_action: "Take one minute right now to smile, lift your hands, and verbally say: 'I rejoice in Jesus today!'",
-    evening_reflection_prompt: "Did choosing joy over complaint bring spiritual victory and lightness to your afternoon?"
+    guided_prayer: "Praise Yahweh, my soul! Lord, with everything that is within me, I bless Your holy name. Forgive my wandering heart for so quickly forgetting Your immense benefits. Today I remember Your faithfulness, Your daily provisions, and Your lavish grace. Tune my thoughts to gratitude, and let my words overflow with sincere praise for all You have done for me. Through Jesus Christ, Amen.",
+    daily_intention: "I will command my soul to praise the Lord today and refuse to forget His countless benefits.",
+    practical_action: "Take a blank sheet of paper and write down ten specific blessings from the past 24 hours that you did not earn or deserve.",
+    evening_reflection_prompt: "When you commanded your soul to remember God's goodness today, how did your attitude shift?"
   },
   {
     day_number: 306,
     month_number: 11,
     day_of_month: 2,
     weekly_subtheme: "An Altar in the Ordinary",
-    title: "Pray Without Ceasing",
-    scripture_primary_reference: "1 Thessalonians 5:17",
-    scripture_primary_text: "Pray without ceasing.",
+    title: "Crowned with Tender Mercies",
+    scripture_primary_reference: "Psalm 103:3-4",
+    scripture_primary_text: "who forgives all your sins; who heals all your diseases; who redeems your life from destruction; who crowns you with loving kindness and tender mercies;",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The second triad command of 1 Thessalonians 5 is equally brief and staggering: 'Pray without ceasing.' When many women hear this, they feel an immediate wave of guilt: 'How can I pray without ceasing when I have to answer emails, commute through traffic, help with homework, cook dinner, and manage a home?' But praying without ceasing does not mean kneeling in a church building twenty-four hours a day with your eyes closed. Praying without ceasing is an unbroken, ongoing posture of communion with God. It is living with the awareness that Jesus is in the room with you. It is turning your mental thoughts into whispered dialogue with your Father throughout the day. When an anxious thought hits you in traffic, you turn it into a prayer: 'Lord, give me patience.' When you look at your family, you breathe: 'Lord, protect them.' When you open a difficult email, you whisper: 'Lord, grant me wisdom.' Prayer becomes like physical breathing—an effortless, continuous rhythm of inhaling God's grace and exhaling your anxiety. You never have to 'enter' prayer, because you never leave His presence. Breathe with God today.",
+    reflection_body: "David lists the supreme foundation of all thanksgiving: God is the One who forgives all your sins, heals your infirmities, redeems your life from the pit, and crowns your head with loving kindness and tender mercies. Notice the order: forgiveness comes first. The greatest blessing you will ever possess is not physical wealth or smooth circumstances; it is the total, irreversible pardon of your sins through the blood of Christ. God does not stop with forgiveness; He stoops down to rescue your life from destruction, pulling you out of the pit of hopelessness and crowning you as His beloved daughter. You do not wear a crown of human achievement or anxious perfectionism; you wear a royal crown forged of His *chesed* (covenant loving kindness) and *rachamim* (tender, maternal mercies). When you look in the mirror, do not see an exhausted woman struggling to keep up with impossible demands. See a daughter of the King, crowned with tender mercy. Let that sacred reality awaken spontaneous, joyful gratitude in your spirit today.",
     reflection_questions: [
-      "Have you viewed prayer as an intimidating, formal appointment rather than an ongoing conversation?",
-      "How can you turn your ordinary, everyday thoughts into whispered prayers throughout your routine?",
-      "What does it mean for your peace to know that you are never outside the listening ear of God?"
+      "How does meditating on the full forgiveness of your sins bring unshakeable peace to your heart today?",
+      "From what pit of despair, worry, or destruction has God graciously redeemed you in the past?",
+      "What does it mean to walk through your day knowing you are crowned with God's tender mercies?"
     ],
-    guided_prayer: "Father of Prayer, thank You that I do not need a stained-glass cathedral to enter Your presence. You dwell inside my very spirit through the Holy Spirit. Forgive me for compartmentalizing my life, treating prayer as an occasional duty rather than continuous fellowship. Teach me to pray without ceasing today. Turn my routine thoughts, worries, and hopes into a running, unbroken conversation with You. Keep me anchored in Your love. Amen.",
-    daily_intention: "I will walk in continuous conversation with God today, turning every thought into a prayer.",
-    practical_action: "Whenever you check the time today, use it as a reminder to whisper a one-sentence prayer of gratitude to Jesus.",
-    evening_reflection_prompt: "Did turning your regular thoughts into prayer keep you centered and calm throughout the day?"
+    guided_prayer: "Precious Father, I stand in awe of Your lavish grace. You have forgiven all my sins, pulled my life from the pit of destruction, and crowned me with Your unfailing love. When feelings of inadequacy or guilt try to steal my peace, remind me of the royal crown of mercy You have placed upon my head. Let my life be an offering of joyous thanksgiving to You today. Amen.",
+    daily_intention: "I will walk with joy and dignity today, remembering that God has crowned me with His tender mercies.",
+    practical_action: "Whenever you feel stressed today, touch your forehead and whisper, 'Crowned with loving kindness and tender mercy.'",
+    evening_reflection_prompt: "Where did you see God's tender mercy and redemption at work in the details of your day?"
   },
   {
     day_number: 307,
     month_number: 11,
     day_of_month: 3,
     weekly_subtheme: "An Altar in the Ordinary",
-    title: "Giving Thanks in All Circumstances",
-    scripture_primary_reference: "1 Thessalonians 5:18",
-    scripture_primary_text: "In everything give thanks, for this is the will of God in Christ Jesus toward you.",
+    title: "Youth Renewed Like the Eagle",
+    scripture_primary_reference: "Psalm 103:5",
+    scripture_primary_text: "who satisfies your desire with good things, so that your youth is renewed like the eagle’s.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Paul completes his divine triad with a command that strikes at the very root of human discontent: 'In everything give thanks, for this is the will of God in Christ Jesus toward you.' Notice with extreme care the preposition: Paul says in everything give thanks, not for everything. God does not command you to give thanks for the drunk driver who caused an accident, for the cancer diagnosis, or for the betrayal of an unfaithful friend. God does not call evil good. But in the midst of every circumstance—no matter how painful, dark, or unfair—there are always reasons to give thanks to God. You give thanks that God is still on His throne; that His mercy endures forever; that He will never leave you; that He is working all things together for good; and that heaven is your home. Notice also: this is 'the will of God in Christ Jesus toward you.' Many women spend years agonizing over what God's will is for their career or future. Here is God's unambiguous will: a heart that gives thanks in all things. Gratitude builds an altar in the middle of your mess. Give thanks today.",
+    reflection_body: "David declares that Yahweh 'satisfies your desire with good things, so that your youth is renewed like the eagle’s.' The world offers endless counterfeits that promise satisfaction—consumption, entertainment, status, human approval—yet leaves the soul parched and restless. Only God can truly satisfy the deep cravings of the human spirit. When you build an altar of thanksgiving in the ordinary, you begin to perceive the truly good things God provides: a cup of warm tea, the laughter of a child, the fellowship of a friend, the quiet stillness of prayer, and the sustaining promises of His Word. As your soul drinks deeply from God's sufficiency, supernatural renewal takes place. The eagle is famous for its soaring strength, rising high above mountain storms on invisible thermal currents. When you are bone-weary from daily responsibilities, thanksgiving lifts you above the tempest of worry and renews your strength. God does not promise that life will be effortless, but He promises that those who feast on His goodness will soar above exhaustion.",
     reflection_questions: [
-      "Why is there a crucial theological difference between giving thanks 'for' everything versus 'in' everything?",
-      "What difficult circumstance in your life are you currently called to give thanks 'in'?",
-      "How does practicing gratitude in hard times dismantle bitterness and align your heart with God's will?"
+      "In what ways have you sought satisfaction in worldly counterfeits rather than resting in God's goodness?",
+      "What simple, good thing did God provide today that brought quiet joy to your spirit?",
+      "How does thanksgiving renew your emotional and spiritual strength when you are feeling worn out?"
     ],
-    guided_prayer: "Sovereign Lord, I bring my difficult circumstances before You today. While my heart aches over broken things, I choose to give thanks in the middle of this storm. Thank You that You are good, that Your covenant love never fails, and that You are holding my life securely. Forgive my complaining spirit. I align my heart with Your holy will today, building an altar of thanksgiving in every circumstance. In Jesus' mighty name, Amen.",
-    daily_intention: "I will give thanks in all circumstances today, knowing this is God's will for my life in Christ.",
-    practical_action: "Name three difficult situations in your life right now, and find one specific reason to thank God in the middle of each.",
-    evening_reflection_prompt: "Did choosing gratitude in the midst of a frustrating moment bring peace to your evening?"
+    guided_prayer: "Lord God, You alone satisfy my longing soul with good things. Forgive me for running to broken cisterns that cannot hold water. Teach me to feast upon Your Word, to delight in Your ordinary provisions, and to find complete contentment in Christ. Renew my strength like the eagle’s today, and lift me above the storm of anxiety into Your peaceful presence. Amen.",
+    daily_intention: "I will find my satisfaction in God's good gifts today, allowing Him to renew my strength like the eagle.",
+    practical_action: "Enjoy a meal, a walk, or a quiet moment today without your phone, savoring it as a direct gift from God's hand.",
+    evening_reflection_prompt: "Did you feel your spiritual and emotional strength renewed today as you focused on God's good gifts?"
   },
   {
     day_number: 308,
     month_number: 11,
     day_of_month: 4,
     weekly_subtheme: "An Altar in the Ordinary",
-    title: "Enter His Gates with Thanksgiving",
-    scripture_primary_reference: "Psalm 100:4",
-    scripture_primary_text: "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name.",
+    title: "Let the Redeemed of Yahweh Say So",
+    scripture_primary_reference: "Psalm 107:1-2",
+    scripture_primary_text: "Give thanks to Yahweh, for he is good, for his loving kindness endures forever. Let the redeemed of Yahweh say so, whom he has redeemed from the hand of the adversary,",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Psalm 100 is the crowning hymn of praise that accompanied the thank offering in the ancient temple in Jerusalem. Notice the divine architecture of access: 'Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name.' In ancient temple worship, you did not begin in the Holy of Holies; you began at the outer gates. And what unlocked the gates? Thanksgiving! Praise is the royal key that unlocks the doorway into intimate communion with God. A complaining, grumbling, bitter heart stands outside the gates, pounding on the door in frustration. But the moment you begin to speak words of genuine thanksgiving—thanking God for breath in your lungs, warm coffee, a roof over your head, and eternal salvation—the gates swing wide open! Thanksgiving changes the spiritual atmosphere of your mind. It shifts your focus from what you lack to the lavish abundance of what you have been given. If your devotional life feels dry, stagnant, or distant today, do not bring a list of demands. Pick up the key of thanksgiving. Enter His courts with praise.",
+    reflection_body: "Psalm 107 sounds a clarion call to all who have tasted God's saving mercy: 'Give thanks to Yahweh, for he is good, for his loving kindness endures forever. Let the redeemed of Yahweh say so!' Gratitude cannot remain a silent, private sentiment. It is designed to be voiced, proclaimed, and shared. When God rescues you from the hand of the adversary, delivers you from fear, or sustains you through a dark valley, He calls you to 'say so.' Speaking of God's goodness strengthens your own faith and brings fresh hope to those who are currently struggling in the dark. In our homes and communities, conversations easily drift into complaining about the weather, politics, physical ailments, or stressful workloads. But the redeemed are summoned to change the spiritual atmosphere. When you speak aloud of God's enduring loving kindness, you erect a beacon of hope. Do not let the adversary silence your praise. Open your mouth and tell of the goodness of the Lord.",
     reflection_questions: [
-      "How does thanksgiving function as a 'key' that unlocks deep, intimate communion with God?",
-      "What complaints or grievances have been locking the gate of your joy recently?",
-      "What specific blessings can you speak aloud right now to unlock God's courts of peace?"
+      "From what adversary or dark season has God redeemed you that you can testify about today?",
+      "How does speaking your gratitude aloud change the atmosphere in your home or among your coworkers?",
+      "Who needs to hear your testimony of God's enduring loving kindness this week?"
     ],
-    guided_prayer: "Lord of My Heart, I approach Your presence today not with a demanding list of complaints, but with a heart overflowing with praise. I enter Your gates with thanksgiving and Your courts with joy! Thank You for the gift of life, for salvation in Jesus Christ, for daily bread, and for Your unfailing mercy. I bless Your holy name today and declare that You are worthy of all my praise. In Jesus' name, Amen.",
-    daily_intention: "I will enter God's presence through the gates of thanksgiving today, leaving all complaints behind.",
-    practical_action: "Before asking God for a single request today, spend five full minutes offering pure, unhurried thanksgiving.",
-    evening_reflection_prompt: "Did beginning your prayers with thanksgiving change your emotional perspective throughout the day?"
+    guided_prayer: "Lord Yahweh, You are good, and Your loving kindness endures forever! Thank You for redeeming my life from the hand of the enemy and setting my feet upon the Rock. Forgive me when I keep silent about Your wonders. Give me holy boldness today to 'say so'—to speak of Your faithfulness, to praise Your name, and to encourage someone with the story of Your grace. In Jesus' name, Amen.",
+    daily_intention: "I will speak of God's goodness aloud today; as the redeemed of the Lord, I will say so.",
+    practical_action: "Tell at least one person today a specific story or instance of how God answered a prayer or showed His goodness in your life.",
+    evening_reflection_prompt: "Did you speak aloud of God's faithfulness today, and how did it encourage your own spirit?"
   },
   {
     day_number: 309,
     month_number: 11,
     day_of_month: 5,
     weekly_subtheme: "An Altar in the Ordinary",
-    title: "His Loving Kindness Endures Forever",
-    scripture_primary_reference: "Psalm 100:5",
-    scripture_primary_text: "For Yahweh is good. His loving kindness endures forever, his faithfulness to all generations.",
+    title: "He Satisfies the Longing Soul",
+    scripture_primary_reference: "Psalm 107:8-9",
+    scripture_primary_text: "Let them praise Yahweh for his loving kindness, for his wonderful deeds for the children of men! For he satisfies the longing soul. He fills the hungry soul with good.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Psalm 100 concludes with the eternal, rock-solid bedrock that justifies our thanksgiving: 'For Yahweh is good. His loving kindness endures forever, his faithfulness to all generations.' Notice the three unshakeable pillars: His goodness, His lovingkindness (chesed), and His faithfulness. Earthly circumstances fluctuate wildly: stock markets crash, human relationships stumble, health deteriorates, and governments rise and fall. If your thanksgiving is based on your earthly circumstances, your praise will be as unstable as the weather. But when your thanksgiving is based on the character of Yahweh, your song becomes bulletproof! Look at the duration of His mercy: it 'endures forever.' God's covenant love for you will never run dry. Look at the span of His faithfulness: 'to all generations.' He was faithful to your ancestors, He is faithful to you today, and He will be faithful to your children and grandchildren tomorrow. You can rest your entire life upon this three-fold foundation. Yahweh is good; His mercy is forever; His faithfulness never ends. Stand on this bedrock today and let your heart rejoice.",
+    reflection_body: "The psalmist repeats this sacred refrain: 'Let them praise Yahweh for his loving kindness, for his wonderful deeds for the children of men!' Then he reveals the tender reason: 'For he satisfies the longing soul. He fills the hungry soul with good.' Deep within every human heart resides an unquenchable longing, a spiritual hunger that nothing in this creation can satisfy. We try to fill that void with busyness, achievements, material comforts, or relationships, yet the thirst remains. Augustine famously recognized: 'You have made us for Yourself, O Lord, and our hearts are restless until they find rest in You.' When you bring your empty soul to Jesus, He does not give you hollow advice or empty philosophy. He fills you with Himself—the Bread of Life and the Living Water. When you realize that your deepest hunger has been eternally satisfied in Christ, an altar of thanksgiving rises naturally in the midst of ordinary life. You no longer live as a beggar grasping for earthly scraps; you live as an invited guest at the King's banquet table.",
     reflection_questions: [
-      "Why is it dangerous to base your gratitude on fluctuating earthly circumstances rather than God's character?",
-      "What does the Hebrew concept of 'chesed' (unfailing covenant lovingkindness) mean to your heart?",
-      "How does the promise that God's faithfulness extends to 'all generations' give you peace regarding your family's future?"
+      "What deepest longing of your heart have you been trying to fill with temporary, earthly things?",
+      "How has Jesus satisfied your spiritual thirst and hunger in ways this world never could?",
+      "What would it look like to bring your restlessness to God in quiet worship today?"
     ],
-    guided_prayer: "Yahweh, my Good and Faithful God, I anchor my thanksgiving in the bedrock of who You are today. You are good; there is no darkness or deceit in You. Your lovingkindness endures forever, and Your faithfulness spans all generations. Forgive me for doubting Your goodness when trials press in. I praise You that Your covenant love toward my family and me will never fail. In Jesus' victorious name, Amen.",
-    daily_intention: "I will anchor my gratitude in God's eternal goodness and unfailing faithfulness today.",
-    practical_action: "Speak Psalm 100:5 aloud over your family, claiming God's generational faithfulness for your household.",
-    evening_reflection_prompt: "Did resting in God's eternal goodness give you unshakeable peace through today's uncertainties?"
+    guided_prayer: "Lord God, You alone satisfy the longing soul and fill the hungry with good things. Forgive me when I seek fulfillment in worldly pursuits that leave me empty. Thank You that in Jesus, my spiritual thirst is quenched forever. Fill me afresh with Your Holy Spirit today, and awaken in my heart a continual song of praise for Your marvelous deeds. In Jesus' precious name, Amen.",
+    daily_intention: "I will bring my empty soul to Jesus today, trusting Him to satisfy my deepest hunger with His presence.",
+    practical_action: "When you eat a meal today, pause beforehand to thank God not only for the physical food, but for Christ, the Bread of Life.",
+    evening_reflection_prompt: "Did your soul find quiet satisfaction and rest in God's presence during the hours of this day?"
   },
   {
     day_number: 310,
     month_number: 11,
     day_of_month: 6,
     weekly_subtheme: "An Altar in the Ordinary",
-    title: "Let the Peace of Christ Rule",
-    scripture_primary_reference: "Colossians 3:15",
-    scripture_primary_text: "And let the peace of God rule in your hearts, to which also you were called in one body; and be thankful.",
+    title: "Singing of His Marvelous Works",
+    scripture_primary_reference: "1 Chronicles 16:8-9",
+    scripture_primary_text: "Oh give thanks to Yahweh. Call on his name. Make what he has done known among the peoples. Sing to him. Sing praises to him. Tell of all his marvelous works.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The Apostle Paul uses an extraordinary athletic term in Colossians 3:15: 'And let the peace of God rule in your hearts, to which also you were called in one body; and be thankful.' In the original Greek, the word translated 'rule' (brabeuo) refers to an umpire or referee in the ancient athletic games. The umpire stood on the court, blew the whistle, and made the definitive calls: in bounds or out of bounds, fair or foul. Paul commands us to let the peace of Christ act as the internal umpire of our hearts! When an anxious thought, a bitter grievance, or a frantic impulse runs across the court of your mind, the peace of Christ blows the whistle: 'Out of bounds! That thought does not belong in this heart.' And notice how Paul ends the sentence: 'and be thankful.' Gratitude is the atmosphere that empowers the umpire of peace to do His job! A complaining heart constantly argues with the referee, refusing to accept peace. But a thankful heart welcomes the calming authority of Christ. When decisions feel murky and emotions run high today, do not make a move until the peace of Christ gives the signal. Let His peace rule.",
+    reflection_body: "When King David brought the Ark of the Covenant into Jerusalem and placed it in the tent he had prepared, he delivered this magnificent psalm of thanksgiving to Asaph: 'Oh give thanks to Yahweh. Call on his name. Make what he has done known among the peoples. Sing to him. Sing praises to him. Tell of all his marvelous works.' David understood that the presence of God demands a response of joyous, vocal celebration. Thanksgiving is an active, multifaceted liturgy: we give thanks, we call on His name, we declare His deeds, we sing praises, and we recount His wonders. When you lift your voice in song—whether softly in your morning kitchen, humming in the car, or singing with the congregation—you break the heavy atmosphere of discouragement. Worship is not an emotional performance; it is a weapon of spiritual praise that magnifies God above every earthly trouble. When you recount God's marvelous works in your family, your church, and redemptive history, fear loses its grip. Let praise be your first language today.",
     reflection_questions: [
-      "What anxious thought or bitter grievance is currently running out of bounds in your mind?",
-      "How does allowing the peace of Christ to act as an 'umpire' help clarify difficult decisions?",
-      "Why does Paul connect having the peace of Christ with the command to 'be thankful'?"
+      "What marvelous work of God in your life can you recount with thanksgiving today?",
+      "How does singing praises to God, even in private, shift your emotional and spiritual perspective?",
+      "In what ways can you make God's deeds known to those in your immediate circle this week?"
     ],
-    guided_prayer: "Prince of Peace, I welcome You as the supreme umpire of my heart and mind today. Forgive me for arguing with Your guidance and allowing chaotic, anxious thoughts to run wild in my soul. Blow Your whistle of peace over every fear, doubt, and conflict. Rule over my decisions and my emotions. Settle my heart in genuine, overflowing gratitude, resting securely under Your loving reign. In Jesus' name, Amen.",
-    daily_intention: "I will let the peace of Christ act as the umpire in my heart today, choosing gratitude in all things.",
-    practical_action: "Before making an emotional decision or speaking a reactive word today, pause and ask: 'Does this carry the peace of Christ?'",
-    evening_reflection_prompt: "Did allowing Christ's peace to rule your heart help keep you calm and centered through the day?"
+    guided_prayer: "Lord Yahweh, I give You thanks with my whole heart and call upon Your holy name! You have done marvelous things in my life, forgiving my sins, guiding my steps, and surrounding me with mercy. Put a new song of praise in my mouth today. May my home echo with thanksgiving, and may my words declare Your wondrous works to all who cross my path. Through Christ my Lord, Amen.",
+    daily_intention: "I will praise God with singing and recount His marvelous works throughout this day.",
+    practical_action: "Play or sing a worship hymn or song of praise while doing routine housework or driving, offering it as pure worship.",
+    evening_reflection_prompt: "Did you lift a song of praise to the Lord today, and how did it brighten your spirit?"
   },
   {
     day_number: 311,
     month_number: 11,
     day_of_month: 7,
     weekly_subtheme: "An Altar in the Ordinary",
-    title: "Whatever You Do, Do All in Jesus' Name",
-    scripture_primary_reference: "Colossians 3:17",
-    scripture_primary_text: "Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father, through him.",
+    title: "Seek His Face Forever More",
+    scripture_primary_reference: "1 Chronicles 16:11-12",
+    scripture_primary_text: "Seek Yahweh and his strength. Seek his face forever more. Remember his marvelous works that he has done: his wonders, and the judgments of his mouth,",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Colossians 3:17 is the ultimate manifesto for Christian living: 'Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father, through him.' Notice the all-encompassing scope: 'whatever you do.' Paul does not divide human life into 'sacred' spiritual tasks (praying, reading the Bible, attending church) and 'secular' tasks (scrubbing toilets, answering emails, folding laundry, grocery shopping). In the kingdom of God, every single square inch of your ordinary day is sacred ground! When you wash dishes in the name of Jesus, that kitchen sink becomes an altar of worship. When you speak with patience to an irritable colleague in the name of Jesus, your office becomes a sanctuary. When you pay bills with thanksgiving through Christ, that desk becomes holy ground. Doing all in the name of Jesus means living as His representative, carrying His character, and offering every ordinary duty as a love gift back to Him. And the golden thread that ties every word and deed together is thanksgiving. Transform your ordinary day into an altar of praise today.",
+    reflection_body: "David’s song of thanksgiving continues with two vital commands: 'Seek Yahweh and his strength. Seek his face forever more. Remember his marvelous works that he has done.' Notice the distinction: we do not merely seek God's hand (what He can give us); we seek His face (who He is in His beauty, holiness, and relational presence). Seeking God's strength is an admission of our own weakness. When you wake up feeling drained, facing demands that exceed your emotional or physical capacity, David tells you where to turn: seek Yahweh and His strength. And how do we anchor our hearts in that strength? By remembering. Memory is the fuel of thanksgiving. When you remember the Red Sea crossings of your past—the times God provided when money was tight, healed when you were sick, comforted when you were heartbroken—your faith expands for today's challenge. Thanksgiving looks back with awe so that faith can look forward with confidence. Seek His lovely face today, and let remembrance ignite unshakeable praise.",
     reflection_questions: [
-      "In what areas of your daily routine do you tend to compartmentalize between 'spiritual' and 'ordinary'?",
-      "How does viewing mundane tasks (cleaning, errands, paperwork) as acts of worship transform your attitude?",
-      "What does it mean practically to do your work today 'in the name of the Lord Jesus with thanksgiving'?"
+      "Are you currently seeking God merely for His blessings, or are you seeking His face in intimate communion?",
+      "What past 'miracle of provision or deliverance' in your life should you remember today to strengthen your faith?",
+      "How does remembering God's past faithfulness give you peace for the challenges of tomorrow?"
     ],
-    guided_prayer: "Lord of My Ordinary Days, I offer every hour of my day to You as a living sacrifice. Forgive me for viewing daily chores and responsibilities as tedious, secular burdens. I consecrate my words, my hands, my errands, and my work to Your glory. Whatever I do today, let me do it in the precious name of the Lord Jesus, offering continuous thanksgiving to the Father through Him. In His name, Amen.",
-    daily_intention: "I will do everything today in the name of the Lord Jesus, turning ordinary tasks into acts of worship.",
-    practical_action: "Choose one mundane chore today (e.g., washing dishes or folding laundry) and perform it slowly as a prayer of thanksgiving.",
-    evening_reflection_prompt: "Did viewing your ordinary duties as worship bring joy and sacred meaning to your day?"
+    guided_prayer: "Almighty God, I seek Your face today. Forgive me when I seek only Your gifts while neglecting Your presence. I acknowledge my absolute weakness; supply me with Your divine strength for every duty before me. I remember Your marvelous works, Your answered prayers, and Your unchanging promises. Be glorified in my heart, and let my life be a continual altar of thanksgiving. In Jesus' name, Amen.",
+    daily_intention: "I will seek the Lord's face and His strength today, remembering all His marvelous works.",
+    practical_action: "Spend five quiet minutes sitting in stillness, seeking God's face in love without asking for anything.",
+    evening_reflection_prompt: "Did you seek the Lord's presence and strength today, and how did He sustain you?"
   },
   {
     day_number: 312,
@@ -6426,80 +6286,80 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 11,
     day_of_month: 11,
     weekly_subtheme: "Thanksgiving in the Dark Valley",
-    title: "As the Deer Pants for Streams",
-    scripture_primary_reference: "Psalm 42:1",
-    scripture_primary_text: "As the deer pants for the water brooks, so my soul pants after you, God.",
+    title: "Midnight Songs in the Prison Cell",
+    scripture_primary_reference: "Acts 16:25",
+    scripture_primary_text: "But about midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The sons of Korah open Psalm 42 with one of the most haunting, honest portraits of spiritual thirst in all of literature: 'As the deer pants for the water brooks, so my soul pants after you, God.' In the arid Judean wilderness, when summer droughts dried up the seasonal streams, a deer hunted by predators would sprint for miles until her lungs burned, her tongue swelled with dry heat, and her body trembled with desperate dehydration. If she did not find living water, she would perish. The psalmist says: that is how desperately my soul longs for You, God! Notice the honesty: the psalmist does not feel close to God in this moment; he feels parched, exiled, and spiritually dry. His tears have been his food day and night while his enemies mock: 'Where is your God?' Have you ever experienced a dry wilderness season where God felt distant, your prayers seemed to bounce off the ceiling, and your soul felt parched? Do not panic. Thirst is not proof of death; thirst is the absolute proof that you are ALIVE! Only living creatures thirst. Bring your parched, panting soul to the living water of Jesus Christ today. Drink deeply.",
+    reflection_body: "Beaten with wooden rods, bleeding, and clamped into wooden stocks in the deepest, foulest dungeon of Philippi, Paul and Silas did not succumb to despair, bitterness, or questioning God's providence. Instead, 'about midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them.' Thanksgiving in the dark valley is the ultimate weapon of spiritual warfare. Anyone can sing when the sun is shining and life is comfortable. But when a believer sings praise to God at midnight—in the dungeon of grief, financial panic, medical uncertainty, or betrayal—hell trembles and heaven draws near. Praise does not depend on outward circumstances; it is rooted in the unchanging character of the Sovereign Lord. Notice that other prisoners were listening in the dark. Your response to suffering is a powerful witness. When people see you trusting and thanking God in the middle of pain, they behold the supernatural reality of the gospel. Even at midnight, your song of praise can shatter chains.",
     reflection_questions: [
-      "Are you currently in a dry spiritual season where God feels distant and your soul feels parched?",
-      "Why is spiritual thirst actually proof of life and spiritual health rather than failure?",
-      "What does it look like practically to bring your thirsty, panting heart to the living water of Jesus today?"
+      "What 'midnight season' are you currently enduring, and how can praise become your spiritual response?",
+      "Why is singing hymns to God in the middle of suffering such a powerful witness to those around you?",
+      "How does focusing on God's sovereignty keep you from falling into the pit of self-pity when life hurts?"
     ],
-    guided_prayer: "Living God, my soul thirsts for You in a dry, weary, and waterless land. Forgive me for trying to quench my spiritual thirst at broken cisterns of worldly entertainment, validation, and busyness. Like a deer panting for running mountain streams, so my soul pants after You. Meet me in my dryness today. Pour the living water of Your Holy Spirit over my parched heart, and satisfy my thirst with Your presence. In Jesus' name, Amen.",
-    daily_intention: "My soul longs for the living God today; He alone can quench the deepest thirst of my heart.",
-    practical_action: "Spend ten quiet minutes today without requests, simply visualizing yourself drinking from the river of God's presence.",
-    evening_reflection_prompt: "Did coming to Jesus with your honest thirst bring refreshment and peace to your spirit today?"
+    guided_prayer: "Sovereign Lord, You are worthy of praise not only in the sunshine, but in the deepest midnight. When trials wound me and circumstances feel dark, keep my heart from bitterness. Give me the grace to sing hymns of praise in the prison cell, knowing that You are with me and that Your purposes cannot be thwarted. Let my quiet trust in You be a light to those watching in the dark. Amen.",
+    daily_intention: "Even in the dark valley, I will lift my voice in prayer and praise to my faithful God.",
+    practical_action: "If you are facing a trial today, turn off the lights, sit in the quiet, and sing or recite a hymn of praise to God.",
+    evening_reflection_prompt: "Did you choose worship over complaint in a difficult moment today, and what freedom did it bring?"
   },
   {
     day_number: 316,
     month_number: 11,
     day_of_month: 12,
     weekly_subtheme: "Thanksgiving in the Dark Valley",
-    title: "Why Are You Cast Down, O My Soul?",
-    scripture_primary_reference: "Psalm 42:5",
-    scripture_primary_text: "Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him for the saving help of his presence.",
+    title: "I Will Bless Yahweh at All Times",
+    scripture_primary_reference: "Psalm 34:1-2",
+    scripture_primary_text: "I will bless Yahweh at all times. His praise will always be in my mouth. My soul shall boast in Yahweh. The humble shall hear of it, and be glad.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In Psalm 42:5, the psalmist introduces an indispensable spiritual skill for emotional and mental health: he preaches to his own soul! 'Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him for the saving help of his presence.' Most people spend their entire lives listening to themselves—listening to their anxieties, listening to their catastrophic 'what-ifs,' and listening to their fluctuating depressive feelings. But spiritual maturity is learning to stop listening to yourself and start talking to yourself! The psalmist interrogates his emotions: 'Why are you cast down, soul? What is your legitimate reason for despair? Look at who God is!' And then he issues a direct, sovereign command to his heart: 'Hope in God! For I shall still praise Him!' He reminds himself of future victory even while tears are streaming down his face. When a wave of heavy discouragement or unexplained sadness washes over your mind today, do not sit passively in the puddle. Interrogate the despair. Stand up and preach the Gospel to your own soul. Put your hope in God.",
+    reflection_body: "David wrote this psalm when he was a hunted fugitive, pretending to be insane before the Philistine king Abimelech in order to escape death. In the middle of terror, humiliation, and exile, David made a radical spiritual declaration: 'I will bless Yahweh at all times. His praise will always be in my mouth.' Notice the sweeping scope: 'at all times.' Not only when prayers are answered quickly, not only when health is robust, not only when the bank account is full, but *at all times*. This is not toxic positivity or pretending that pain does not hurt. It is the resolute decision of a mature believer to anchor her boasting in Yahweh alone. David’s boast was not in his cleverness, his sword, or his military reputation; his boast was in the covenant-keeping God who never forsakes His servants. When the humble hear your boast in the Lord—when they see you praising God through tears—it brings them genuine joy and renewed courage. Let praise be your constant companion today.",
     reflection_questions: [
-      "Do you spend more time listening to your anxious feelings or preaching God's truth to your soul?",
-      "How does interrogating your negative emotions ('Why are you cast down?') break their power over your mind?",
-      "What specific scriptural truth does your soul need you to declare to it with holy authority today?"
+      "What does it cost you emotionally to bless the Lord 'at all times,' especially when circumstances are painful?",
+      "In what earthly securities have you been tempted to boast, and how can you turn your boast back to Yahweh?",
+      "How can your faithful praise encourage someone around you who is currently feeling crushed or humbled?"
     ],
-    guided_prayer: "God of Hope, my soul is sometimes disturbed, cast down, and heavy with unexplained sadness. Forgive me for passively listening to my fears and feelings. By Your grace, I take authority over my emotional thought life today. Why are you cast down, O my soul? Hope in God! I declare that I shall yet praise You for the saving help of Your presence. Anchor my hope in Your unchanging faithfulness. In Jesus' name, Amen.",
-    daily_intention: "I will talk to my soul with God's truth today, commanding my heart to put its hope in the Lord.",
-    practical_action: "Whenever a wave of sadness or anxiety hits today, say firmly to yourself: 'Hope in God, O my soul; He is my salvation.'",
-    evening_reflection_prompt: "Did preaching the promises of God to your own heart lift a heavy mood during the day?"
+    guided_prayer: "Faithful God, I declare today with David that I will bless You at all times. In moments of laughter and in seasons of tears, Your praise shall continually be in my mouth. Forgive me for boasting in my own strength or despairing when earthly crutches fail. My soul boasts in You, my Rock, my Fortress, and my Deliverer. May my praise bring courage to the humble today. In Jesus' name, Amen.",
+    daily_intention: "I will bless the Lord at all times today, allowing His praise to remain constantly in my mouth.",
+    practical_action: "Whenever you feel tempted to complain or worry today, immediately counter it by speaking aloud one praise to God.",
+    evening_reflection_prompt: "Did you choose to praise the Lord during the stressful or challenging moments of this day?"
   },
   {
     day_number: 317,
     month_number: 11,
     day_of_month: 13,
     weekly_subtheme: "Thanksgiving in the Dark Valley",
-    title: "Deep Calls to Deep",
-    scripture_primary_reference: "Psalm 42:7-8",
-    scripture_primary_text: "Deep calls to deep at the noise of your waterfalls. All your waves and your billows have gone over me. Yahweh will command his loving kindness in the daytime. In the night his song will be with me: a prayer to the God of my life.",
+    title: "He Answered Me and Delivered Me",
+    scripture_primary_reference: "Psalm 34:4",
+    scripture_primary_text: "I sought Yahweh, and he answered me, and delivered me from all my fears.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The imagery in Psalm 42:7-8 is staggering in its poetic intensity. The psalmist stands at the headwaters of the Jordan River near Mount Hermon, watching torrents of melted snow crash over sheer rock precipices, generating deafening roars and violent spray: 'Deep calls to deep at the noise of your waterfalls. All your waves and your billows have gone over me.' Have you ever felt that life was crashing over your head like an unrelenting waterfall—one crisis crashing right on top of another until you feel completely submerged and unable to breathe? Notice the breathtaking assurance that immediately follows in verse 8: 'Yahweh will command his loving kindness in the daytime. In the night his song will be with me: a prayer to the God of my life.' In ancient Hebrew thought, a king's command was irrevocable. God does not casually suggest lovingkindness; He commands His covenant mercy (chesed) to escort you through the day! And when the darkness of night arrives, He places His song in your heart. Even when the waterfalls of trouble are deafening, God’s song of love is singing over your soul. You will not drown.",
+    reflection_body: "David shares a profound testimony of personal deliverance: 'I sought Yahweh, and he answered me, and delivered me from all my fears.' Notice the precise language: David does not say that God immediately eliminated every external problem or removed every enemy soldier. He says, 'He delivered me from all my fears.' Often, the greatest battle we face is not the external circumstance, but the crippling panic, dread, and anxiety that besiege our minds. Fear paralyzes the soul, distorts reality, and whispers that God has abandoned us. But when you seek the Lord—when you pour out your heart honestly before Him in prayer and meditate on His Word—He answers with His supernatural peace. He steps into the storm inside your chest and commands the waves of terror to be still. When internal fear is silenced by the presence of Christ, you can face the external battle with quiet, unshakeable courage. Bring your fears to the altar of prayer today; your Deliverer is waiting to answer.",
     reflection_questions: [
-      "What 'waterfalls' or crashing waves of circumstance have been threatening to submerge you recently?",
-      "How does the truth that God 'commands' His lovingkindness over your day give you security?",
-      "What is the 'song in the night' that God has whispered to your heart during painful, sleepless seasons?"
+      "What specific fear or anxiety is currently gripping your mind and stealing your peace?",
+      "How does seeking the Lord differ from merely obsessing over your problems or looking for human solutions?",
+      "Can you recall a time when God delivered you from an internal fear before changing the external situation?"
     ],
-    guided_prayer: "God of My Life, when the waves and billows of trouble crash over my head, I look to You. Thank You for commanding Your unfailing lovingkindness to escort my steps throughout the day. When the dark shadows of night gather and anxiety threatens to steal my peace, let Your song be with me. Teach my heart to sing in the dark, confident that Your love is deeper than the deepest sea. In Jesus' mighty name, Amen.",
-    daily_intention: "God commands His lovingkindness over me by day, and His song will comfort my soul by night.",
-    practical_action: "Listen to or sing a worship hymn before bed tonight, welcoming God's song into the night watches.",
-    evening_reflection_prompt: "Did sensing God's commanded lovingkindness sustain your peace when waves of pressure hit today?"
+    guided_prayer: "Lord Jesus, You know every secret fear, dread, and anxious thought that tries to torment my mind. Today I seek You with all my heart. I bring every worry about my health, my family, and my future to Your altar. Answer me with Your peace, and deliver me from all my fears. Anchor my soul in Your perfect love, which casts out all fear. In Your mighty name, Amen.",
+    daily_intention: "I will seek the Lord in prayer today, trusting Him to deliver my heart from every paralyzing fear.",
+    practical_action: "Write down your single biggest fear right now, pray over it, and write across it in bold letters: 'Delivered by Yahweh.'",
+    evening_reflection_prompt: "Did you experience God's supernatural peace calming your anxious thoughts today as you sought Him?"
   },
   {
     day_number: 318,
     month_number: 11,
     day_of_month: 14,
     weekly_subtheme: "Thanksgiving in the Dark Valley",
-    title: "Blessed Be the Name of Yahweh",
-    scripture_primary_reference: "Job 1:20-21",
-    scripture_primary_text: "Then Job arose, and tore his robe, and shaved his head, and fell down on the ground, and worshiped. He said, 'Naked I came out of my mother’s womb, and naked will I return there. Yahweh gave, and Yahweh has taken away. Blessed be Yahweh’s name.'",
+    title: "Taking Refuge in the Goodness of Yahweh",
+    scripture_primary_reference: "Psalm 34:8",
+    scripture_primary_text: "Oh taste and see that Yahweh is good. Blessed is the man who takes refuge in him.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "There is no more poignant, gut-wrenching scene in all of Scripture than Job 1:20-21. Within a matter of minutes, four messengers arrived with news of absolute devastation: his oxen and donkeys were stolen, his servants were murdered, lightning burned his sheep, and a violent desert tornado collapsed the house where all ten of his children were dining, killing them all. Job had lost everything. Look at his response: 'Then Job arose, and tore his robe, and shaved his head, and fell down on the ground, and worshiped.' Job did not deny his grief; he tore his robe and shaved his head in raw, agonizing sorrow. But then he fell on the ground and worshiped! He uttered the most sublime words of surrender in human history: 'Yahweh gave, and Yahweh has taken away. Blessed be Yahweh’s name.' Job understood that everything he had ever enjoyed—his wealth, his children, his health—was a free, unearned gift from the hand of God. When blessings are taken away, God Himself remains. True thanksgiving is not praising God only when His hands are open with gifts; true thanksgiving is worshiping God for who He is, even when His hands are empty. Blessed be the name of Yahweh.",
+    reflection_body: "David concludes his hymn of deliverance with a warm, personal invitation: 'Oh taste and see that Yahweh is good. Blessed is the man who takes refuge in him.' Faith in God is not merely an intellectual agreement with theological doctrines; it is an intimate, experiential reality. You cannot know the sweetness of honey by reading about it in an encyclopedia; you must taste it for yourself. In the same way, you truly discover the goodness of God when you take refuge in Him during the dark valleys of life. When earthly shelters crumble, when human support proves fragile, and when you collapse into the arms of Jesus, you discover that His grace is sufficient, His presence is sweet, and His faithfulness never fails. Taking refuge in God means bringing your raw tears, your exhaustion, and your doubts directly to Him, refusing to run to worldly numbing agents. He will not turn you away. Taste of His mercy today, and you will see that He is infinitely good.",
     reflection_questions: [
-      "How does Job's response of worship in the middle of unimaginable grief challenge your idea of praise?",
-      "What is the difference between praising God for His gifts versus worshiping Him for His character?",
-      "What would it take for your heart to say, 'Blessed be the name of Yahweh,' in the face of deep loss?"
+      "In what ways have you personally 'tasted and seen' that the Lord is good during past trials?",
+      "What false refuges (food, shopping, social media, withdrawal) are you tempted to run to when life hurts?",
+      "How does taking refuge in Christ right now bring sweet relief to your weary soul?"
     ],
-    guided_prayer: "Sovereign God, You give and You take away, yet You remain holy, righteous, and worthy of all praise. Forgive me for worshiping Your gifts rather than worshiping You, the Giver. When loss, grief, and heartbreak shatter my earthly comforts, grant me the staggering faith of Job. Through tears of sorrow, I bow before Your throne and declare: Blessed be the name of Yahweh! You alone are my eternal treasure. In Jesus' name, Amen.",
-    daily_intention: "I will worship God for who He is today, declaring: 'Blessed be the name of Yahweh' in all seasons.",
-    practical_action: "Surrender your tight grip on one cherished earthly blessing today, acknowledging that it belongs to God.",
-    evening_reflection_prompt: "Did worshiping God for His character rather than His gifts bring deep, reverent peace to your heart today?"
+    guided_prayer: "Good and Gracious God, You are my refuge and my portion in the land of the living. Forgive me when I seek comfort in empty earthly refuges. Today I come to You with open hands, tasting afresh of Your sweetness, Your pardon, and Your steadfast love. Thank You for sheltering me in the storm. May my life be an invitation for others to taste and see Your goodness. Through Christ my Lord, Amen.",
+    daily_intention: "I will take refuge in the Lord today, tasting and experiencing His goodness in every moment.",
+    practical_action: "When you feel stressed or overwhelmed today, take three deep breaths and pray: 'Yahweh is good; I take refuge in Him.'",
+    evening_reflection_prompt: "Where did you taste of God's goodness and comfort as you took refuge in Him today?"
   },
   {
     day_number: 319,
@@ -6586,60 +6446,60 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 11,
     day_of_month: 19,
     weekly_subtheme: "The Secret of Holy Contentment",
-    title: "Be Content with What You Have",
-    scripture_primary_reference: "Hebrews 13:5",
-    scripture_primary_text: "Be free from the love of money, content with such things as you have, for he has said, 'I will in no way leave you, neither will I in any way forsake you.'",
+    title: "The Portion of My Inheritance and My Cup",
+    scripture_primary_reference: "Psalm 16:5-6",
+    scripture_primary_text: "Yahweh is the assigned portion of my inheritance and my cup. You maintain my lot. The lines have fallen to me in pleasant places. Yes, I have a good heritage.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The author of Hebrews links freedom from financial anxiety directly to the character and presence of God: 'Be free from the love of money, content with such things as you have, for he has said, 'I will in no way leave you, neither will I in any way forsake you.'' Notice the root of financial greed: the love of money is rarely about paper currency itself; it is about our deep, primal craving for security, significance, and control. We believe that if our bank account reaches a certain threshold, we will finally be safe from disaster. But money is an untrustworthy savior; it can evaporate through inflation, market crashes, medical crises, or death. Look at the divine alternative: God does not promise you millions of dollars, but He promises you something infinitely greater: His unbroken personal presence! In the original Greek, Hebrews 13:5 contains five distinct negative particles stacked together for overwhelming emphasis: 'I will never, no never, by no means ever leave you; nor will I ever, no never forsake you!' When you have an eternal, all-powerful God who will never leave your side, your financial security is absolute. Be content with what you have today.",
+    reflection_body: "David articulates the true secret of holy contentment: 'Yahweh is the assigned portion of my inheritance and my cup. You maintain my lot. The lines have fallen to me in pleasant places.' In the ancient allocation of the Promised Land, boundaries were marked with measuring lines to determine each tribe's boundary. David looks at his own life—with all its limitations, trials, and boundaries—and makes a breathtaking confession: God Himself is his portion. Discontentment arises when we look over the fence at another woman’s measuring lines, envying her marriage, her children, her house, her income, or her career. Comparison is the thief of holy joy. But when you realize that God has sovereignly assigned your lot and that He maintains your boundary lines, peace settles over your soul. Your true inheritance is not earthly wealth; it is the Lord Himself. Because you have Christ, the lines have fallen to you in pleasant places. You have a magnificent spiritual heritage that can never perish, spoil, or fade away.",
     reflection_questions: [
-      "What fear about money or future financial security causes you the most anxiety?",
-      "Why is God's personal presence an infinitely more reliable security system than a bank account?",
-      "How does the five-fold Greek promise ('I will never leave you') dismantle your fears of being abandoned?"
+      "Where has comparison been stealing your gratitude and making you feel dissatisfied with your assigned lot?",
+      "How does knowing that God Himself is your portion and inheritance bring peace to your heart today?",
+      "What does it look like practically to accept the boundary lines God has drawn in your current season of life?"
     ],
-    guided_prayer: "Ever-Present Lord, forgive my anxious hoarding and my false belief that money can provide true security. You alone are my provider, my fortress, and my eternal inheritance. Thank You for Your unshakeable, five-fold promise that You will never, ever leave me nor forsake me. Free my heart from the love of money and settle my soul in holy contentment with what I have today. In Jesus' mighty name, Amen.",
-    daily_intention: "I am content with what I have today, knowing that God's faithful presence is my ultimate security.",
-    practical_action: "Review your budget or bank account today through the lens of trust, praying: 'Lord, You are my true Provider.'",
-    evening_reflection_prompt: "Did resting in God's unbroken presence relieve financial stress and bring calm assurance to your day?"
+    guided_prayer: "Lord Yahweh, You are the portion of my inheritance and my cup! Forgive my restless heart for envying the lives, gifts, or possessions of others. I thank You today for the measuring lines You have drawn in my life. Thank You for my spiritual heritage in Christ. Teach me to be deeply satisfied in You, knowing that in possessing You, I possess everything I will ever need. In Jesus' name, Amen.",
+    daily_intention: "I will reject comparison today, rejoicing that the Lord Himself is my portion and my good heritage.",
+    practical_action: "Write down three specific blessings unique to your life that you will celebrate today without comparing them to anyone else.",
+    evening_reflection_prompt: "Did you rest content in your God-given portion today, free from the trap of comparison?"
   },
   {
     day_number: 324,
     month_number: 11,
     day_of_month: 20,
     weekly_subtheme: "The Secret of Holy Contentment",
-    title: "Never Abandoned by God",
-    scripture_primary_reference: "Hebrews 13:5",
-    scripture_primary_text: "for he has said, 'I will in no way leave you, neither will I in any way forsake you.'",
+    title: "Set Always Before Me, I Shall Not Be Moved",
+    scripture_primary_reference: "Psalm 16:8-9",
+    scripture_primary_text: "I have set Yahweh always before me. Because he is at my right hand, I shall not be moved. Therefore my heart is glad, and my tongue rejoices. My body shall also dwell in safety.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The fear of abandonment is one of the deepest, most pervasive wounds in the human heart. Many women carry invisible scars from being abandoned: a father who walked out in childhood, a husband who chose another woman, friends who vanished when life became messy, or children who grew up and rarely call. Human love is often fragile, conditional, and fickle. When people let us down, our wounded hearts unconsciously project that fear onto God: we assume that if we make a mistake, if our faith wavers, or if we suffer, God will pack His bags and leave us too. But God looks directly into your wounded soul today and speaks with irrevocable covenant authority: 'I will in no way leave you, neither will I in any way forsake you.' In the Greek, the word for 'forsake' (egkataleipo) means to abandon in a dangerous place, to leave behind in a ditch, or to desert a soldier on the battlefield. God will never desert you on the battlefield of life. He was with you in your youth, He is with you in midlife, and He will hold your hand when your hair is gray. You are never alone.",
+    reflection_body: "Contentment is not a passive mood that happens by chance; it is the result of an intentional focus: 'I have set Yahweh always before me. Because he is at my right hand, I shall not be moved.' Notice the deliberate action: 'I have set.' David actively chose where to position his attention. If you set your problems, your financial fears, or your relational grievances always before your eyes, you will be shaken by every passing breeze. But when you set Yahweh always before you—gazing upon His sovereignty, His covenant love, and His promises—He stands as your mighty defender at your right hand. When God occupies the center of your vision, your emotional foundation becomes unshakeable. Notice the chain reaction of divine contentment: 'Therefore my heart is glad, and my tongue rejoices. My body shall also dwell in safety.' Gladness fills the inner heart, joyful praise flows from the tongue, and physical rest settles over the body. Set the Lord before you today, and stand firm in holy peace.",
     reflection_questions: [
-      "What fear or past wound of abandonment has caused you to question whether God will stay with you?",
-      "What does it mean for your emotional security that God's covenant love is completely unconditional?",
-      "How does the truth that God will never desert you on the battlefield give you courage for today's duties?"
+      "What thoughts or worries have you been setting before your eyes instead of the Lord?",
+      "How does having God at your right hand give you emotional and spiritual stability today?",
+      "In what ways does setting the Lord before you bring rest and safety to your physical body?"
     ],
-    guided_prayer: "Faithful, Covenant-Keeping God, how I thank You that You are not like human beings who make promises and walk away. You have bound Your heart to mine with the unbreakable cords of Jesus' blood. Heal every deep wound of past abandonment in my heart. When loneliness whispers that I am forgotten, let Your promise thunder in my soul: You will never leave me nor forsake me. I rest in Your eternal presence today. Amen.",
-    daily_intention: "I am never alone, never abandoned, and never forgotten; my God walks beside me every step of the way.",
-    practical_action: "Whenever a feeling of loneliness or isolation touches your heart today, whisper: 'The Lord is with me right now.'",
-    evening_reflection_prompt: "Did the assurance of God's permanent companionship bring comfort and warmth to your evening?"
+    guided_prayer: "Sovereign Father, I set You before my eyes today. Deliver me from being distracted and terrified by the noise and storms of this world. Stand at my right hand, Lord, and hold me fast so that I shall not be moved. Fill my heart with unshakeable gladness, let my tongue rejoice in Your praise, and grant my weary body peaceful rest in Your care. Through Jesus Christ my Lord, Amen.",
+    daily_intention: "I will set the Lord always before my eyes today; with Him at my right hand, I shall not be moved.",
+    practical_action: "Place a visible reminder (a card, a small cross, or a screen note) where you work that says: 'Yahweh is at my right hand.'",
+    evening_reflection_prompt: "Did setting the Lord before you today keep you stable and calm amidst unexpected demands?"
   },
   {
     day_number: 325,
     month_number: 11,
     day_of_month: 21,
     weekly_subtheme: "The Secret of Holy Contentment",
-    title: "The Lord Is My Helper",
-    scripture_primary_reference: "Hebrews 13:6",
-    scripture_primary_text: "So that with good courage we say, 'The Lord is my helper. I will not fear. What can man do to me?'",
+    title: "In Your Presence Is Fullness of Joy",
+    scripture_primary_reference: "Psalm 16:11",
+    scripture_primary_text: "You will show me the path of life. In your presence is fullness of joy. In your right hand there are pleasures forever more.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Because God has promised never to leave us or forsake us, the author of Hebrews draws a triumphant, logical conclusion in verse 6: 'So that with good courage we say, 'The Lord is my helper. I will not fear. What can man do to me?'' Notice the connection: God’s promise leads directly to our bold confession! When we know that Almighty God is our personal Helper (boethos—one who runs to our aid at our cry), fear loses all its teeth. The author asks a rhetorical question: 'What can man do to me?' Think about that. Mere mortal humans can criticize you, gossip about you, fire you from a job, or exclude you from their social circles; in extreme persecution, they can even touch your physical body. But what can they do to your eternal soul? Absolutely nothing! They cannot cancel your salvation; they cannot erase your name from the Lamb's Book of Life; they cannot sever you from the love of Christ; they cannot take away your eternal crown. When God is on your side, human opposition shrinks to insignificance. Stand tall with holy courage today. The Lord is your helper.",
+    reflection_body: "David reaches the mountain peak of spiritual contentment with these immortal words: 'You will show me the path of life. In your presence is fullness of joy. In your right hand there are pleasures forever more.' Notice the word 'fullness.' The pleasures of this world are always partial, temporary, and mixed with sorrow; they leave us wanting more. But in God's presence, joy is not measured out in drops; it is full, overflowing, and eternal. Holy contentment is not the grim resignation of having fewer desires; it is finding the ultimate fountain of pure, unending delight. God does not call you to a dreary, joyless existence. He invites you to walk with Him along the path of life and feast upon the sacred pleasures of His right hand: the joy of His fellowship, the peace of His pardon, and the hope of eternal glory. When your soul is drinking from the river of His delight, the trinkets of this world lose their seductive power. Draw near to His presence today, and let His fullness of joy be your unshakeable strength.",
     reflection_questions: [
-      "What person or human opinion has been intimidating you and stealing your spiritual peace lately?",
-      "How does knowing that the Lord is your personal 'Helper' put human threats into proper perspective?",
-      "What bold confession of faith will you speak over your circumstances today based on Hebrews 13:6?"
+      "How does the 'fullness of joy' found in God's presence expose the emptiness of worldly entertainment?",
+      "Are you walking on the path of life today, listening for His gentle guidance in your decisions?",
+      "What spiritual pleasure from God's right hand can you thank Him for in this quiet moment?"
     ],
-    guided_prayer: "Yahweh, My Helper and Deliverer, I boldly proclaim with David and the Apostles today: The Lord is my helper; I will not fear! What can mortal man do to me? Forgive my cowardice when I have trembled before human opinions, criticism, or rejection. You are my shield and my eternal defense. Fill my spirit with holy courage, and let my life boldly reflect the freedom of knowing You fight for me. In Jesus' name, Amen.",
-    daily_intention: "The Lord is my Helper; I will not fear what man can do to me today, walking in holy freedom.",
-    practical_action: "Whenever you feel intimidated by someone's authority or criticism today, silently declare Hebrews 13:6.",
-    evening_reflection_prompt: "Did remembering that the Lord is your personal helper give you confidence and calm courage today?"
+    guided_prayer: "Lord of Joy, You are the fountain of life and the source of all true delight. Forgive me when I settle for the muddy puddles of worldly pleasure when I could drink from the pure ocean of Your presence. Show me the path of life today. Fill my soul with Your fullness of joy, and anchor my heart in the eternal pleasures of Your right hand. In the precious name of Jesus, Amen.",
+    daily_intention: "I will abide in God's presence today, where fullness of joy and eternal pleasures are found.",
+    practical_action: "Spend ten unhurried minutes in quiet praise, thanking God simply for the joy of knowing Him as your Savior.",
+    evening_reflection_prompt: "Did you experience moments of deep, quiet joy today as you rested in God's loving presence?"
   },
   {
     day_number: 326,
@@ -6726,20 +6586,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 11,
     day_of_month: 26,
     weekly_subtheme: "An Overflow of Generous Giving",
-    title: "Give, and It Will Be Given to You",
-    scripture_primary_reference: "Luke 6:38",
-    scripture_primary_text: "Give, and it will be given to you: good measure, pressed down, shaken together, and running over, will they give into your bosom. For with what measure you measure it will be measured to you again.",
+    title: "The Widow's Generous Offering",
+    scripture_primary_reference: "Luke 21:3-4",
+    scripture_primary_text: "He said, 'Truly I tell you, this poor widow put in more than all of them; for all these put in of their abundance into the gifts of God, but she, out of her poverty, put in all that she had to live on.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Jesus paints an unforgettable picture from the ancient grain market to describe the generosity of God: 'Give, and it will be given to you: good measure, pressed down, shaken together, and running over, will they give into your bosom.' In an ancient grain market, a stingy merchant would pour grain loosely into a measuring basket, leaving air pockets so that the customer received less. But a generous, honest merchant would fill the basket, press the grain down with his hands, shake the basket vigorously from side to side so the kernels settled into every crevice, pile the grain up in a mountain on top, and let it spill running over the edges into the customer's folded lap! That is how God measures out blessing to the generous woman. Notice the law of the measure: 'with what measure you measure it will be measured to you again.' If you use a stingy teaspoon of mercy, patience, and money with others, life will measure out a teaspoon to you. But if you measure out generous bushels of love, forgiveness, and resources, heaven will dump running-over bushels of grace into your lap! Measure generously today.",
+    reflection_body: "Standing in the temple treasury, Jesus watched the wealthy making grand displays of large donations. Then a poor widow slipped in quietly and dropped two tiny copper coins—worth less than a penny—into the collection box. To human eyes, her gift was completely insignificant. But Jesus called His disciples together and declared that this woman had given more than all the wealthy combined. The rich gave out of their surplus, feeling no sacrifice; but she, out of her poverty, gave all she had to live on. God does not measure generosity by the monetary size of the gift, but by the size of the sacrifice and the trust of the heart. You may look at your bank account, your energy, or your limited time and feel that you have almost nothing of value to offer. But when you place your two mites—your small kindness, your simple meal, your quiet prayer, your sacrificial gift—into the hands of Jesus, He counts it as precious worship. True generosity is an act of radical trust, believing that the God who feeds the sparrows will faithfully care for you.",
     reflection_questions: [
-      "What kind of 'measuring cup' do you typically use with others—a stingy teaspoon or an overflowing bushel?",
-      "How does the image of grain 'pressed down, shaken together, and running over' reveal God's heart?",
-      "In what relationship do you need to replace a stingy teaspoon of grace with an overflowing bushel of love today?"
+      "Have you ever held back from giving or serving because your contribution felt too small to matter?",
+      "How does Jesus' view of the widow's two mites encourage you in your current financial or life situation?",
+      "What 'two mites' of time, love, or resources can you generously place into God's hands today?"
     ],
-    guided_prayer: "Bountiful Savior, how I thank You that You never measure out Your mercy to me with a stingy spoon! You have poured out Your grace into my life, pressed down, shaken together, and overflowing. Forgive my tight, critical measuring cups toward others. Teach me to give generously—my forgiveness, my resources, my patience, and my time. May my life reflect the lavish, running-over generosity of my King. In Jesus' precious name, Amen.",
-    daily_intention: "I will use a generous bushel of grace with others today, knowing that God will measure back to me abundantly.",
-    practical_action: "Extend an overflowing measure of grace, forgiveness, or practical generosity to someone who doesn't deserve it today.",
-    evening_reflection_prompt: "Did measuring out generous grace bring an unexpected overflow of peace and joy to your evening?"
+    guided_prayer: "Lord Jesus, You see not as man sees, looking past outward wealth to the devotion of the heart. Forgive me when I hold back out of scarcity or fear. Take my small resources, my two mites of time, and my simple gifts, and use them for Your Kingdom. Teach me to give generously and cheerfully, trusting that You will supply all my needs according to Your riches in glory. In Your precious name, Amen.",
+    daily_intention: "I will give cheerfully and generously today, trusting that God values the sacrifice of my heart.",
+    practical_action: "Give a sacrificial gift of money, time, or practical help to someone in need, giving it secretly and with joy.",
+    evening_reflection_prompt: "Where did God invite you to practice cheerful, trusting generosity during the course of this day?"
   },
   {
     day_number: 331,
@@ -6806,20 +6666,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 11,
     day_of_month: 30,
     weekly_subtheme: "Holy Remembrance & Praise Stones",
-    title: "Ebenezer — Thus Far Yahweh Has Helped Us",
-    scripture_primary_reference: "1 Samuel 7:12",
-    scripture_primary_text: "Then Samuel took a stone, and set it between Mizpah and Shen, and called its name Ebenezer, saying, 'Yahweh has helped us until now.'",
+    title: "Remembering the Wonders of Old",
+    scripture_primary_reference: "Psalm 77:11-12",
+    scripture_primary_text: "I will remember Yah’s deeds; for I will remember your wonders of old. I will also meditate on all your work, and consider your doings.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In 1 Samuel 7, the Philistine army launched a surprise attack against the trembling Israelites as they were gathered in repentance at Mizpah. Samuel cried out to the Lord, and Yahweh thundered with a loud voice from heaven, throwing the Philistines into total confusion and granting Israel a miraculous victory. Following the battle, the prophet Samuel took a large stone, erected it on the battlefield, and named it Ebenezer—literally in the Hebrew, 'Stone of Help.' Samuel declared: 'Yahweh has helped us until now.' Notice those two words: 'UNTIL NOW.' Samuel looked back over decades of battles, failures, heartbreaks, and tears, and planted his flag in the soil of history: up to this very second, Yahweh has helped us! And if Yahweh has helped us until now, will He abandon us tomorrow? Never! As November comes to a sacred close, plant your own Ebenezer stone. Look back over the eleven months of this year: through every tear, every sleepless night, every trial, and every sunrise, Yahweh has helped you until now. Step into December with unshakeable confidence. Your Helper is with you.",
+    reflection_body: "In Psalm 77, Asaph was wrestling with profound anguish and sleepless nights, wondering if God had forgotten to be gracious. But right in the middle of his despair, Asaph made a decisive pivot: 'I will remember Yah’s deeds; for I will remember your wonders of old. I will also meditate on all your work, and consider your doings.' Holy remembrance is the bridge that carries the soul out of the pit of anxiety and onto the high ground of faith. When you feel overwhelmed by the uncertainties of tomorrow, do not stare at the storm. Reach back into the treasure chest of redemptive history and your own spiritual journey. Remember how God parted the waters, provided manna in the wilderness, brought resurrection out of the cross, and faithfully carried you through past heartbreaks. As you meditate on all His works and consider His doings, your perspective shifts from the magnitude of your problems to the majesty of your God. Stones of remembrance anchor your soul. He who was faithful in the past will be faithful tomorrow.",
     reflection_questions: [
-      "Looking back over this year, how can you declare with Samuel: 'Yahweh has helped me until now'?",
-      "Why does planting an 'Ebenezer' stone of past help give you absolute confidence for your future?",
-      "What does it mean for your peace to know that the God who helped you in the past will not abandon you tomorrow?"
+      "What 'wonders of old' in your own life can you meditate upon today to conquer anxious thoughts?",
+      "How does intentional, biblical meditation on God's past works silence the voice of despair?",
+      "What praise stone of remembrance can you set up in your heart as you finish this month of thanksgiving?"
     ],
-    guided_prayer: "Yahweh, My Ebenezer, my Stone of Help, I raise my monument of praise to You today! Looking back over all the days of my life, through every valley, storm, and battle, I proclaim with deep gratitude: Thus far Yahweh has helped me! You have never failed me, never forsaken me, and never dropped my life. I anchor my soul in Your past faithfulness, confident that the God who helped me until now will carry me safely into glory. Amen.",
-    daily_intention: "I raise my Ebenezer today: Yahweh has helped me until now, and He will carry me forever.",
-    practical_action: "Take twenty quiet minutes today to celebrate the end of November, writing down an 'Ebenezer' prayer of thanksgiving.",
-    evening_reflection_prompt: "How has cultivating an altar of thanksgiving throughout November transformed your outlook for the holidays ahead?"
+    guided_prayer: "Faithful God, when my heart is overwhelmed and sleepless nights threaten my peace, teach me to remember. I recall Your wonders of old, Your mighty deeds, and Your steadfast covenant love. I meditate upon the cross of Jesus, where my eternal redemption was sealed. Thank You for every answered prayer and every past deliverance. Anchor my soul in Your unchanging faithfulness, now and forever. Amen.",
+    daily_intention: "I will deliberately remember God's wonders of old today, meditating on His mighty faithfulness.",
+    practical_action: "Write down three major milestones where God intervened in your past, and keep them where you can review them whenever fear strikes.",
+    evening_reflection_prompt: "How did meditating on God's past faithfulness bring peace and confidence to your heart today?"
   },
   {
     day_number: 335,
@@ -6946,20 +6806,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 12,
     day_of_month: 7,
     weekly_subtheme: "The Longing of Advent",
-    title: "Out of Bethlehem Ephrathah",
-    scripture_primary_reference: "Micah 5:2",
-    scripture_primary_text: "But you, Bethlehem Ephrathah, being small among the clans of Judah, out of you one will come out to me that is to be ruler in Israel; whose goings out are from of old, from ancient times.",
+    title: "The Dawn from on High Visiting Us",
+    scripture_primary_reference: "Luke 1:78-79",
+    scripture_primary_text: "because of the tender mercy of our God, by which the dawn from on high will visit us, to shine on those who sit in darkness and the shadow of death; to guide our feet into the way of peace.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Seven centuries before the census of Caesar Augustus, the prophet Micah singled out an obscure, dusty village five miles south of Jerusalem: 'But you, Bethlehem Ephrathah, being small among the clans of Judah, out of you one will come out to me that is to be ruler in Israel; whose goings out are from of old, from ancient times.' Notice the contrast: Bethlehem was 'small among the clans of Judah'—too insignificant to even be listed among the military garrisons of Judah. It was an agricultural backwater where sheep grazed on rocky hills. Yet out of this tiny, overlooked village stepped the Eternal Sovereign whose goings forth are from eternity! This is God's consistent, magnificent signature: He bypasses the glittering imperial palaces of Rome, Alexandria, and Athens, and chooses an obscure village to birth His greatest miracle. Never look at your small life, your quiet home, or your humble duties and think that God cannot do something magnificent through you! God loves small things. He loves mustard seeds, shepherd boys, and little Bethlehems. When you surrender your small life into the hands of an infinite God, He brings forth eternal fruit. You are not overlooked by heaven.",
+    reflection_body: "In his prophetic Benedictus, Zechariah rejoiced over the incoming Messiah with breathtaking imagery: 'because of the tender mercy of our God, by which the dawn from on high will visit us, to shine on those who sit in darkness and the shadow of death; to guide our feet into the way of peace.' Advent is the season of holy longing. For centuries, God's people sat in the deep twilight of waiting, silence, and oppression. But into that cold darkness, God broke through not with lightning bolts of wrath, but with the gentle, rising dawn of His tender mercy (*splagchna eleous*—the deepest compassionate affections of God). Jesus is the Dayspring, the radiant sunrise from heaven. His light penetrates into the darkest corners of human sorrow, loneliness, and the fear of death, illuminating our path and guiding our restless feet into the way of true shalom. If you are sitting in the shadow of grief or feeling overwhelmed by dark circumstances this December, lift your eyes. The dawn from on high has visited you. The Light of the world has come, and the darkness can never overcome Him.",
     reflection_questions: [
-      "Have you ever felt small, insignificant, or overlooked in your family, career, or ministry?",
-      "How does God choosing tiny Bethlehem to birth the Savior demonstrate His love for humble things?",
-      "What small gift, quiet service, or humble duty can you offer to God today, trusting Him to multiply it?"
+      "In what area of your life or family do you most need the light of Christ to shine into darkness right now?",
+      "How does Zechariah's description of God's 'tender mercy' comfort your soul during the holiday season?",
+      "What does it mean for Jesus to guide your feet into the way of peace amidst December hurry?"
     ],
-    guided_prayer: "God of Bethlehem, how I love Your humble ways! You bypass the arrogant palaces of this world to reveal Your glory in small, overlooked places. Forgive me for despising small beginnings or feeling insignificant in Your kingdom. I bring my small life, my ordinary home, and my humble talents to You today. Do what seems good in Your sight. Birth Your holy purposes through my quiet obedience, to the praise of Your glorious grace. Amen.",
-    daily_intention: "God delights to use small and humble things; I will offer my ordinary life for His eternal glory today.",
-    practical_action: "Perform one quiet, unseen act of service today in your home or church, offering it as a 'Bethlehem' gift to Jesus.",
-    evening_reflection_prompt: "Did remembering that God values small, humble things bring peace and satisfaction to your day?"
+    guided_prayer: "Lord God of tender mercy, thank You for sending the Dayspring from on high to visit us in our darkness. Shine Your radiant light into every shadowy corner of my heart, dispelling fear, loneliness, and despair. Guide my feet into Your way of peace this Advent season. Deliver me from the hurried commercialism of this world, and fill my soul with quiet awe at the coming of my Savior Jesus Christ. Amen.",
+    daily_intention: "I will walk in the light of the Dayspring today, letting Christ guide my feet into the way of peace.",
+    practical_action: "Light a candle in a dark room this evening, sit quietly for five minutes, and meditate on Jesus, the Light of the world.",
+    evening_reflection_prompt: "Where did the tender mercy and radiant light of Christ guide your steps during this day?"
   },
   {
     day_number: 342,
@@ -6986,20 +6846,20 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 12,
     day_of_month: 9,
     weekly_subtheme: "The Miracle of the Manger",
-    title: "Wrapped in Swaddling Clothes",
-    scripture_primary_reference: "Luke 2:7",
-    scripture_primary_text: "She gave birth to her firstborn son. She wrapped him in swaddling clothes, and laid him in a feeding trough,",
+    title: "The God Who Emptied Himself",
+    scripture_primary_reference: "Philippians 2:6-7",
+    scripture_primary_text: "who, existing in the form of God, didn’t consider equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being made in the likeness of men.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Consider the astonishing scene in the stable of Bethlehem: Mary wrapped her newborn Son in swaddling clothes and laid Him in a manger—an animal feeding trough carved out of rough limestone. Swaddling clothes were strips of coarse linen wrapped tightly around a newborn’s limbs to keep him warm and secure. But in ancient Judea, strips of linen were also used for another solemn purpose: they were the burial cloths used to wrap a dead body for the tomb. From the very moment of His birth, Jesus was wrapped in the garments of His destiny! The feeding trough pointed to the Bread of Life who would be broken for the hunger of the world; the swaddling clothes foreshadowed the linen cloths that would lie folded in the empty garden tomb thirty-three years later. The shadow of the cross fell directly across the manger in Bethlehem. Jesus was born to die so that you and I might live forever. When you look at the nativity scene this Christmas, look past the sentimental holiday cards. Gaze upon the staggering, costly love of God. He gave His only Son to be wrapped in our fragile mortality so that we could be clothed in His eternal righteousness.",
+    reflection_body: "Paul unveils the staggering theological mystery of the incarnation: Jesus Christ, existing in the very form of God from all eternity, 'didn’t consider equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being made in the likeness of men.' In Bethlehem’s manger, the Sovereign Architect of galaxies laid aside the outward glory of heaven to wrap Himself in fragile human skin. He did not cling to celestial privileges or demand earthly luxury; He emptied Himself to become a servant. The Creator cried as an infant, was fed at a mother's breast, and slept in a feeding trough. This is the profound miracle of the manger: God drew near not in terrifying splendor, but in gentle, approachable vulnerability. In an achievement-driven culture where human beings constantly scramble for status, influence, and recognition, Jesus demonstrates the royal majesty of downward humility. When you look upon the manger, let every shred of pride dissolve. If the King of kings embraced servanthood for your salvation, you can joyfully walk in gentle humility today.",
     reflection_questions: [
-      "How does the connection between swaddling clothes and burial linens reveal the sacrificial purpose of Christmas?",
-      "Why is it important to remember the cross when we look at the baby in the manger?",
-      "How does the costly, sacrificial love of Jesus inspire your worship and gratitude this holiday season?"
+      "How does meditating on the humility of the incarnation soften your heart and eliminate selfish ambition?",
+      "What does it look like for you to 'take the form of a servant' in your home or community this Christmas season?",
+      "Why is the gentle vulnerability of the manger such good news for sinners and the brokenhearted?"
     ],
-    guided_prayer: "Precious Savior, I gaze in speechless awe at Your humble manger. You stepped down from the celestial glory of heaven to be wrapped in coarse swaddling clothes and laid in an animal trough for me. Thank You that You were born to die, bearing my sin and shame on the cross. Forgive my shallow, consumeristic approach to Christmas. Fill my heart with reverent worship for Your staggering, sacrificial love today. In Jesus' mighty name, Amen.",
-    daily_intention: "I will gaze upon the manger through the lens of the cross today, worshiping my Savior's sacrificial love.",
-    practical_action: "Spend ten quiet minutes today meditating on the humility of the nativity, thanking Jesus for stepping down to earth for you.",
-    evening_reflection_prompt: "Did contemplating the humility of Christ bring deep, reverent gratitude to your evening?"
+    guided_prayer: "Lord Jesus, I bow in reverent wonder before the miracle of the manger. You laid aside the glory of heaven, emptied Yourself of celestial privilege, and took the form of a servant for my sake. Forgive my pride and my foolish desire for human applause. Clothe me in Your gentle humility today. Teach me to serve others with self-forgetful love, reflecting the sacred beauty of Your incarnation. In Your holy name, Amen.",
+    daily_intention: "I will embrace gentle humility today, following the example of my Savior who emptied Himself for me.",
+    practical_action: "Perform a quiet, lowly task in your home or workplace today without letting anyone know it was you who did it.",
+    evening_reflection_prompt: "Did you walk in the humility of Christ today, seeking to serve rather than to be served?"
   },
   {
     day_number: 344,
@@ -7106,140 +6966,140 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 12,
     day_of_month: 15,
     weekly_subtheme: "The Prince of Peace in Family Chaos",
-    title: "Let Us Go Even to Bethlehem",
-    scripture_primary_reference: "Luke 2:15",
-    scripture_primary_text: "It happened, when the angels went away from them into the sky, the shepherds said one to another, 'Let’s go now to Bethlehem, and see this thing that has happened, which the Lord has made known to us.'",
+    title: "Peace I Leave with You",
+    scripture_primary_reference: "John 14:27",
+    scripture_primary_text: "Peace I leave with you. My peace I give to you; not as the world gives, give I to you. Don’t let your heart be troubled, neither let it be fearful.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Notice what the shepherds did the moment the celestial angels vanished into the night sky: they did not organize an academic committee to debate the theology of the angelic appearance, nor did they sit by the campfire analyzing the music. They looked at one another and said: 'Let’s go now to Bethlehem, and see this thing that has happened!' They dropped everything, left their ordinary routines, and ran toward the manger with urgent, childlike obedience! Encountering the good news of Jesus always demands an immediate personal response. You cannot treat the Gospel as a spectator sport. It is not enough to listen to beautiful Christmas carols or admire nativity figurines from a comfortable distance. You must say to your own soul: 'Let us go even unto Bethlehem!' You must take the journey of personal faith, run to the feet of King Jesus, and behold for yourself what God has done. Run past the distractions of holiday commercialism. Run past the family noise. Run straight to the manger and behold your King.",
+    reflection_body: "On the night before His crucifixion, amidst the impending terror of Gethsemane and Calvary, Jesus bequeathed His supreme inheritance to His followers: 'Peace I leave with you. My peace I give to you; not as the world gives, give I to you.' The world defines peace as the temporary absence of conflict or external trouble—an agreeable bank balance, quiet children, or an empty inbox. But worldly peace is fragile and easily shattered. The peace Jesus gives is an internal, supernatural reality that thrives right in the middle of external storms. It is His own peace—the unshakeable calm of the Son resting in the Father's sovereign love. As family gatherings approach in December, relational friction, old grievances, hectic schedules, and unresolved tensions can easily turn holiday homes into zones of emotional chaos. But you do not have to absorb the anxiety around you. Jesus commands: 'Don’t let your heart be troubled, neither let it be fearful.' His peace is an anchor for your soul.",
     reflection_questions: [
-      "Are you currently treating Christmas as a passive holiday tradition or an urgent personal encounter with Christ?",
-      "What holiday distractions or secular busywork are threatening to keep you from running to the manger?",
-      "What does it look like for you to drop everything and 'go to Bethlehem' in quiet prayer today?"
+      "In what areas of your family or home life do you most feel the threat of holiday stress and tension?",
+      "How does Christ's gift of peace differ from the fragile, temporary peace that the world tries to offer?",
+      "What does it look like practically to refuse to let your heart be troubled when people around you are anxious?"
     ],
-    guided_prayer: "Lord Jesus, I hear heaven's invitation and I run to Your manger today! Forgive me for standing at a distance, treating Christmas as mere holiday tradition while missing the living reality of my King. I leave behind the frantic noise of commercial hurry. Lead my heart to Bethlehem. Open my spiritual eyes to see the glorious mystery of Your Incarnation, and fill my soul with the humble, obedient wonder of the shepherds. In Your precious name, Amen.",
-    daily_intention: "I will run to the feet of King Jesus today, leaving all holiday distractions behind to behold my Lord.",
-    practical_action: "Take fifteen quiet minutes today to read Luke 2:1-20 slowly, placing yourself directly in the shepherds' sandals.",
-    evening_reflection_prompt: "Did running to the presence of Jesus bring holy stillness and wonder to your busy day?"
+    guided_prayer: "Prince of Peace, thank You for leaving me Your divine inheritance of peace. When holiday chaos, family tension, and hectic demands threaten to overwhelm my soul, anchor me in Your calm presence. I receive Your peace today. Guard my mind from fear, govern my tongue in stressful moments, and make me a conduit of Your quiet, unshakeable calm to those around me. In Jesus' mighty name, Amen.",
+    daily_intention: "I will receive and rest in Christ's supernatural peace today, refusing to let my heart be troubled.",
+    practical_action: "When family tension or schedule hurry strikes today, step into another room, take three slow breaths, and whisper: 'My peace I give to you.'",
+    evening_reflection_prompt: "Did you stand anchored in Christ's quiet peace today amidst the hurry and noise around you?"
   },
   {
     day_number: 350,
     month_number: 12,
     day_of_month: 16,
     weekly_subtheme: "The Prince of Peace in Family Chaos",
-    title: "Mary Pondered These Things",
-    scripture_primary_reference: "Luke 2:19",
-    scripture_primary_text: "But Mary kept all these sayings, pondering them in her heart.",
+    title: "Let Not Your Heart Be Troubled",
+    scripture_primary_reference: "John 14:27",
+    scripture_primary_text: "Don’t let your heart be troubled, neither let it be fearful.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In the midst of the noisy stable—with rough shepherds speaking excitedly, animals rustling in the straw, and the bustling chaos of Bethlehem—look at the sublime interior posture of young Mary: 'But Mary kept all these sayings, pondering them in her heart.' The Greek word for 'pondered' (symballo) means to fit pieces together like a sacred jigsaw puzzle, holding different elements up to the light to perceive the hidden divine design. Mary did not broadcast her miraculous birth on ancient social media; she did not gossip or boast about being the mother of the Messiah. She built a quiet interior treasure chest in her soul. She carefully gathered the angel's words, the shepherds' testimony, the prophecies of Scripture, and the gentle breathing of her newborn baby, and she held them in sacred contemplation. In our noisy, over-stimulated world—especially during the frantic holiday season—we desperately need the contemplative heart of Mary. Do not let the sacred mystery of Jesus be trampled by the stampede of holiday hurry. Treasure His words. Ponder His grace in your heart today.",
+    reflection_body: "Jesus gives an imperative that is both a tender command and a profound promise: 'Don’t let your heart be troubled, neither let it be fearful.' Notice that Jesus places the responsibility gently upon us: 'Don't let your heart.' While we cannot control the difficult personalities, family dramas, or unexpected crises that arise during the holidays, we can control what we allow to take root in our inner sanctuary. An untroubled heart is not the result of having perfect relatives or a stress-free schedule; it is the deliberate choice to guard your soul under the shelter of Christ. When hurtful comments are spoken at the dinner table, when old resentments threaten to flare, or when financial pressures mount, the natural reflex is to join in the anxiety. But as a follower of Jesus, you are called to be an emotional and spiritual thermostat, not a thermometer. You do not reflect the ambient tension; you regulate the atmosphere with the calm authority of Christ. Keep the door of your heart closed against fear and bitterness.",
     reflection_questions: [
-      "Is your heart currently feeling more like a noisy marketplace or a quiet sanctuary of contemplation?",
-      "What does it mean practically to 'ponder these things in your heart' amidst family holiday preparations?",
-      "What precious truth of God's faithfulness from this past year can you place in your spiritual treasure chest today?"
+      "What family dynamics or holiday expectations are currently tempting you to let your heart be troubled?",
+      "How can you act as a peacemaker rather than absorbing or amplifying tension in family conversations?",
+      "What boundary or quiet pause can you establish to protect your soul's peace during hectic gatherings?"
     ],
-    guided_prayer: "Contemplative God, teach my noisy, hurried heart the sacred discipline of Mary. Forgive my addiction to external noise, constant chatter, and the frantic pace of the holidays. Create a quiet sanctuary inside my soul today. Help me treasure Your words, collect Your promises, and ponder Your miraculous faithfulness. Let the wonder of the Incarnation take deep root in my spirit, producing unshakeable peace. In Jesus' holy name, Amen.",
-    daily_intention: "I will cultivate a contemplative heart today, treasuring God's wondrous deeds and pondering His love.",
-    practical_action: "Spend ten minutes today sitting near your Christmas tree or in a quiet room, simply pondering the mystery of Christ's birth.",
-    evening_reflection_prompt: "Did taking time to ponder God's goodness bring deep tranquility to your soul throughout today?"
+    guided_prayer: "Lord Jesus, You know how easily my heart is tossed by the moods, words, and demands of others. Give me the grace today to obey Your command: let not my heart be troubled. When tension rises in my home, make me an instrument of Your stillness. Let Your love absorb harshness, let Your truth dispel confusion, and keep my spirit anchored in Your unchanging grace. In Your name, Amen.",
+    daily_intention: "I will guard the door of my heart today, refusing to allow fear, anger, or offense to dwell within.",
+    practical_action: "Decide in advance one gracious, defusing response you will use if a tense or argumentative topic arises with family.",
+    evening_reflection_prompt: "Did you succeed in guarding your heart from anxiety and agitation during today's interactions?"
   },
   {
     day_number: 351,
     month_number: 12,
     day_of_month: 17,
     weekly_subtheme: "The Prince of Peace in Family Chaos",
-    title: "Glorifying and Praising God",
-    scripture_primary_reference: "Luke 2:20",
-    scripture_primary_text: "The shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told them.",
+    title: "A Mind Kept in Perfect Peace",
+    scripture_primary_reference: "Isaiah 26:3",
+    scripture_primary_text: "You will keep him in perfect peace, whose mind is stayed on you; because he trusts in you.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Notice what happened after the shepherds saw the baby in the manger: they did not retire to a luxury monastery, nor did they escape the dusty realities of their lives. Scripture records: 'The shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told them.' They returned! They went right back to the exact same cold hills, the exact same smelly sheep, the exact same demanding duties, and the exact same low social standing they had before. But while their outward circumstances remained identical, their inner souls were completely revolutionized! They were no longer weary, cynical outcasts; they were men carrying celestial glory in their hearts, glorifying and praising God in the middle of their sheepfolds! That is the power of encountering Jesus Christ. The Gospel does not immediately change your difficult mother-in-law, eliminate your pile of laundry, or resolve every work challenge; but the Gospel changes YOU! You return to your ordinary kitchen, your desk, and your family carrying heaven's song in your spirit. Return to your ordinary duties with extraordinary praise today.",
+    reflection_body: "Isaiah reveals the divine formula for unshakeable inner stability: 'You will keep him in perfect peace, whose mind is stayed on you; because he trusts in you.' In the original Hebrew, 'perfect peace' is *shalom shalom*—double peace, absolute, unbroken wholeness. Notice who performs the keeping: 'You will keep him.' You do not have to hold yourself together by sheer willpower; the Almighty God promises to keep you. But upon what does this perfect peace rest? Upon a mind that is 'stayed' on Him. The word 'stayed' conveys the picture of leaning your entire weight upon a solid, unmoving pillar. In the rush of holiday preparations, our minds are pulled in a thousand frantic directions: gift lists, meal planning, travel arrangements, and family expectations. When your thoughts are scattered upon circumstances, anxiety is inevitable. But when you consciously tether your mind to the character, faithfulness, and promises of God, His peace wraps around your thoughts like a fortress. Keep your mind stayed on Him today, and watch anxiety flee.",
     reflection_questions: [
-      "What ordinary or unglamorous duties do you have to 'return' to today after your devotional time?",
-      "How does an authentic encounter with Jesus transform your attitude toward routine chores and work?",
-      "How can you bring the praise of the shepherds into your ordinary workplace or household today?"
+      "What thoughts have been dominating your mind over the past few days—holiday hurry or God's promises?",
+      "What does it mean practically to 'lean the full weight of your mind' upon the character of God?",
+      "How can you train your thoughts to return to Jesus throughout a demanding, chaotic day?"
     ],
-    guided_prayer: "Glorious Father, I thank You that encountering Jesus does not take me out of this world, but empowers me to live in it with celestial joy. As I return to my ordinary duties, my domestic chores, and my work today, fill my heart with the shepherds' praise! Let me glorify and praise You for all I have seen and heard in Your Word. Transform my routine day into an altar of worship to Your holy name. In Jesus' name, Amen.",
-    daily_intention: "I will return to my daily duties today with a heart full of praise, carrying Christ's joy into ordinary moments.",
-    practical_action: "Sing a Christmas hymn or praise song while performing an ordinary household chore today.",
-    evening_reflection_prompt: "Did returning to your duties with praise transform the atmosphere of your home or workspace today?"
+    guided_prayer: "Lord God, You are my unmoving Rock. Forgive me for allowing my mind to be scattered and overwhelmed by minor holiday details. Today I deliberately lean the full weight of my thoughts, my worries, and my schedule upon You. Keep me in Your *shalom shalom*—Your perfect peace. When distractions swirl around me, tether my soul to Your cross and Your eternal promises. Through Christ my Lord, Amen.",
+    daily_intention: "I will keep my mind stayed upon the Lord today, resting fully in His promise of perfect peace.",
+    practical_action: "Whenever your mind begins racing today, pause and repeat Isaiah 26:3 slowly three times, fixing your attention on God.",
+    evening_reflection_prompt: "Did you experience God's 'perfect peace' guarding your thoughts as you stayed your mind on Him?"
   },
   {
     day_number: 352,
     month_number: 12,
     day_of_month: 18,
     weekly_subtheme: "The Prince of Peace in Family Chaos",
-    title: "We Saw His Star in the East",
-    scripture_primary_reference: "Matthew 2:2",
-    scripture_primary_text: "saying, 'Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.'",
+    title: "Yahweh, the Everlasting Rock",
+    scripture_primary_reference: "Isaiah 26:4",
+    scripture_primary_text: "Trust in Yahweh forever; for in Yah, Yahweh, is an everlasting Rock.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "The Magi were distinguished scholars, astronomers, and counselors from ancient Persia, hundreds of miles to the east of Judea. They possessed vast wealth, royal status, and profound learning. Yet when they saw a miraculous, supernatural star rising in the western sky, they did not stay comfortable in their ivory towers; they mounted camels, crossed scorching deserts, traversed dangerous mountain ranges, and journeyed for months with a single, magnificent obsession: 'Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.' Notice their singular goal: they did not travel months to give advice, to negotiate political treaties, or to inspect a novelty; they came to WORSHIP Him! True wisdom always, without exception, leads to the feet of Jesus. If human education and intellect do not bring you to your knees in adoration before the Son of God, your learning is mere foolishness. Follow the star of God's Word today. Let every longing of your heart lead you directly to the worship of King Jesus.",
+    reflection_body: "Isaiah immediately follows his promise of perfect peace with an urgent exhortation: 'Trust in Yahweh forever; for in Yah, Yahweh, is an everlasting Rock.' Human securities are shifting sand. Family relationships can be fragile, financial resources fluctuate, physical health can deteriorate, and holiday plans can unravel in an instant. If your peace depends on stable earthly circumstances, you will be in constant jeopardy. But in Yahweh, we possess an 'Everlasting Rock'—in Hebrew, *Tsur Olamim*, the Rock of Ages. A rock does not tremble when waves crash against it; it does not move when winter winds howl. It stands firm, providing an unshakeable foundation for everyone who builds upon it. When family gatherings feel emotionally turbulent or unpredictable, do not anchor your expectations in human perfection. Anchor your trust in the Everlasting Rock. Let family members be imperfect human beings without allowing their flaws to shatter your peace. Your stability is anchored in God, and that Rock will never move.",
     reflection_questions: [
-      "What 'journey' of sacrifice, time, or energy are you willing to make to pursue deeper worship of Jesus?",
-      "Why does true wisdom always culminate in bowing before the King of Kings in humble adoration?",
-      "What star of divine truth or scripture has God been shining in your life to guide your steps recently?"
+      "In what fragile earthly securities have you been placing your trust during this holiday season?",
+      "How does viewing God as your 'Everlasting Rock' change the way you respond when family plans change or fall apart?",
+      "What does it look like to give family members grace to be imperfect while resting your soul on Christ?"
     ],
-    guided_prayer: "Wise and Sovereign God, You hung the stars in space and guided the Magi across desert sands to the feet of Your Son. Forgive my lazy devotion that only worships when it is convenient and comfortable. Give me the passionate, persistent heart of the Wise Men. I follow the star of Your Word today. Lead my heart past all distractions, until I bow in humble adoration before King Jesus, offering my life to Him. Amen.",
-    daily_intention: "I will follow the light of God's Word today, seeking the King with my whole heart to worship Him.",
-    practical_action: "Take a walk outside under the stars tonight, meditating on the journey of the Wise Men and worshiping your King.",
-    evening_reflection_prompt: "Did following the light of God's truth bring clarity and reverent joy to your evening?"
+    guided_prayer: "Eternal Yahweh, You are the Rock of Ages, the unmovable foundation of my life. Forgive me for placing unrealistic expectations on fragile human beings and demanding that circumstances be perfect. Today I plant my feet firmly upon You, my Everlasting Rock. When family friction or holiday stress threatens to shake me, hold me steady in Your sovereign love and grace. In Jesus' name, Amen.",
+    daily_intention: "I will trust in the Lord forever today, knowing that in Yahweh is an Everlasting Rock.",
+    practical_action: "Identify one holiday expectation you have been clinging to tightly, and release it into the hands of your Rock.",
+    evening_reflection_prompt: "Did you stand firm upon the Everlasting Rock today when human plans or emotions shifted?"
   },
   {
     day_number: 353,
     month_number: 12,
     day_of_month: 19,
     weekly_subtheme: "The Prince of Peace in Family Chaos",
-    title: "Rejoicing with Exceeding Great Joy",
-    scripture_primary_reference: "Matthew 2:10",
-    scripture_primary_text: "When they saw the star, they rejoiced with exceedingly great joy.",
+    title: "Let the Peace of Christ Rule",
+    scripture_primary_reference: "Colossians 3:15",
+    scripture_primary_text: "And let the peace of Christ rule in your hearts, to which also you were called in one body; and be thankful.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Matthew uses an extraordinary combination of superlatives in Matthew 2:10 to describe the emotional reaction of the Magi when the supernatural star reappeared over the house in Bethlehem: 'When they saw the star, they rejoiced with exceedingly great joy'—literally in the Greek, they rejoiced with mega joy, exceedingly beyond measure! These were dignified, mature, scholarly men of state; yet when they realized that their long, perilous journey was at its glorious end and that they were finally arriving in the presence of the King of Glory, all dignity vanished into overwhelming, ecstatic celebration! Consider what this means for your spiritual walk. The journey of following Jesus can be long, dusty, and exhausting. You walk through dry deserts of waiting, climb rocky mountains of grief, and navigate confusing seasons where the star seems to disappear behind storm clouds. But when God’s guidance brings you into the radiant presence of Jesus, every sacrifice, every tear, and every blistered step is instantly swallowed up in exceedingly great joy! Look up today. The star of His faithfulness is shining. Rejoice with mega joy.",
+    reflection_body: "Paul gives a vital command for communal harmony: 'let the peace of Christ rule in your hearts, to which also you were called in one body; and be thankful.' The Greek word translated 'rule' (*brabeuo*) is an athletic term referring to an umpire or referee. An umpire steps in to resolve disputes, call fouls, and maintain order on the playing field. Paul instructs that whenever conflicting desires, hurtful words, or selfish impulses arise in your heart, the peace of Christ must act as the deciding umpire. If an angry response, a sarcastic retort, or a bitter grudge threatens to disrupt the peace of Christ, blow the whistle. Disqualify that reaction. Let Christ’s peace have the final, authoritative say. Notice that this peace is not solitary; we are called to it 'in one body.' In family gatherings and church communities, protecting peace requires self-control, forbearance, and above all, thanksgiving. A thankful heart rarely brawls. Let the umpire of Christ’s peace govern your thoughts, your reactions, and your words today.",
     reflection_questions: [
-      "Where has your spiritual journey felt long, dusty, and exhausting in recent months?",
-      "Why is the joy of arriving in the presence of Jesus worth every sacrifice and trial along the road?",
-      "What does it look like to allow yourself to experience 'exceedingly great joy' in Christ today?"
+      "What thoughts or emotional reactions do you need to let the peace of Christ 'referee' and disqualify today?",
+      "In family dynamics, are you allowing self-justification or Christ's peace to have the final word in your responses?",
+      "How does cultivating an attitude of active thanksgiving help defuse relational tension?"
     ],
-    guided_prayer: "God of Inexhaustible Joy, forgive my heavy, weary, and cynical spirit. When the road of discipleship feels long and dusty, lift my eyes to see the star of Your faithfulness shining in the night. Fill my heart with that exceedingly great joy that overwhelmed the Magi. I celebrate my Savior today! Thank You that every trial and sacrifice is swallowed up in the radiant glory of being in the presence of King Jesus. Amen.",
-    daily_intention: "I will rejoice with exceedingly great joy today, celebrating the presence and guidance of my Savior.",
-    practical_action: "Play your favorite, most joyful Christmas anthem today, letting your spirit celebrate with unreserved praise.",
-    evening_reflection_prompt: "Did choosing to celebrate with exceedingly great joy lift the cloud of weariness from your heart today?"
+    guided_prayer: "Lord Jesus, I invite Your peace to be the ruling umpire in my heart today. When irritation, defensiveness, or pride tempt me to speak harshly, let Your peace blow the whistle and stop my tongue. Rule over my thoughts and emotions. Help me protect harmony in my home and among my family, and clothe my soul in continual thanksgiving. Through Christ my Lord, Amen.",
+    daily_intention: "I will let the peace of Christ act as the deciding umpire in all my emotions and reactions today.",
+    practical_action: "Before reacting to any frustrating family moment today, pause and ask: 'Does this reaction preserve or destroy the peace of Christ?'",
+    evening_reflection_prompt: "Did the peace of Christ successfully referee your emotional reactions and words today?"
   },
   {
     day_number: 354,
     month_number: 12,
     day_of_month: 20,
     weekly_subtheme: "The Prince of Peace in Family Chaos",
-    title: "Gold, Frankincense, and Myrrh",
-    scripture_primary_reference: "Matthew 2:11",
-    scripture_primary_text: "They came into the house and saw the young child with Mary, his mother, and they fell down and worshiped him. Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.",
+    title: "Called in One Body to Peace",
+    scripture_primary_reference: "Colossians 3:15",
+    scripture_primary_text: "to which also you were called in one body; and be thankful.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "When the Magi entered the humble house in Bethlehem, they did not see a toddler surrounded by royal courtiers or dressed in purple silks; they saw a poor young child in the arms of a humble peasant mother. Yet without a moment's hesitation, these wealthy scholars fell prostrate on the dirt floor and worshiped Him! And notice what they did next: 'Opening their treasures, they offered to him gifts: gold, frankincense, and myrrh.' These three gifts were deeply prophetic. Gold was the gift for a King—acknowledging His royal sovereignty over the earth. Frankincense was the sacred incense burned by priests in the temple—acknowledging His divine priesthood, bridging humanity to God. And myrrh was a bitter, costly embalming resin used to prepare corpses for burial—acknowledging that this royal King was born to die a sacrificial death for the sins of the world! What treasures will you open before Jesus this Christmas? He does not need your gold coins; He wants the gold of your wholehearted trust, the sweet frankincense of your daily prayers, and the myrrh of your surrendered grief. Open your treasure chest to the King today.",
+    reflection_body: "Paul emphasizes our corporate calling: 'to which also you were called in one body; and be thankful.' God did not call us to live as isolated, self-protective spiritual islands. He grafted us into a body. And bodies require mutual cooperation, patience, and continual care. In family life and church community, friction is inevitable because fallen human beings are living in close proximity. Differences in personalities, political viewpoints, parenting philosophies, and life choices can easily trigger division during the holidays. But Paul reminds us of our higher calling: we are called to peace. Peace is not natural; it is a supernatural fruit cultivated through humility and gratitude. When you choose to overlook an offense, refuse to join in gossip, or offer a soft answer to a sharp comment, you are fulfilling your calling as a daughter of peace. Paul adds the indispensable key: 'and be thankful.' When your heart is full of gratitude for God's mercy toward you, you have plenty of grace left over for the quirks and flaws of others.",
     reflection_questions: [
-      "What 'treasure' of your heart (your time, your gifts, your future, your love) can you lay before Jesus today?",
-      "How do the gifts of gold, frankincense, and myrrh summarize the entire mission and identity of Christ?",
-      "What does it mean practically to fall down in humble adoration before Jesus in your everyday life?"
+      "How does viewing difficult family members as part of God's sanctifying classroom change your perspective?",
+      "What does it mean for your daily interactions that you are 'called to peace' by the Lord?",
+      "How can an active spirit of thanksgiving protect you from taking offense during holiday gatherings?"
     ],
-    guided_prayer: "King of Kings and High Priest of My Soul, I bow low before Your majesty today. I open the treasure chest of my life before Your feet. I bring You the gold of my undivided allegiance and love. I bring You the fragrant incense of my daily praise and intercession. And I bring You the myrrh of my surrendered sorrows, trusting Your cross for my salvation. Receive my life as an offering of worship to You. Amen.",
-    daily_intention: "I will open my treasures to King Jesus today, laying my gifts, my worship, and my heart at His feet.",
-    practical_action: "Give a sacrificial gift of love, money, or time today to advance the kingdom of God and honor King Jesus.",
-    evening_reflection_prompt: "Did offering your heart's treasures to Jesus bring deep spiritual significance to your day?"
+    guided_prayer: "Heavenly Father, You have called me to peace within the body of Christ and within my family. Forgive me when I prioritize being 'right' over being loving. Give me a large, gracious heart that quickly overlooks offenses and seeks reconciliation. Fill me with deep gratitude for Your immense patience with me, so that I may extend the same gentle patience to those around me today. In Jesus' name, Amen.",
+    daily_intention: "I will walk in my sacred calling as an instrument of Christ's peace in my family and circle today.",
+    practical_action: "Deliberately choose to overlook one annoying habit or sharp remark today without making any comment or showing irritation.",
+    evening_reflection_prompt: "Did you honor your calling to peace today by extending grace and overlooking offenses?"
   },
   {
     day_number: 355,
     month_number: 12,
     day_of_month: 21,
     weekly_subtheme: "The Prince of Peace in Family Chaos",
-    title: "Returning by Another Way",
-    scripture_primary_reference: "Matthew 2:12",
-    scripture_primary_text: "Being warned in a dream that they shouldn’t return to Herod, they went back to their own country another way.",
+    title: "Guarding Christ's Quiet Calm in Family Chaos",
+    scripture_primary_reference: "Isaiah 26:3-4",
+    scripture_primary_text: "You will keep him in perfect peace, whose mind is stayed on you; because he trusts in you. Trust in Yahweh forever; for in Yah, Yahweh, is an everlasting Rock.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "After worshiping the newborn King, the Magi were divinely warned in a dream not to return to the bloodthirsty, paranoid King Herod in Jerusalem: 'they went back to their own country another way.' That geographical detour contains a profound, eternal spiritual principle: you cannot encounter the living Jesus Christ and return the same way you came! When you meet the King of Kings at the manger, your old routes of cynicism, bitterness, compromise, and worldly hurry are permanently closed. Herod represents the tyrannical system of this fallen world—insecurity, political manipulation, and violence. You cannot go back to Herod's palace. Encountering Jesus changes your trajectory. He gives you a new roadmap, a new set of values, a new purpose, and a new destination. As you navigate the final days of this year, do not return to the old toxic habits, old fears, and old grudges of the past. Walk forward on the new highway of grace. Go back by another way.",
+    reflection_body: "As we bring this week of spiritual calm to a close, Isaiah’s double promise stands as our permanent fortress: God will keep the mind stayed on Him in perfect peace, because in Yahweh is an Everlasting Rock. Holiday chaos does not have to penetrate into your inner sanctuary. You can walk through crowded living rooms, noisy kitchens, and tense family conversations surrounded by the quiet canopy of Emmanuel’s presence. Jesus walked through howling storms, hostile crowds, and demanding schedules with serene, centered calm because His heart was permanently resting in the Father's love. That same calm is available to you. You do not have to fix every family dysfunction this Christmas; you do not have to orchestrate a fairytale holiday; you only need to abide in the Prince of Peace. Let the Everlasting Rock bear the weight of your family, your worries, and your celebrations. Breathe deeply of His grace, protect your quiet windows of prayer, and let Christ's gentle peace reign supreme in your home.",
     reflection_questions: [
-      "What old, toxic path (worry, compromise, resentment) is God warning you not to return to as this year ends?",
-      "Why is it impossible to encounter Jesus authentically and remain the exact same person you were before?",
-      "What new path of grace, peace, and spiritual discipline is God inviting you to walk in the coming year?"
+      "What unrealistic holiday expectation do you need to surrender completely to the Everlasting Rock today?",
+      "How will you practically protect a quiet window of prayer each day amidst holiday festivities?",
+      "In what way can your steady, calm presence minister Christ's peace to your family this week?"
     ],
-    guided_prayer: "Sovereign Guide, thank You that meeting Jesus changes everything! Forgive my lingering desire to return to old patterns of anxiety, bitterness, and worldly conformity. I heed Your divine warning today. I will not return to Herod's palace of compromise. Lead my steps forward on the new, living way of grace. Set my feet on the highway of holiness, and guide my life safely into Your eternal kingdom. In Jesus' mighty name, Amen.",
-    daily_intention: "I will not return to old patterns today; encountering Jesus has set my feet on a new and living way.",
-    practical_action: "Identify one old habit or toxic relationship pattern you are leaving behind permanently as this year ends.",
-    evening_reflection_prompt: "Did walking in God's new way of grace bring freedom and protection to your heart today?"
+    guided_prayer: "Lord Jesus, Emmanuel, You are the Prince of Peace who entered our noisy, broken world to bring eternal shalom. I surrender my home, my family, and my holiday schedule into Your hands. Keep my mind stayed on You. When chaos threatens, be my Everlasting Rock. Make my home a sanctuary of Your quiet presence, and let Your peace radiate through my smile, my words, and my love. Amen.",
+    daily_intention: "I will abide in Christ's quiet calm today, letting His perfect peace guard my home and family.",
+    practical_action: "Schedule a dedicated 15-minute quiet window for tomorrow morning where you will read Scripture and rest before opening your door to holiday duties.",
+    evening_reflection_prompt: "Did you sense Emmanuel's quiet calm guarding your soul through the demands of this day?"
   },
   {
     day_number: 356,
@@ -7346,100 +7206,100 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     month_number: 12,
     day_of_month: 27,
     weekly_subtheme: "The Light Shines in the Darkness",
-    title: "The Word Became Flesh and Dwelt Among Us",
-    scripture_primary_reference: "John 1:14",
-    scripture_primary_text: "The Word became flesh, and lived among us. We saw his glory, such glory as of the one and only Son of the Father, full of grace and truth.",
+    title: "Near to the Brokenhearted at Christmas",
+    scripture_primary_reference: "Psalm 34:18",
+    scripture_primary_text: "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "John 1:14 is the theological summit of the entire New Testament: 'The Word became flesh, and lived among us. We saw his glory, such glory as of the one and only Son of the Father, full of grace and truth.' Look at that phrase: 'lived among us'—in the original Greek, eskenosen, which literally means 'He pitched His tent among us!' In the Old Testament wilderness, Yahweh's fiery glory dwelt inside the portable Tabernacle (tent) in the center of the camp. Now, in the Incarnation, God did not pitch a tent of animal skins and bronze poles; the eternal Son of God pitched a tent of human flesh and bone in our neighborhood! He walked on our dusty roads, drank our water, felt our grief, and wept our tears. And notice what John says: 'We saw His glory.' The glory of Jesus was not seen in golden crowns or imperial armies; His glory was seen in His humble love, His healing touch, His washing of dirty feet, and His sacrificial death on the cross. God has pitched His tent with you. You are never alone.",
+    reflection_body: "For many women, December is not an easy season of cheer; it is a painful reminder of empty chairs around the dinner table, recent bereavements, estranged children, broken marriages, or chronic illness. Holiday music and festive decorations can feel like salt in a tender wound. To every crushed and weary soul, David speaks this tender promise: 'Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.' In human society, people often pull away from profound grief, feeling uncomfortable or not knowing what to say. But God does the exact opposite: when your heart is broken, He draws closer. The incarnation itself is the ultimate proof of this promise. Jesus did not remain at a safe, celestial distance from human agony; He stepped into our fragile world as a 'man of sorrows, and acquainted with grief.' You do not have to paste on a fake holiday smile for God. He sees your private tears, honors your grief, and wraps His comforting arms around your crushed spirit. Emmanuel is near.",
     reflection_questions: [
-      "How does the image of Jesus 'pitching His tent in your neighborhood' bring God close to your daily life?",
-      "Where have you personally seen the glory of Jesus displayed in your own story and trials?",
-      "What does it mean for your daily walk that God intimately understands the limitations of human flesh?"
+      "What sorrow, loss, or disappointment is weighing on your heart during this Christmas season?",
+      "How does knowing that God draws closer to the brokenhearted bring comfort to your soul today?",
+      "Who in your circle is grieving this holiday, and how can you reach out with Christ's gentle presence?"
     ],
-    guided_prayer: "Lord Jesus, You pitched Your tent among us, wrapping Your infinite deity in our fragile human flesh. How I thank You that You understand my weaknesses, my fatigue, and my tears firsthand! Thank You for showing us the true glory of the Father—not in worldly arrogance, but in sacrificial, tender love. Open my eyes to behold Your glory in my life today, and let my home be a tabernacle where Your presence dwells. Amen.",
-    daily_intention: "The Word became flesh and pitched His tent with me; I am accompanied by divine glory today.",
-    practical_action: "Take a few quiet minutes to reflect on how close Jesus is to you right now, as close as your next breath.",
-    evening_reflection_prompt: "Did sensing Jesus' near presence bring holy companionship to your daily activities today?"
+    guided_prayer: "Compassionate Lord, thank You that You never turn away from my tears or despise my broken heart. When holiday festivities highlight my losses or loneliness, draw near to me as You have promised. Be my comfort, my healer, and my peace. Give me the grace to bring my honest grief to Your altar, knowing that You are Emmanuel—God with me in the darkest valley. In Jesus' tender name, Amen.",
+    daily_intention: "I will rest in the comforting presence of God today, knowing He is near to my broken heart.",
+    practical_action: "Send a thoughtful card, flowers, or a comforting text to someone who is spending their first Christmas without a loved one.",
+    evening_reflection_prompt: "Did you feel the gentle, comforting nearness of the Lord holding your heart today?"
   },
   {
     day_number: 362,
     month_number: 12,
     day_of_month: 28,
     weekly_subtheme: "The Light Shines in the Darkness",
-    title: "Full of Grace and Truth",
-    scripture_primary_reference: "John 1:14",
-    scripture_primary_text: "full of grace and truth.",
+    title: "Light Shining in the Face of Christ",
+    scripture_primary_reference: "2 Corinthians 4:6",
+    scripture_primary_text: "seeing it is God who said, 'Light will shine out of darkness,' who has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "John concludes his description of Jesus with a four-word portrait of divine perfection: 'full of grace and truth.' In human history, these two virtues are almost always locked in civil war. Some people are full of 'truth' without grace—they are rigid, harsh, judgmental, legalistic, and quick to condemn anyone who stumbles, leaving broken bodies in their wake. Other people are full of 'grace' without truth—they compromise standards, sweep sin under the rug, affirm destructive lifestyles, and call evil good out of a desire to be liked. But Jesus Christ is 100% full of grace, and 100% full of truth at the exact same time! Truth without grace is cruelty; grace without truth is deception. But Jesus brings the fullness of both. Because He is full of truth, He will never lie to you; He names your sin honestly and exposes your blind spots. But because He is full of grace, He died for that sin, forgives your failures, and embraces you with unconditional love! When you come to Jesus, you never have to hide the truth, because His grace is bigger than your worst mistake. Live in this holy balance today.",
+    reflection_body: "Paul draws a breathtaking parallel between the original creation in Genesis and the miracle of personal salvation: the same sovereign God who commanded light to shine out of the primeval darkness has shone in our hearts! And where is that divine illumination concentrated? In the face of Jesus Christ. When you look into the face of Jesus revealed in the gospel, you behold the unmitigated glory of God—not a terrifying, consuming blaze of judgment, but a radiant, welcoming warmth of grace and truth. The darkness of this world can feel suffocating: war, moral decay, suffering, and personal grief often cast long shadows. But darkness has no power of its own; it is simply the absence of light. The moment a single candle is lit, darkness must flee. God has flooded your heart with the light of Christ. As you look upon the babe in Bethlehem who grew to be the Savior on the cross, your soul is filled with divine glory. Let that light shine brightly through your life, illuminating a dark world with the hope of Jesus.",
     reflection_questions: [
-      "Are you naturally more inclined toward harsh truth (judgment) or sloppy grace (compromise)?",
-      "Why is Jesus' perfect balance of 100% grace and 100% truth the only safe refuge for a sinner?",
-      "How can you reflect both uncompromising truth and unconditional grace in a difficult conversation today?"
+      "How has the light of the knowledge of God in Jesus transformed your perspective on dark circumstances?",
+      "In what practical ways can the radiant light of Christ shine through your actions and words this Christmas?",
+      "What darkness in your thoughts or fears needs to be exposed to the bright light of Christ's face today?"
     ],
-    guided_prayer: "Lord Jesus, You are the perfect embodiment of grace and truth. Forgive me for the times I have been harsh and judgmental without grace, or compromised and cowardly without truth. Teach me Your divine balance. Thank You that I never have to hide my mess from You, for Your truth exposes it and Your lavish grace forgives it completely. May my words and attitudes today reflect the fullness of Christ's grace and truth to everyone I meet. Amen.",
-    daily_intention: "I will walk in the fullness of Christ's grace and truth today, speaking truth in lavish love.",
-    practical_action: "Before responding to a challenging situation today, check your balance: 'Is my response both completely true and completely gracious?'",
-    evening_reflection_prompt: "Did pairing grace with truth help resolve a relational tension with peace and clarity today?"
+    guided_prayer: "Creator God, You spoke light into the primeval void, and You have shone into my dark heart through the gospel of Your Son. Thank You for revealing Your glorious love, holiness, and mercy in the face of Jesus Christ. Dispel every shadow of doubt, fear, and gloom from my soul today. Let Your light shine through me so brightly that others may see Your glory and praise Your holy name. Amen.",
+    daily_intention: "I will walk in the radiant light of Christ today, reflecting His glory in a dark world.",
+    practical_action: "Share a verse of Scripture or a message of Christ's light with someone who is feeling overwhelmed or hopeless today.",
+    evening_reflection_prompt: "Did the light of Christ shine in your heart today, bringing clarity and hope into dark moments?"
   },
   {
     day_number: 363,
     month_number: 12,
     day_of_month: 29,
     weekly_subtheme: "Walking Forward with Emmanuel",
-    title: "Jesus Christ the Same Yesterday, Today, and Forever",
-    scripture_primary_reference: "Hebrews 13:8",
-    scripture_primary_text: "Jesus Christ is the same yesterday, today, and forever.",
+    title: "I Am With You Always",
+    scripture_primary_reference: "Matthew 28:20",
+    scripture_primary_text: "teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age. Amen.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "As the year winds down to its final three days, we are acutely conscious of how fast time flies and how constantly life changes. Calendars turn, children grow up, hair turns gray, friendships shift, and the world seems to spin with dizzying instability. In the midst of this shifting, temporal world, Hebrews 13:8 provides an anchor of granite: 'Jesus Christ is the same yesterday, today, and forever.' Notice the three time horizons: yesterday, today, and forever. The Jesus who forgave the adulterous woman, healed the leper, calmed the storm, and rose from the dead yesterday is the exact same Jesus walking beside you today! His power has not diminished by a fraction of a percent; His love has not cooled; His promises have not expired; His ears have not grown dull to your prayers. And the Jesus who sustains you today will be waiting for you tomorrow, in the new year, and throughout the unending ages of eternity. You can face the unknown future with absolute confidence, because the unchangeable Christ will be there to hold your hand. Stand on the Rock of Ages today.",
+    reflection_body: "As we approach the end of our 365-day journey, Jesus seals His Great Commission with the crowning promise of the New Testament: 'Behold, I am with you always, even to the end of the age. Amen.' Matthew’s Gospel began in chapter one with the prophecy of Emmanuel—God with us. Now it closes with the resurrected King proclaiming that His presence will never depart. Notice the word 'always'—literally in the Greek, *all the days*. Jesus does not promise to be with you only on mountaintop Sundays, during joyous celebrations, or when your faith feels triumphant. He promises to be with you on ordinary Mondays, through sleepless midnight vigils, in hospital waiting rooms, in lonely transitions, and even through the valley of the shadow of death. As you stand on the threshold of a new year, you do not need to fear what tomorrow holds. You do not walk into the unknown future alone. The resurrected Lord marches beside you, goes before you, and lives within you. He is with you all the days, to the very end of the age.",
     reflection_questions: [
-      "How does the constant change and aging of this world make you crave something unshakeable and eternal?",
-      "Why is the immutability (unchangeableness) of Jesus the ultimate anchor for your peace?",
-      "How does knowing that Jesus will be the exact same Savior in the new year eliminate your anxiety about the future?"
+      "How does Jesus' promise to be with you 'all the days' comfort you as you look ahead to the new year?",
+      "Looking back over this past year of daily devotionals, where did you most clearly sense Emmanuel walking with you?",
+      "What unknown future circumstance can you confidently entrust to Christ's abiding presence right now?"
     ],
-    guided_prayer: "Unchanging Jesus, Rock of Ages, I anchor my trembling soul in Your eternal stability today. In a world where everything shifts, ages, and fades, how I thank You that You remain forever the same! The same Savior who carried me through past valleys is holding my hand today, and will walk with me into the future. I banish all fear of the unknown. You are my constant portion, my faithful Shepherd, and my eternal home. Amen.",
-    daily_intention: "Jesus Christ is the same yesterday, today, and forever; my future is secure in His unchanging hands.",
-    practical_action: "Write down Hebrews 13:8 and place it at the front of your planner or calendar for the upcoming new year.",
-    evening_reflection_prompt: "Did resting in the unchanging nature of Jesus bring steady calm to your thoughts today?"
+    guided_prayer: "Risen Lord Jesus, Emmanuel, how precious is Your promise to be with me always, even to the end of the age! As I prepare to close this year and step forward into tomorrow, I anchor my soul in Your abiding presence. Thank You for walking with me through every valley and every sunrise. Go before me, stand beside me, and guide every step I take in the days ahead. To You be all the glory. Amen.",
+    daily_intention: "I will walk forward with confidence today, knowing that Jesus is with me always, even to the end of the age.",
+    practical_action: "Look back through your journal or calendar from this past year and write a prayer of thanksgiving for three specific times God was with you.",
+    evening_reflection_prompt: "Did you rest in the certainty of Emmanuel's unending presence with you throughout this day?"
   },
   {
     day_number: 364,
     month_number: 12,
     day_of_month: 30,
     weekly_subtheme: "Walking Forward with Emmanuel",
-    title: "The Alpha and the Omega",
-    scripture_primary_reference: "Revelation 22:13",
-    scripture_primary_text: "I am the Alpha and the Omega, the First and the Last, the Beginning and the End.",
+    title: "Able to Keep You from Stumbling",
+    scripture_primary_reference: "Jude 24-25",
+    scripture_primary_text: "Now to him who is able to keep them from stumbling, and to present you faultless before the presence of his glory in great joy, to God our Savior, who alone is wise, be glory and majesty, dominion and power, both now and forever. Amen.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "On the second-to-last day of the year, King Jesus speaks directly to your heart from the celestial throne room in Revelation 22:13: 'I am the Alpha and the Omega, the First and the Last, the Beginning and the End.' Alpha is the very first letter of the Greek alphabet; Omega is the final letter. Jesus is saying: 'I am the A and the Z of all reality! I wrote the opening sentence of human history, and I will write the final exclamation point! Nothing exists outside my sovereign alphabet.' Think of what this means for the story of your life. Jesus was there at your beginning—He knit you together in your mother's womb, numbered your days, and started a good work of salvation in your heart. And He will be there at your end—He who began a good work in you will faithfully complete it until the day of Jesus Christ! Your life is not a random collection of disconnected accidents. You are an epic story written by the Alpha and the Omega. The author of the story has already written the final chapter, and it ends in total victory, eternal resurrection, and everlasting joy. Trust the Author with your story today.",
+    reflection_body: "On the penultimate day of the year, Jude delivers one of the most magnificent doxologies in all of Holy Scripture: 'Now to him who is able to keep them from stumbling, and to present you faultless before the presence of his glory in great joy.' What an extraordinary assurance for weary pilgrims! Left to our own strength, we would stumble and fall a thousand times a day. But your preservation does not depend upon your fragile grip on God; it depends upon His almighty grip on you. He is able to keep you from falling away. And His ultimate goal is breathtaking: He will present you faultless before the blazing presence of His glory, not in terrifying dread, but in great, overflowing joy! The blood of Jesus has so thoroughly cleansed your soul that you will stand before the Holy God without a single blemish or accusation. All glory, majesty, dominion, and power belong to our wise Savior God, both now and throughout all eternity. As you finish this year, lift your hands in triumphant worship. Your salvation is secure in Christ.",
     reflection_questions: [
-      "How does knowing that Jesus is the 'Alpha and Omega' of your story change your perspective on confusing chapters?",
-      "Why is it comforting to realize that the One who started the good work in you guarantees its completion?",
-      "What unfinished or messy chapter of your life do you need to surrender to the Master Author today?"
+      "How does knowing that God is able to keep you from stumbling relieve your anxiety about the future?",
+      "What does it mean to you that Jesus will present you 'faultless before His glory in great joy'?",
+      "How does this magnificent doxology inspire you to live with triumphant praise as this year ends?"
     ],
-    guided_prayer: "Alpha and Omega, First and Last, Author and Finisher of My Faith, I surrender my life's story entirely into Your sovereign hands today. Forgive my panic when the middle chapters feel confusing, painful, and unresolved. You wrote my beginning, and You hold my glorious end. Thank You that no enemy can rip a single page out of the story You have written for my good. I trust Your perfect authorship for all the days ahead. In Jesus' name, Amen.",
-    daily_intention: "Jesus is the Alpha and Omega of my life; He who began a good work in me will faithfully complete it.",
-    practical_action: "Look back over the past twelve months and thank God for three specific chapters where He showed His faithful authorship.",
-    evening_reflection_prompt: "Did trusting the divine Author bring peace and confidence to your reflections on the past year today?"
+    guided_prayer: "To You, O God our Savior, who alone is wise, be all glory, majesty, dominion, and power, both now and forever! Thank You for holding me fast when my strength fails. Thank You that You are able to keep me from stumbling, and that through the blood of Jesus, You will present me faultless before Your presence with great joy. I trust my life, my family, and my future completely into Your mighty hands. Amen.",
+    daily_intention: "I will praise my Savior God today, resting securely in His power to keep me from stumbling.",
+    practical_action: "Read Jude 24-25 aloud three times today as a personal prayer and declaration of praise to the Lord.",
+    evening_reflection_prompt: "Did you experience the joy and security of knowing that God's almighty hand is holding you fast?"
   },
   {
     day_number: 365,
     month_number: 12,
     day_of_month: 31,
     weekly_subtheme: "Walking Forward with Emmanuel",
-    title: "Yes, I Come Quickly. Amen!",
-    scripture_primary_reference: "Revelation 22:20",
-    scripture_primary_text: "He who testifies these things says, 'Yes, I come quickly.' Amen! Yes, come, Lord Jesus.",
+    title: "Yes, Come, Lord Jesus! Amen",
+    scripture_primary_reference: "Revelation 22:20-21",
+    scripture_primary_text: "He who testifies these things says, 'Yes, I come quickly.' Amen! Yes, come, Lord Jesus. The grace of the Lord Jesus Christ be with all the saints. Amen.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "You have arrived at Day 365! You have walked through 365 sunrises with Jesus—through new mercies in January, sacred love in February, quiet surrender in March, resurrection power in April, the garden of the Spirit in May, divine wisdom in June, high refuge in July, restorative rest in August, compassion in September, courage in October, thanksgiving in November, and Emmanuel in December. And now, on the final page of the Bible, the final recorded words of Jesus Christ ring out like a silver trumpet across the cosmos: 'Yes, I come quickly.' And the Apostle John, an aged exile on the rocky island of Patmos, whispers the crowning prayer of the bride of Christ: 'Amen! Yes, come, Lord Jesus.' This 365-day walk is not the end; it is only the preparation for eternity! One day, the trumpet will sound, the clouds will part, and the King who walked with you through every ordinary day will step out of heaven to wipe away every tear and welcome you into eternal joy. Until that glorious day, walk with your hand in His. The grace of our Lord Jesus Christ be with you all. Amen.",
+    reflection_body: "We have reached Day 365. Over the course of this sacred year, you have walked with Jesus through new mercies, surrender, resurrection hope, wisdom, refuge, Sabbath rest, compassion, courage, thanksgiving, and the wonder of Emmanuel. Now, Holy Scripture concludes with the final promise of the Savior and the ultimate cry of the redeemed: 'He who testifies these things says, \"Yes, I come quickly.\" Amen! Yes, come, Lord Jesus.' All of human history is rushing toward this glorious consummation: the trumpet will sound, the clouds will part, and our King will return to wipe away every tear, banish every sorrow, and make all things new. Until that triumphant day arrives, John leaves us with the supreme treasure that sustains our pilgrimage: 'The grace of the Lord Jesus Christ be with all the saints. Amen.' Grace began your journey, grace has carried you through every page of this year, and grace will safely lead you home. Step forward into the new year with holy joy, bold faith, and expectant hope. Emmanuel is with you forever. Amen!",
     reflection_questions: [
-      "As you complete this 365-day journey, what has been the most transformative truth God has spoken to your soul?",
-      "How does the promise of Jesus' return ('Yes, I come quickly') give eternal purpose to your daily steps?",
-      "What is your prayer of commitment as you step across the threshold into a brand new year of walking with Jesus?"
+      "How has your relationship with Jesus deepened over the course of these 365 daily devotionals?",
+      "Does the prayer 'Yes, come, Lord Jesus!' resonate with holy anticipation in your heart today?",
+      "How will you carry the lavish grace of Jesus into the new year that lies before you?"
     ],
-    guided_prayer: "Lord Jesus, my Savior, my Shepherd, my Emmanuel, and my King! As I complete this 365-day walk with You, my soul bows in overwhelming gratitude. You have been faithful in every sunrise, every valley, every storm, and every quiet prayer. Thank You for walking with me every single day. I anchor my hope in Your eternal promise: 'Yes, I come quickly.' Amen! Even so, come, Lord Jesus! Walk with me into the new year, and hold my hand until I see You face to face. In Your triumphant and precious name, Amen.",
-    daily_intention: "I finish this year in triumphant faith, looking for the glorious return of my Lord: Amen! Come, Lord Jesus!",
-    practical_action: "Spend thirty quiet minutes tonight reviewing this 365-day journey, dedicating the coming year entirely to Jesus.",
-    evening_reflection_prompt: "How has walking 365 days with Jesus transformed your heart, deepened your faith, and prepared you for eternity?"
+    guided_prayer: "Lord Jesus Christ, my Savior, my King, and my Emmanuel! Thank You for walking with me through every single day of this past year. You have been my refuge, my strength, my peace, and my joy. I fix my eyes on Your promised return and pray with all my heart: Amen! Yes, come, Lord Jesus! May Your abundant grace be with me and with all the saints as we step into tomorrow. To You alone be all honor, glory, and praise forever and ever. Amen!",
+    daily_intention: "I conclude this 365-day walk with triumphant praise, stepping forward into the future with Emmanuel.",
+    practical_action: "Take a quiet walk or kneel in prayer, expressing heartfelt thanksgiving to Jesus for carrying you through the entire year.",
+    evening_reflection_prompt: "As you finish Day 365, how is your soul overflowing with gratitude for Emmanuel, God with you forever?"
   }
 ];
 
@@ -7485,3 +7345,7 @@ export function getDevotionalEntry(dayNumber: number): DevotionalEntry {
 }
 
 export const getDevotionalByDay = getDevotionalEntry;
+
+export function getDevotionalsByMonth(monthNumber: number): DevotionalEntry[] {
+  return DEVOTIONAL_ENTRIES.filter((e) => e.month_number === monthNumber);
+}

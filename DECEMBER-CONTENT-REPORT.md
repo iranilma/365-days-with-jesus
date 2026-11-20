@@ -24,8 +24,8 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 | Metric / Audit Area | Target | Result | Status |
 |---|:---:|:---:|:---:|
 | **December Authored Days** | 31 Days (Days 335–365) | 31 Days | PASS (100%) |
-| **Reflection Body Word Count** | 150–250 words | 160–206 words (avg: 187.1w) | PASS (100%) |
-| **Guided Prayer Word Count** | 50–100 words | 66–92 words (avg: 76.1w) | PASS (100%) |
+| **Reflection Body Word Count** | 150–250 words | 159–206 words (avg: 181.8w) | PASS (100%) |
+| **Guided Prayer Word Count** | 50–100 words | 64–85 words (avg: 73.4w) | PASS (100%) |
 | **Reflection Questions per Day** | Exactly 3 questions | 3 questions (93 total, 100% ending in '?') | PASS (100%) |
 | **Translation Standard** | World English Bible (WEB) | 100% Independently Verified WEB | PASS (100%) |
 | **Single Source of Truth** | `src/lib/content/devotionals.ts` | Authoritative | PASS (100%) |
@@ -37,7 +37,7 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 ## 2. Weekly Subthemes in December
 
 1. **Week 1 (Days 335–341): The Longing of Advent**
-   - *Spiritual Focus*: Holy expectation, quiet waiting, and preparing heart room amidst commercial hurry.
+   - *Spiritual Focus*: Holy expectation, quiet waiting, and the rising of the Dayspring amidst commercial hurry.
    - *Key Passages*: Isaiah 7:14, Isaiah 9:2–7, Luke 1:67–79.
 2. **Week 2 (Days 342–348): The Miracle of the Manger**
    - *Spiritual Focus*: The sacred humility of God entering human vulnerability in Bethlehem's simplicity.
@@ -50,7 +50,7 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
    - *Key Passages*: John 1:1–14, Psalm 34:18, 2 Corinthians 4:6.
 5. **Week 5 (Days 363–365): Walking Forward with Emmanuel**
    - *Spiritual Focus*: Finishing the 365-day journey with triumphant praise and stepping into the future with Emmanuel.
-   - *Key Passages*: Matthew 28:18–20, Revelation 22:13–21, Hebrews 13:8.
+   - *Key Passages*: Matthew 28:18–20, Revelation 22:20–21, Jude 24–25.
 
 ---
 
@@ -61,7 +61,7 @@ The project's foundational reference document, `MONTHLY-THEMES.md`, outlines cor
 - **Week 2 (Days 342–348)**: Luke 2:1–20, Matthew 1:18–25, Philippians 2:5–8.
 - **Week 3 (Days 349–355)**: John 14:27, Isaiah 26:3–4, Colossians 3:15.
 - **Week 4 (Days 356–362)**: John 1:1–14, Psalm 34:18, 2 Corinthians 4:6.
-- **Week 5 (Days 363–365)**: Matthew 28:18–20, Revelation 22:13–21, Hebrews 13:8.
+- **Week 5 (Days 363–365)**: Matthew 28:18–20, Revelation 22:20–21, Jude 24–25.
 
 In this production release:
 1. All weekly subthemes strictly mirror `MONTHLY-THEMES.md` with 0 deviation.

@@ -3,7 +3,7 @@
 **Document Version:** 1.0.0  
 **Project:** 365 Days With Jesus  
 **Month:** Month 10 (October, Days 274–304)  
-**Theme:** Unshakeable Courage  
+**Theme:** Courage in the Calling  
 **Anchor Scripture:** Joshua 1:9  
 **Auditor:** Antigravity AI Engineering & Content Assurance  
 **Audit Date:** November 20, 2026  
@@ -14,7 +14,7 @@
 
 ## 1. Executive Summary
 
-Month 10 (October, Days 274–304) has passed its comprehensive quality assurance and editorial refinement pass. The theme **Unshakeable Courage** explores spiritual disciplines, gracious relationships, unshakeable faith, and abiding hope tailored for women aged 35+.
+Month 10 (October, Days 274–304) has passed its comprehensive quality assurance and editorial refinement pass. The theme **Courage in the Calling** explores spiritual disciplines, gracious relationships, unshakeable faith, and abiding hope tailored for women aged 35+.
 
 ### Pastoral Safeguards & Voice Standards Audit:
 
@@ -37,10 +37,10 @@ Month 10 (October, Days 274–304) has passed its comprehensive quality assuranc
 
 | Week / Calendar Range | Official Subtheme | Official Readings Summary | Days Range | Status |
 |:---:|:---|:---|:---:|:---:|
-| **Week 1 (Days 274–280)** | Commanded to Be Brave | Joshua 1:1–9, Deuteronomy 31:6–8, Psalm 27:1–3. | Days 274–280 | PASS (100%) |
-| **Week 2 (Days 281–287)** | The Courage of Quiet Obedience | Esther 4:13–16, Ruth 1:15–18, Daniel 3:16–18. | Days 281–287 | PASS (100%) |
-| **Week 3 (Days 288–294)** | Standing Firm in Spiritual Armor | Ephesians 6:10–18, 2 Corinthians 10:3–5, 1 Peter 5:8–9. | Days 288–294 | PASS (100%) |
-| **Week 4 (Days 295–301)** | Courage to Speak Truth in Love | Ephesians 4:15, Proverbs 31:8–9, Acts 4:29–31. | Days 295–301 | PASS (100%) |
+| **Week 1 (Days 274–280)** | Commanded to Be Brave | Joshua 1:1–9, Psalm 27:7–14, Deuteronomy 31:6–8. | Days 274–280 | PASS (100%) |
+| **Week 2 (Days 281–287)** | The Courage of Quiet Obedience | Esther 4:10–17, Luke 1:26–38, Hebrews 11:24–27. | Days 281–287 | PASS (100%) |
+| **Week 3 (Days 288–294)** | Standing Firm in Spiritual Armor | Ephesians 6:10–18, 1 Corinthians 16:13–14, 2 Corinthians 10:3–5. | Days 288–294 | PASS (100%) |
+| **Week 4 (Days 295–301)** | Courage to Speak Truth in Love | Acts 4:23–31, Proverbs 31:8–9, Ephesians 4:14–16. | Days 295–301 | PASS (100%) |
 | **Week 5 (Days 302–304)** | Leaving a Legacy of Faithfulness | 2 Timothy 4:6–8, Hebrews 12:1–3. | Days 302–304 | PASS (100%) |
 
 ---
@@ -48,8 +48,8 @@ Month 10 (October, Days 274–304) has passed its comprehensive quality assuranc
 ## 3. Structural Word Count Audit (Days 274–304)
 
 Every entry strictly meets the established targets:
-- **Reflection Word Count**: 172–202 words (target: 150–250 words; average: 187.5 words).
-- **Guided Prayer Word Count**: 67–80 words (target: 50–100 words; average: 74.2 words).
+- **Reflection Word Count**: 153–198 words (target: 150–250 words; average: 179.9 words).
+- **Guided Prayer Word Count**: 63–80 words (target: 50–100 words; average: 72.5 words).
 - **Questions**: Exactly 3 per day (93 total), 100% ending in `?`.
 - **Daily Intention**: Exactly 1 concise sentence.
 - **Practical Action**: Exactly 1 concrete, doable faith action.

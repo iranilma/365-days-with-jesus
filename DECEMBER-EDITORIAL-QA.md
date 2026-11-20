@@ -41,15 +41,15 @@ Month 12 (December, Days 335–365) has passed its comprehensive quality assuran
 | **Week 2 (Days 342–348)** | The Miracle of the Manger | Luke 2:1–20, Matthew 1:18–25, Philippians 2:5–8. | Days 342–348 | PASS (100%) |
 | **Week 3 (Days 349–355)** | The Prince of Peace in Family Chaos | John 14:27, Isaiah 26:3–4, Colossians 3:15. | Days 349–355 | PASS (100%) |
 | **Week 4 (Days 356–362)** | The Light Shines in the Darkness | John 1:1–14, Psalm 34:18, 2 Corinthians 4:6. | Days 356–362 | PASS (100%) |
-| **Week 5 (Days 363–365)** | Walking Forward with Emmanuel | Matthew 28:18–20, Revelation 22:13–21, Hebrews 13:8. | Days 363–365 | PASS (100%) |
+| **Week 5 (Days 363–365)** | Walking Forward with Emmanuel | Matthew 28:18–20, Revelation 22:20–21, Jude 24–25. | Days 363–365 | PASS (100%) |
 
 ---
 
 ## 3. Structural Word Count Audit (Days 335–365)
 
 Every entry strictly meets the established targets:
-- **Reflection Word Count**: 160–206 words (target: 150–250 words; average: 187.1 words).
-- **Guided Prayer Word Count**: 66–92 words (target: 50–100 words; average: 76.1 words).
+- **Reflection Word Count**: 159–206 words (target: 150–250 words; average: 181.8 words).
+- **Guided Prayer Word Count**: 64–85 words (target: 50–100 words; average: 73.4 words).
 - **Questions**: Exactly 3 per day (93 total), 100% ending in `?`.
 - **Daily Intention**: Exactly 1 concise sentence.
 - **Practical Action**: Exactly 1 concrete, doable faith action.

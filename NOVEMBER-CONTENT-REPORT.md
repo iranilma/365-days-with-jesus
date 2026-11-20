@@ -24,8 +24,8 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 | Metric / Audit Area | Target | Result | Status |
 |---|:---:|:---:|:---:|
 | **November Authored Days** | 30 Days (Days 305–334) | 30 Days | PASS (100%) |
-| **Reflection Body Word Count** | 150–250 words | 165–201 words (avg: 186.7w) | PASS (100%) |
-| **Guided Prayer Word Count** | 50–100 words | 69–79 words (avg: 73.2w) | PASS (100%) |
+| **Reflection Body Word Count** | 150–250 words | 162–195 words (avg: 176.3w) | PASS (100%) |
+| **Guided Prayer Word Count** | 50–100 words | 62–78 words (avg: 70.9w) | PASS (100%) |
 | **Reflection Questions per Day** | Exactly 3 questions | 3 questions (90 total, 100% ending in '?') | PASS (100%) |
 | **Translation Standard** | World English Bible (WEB) | 100% Independently Verified WEB | PASS (100%) |
 | **Single Source of Truth** | `src/lib/content/devotionals.ts` | Authoritative | PASS (100%) |
@@ -37,16 +37,16 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 ## 2. Weekly Subthemes in November
 
 1. **Week 1 (Days 305–311): An Altar in the Ordinary**
-   - *Spiritual Focus*: Cultivating thankfulness for small, unnoticed daily provisions from bread to clean water.
+   - *Spiritual Focus*: Cultivating thankfulness for small, unnoticed daily provisions and remembering God's benefits.
    - *Key Passages*: Psalm 103:1–5, Psalm 107:1–9, 1 Chronicles 16:8–12.
 2. **Week 2 (Days 312–318): Thanksgiving in the Dark Valley**
    - *Spiritual Focus*: Praising God before the breakthrough arrives; gratitude as spiritual warfare in trials.
    - *Key Passages*: Habakkuk 3:17–19, Acts 16:22–34, Psalm 34:1–8.
 3. **Week 3 (Days 319–325): The Secret of Holy Contentment**
-   - *Spiritual Focus*: Defeating the thief of comparison and resting fully satisfied in Christ's sufficiency.
+   - *Spiritual Focus*: Defeating the thief of comparison and resting fully satisfied in God as our portion.
    - *Key Passages*: Philippians 4:10–13, 1 Timothy 6:6–10, Psalm 16:5–11.
 4. **Week 4 (Days 326–332): An Overflow of Generous Giving**
-   - *Spiritual Focus*: How grateful hearts naturally overflow into cheerful generosity and blessing others.
+   - *Spiritual Focus*: How grateful hearts naturally overflow into cheerful generosity and sacrificial giving.
    - *Key Passages*: 2 Corinthians 9:6–15, Luke 21:1–4, Proverbs 11:24–25.
 5. **Week 5 (Days 333–334): Holy Remembrance & Praise Stones**
    - *Spiritual Focus*: Counting God's past deliverances and faithfulness to anchor faith for tomorrow.

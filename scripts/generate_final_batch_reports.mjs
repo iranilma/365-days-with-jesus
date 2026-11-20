@@ -17,6 +17,7 @@ const jsCode = devotionalsCode
   .replace(/^import\s+.*?;/gm, "")
   .replace(/export const /g, "const ")
   .replace(/export function /g, "function ")
+  .replace(/:\s*DevotionalEntry\s*\|\s*undefined/g, "")
   .replace(/:\s*DevotionalEntry\[\]/g, "")
   .replace(/:\s*DevotionalEntry/g, "")
   .replace(/:\s*number/g, "")
@@ -32,40 +33,40 @@ const MONTH_DATA = {
     startDay: 244,
     endDay: 273,
     daysCount: 30,
-    theme: "The Fragrance of Grace (Relationships & Forgiveness)",
-    anchorRef: "Colossians 3:12–14",
-    anchorText: "Put on therefore, as God’s chosen ones, holy and beloved, a heart of compassion, kindness, lowliness, humility, and perseverance; bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do. Above all these things, walk in love, which is the bond of perfection.",
+    theme: "Clothed in Compassion",
+    anchorRef: "Colossians 3:12",
+    anchorText: "Put on therefore, as God's chosen ones, holy and beloved, a heart of compassion, kindness, lowliness, humility, and perseverance.",
     testScript: "npm run test:september",
     subthemes: [
       {
         week: "Week 1 (Days 244–250)",
         name: "Clothed in the Garments of Grace",
-        focus: "Replacing defensiveness, harsh reactivity, and self-protection with Christlike gentleness.",
-        passages: "Colossians 3:12–17, 1 Peter 3:8–12, Ephesians 4:1–3."
+        focus: "Putting off offense and putting on Christ-like humility.",
+        passages: "Colossians 3:12–17, 1 Peter 3:8–12, Ephesians 4:1–6."
       },
       {
         week: "Week 2 (Days 251–257)",
         name: "The Freedom of Forgiveness",
-        focus: "Releasing past offenses and debts as an act of gospel freedom without requiring toxic reconciliation.",
-        passages: "Matthew 18:21–35, Ephesians 4:31–32, Luke 6:35–38."
+        focus: "Releasing debtors and trusting God with personal justice without requiring toxic reconciliation.",
+        passages: "Matthew 18:21–35, Ephesians 4:31–32, Genesis 50:15–21."
       },
       {
         week: "Week 3 (Days 258–264)",
         name: "Holy Empathy and Listening Hearts",
-        focus: "Slowing down to hear before speaking, creating emotional and spiritual safe harbor for others.",
-        passages: "James 1:19–21, Proverbs 18:13, Romans 12:15."
+        focus: "Being quick to listen, slow to speak, and slow to anger; comforting the broken.",
+        passages: "James 1:19–20, Romans 12:9–16, Luke 7:36–50."
       },
       {
         week: "Week 4 (Days 265–271)",
         name: "The Ministry of the Kitchen Table (Hospitality)",
-        focus: "Using practical warmth, shared bread, and an open door to minister Jesus' love.",
-        passages: "Romans 12:9–13, 1 Peter 4:8–11, Hebrews 13:1–2."
+        focus: "Opening homes and hearts to bless the lonely and hurting with Christlike hospitality.",
+        passages: "Romans 12:13, Hebrews 13:1–3, 1 Peter 4:9–10."
       },
       {
         week: "Week 5 (Days 272–273)",
         name: "Bearing One Another's Burdens",
-        focus: "Enduring in practical mutual care and not growing weary in doing good.",
-        passages: "Galatians 6:1–10, 1 Thessalonians 5:14–15."
+        focus: "Fulfilling the law of Christ through sacrificial support and companionship.",
+        passages: "Galatians 6:1–5, Ecclesiastes 4:9–12."
       }
     ]
   },
@@ -74,39 +75,39 @@ const MONTH_DATA = {
     startDay: 274,
     endDay: 304,
     daysCount: 31,
-    theme: "Unshakeable Courage",
+    theme: "Courage in the Calling",
     anchorRef: "Joshua 1:9",
-    anchorText: "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God is with you wherever you go.",
+    anchorText: "Haven't I commanded you? Be strong and courageous. Don't be afraid. Don't be dismayed, for Yahweh your God is with you wherever you go.",
     testScript: "npm run test:october",
     subthemes: [
       {
         week: "Week 1 (Days 274–280)",
         name: "Commanded to Be Brave",
-        focus: "Grounding holy courage not in human self-confidence, but in God's sovereign command and abiding presence.",
-        passages: "Joshua 1:1–9, Deuteronomy 31:6–8, Psalm 27:1–3."
+        focus: "Finding holy confidence not in self-esteem, but in God's sovereign command and abiding presence.",
+        passages: "Joshua 1:1–9, Psalm 27:7–14, Deuteronomy 31:6–8."
       },
       {
         week: "Week 2 (Days 281–287)",
         name: "The Courage of Quiet Obedience",
-        focus: "Daily faithful obedience when fear, cultural pressure, or unseen outcomes tempt retreat.",
-        passages: "Esther 4:13–16, Ruth 1:15–18, Daniel 3:16–18."
+        focus: "Saying yes to God's promptings even when no one else understands, choosing faith over worldly ease.",
+        passages: "Esther 4:10–17, Luke 1:26–38, Hebrews 11:24–27."
       },
       {
         week: "Week 3 (Days 288–294)",
         name: "Standing Firm in Spiritual Armor",
-        focus: "Putting on truth, righteousness, faith, and salvation to stand unshakeable against deceit.",
-        passages: "Ephesians 6:10–18, 2 Corinthians 10:3–5, 1 Peter 5:8–9."
+        focus: "Recognizing spiritual warfare and standing firm in truth, righteousness, and love.",
+        passages: "Ephesians 6:10–18, 1 Corinthians 16:13–14, 2 Corinthians 10:3–5."
       },
       {
         week: "Week 4 (Days 295–301)",
         name: "Courage to Speak Truth in Love",
-        focus: "Speaking honest, grace-filled truth without cowardice, aggression, or passive silence.",
-        passages: "Ephesians 4:15, Proverbs 31:8–9, Acts 4:29–31."
+        focus: "Gentle boldness in conversations, advocating for the vulnerable, and building up the body of Christ.",
+        passages: "Acts 4:23–31, Proverbs 31:8–9, Ephesians 4:14–16."
       },
       {
         week: "Week 5 (Days 302–304)",
         name: "Leaving a Legacy of Faithfulness",
-        focus: "Finishing the race with endurance, imparting courageous faith to future generations.",
+        focus: "Running the race with perseverance and keeping the faith for the generation to come.",
         passages: "2 Timothy 4:6–8, Hebrews 12:1–3."
       }
     ]
@@ -124,7 +125,7 @@ const MONTH_DATA = {
       {
         week: "Week 1 (Days 305–311)",
         name: "An Altar in the Ordinary",
-        focus: "Cultivating thankfulness for small, unnoticed daily provisions from bread to clean water.",
+        focus: "Cultivating thankfulness for small, unnoticed daily provisions and remembering God's benefits.",
         passages: "Psalm 103:1–5, Psalm 107:1–9, 1 Chronicles 16:8–12."
       },
       {
@@ -136,13 +137,13 @@ const MONTH_DATA = {
       {
         week: "Week 3 (Days 319–325)",
         name: "The Secret of Holy Contentment",
-        focus: "Defeating the thief of comparison and resting fully satisfied in Christ's sufficiency.",
+        focus: "Defeating the thief of comparison and resting fully satisfied in God as our portion.",
         passages: "Philippians 4:10–13, 1 Timothy 6:6–10, Psalm 16:5–11."
       },
       {
         week: "Week 4 (Days 326–332)",
         name: "An Overflow of Generous Giving",
-        focus: "How grateful hearts naturally overflow into cheerful generosity and blessing others.",
+        focus: "How grateful hearts naturally overflow into cheerful generosity and sacrificial giving.",
         passages: "2 Corinthians 9:6–15, Luke 21:1–4, Proverbs 11:24–25."
       },
       {
@@ -166,7 +167,7 @@ const MONTH_DATA = {
       {
         week: "Week 1 (Days 335–341)",
         name: "The Longing of Advent",
-        focus: "Holy expectation, quiet waiting, and preparing heart room amidst commercial hurry.",
+        focus: "Holy expectation, quiet waiting, and the rising of the Dayspring amidst commercial hurry.",
         passages: "Isaiah 7:14, Isaiah 9:2–7, Luke 1:67–79."
       },
       {
@@ -191,7 +192,7 @@ const MONTH_DATA = {
         week: "Week 5 (Days 363–365)",
         name: "Walking Forward with Emmanuel",
         focus: "Finishing the 365-day journey with triumphant praise and stepping into the future with Emmanuel.",
-        passages: "Matthew 28:18–20, Revelation 22:13–21, Hebrews 13:8."
+        passages: "Matthew 28:18–20, Revelation 22:20–21, Jude 24–25."
       }
     ]
   }
