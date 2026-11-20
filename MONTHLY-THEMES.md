@@ -115,7 +115,7 @@ March is an open-handed season. Women at 35+ often carry the mental load of mult
 * **Anchor Scripture**: 1 Peter 1:3 — *"Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead."*
 
 ### Monthly Introduction
-April celebrates the empty tomb and the supernatural power that brings life from the grave. In our everyday lives, we encounter situations that feel emotionally dead—a distant marriage, a wandering child, a stalled dream, or chronic grief. Resurrection hope declares that no valley is beyond God's redeeming touch. Because Jesus lives, your hope is not wishful thinking; it is an anchored reality.
+April centers upon the historical, bodily resurrection of Jesus Christ and the enduring hope it secures for believers. In our daily lives, we face real trials, sorrow, physical frailty, and unresolved hardships. Resurrection hope does not promise that every earthly relationship will be mended, every health struggle cured, or every temporal disappointment reversed in this life. Rather, it proclaims that death and suffering do not have the final word. Because Christ is risen, believers are granted living hope, daily spiritual renewal through the indwelling Holy Spirit, and the unshakeable promise of final restoration in God's coming new creation. Grounded in Christ's victory over the grave, our hope is not wishful thinking, but an eternal reality that sustains us through every present valley.
 
 ### Weekly Subthemes & Bible Reading Schedule
 1. **Week 1 (Days 91–97): The Journey of the Cross**
