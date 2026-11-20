@@ -131,16 +131,16 @@ assert(getDevotionalByDay(1).title === getDevotionalEntry(1).title, "getDevotion
 const boundaryCases = [
   { day: 32, expectedMonth: 2, expectedDayOfMonth: 1, desc: "Feb 1", isPlaceholder: false },
   { day: 59, expectedMonth: 2, expectedDayOfMonth: 28, desc: "Feb 28", isPlaceholder: false },
-  { day: 60, expectedMonth: 3, expectedDayOfMonth: 1, desc: "Mar 1", isPlaceholder: true },
-  { day: 90, expectedMonth: 3, expectedDayOfMonth: 31, desc: "Mar 31", isPlaceholder: true },
-  { day: 91, expectedMonth: 4, expectedDayOfMonth: 1, desc: "Apr 1", isPlaceholder: true },
-  { day: 181, expectedMonth: 6, expectedDayOfMonth: 30, desc: "Jun 30", isPlaceholder: true },
-  { day: 182, expectedMonth: 7, expectedDayOfMonth: 1, desc: "Jul 1", isPlaceholder: true },
-  { day: 273, expectedMonth: 9, expectedDayOfMonth: 30, desc: "Sep 30", isPlaceholder: true },
-  { day: 274, expectedMonth: 10, expectedDayOfMonth: 1, desc: "Oct 1", isPlaceholder: true },
-  { day: 334, expectedMonth: 11, expectedDayOfMonth: 30, desc: "Nov 30", isPlaceholder: true },
-  { day: 335, expectedMonth: 12, expectedDayOfMonth: 1, desc: "Dec 1", isPlaceholder: true },
-  { day: 365, expectedMonth: 12, expectedDayOfMonth: 31, desc: "Dec 31", isPlaceholder: true },
+  { day: 60, expectedMonth: 3, expectedDayOfMonth: 1, desc: "Mar 1", isPlaceholder: false },
+  { day: 90, expectedMonth: 3, expectedDayOfMonth: 31, desc: "Mar 31", isPlaceholder: false },
+  { day: 91, expectedMonth: 4, expectedDayOfMonth: 1, desc: "Apr 1", isPlaceholder: false },
+  { day: 181, expectedMonth: 6, expectedDayOfMonth: 30, desc: "Jun 30", isPlaceholder: false },
+  { day: 182, expectedMonth: 7, expectedDayOfMonth: 1, desc: "Jul 1", isPlaceholder: false },
+  { day: 273, expectedMonth: 9, expectedDayOfMonth: 30, desc: "Sep 30", isPlaceholder: false },
+  { day: 274, expectedMonth: 10, expectedDayOfMonth: 1, desc: "Oct 1", isPlaceholder: false },
+  { day: 334, expectedMonth: 11, expectedDayOfMonth: 30, desc: "Nov 30", isPlaceholder: false },
+  { day: 335, expectedMonth: 12, expectedDayOfMonth: 1, desc: "Dec 1", isPlaceholder: false },
+  { day: 365, expectedMonth: 12, expectedDayOfMonth: 31, desc: "Dec 31", isPlaceholder: false },
 ];
 
 boundaryCases.forEach(({ day, expectedMonth, expectedDayOfMonth, desc, isPlaceholder }) => {
