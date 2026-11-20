@@ -46,7 +46,7 @@ export default function DevotionalDayPage({
     MONTHLY_THEMES.find((m) => m.month_number === entry.month_number) ||
     MONTHLY_THEMES[0];
 
-  const [fontSize, setFontSize] = useState<"normal" | "large" | "xlarge">("normal");
+  const [fontSize, setFontSizeState] = useState<"normal" | "large" | "xlarge">("normal");
   const [completed, setCompleted] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
   const [reflectionAnswer, setReflectionAnswer] = useState("");
@@ -54,6 +54,14 @@ export default function DevotionalDayPage({
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
+    // Restore persistent user font size preference
+    try {
+      const saved = localStorage.getItem("sanctuary_font_size") as "normal" | "large" | "xlarge" | null;
+      if (saved && ["normal", "large", "xlarge"].includes(saved)) {
+        setFontSizeState(saved);
+      }
+    } catch {}
+
     const userState = getUserState();
     setCompleted(userState.completed_days.includes(entry.day_number));
     setIsFavorite(
@@ -69,6 +77,13 @@ export default function DevotionalDayPage({
       setReflectionAnswer("");
     }
   }, [entry.day_number]);
+
+  const handleSetFontSize = (size: "normal" | "large" | "xlarge") => {
+    setFontSizeState(size);
+    try {
+      localStorage.setItem("sanctuary_font_size", size);
+    } catch {}
+  };
 
   const handleToggleComplete = () => {
     const updated = toggleDayCompleted(entry.day_number);
@@ -110,15 +125,39 @@ export default function DevotionalDayPage({
     }
   };
 
-  // Typography scaling
-  const textClasses = {
-    normal: "text-base sm:text-lg leading-relaxed",
-    large: "text-lg sm:text-xl leading-relaxed",
-    xlarge: "text-xl sm:text-2xl leading-loose",
+  // Reader typography scaling across all devotional sections
+  const typography = {
+    normal: {
+      scripture: "text-xl sm:text-2xl leading-relaxed",
+      body: "text-base sm:text-lg leading-relaxed",
+      prayer: "text-base sm:text-lg leading-relaxed",
+      question: "text-xs sm:text-sm leading-relaxed",
+      intention: "text-lg",
+      action: "text-sm leading-relaxed",
+      evening: "text-xs sm:text-sm leading-relaxed",
+    },
+    large: {
+      scripture: "text-2xl sm:text-3xl leading-relaxed",
+      body: "text-lg sm:text-xl leading-relaxed",
+      prayer: "text-lg sm:text-xl leading-relaxed",
+      question: "text-sm sm:text-base leading-relaxed",
+      intention: "text-xl",
+      action: "text-base leading-relaxed",
+      evening: "text-sm sm:text-base leading-relaxed",
+    },
+    xlarge: {
+      scripture: "text-3xl sm:text-4xl leading-relaxed",
+      body: "text-xl sm:text-2xl leading-loose",
+      prayer: "text-xl sm:text-2xl leading-loose",
+      question: "text-base sm:text-lg leading-relaxed",
+      intention: "text-2xl",
+      action: "text-lg leading-relaxed",
+      evening: "text-base sm:text-lg leading-relaxed",
+    },
   }[fontSize];
 
   return (
-    <article className="max-w-4xl mx-auto space-y-8 animate-fade-in pb-12">
+    <article data-font-size={fontSize} className="max-w-4xl mx-auto space-y-8 animate-fade-in pb-12">
       {/* Top Breadcrumb & Controls Bar */}
       <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-sanctuary-taupe border-b border-sanctuary-taupeLight/50 pb-4">
         <div className="flex items-center gap-2">
@@ -138,34 +177,46 @@ export default function DevotionalDayPage({
 
         {/* Reader Customization (Font Size & Print) */}
         <div className="flex items-center gap-2">
-          <div className="flex items-center bg-white border border-sanctuary-taupeLight/70 rounded-full px-2 py-0.5">
-            <span className="text-[11px] mr-1.5 text-sanctuary-taupe">Text:</span>
+          <div className="flex items-center bg-white border border-sanctuary-taupeLight/70 rounded-full px-2 py-0.5 shadow-sm" role="group" aria-label="Text size options">
+            <span className="text-[11px] mr-1.5 text-sanctuary-taupe select-none">Text:</span>
             <button
-              onClick={() => setFontSize("normal")}
-              className={`px-1.5 py-0.5 rounded text-xs ${
+              type="button"
+              onClick={() => handleSetFontSize("normal")}
+              aria-label="Normal text size"
+              aria-pressed={fontSize === "normal"}
+              title="Normal text size (A)"
+              className={`px-2 py-0.5 rounded-full text-xs font-bold transition-all ${
                 fontSize === "normal"
-                  ? "font-bold text-sanctuary-rose bg-sanctuary-blushLight"
-                  : "text-sanctuary-cocoaLight"
+                  ? "bg-sanctuary-rose text-white shadow-sm"
+                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
               }`}
             >
               A
             </button>
             <button
-              onClick={() => setFontSize("large")}
-              className={`px-1.5 py-0.5 rounded text-sm ${
+              type="button"
+              onClick={() => handleSetFontSize("large")}
+              aria-label="Large text size"
+              aria-pressed={fontSize === "large"}
+              title="Large text size (A+)"
+              className={`px-2 py-0.5 rounded-full text-sm font-bold transition-all ${
                 fontSize === "large"
-                  ? "font-bold text-sanctuary-rose bg-sanctuary-blushLight"
-                  : "text-sanctuary-cocoaLight"
+                  ? "bg-sanctuary-rose text-white shadow-sm"
+                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
               }`}
             >
               A+
             </button>
             <button
-              onClick={() => setFontSize("xlarge")}
-              className={`px-1.5 py-0.5 rounded text-base ${
+              type="button"
+              onClick={() => handleSetFontSize("xlarge")}
+              aria-label="Extra large text size"
+              aria-pressed={fontSize === "xlarge"}
+              title="Extra large text size (A++)"
+              className={`px-2 py-0.5 rounded-full text-base font-bold transition-all ${
                 fontSize === "xlarge"
-                  ? "font-bold text-sanctuary-rose bg-sanctuary-blushLight"
-                  : "text-sanctuary-cocoaLight"
+                  ? "bg-sanctuary-rose text-white shadow-sm"
+                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
               }`}
             >
               A++
@@ -258,7 +309,7 @@ export default function DevotionalDayPage({
           </span>
         </div>
 
-        <blockquote className="font-serif text-xl sm:text-2xl text-sanctuary-cocoa italic leading-relaxed text-center sm:text-left px-2 sm:px-4">
+        <blockquote className={`dev-scripture-text font-serif text-sanctuary-cocoa italic text-center sm:text-left px-2 sm:px-4 transition-all ${typography.scripture}`}>
           &ldquo;{entry.scripture_primary_text}&rdquo;
         </blockquote>
 
@@ -276,7 +327,7 @@ export default function DevotionalDayPage({
           <span>Morning Reflection</span>
         </div>
 
-        <div className={`font-serif text-sanctuary-cocoa ${textClasses}`}>
+        <div className={`dev-reflection-body font-serif text-sanctuary-cocoa transition-all ${typography.body}`}>
           <p className="first-letter:text-4xl first-letter:font-bold first-letter:text-sanctuary-rose first-letter:mr-1 first-letter:float-left">
             {entry.reflection_body}
           </p>
@@ -301,7 +352,7 @@ export default function DevotionalDayPage({
           {entry.reflection_questions.map((q, idx) => (
             <li
               key={idx}
-              className="flex items-start gap-3 p-3.5 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/40 text-xs sm:text-sm text-sanctuary-cocoa"
+              className={`dev-question-item flex items-start gap-3 p-3.5 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/40 text-sanctuary-cocoa transition-all ${typography.question}`}
             >
               <span className="w-5 h-5 rounded-full bg-sanctuary-blush text-sanctuary-cocoa font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">
                 {idx + 1}
@@ -344,7 +395,7 @@ export default function DevotionalDayPage({
           <span>Guided Quiet-Time Prayer</span>
         </div>
 
-        <p className="font-serif text-base sm:text-lg text-sanctuary-cocoa italic leading-relaxed">
+        <p className={`dev-prayer-body font-serif text-sanctuary-cocoa italic transition-all ${typography.prayer}`}>
           &ldquo;{entry.guided_prayer}&rdquo;
         </p>
 
@@ -368,7 +419,7 @@ export default function DevotionalDayPage({
               <Sun className="w-4 h-4" />
               Daily Walk Intention
             </span>
-            <p className="font-serif text-lg text-sanctuary-cocoa font-medium italic">
+            <p className={`dev-intention-text font-serif text-sanctuary-cocoa font-medium italic transition-all ${typography.intention}`}>
               &ldquo;{entry.daily_intention}&rdquo;
             </p>
           </div>
@@ -384,7 +435,7 @@ export default function DevotionalDayPage({
               <Sparkles className="w-4 h-4" />
               Practical Faith Step
             </span>
-            <p className="text-sm text-sanctuary-cocoa leading-relaxed font-medium">
+            <p className={`dev-action-text text-sanctuary-cocoa font-medium transition-all ${typography.action}`}>
               {entry.practical_action}
             </p>
           </div>
@@ -401,7 +452,7 @@ export default function DevotionalDayPage({
           <span className="text-xs font-semibold uppercase tracking-wider text-sanctuary-taupe block mb-1">
             Evening Benediction & Pondering
           </span>
-          <p className="text-xs sm:text-sm text-sanctuary-cocoa leading-relaxed italic">
+          <p className={`dev-evening-text text-sanctuary-cocoa italic transition-all ${typography.evening}`}>
             &ldquo;{entry.evening_reflection_prompt}&rdquo;
           </p>
         </div>

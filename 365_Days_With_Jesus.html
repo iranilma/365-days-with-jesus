@@ -70,6 +70,30 @@
       border-bottom: 1px solid #D9D0C8;
       height: 1.6rem;
     }
+    /* Devotional Reader Typography Scaling */
+    #view-devotional[data-font-size="normal"] #devScriptureText { font-size: 1.5rem !important; line-height: 2.1rem !important; }
+    #view-devotional[data-font-size="normal"] #devReflectionBody { font-size: 1.125rem !important; line-height: 1.85rem !important; }
+    #view-devotional[data-font-size="normal"] #devPrayerBody { font-size: 1.125rem !important; line-height: 1.85rem !important; }
+    #view-devotional[data-font-size="normal"] #devIntention { font-size: 1.125rem !important; line-height: 1.6rem !important; }
+    #view-devotional[data-font-size="normal"] #devPracticalAction { font-size: 0.95rem !important; line-height: 1.5rem !important; }
+    #view-devotional[data-font-size="normal"] #devEveningPrompt { font-size: 1.05rem !important; line-height: 1.6rem !important; }
+    #view-devotional[data-font-size="normal"] #devQuestionsList li { font-size: 0.95rem !important; line-height: 1.5rem !important; }
+
+    #view-devotional[data-font-size="large"] #devScriptureText { font-size: 1.85rem !important; line-height: 2.45rem !important; }
+    #view-devotional[data-font-size="large"] #devReflectionBody { font-size: 1.35rem !important; line-height: 2.15rem !important; }
+    #view-devotional[data-font-size="large"] #devPrayerBody { font-size: 1.35rem !important; line-height: 2.15rem !important; }
+    #view-devotional[data-font-size="large"] #devIntention { font-size: 1.35rem !important; line-height: 1.85rem !important; }
+    #view-devotional[data-font-size="large"] #devPracticalAction { font-size: 1.125rem !important; line-height: 1.75rem !important; }
+    #view-devotional[data-font-size="large"] #devEveningPrompt { font-size: 1.25rem !important; line-height: 1.85rem !important; }
+    #view-devotional[data-font-size="large"] #devQuestionsList li { font-size: 1.125rem !important; line-height: 1.75rem !important; }
+
+    #view-devotional[data-font-size="xlarge"] #devScriptureText { font-size: 2.25rem !important; line-height: 2.95rem !important; }
+    #view-devotional[data-font-size="xlarge"] #devReflectionBody { font-size: 1.6rem !important; line-height: 2.5rem !important; }
+    #view-devotional[data-font-size="xlarge"] #devPrayerBody { font-size: 1.6rem !important; line-height: 2.5rem !important; }
+    #view-devotional[data-font-size="xlarge"] #devIntention { font-size: 1.6rem !important; line-height: 2.15rem !important; }
+    #view-devotional[data-font-size="xlarge"] #devPracticalAction { font-size: 1.3rem !important; line-height: 1.95rem !important; }
+    #view-devotional[data-font-size="xlarge"] #devEveningPrompt { font-size: 1.45rem !important; line-height: 2.15rem !important; }
+    #view-devotional[data-font-size="xlarge"] #devQuestionsList li { font-size: 1.3rem !important; line-height: 1.95rem !important; }
     @media print {
       body {
         background-color: #FFFFFF !important;
@@ -435,7 +459,7 @@
     </div>
 
     <!-- 2. DEVOTIONAL READER VIEW -->
-    <div id="view-devotional" class="view-panel space-y-8 hidden">
+    <div id="view-devotional" class="view-panel space-y-8 hidden" data-font-size="normal">
       <!-- Breadcrumb & Reader Options -->
       <div class="flex flex-wrap items-center justify-between gap-3 text-xs text-sanctuary-taupe border-b border-sanctuary-taupeLight/50 pb-4">
         <div class="flex items-center gap-2">
@@ -819,10 +843,11 @@
           </select>
 
           <!-- Text Size -->
-          <div class="flex items-center bg-white border border-sanctuary-taupeLight rounded-full px-2 py-0.5">
-            <button onclick="setFontSize('normal')" class="px-1 text-xs font-bold text-sanctuary-rose">A</button>
-            <button onclick="setFontSize('large')" class="px-1 text-sm font-bold text-sanctuary-cocoa">A+</button>
-            <button onclick="setFontSize('xlarge')" class="px-1 text-base font-bold text-sanctuary-cocoa">A++</button>
+          <div class="flex items-center bg-white border border-sanctuary-taupeLight rounded-full px-2 py-0.5 shadow-sm" role="group" aria-label="Text size options">
+            <span class="text-[11px] mr-1 text-sanctuary-taupe select-none">Text:</span>
+            <button id="btnFontNormal" onclick="setFontSize('normal')" class="px-2 py-0.5 rounded-full text-xs font-bold transition-all bg-sanctuary-rose text-white shadow-sm" title="Normal text size (A)" aria-pressed="true">A</button>
+            <button id="btnFontLarge" onclick="setFontSize('large')" class="px-2 py-0.5 rounded-full text-sm font-bold transition-all text-sanctuary-cocoa hover:text-sanctuary-rose" title="Large text size (A+)" aria-pressed="false">A+</button>
+            <button id="btnFontXLarge" onclick="setFontSize('xlarge')" class="px-2 py-0.5 rounded-full text-base font-bold transition-all text-sanctuary-cocoa hover:text-sanctuary-rose" title="Extra large text size (A++)" aria-pressed="false">A++</button>
           </div>
 
           <button onclick="switchTab('printables')" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight">
@@ -7153,28 +7178,31 @@
       }
 
       // Update Devotional Reader
-      document.getElementById('devDaySelect').value = num;
-      document.getElementById('devDayBreadcrumb').innerText = "Day " + num;
-      document.getElementById('devBadge').innerText = "Day " + num + " of 365 • Quiet Time Sanctuary";
-      document.getElementById('devTitle').innerText = d.title;
-      document.getElementById('devScriptureText').innerHTML = "&ldquo;" + d.text + "&rdquo;";
-      document.getElementById('devScriptureRef').innerText = "— " + d.ref;
-      document.getElementById('devReflectionBody').innerHTML = "<p>" + d.body + "</p>";
-      document.getElementById('devPrayerBody').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
-      document.getElementById('devIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
-      document.getElementById('devPracticalAction').innerText = d.action;
+      if (document.getElementById('devDaySelect')) document.getElementById('devDaySelect').value = num;
+      const dayBreadcrumb = document.getElementById('devotionalDayBreadcrumb') || document.getElementById('devDayBreadcrumb');
+      if (dayBreadcrumb) dayBreadcrumb.innerText = "Day " + num;
+      if (document.getElementById('devBadge')) document.getElementById('devBadge').innerText = "Day " + num + " of 365 • Quiet Time Sanctuary";
+      if (document.getElementById('devTitle')) document.getElementById('devTitle').innerText = d.title;
+      if (document.getElementById('devScriptureText')) document.getElementById('devScriptureText').innerHTML = "&ldquo;" + d.text + "&rdquo;";
+      if (document.getElementById('devScriptureRef')) document.getElementById('devScriptureRef').innerText = "— " + d.ref;
+      if (document.getElementById('devReflectionBody')) document.getElementById('devReflectionBody').innerHTML = "<p>" + d.body + "</p>";
+      if (document.getElementById('devPrayerBody')) document.getElementById('devPrayerBody').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
+      if (document.getElementById('devIntention')) document.getElementById('devIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
+      if (document.getElementById('devPracticalAction')) document.getElementById('devPracticalAction').innerText = d.action;
       if (document.getElementById('devEveningPrompt')) {
         document.getElementById('devEveningPrompt').innerHTML = "&ldquo;" + (d.evening || "") + "&rdquo;";
       }
 
-      let qHtml = "";
-      d.questions.forEach((q, idx) => {
-        qHtml += `<li class="p-3 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/40 flex items-start gap-2">
-          <span class="font-bold text-sanctuary-rose">${idx + 1}.</span>
-          <span>${q}</span>
-        </li>`;
-      });
-      document.getElementById('devQuestionsList').innerHTML = qHtml;
+      if (document.getElementById('devQuestionsList')) {
+        let qHtml = "";
+        d.questions.forEach((q, idx) => {
+          qHtml += `<li class="p-3 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/40 flex items-start gap-2">
+            <span class="font-bold text-sanctuary-rose">${idx + 1}.</span>
+            <span>${q}</span>
+          </li>`;
+        });
+        document.getElementById('devQuestionsList').innerHTML = qHtml;
+      }
 
       // Update Printable Sheet
       document.getElementById('printDayNumber').innerText = "DAY " + num;
@@ -7195,6 +7223,10 @@
       document.getElementById('printPrayer').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
       document.getElementById('printIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
       document.getElementById('printAction').innerText = d.action;
+
+      if (typeof setFontSize === 'function') {
+        setFontSize(currentFontSize);
+      }
 
       switchTab('devotional');
     }
@@ -7428,11 +7460,44 @@
       }
     }
 
+    let currentFontSize = 'normal';
+
     function setFontSize(size) {
+      if (!['normal', 'large', 'xlarge'].includes(size)) size = 'normal';
+      currentFontSize = size;
+      try { localStorage.setItem('sanctuary_font_size', size); } catch(e) {}
+
+      const container = document.getElementById('view-devotional');
+      if (container) {
+        container.setAttribute('data-font-size', size);
+      }
+
+      const btnN = document.getElementById('btnFontNormal');
+      const btnL = document.getElementById('btnFontLarge');
+      const btnXL = document.getElementById('btnFontXLarge');
+
+      const activeClass = "px-2 py-0.5 rounded-full font-bold transition-all bg-sanctuary-rose text-white shadow-sm";
+      const inactiveClass = "px-2 py-0.5 rounded-full font-bold transition-all text-sanctuary-cocoa hover:text-sanctuary-rose";
+
+      if (btnN) {
+        btnN.className = (size === 'normal' ? activeClass : inactiveClass) + " text-xs";
+        btnN.setAttribute('aria-pressed', size === 'normal' ? 'true' : 'false');
+      }
+      if (btnL) {
+        btnL.className = (size === 'large' ? activeClass : inactiveClass) + " text-sm";
+        btnL.setAttribute('aria-pressed', size === 'large' ? 'true' : 'false');
+      }
+      if (btnXL) {
+        btnXL.className = (size === 'xlarge' ? activeClass : inactiveClass) + " text-base";
+        btnXL.setAttribute('aria-pressed', size === 'xlarge' ? 'true' : 'false');
+      }
+
       const el = document.getElementById('devReflectionBody');
-      if (size === 'normal') el.className = "font-serif text-sanctuary-cocoa text-base sm:text-lg leading-relaxed space-y-4";
-      if (size === 'large') el.className = "font-serif text-sanctuary-cocoa text-lg sm:text-xl leading-relaxed space-y-4";
-      if (size === 'xlarge') el.className = "font-serif text-sanctuary-cocoa text-xl sm:text-2xl leading-loose space-y-4";
+      if (el) {
+        if (size === 'normal') el.className = "font-serif text-sanctuary-cocoa text-base sm:text-lg leading-relaxed space-y-4";
+        if (size === 'large') el.className = "font-serif text-sanctuary-cocoa text-lg sm:text-xl leading-relaxed space-y-4";
+        if (size === 'xlarge') el.className = "font-serif text-sanctuary-cocoa text-xl sm:text-2xl leading-loose space-y-4";
+      }
     }
 
     // Initialize
@@ -7442,6 +7507,9 @@
       renderPrayers();
       renderGratitudes();
       renderJournals();
+      let savedSize = 'normal';
+      try { savedSize = localStorage.getItem('sanctuary_font_size') || 'normal'; } catch(e) {}
+      setFontSize(savedSize);
       switchDay(1);
     };
   </script>

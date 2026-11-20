@@ -204,28 +204,31 @@ def sync_html_file(html_file: Path, entries: list):
       }
 
       // Update Devotional Reader
-      document.getElementById('devDaySelect').value = num;
-      document.getElementById('devDayBreadcrumb').innerText = "Day " + num;
-      document.getElementById('devBadge').innerText = "Day " + num + " of 365 • Quiet Time Sanctuary";
-      document.getElementById('devTitle').innerText = d.title;
-      document.getElementById('devScriptureText').innerHTML = "&ldquo;" + d.text + "&rdquo;";
-      document.getElementById('devScriptureRef').innerText = "— " + d.ref;
-      document.getElementById('devReflectionBody').innerHTML = "<p>" + d.body + "</p>";
-      document.getElementById('devPrayerBody').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
-      document.getElementById('devIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
-      document.getElementById('devPracticalAction').innerText = d.action;
+      if (document.getElementById('devDaySelect')) document.getElementById('devDaySelect').value = num;
+      const dayBreadcrumb = document.getElementById('devotionalDayBreadcrumb') || document.getElementById('devDayBreadcrumb');
+      if (dayBreadcrumb) dayBreadcrumb.innerText = "Day " + num;
+      if (document.getElementById('devBadge')) document.getElementById('devBadge').innerText = "Day " + num + " of 365 • Quiet Time Sanctuary";
+      if (document.getElementById('devTitle')) document.getElementById('devTitle').innerText = d.title;
+      if (document.getElementById('devScriptureText')) document.getElementById('devScriptureText').innerHTML = "&ldquo;" + d.text + "&rdquo;";
+      if (document.getElementById('devScriptureRef')) document.getElementById('devScriptureRef').innerText = "— " + d.ref;
+      if (document.getElementById('devReflectionBody')) document.getElementById('devReflectionBody').innerHTML = "<p>" + d.body + "</p>";
+      if (document.getElementById('devPrayerBody')) document.getElementById('devPrayerBody').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
+      if (document.getElementById('devIntention')) document.getElementById('devIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
+      if (document.getElementById('devPracticalAction')) document.getElementById('devPracticalAction').innerText = d.action;
       if (document.getElementById('devEveningPrompt')) {
         document.getElementById('devEveningPrompt').innerHTML = "&ldquo;" + (d.evening || "") + "&rdquo;";
       }
 
-      let qHtml = "";
-      d.questions.forEach((q, idx) => {
-        qHtml += `<li class="p-3 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/40 flex items-start gap-2">
-          <span class="font-bold text-sanctuary-rose">${idx + 1}.</span>
-          <span>${q}</span>
-        </li>`;
-      });
-      document.getElementById('devQuestionsList').innerHTML = qHtml;
+      if (document.getElementById('devQuestionsList')) {
+        let qHtml = "";
+        d.questions.forEach((q, idx) => {
+          qHtml += `<li class="p-3 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/40 flex items-start gap-2">
+            <span class="font-bold text-sanctuary-rose">${idx + 1}.</span>
+            <span>${q}</span>
+          </li>`;
+        });
+        document.getElementById('devQuestionsList').innerHTML = qHtml;
+      }
 
       // Update Printable Sheet
       document.getElementById('printDayNumber').innerText = "DAY " + num;
@@ -246,6 +249,10 @@ def sync_html_file(html_file: Path, entries: list):
       document.getElementById('printPrayer').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
       document.getElementById('printIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
       document.getElementById('printAction').innerText = d.action;
+
+      if (typeof setFontSize === 'function') {
+        setFontSize(currentFontSize);
+      }
 
       switchTab('devotional');
     }"""

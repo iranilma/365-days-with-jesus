@@ -38,6 +38,31 @@ h1, h2, h3, .font-serif {
   background: #A89587;
 }
 
+/* Devotional Reader Typography Scaling */
+article[data-font-size="normal"] .dev-scripture-text { font-size: 1.5rem !important; line-height: 2.1rem !important; }
+article[data-font-size="normal"] .dev-reflection-body { font-size: 1.125rem !important; line-height: 1.85rem !important; }
+article[data-font-size="normal"] .dev-prayer-body { font-size: 1.125rem !important; line-height: 1.85rem !important; }
+article[data-font-size="normal"] .dev-intention-text { font-size: 1.125rem !important; line-height: 1.6rem !important; }
+article[data-font-size="normal"] .dev-action-text { font-size: 0.95rem !important; line-height: 1.5rem !important; }
+article[data-font-size="normal"] .dev-evening-text { font-size: 1.05rem !important; line-height: 1.6rem !important; }
+article[data-font-size="normal"] .dev-question-item { font-size: 0.95rem !important; line-height: 1.5rem !important; }
+
+article[data-font-size="large"] .dev-scripture-text { font-size: 1.85rem !important; line-height: 2.45rem !important; }
+article[data-font-size="large"] .dev-reflection-body { font-size: 1.35rem !important; line-height: 2.15rem !important; }
+article[data-font-size="large"] .dev-prayer-body { font-size: 1.35rem !important; line-height: 2.15rem !important; }
+article[data-font-size="large"] .dev-intention-text { font-size: 1.35rem !important; line-height: 1.85rem !important; }
+article[data-font-size="large"] .dev-action-text { font-size: 1.125rem !important; line-height: 1.75rem !important; }
+article[data-font-size="large"] .dev-evening-text { font-size: 1.25rem !important; line-height: 1.85rem !important; }
+article[data-font-size="large"] .dev-question-item { font-size: 1.125rem !important; line-height: 1.75rem !important; }
+
+article[data-font-size="xlarge"] .dev-scripture-text { font-size: 2.25rem !important; line-height: 2.95rem !important; }
+article[data-font-size="xlarge"] .dev-reflection-body { font-size: 1.6rem !important; line-height: 2.5rem !important; }
+article[data-font-size="xlarge"] .dev-prayer-body { font-size: 1.6rem !important; line-height: 2.5rem !important; }
+article[data-font-size="xlarge"] .dev-intention-text { font-size: 1.6rem !important; line-height: 2.15rem !important; }
+article[data-font-size="xlarge"] .dev-action-text { font-size: 1.3rem !important; line-height: 1.95rem !important; }
+article[data-font-size="xlarge"] .dev-evening-text { font-size: 1.45rem !important; line-height: 2.15rem !important; }
+article[data-font-size="xlarge"] .dev-question-item { font-size: 1.3rem !important; line-height: 1.95rem !important; }
+
 /* High-Fidelity Print Styling for US Letter and A4 */
 @media print {
   body {
