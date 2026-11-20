@@ -4250,16 +4250,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Psalm 121:5-6",
     scripture_primary_text: "Yahweh is your keeper. Yahweh is your shade on your right hand. The sun will not harm you by day, nor the moon by night.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In the arid landscapes of the biblical world, shade was not merely a convenience; it was a life-preserving blessing against the intense, beating heat of midday. The psalmist weaves this comforting image into Psalm 121: 'Yahweh is your keeper. Yahweh is your shade on your right hand. The sun will not harm you by day, nor the moon by night.' In biblical poetry, God as 'shade on your right hand' evokes continuous, intimate nearness. In Hebrew idiom, the 'right hand' frequently symbolizes the place of close accompaniment, strength, and support (as in Psalm 16:8 and Psalm 109:31). God does not remain at a distant remove; He stands immediately beside you as your keeper and protective canopy. The poetic pairing of 'the sun by day' and 'the moon by night' is a merism—a literary device encompassing the full cycle of day and night. It assures the believer that God's watchful care never ceases. Whether you are navigating the demanding, visible pressures of broad daylight or wrestling with the quiet, solitary concerns of the midnight hour, Yahweh remains your faithful keeper. Rest beneath the shelter of His abiding presence today.",
+    reflection_body: "In the arid landscapes of the biblical world, shade was a life-preserving blessing against the intense, beating heat of midday. The psalmist weaves this comforting image into Psalm 121: 'Yahweh is your keeper. Yahweh is your shade on your right hand. The sun will not harm you by day, nor the moon by night.' In biblical poetry, portraying God as 'shade on your right hand' evokes intimate sheltering nearness. By way of interpretive comparison with other psalms where the right hand appears as a place of close accompaniment and help (such as Psalm 16:8 and Psalm 109:31), this poetic picture reassures the believer that God does not remain at a distant remove; He stands immediately beside you as your keeper and protective canopy. The poetic pairing of 'the sun by day' and 'the moon by night' is a biblical merism—a literary device encompassing the full cycle of day and night. It affirms that God's watchful care never lapses. Whether you are navigating the demanding, visible pressures of broad daylight or wrestling with the quiet, solitary concerns of the midnight hour, Yahweh remains your faithful keeper. Rest beneath the shelter of His abiding presence today.",
     reflection_questions: [
-      "What is your 'exposed right hand'—the vulnerable blind spot where you feel least protected?",
-      "What daytime pressures (the sun) and nighttime anxieties (the moon) are currently threatening your peace?",
-      "How does the image of God as your personal 'shade' bring physical and emotional calm to your day?"
-    ],
-    guided_prayer: "Faithful Keeper, thank You for being my shade and shield at every hour of the day and night. Forgive me for carrying unnecessary anxiety through the hours of darkness. Thank You that You stand beside me as my constant protector. Overshadow my thoughts, my home, and my work with Your peace. In the heat of midday and in the quiet of midnight, I rest safely under Your wings. In Jesus' name, Amen.",
+      "How does the biblical poetic image of God as your sheltering 'shade' bring comfort to your spirit today?",
+      "What daytime pressures (the sun) or quiet nighttime concerns (the moon) do you need to place under God's watchful care?",
+      "Why is it encouraging to remember that God's protective presence encompasses both day and night without interruption?"
+],
+    guided_prayer: "Faithful Keeper, thank You for being my sheltering shade at every hour of the day and night. Forgive me for carrying unnecessary anxiety through the hours of darkness. Thank You that You stand beside me as my constant protector. Overshadow my thoughts, my home, and my work with Your peace. In the heat of midday and in the quiet of midnight, I rest safely under Your wings. In Jesus' name, Amen.",
     daily_intention: "Yahweh is my canopy of shade; He protects my vulnerable places both day and night.",
-    practical_action: "Whenever you feel the heat of stress rising today, close your eyes for one minute and thank God for being your cool shade.",
-    evening_reflection_prompt: "Did you sense God's protective shade keeping you cool and patient when tempers flared today?"
+    practical_action: "Step outside or look toward the light today, thanking God that His sheltering presence is actively overshadowing your life.",
+    evening_reflection_prompt: "Did remembering that Yahweh is your constant shade help you face the pressures of today with greater peace?"
   },
   {
     day_number: 207,
@@ -4810,16 +4810,16 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_primary_reference: "Psalm 23:2",
     scripture_primary_text: "He makes me lie down in green pastures. He leads me beside still waters.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Psalm 23 paints an unforgettable portrait of God's pastoral care: 'He makes me lie down in green pastures. He leads me beside still waters.' David, who spent his youth shepherding flocks in the rugged terrain of Judea, understood that sheep are naturally dependent and easily startled creatures. Left to themselves, sheep struggle to find peace when threatened by predators, agitated by tensions in the flock, or worn down by lack of nourishment. For sheep to lie down calmly in a pasture is a sign of complete safety and contentment—it means they trust their shepherd's watchful presence. In the same way, the Good Shepherd provides for the deepest longings of the human heart. We live in an environment that often stirs up constant hurry, anxiety, and relational strain. We run until we are emotionally depleted and physically weary. Yet Jesus stands guard over your life. He invites you to cease your anxious striving, offering spiritual nourishment from His Word and quiet assurance from His presence. When you recognize that the Lord is truly your Shepherd, you can release the need to manage every outcome and rest securely in His unfailing provision.",
+    reflection_body: "Psalm 23 opens with an enduring picture of God's pastoral care: 'He makes me lie down in green pastures. He leads me beside still waters.' David, drawing upon his own experience as a shepherd, uses the tender relationship between a shepherd and his flock to portray the abundant provision of God. In the biblical imagery of the psalm, lying down in green pastures evokes a profound sense of safety, contentment, and unhurried rest. The sheep does not forage in anxious frenzy or wander in search of sustenance; it rests peacefully because the shepherd has guided it to a place of rich pasture and watches over it. In a world that often measures our worth by relentless productivity and constant hurry, God invites us to experience true soul-rest. When we trust that the Lord is our Shepherd who knows our frame and anticipates our needs, we can cease our anxious striving. Green pastures remind us that God's grace is not meager or sparse, but generous and life-giving. You do not have to secure every outcome on your own today. Allow the Good Shepherd to provide for your heart and grant you rest.",
     reflection_questions: [
-      "In what areas of your life are you pacing with anxious worry instead of resting in the Shepherd's care?",
-      "How does David's imagery of 'green pastures' remind you that God provides for your soul's deepest longings?",
-      "What does it look like practically to 'lie down' and trust the Good Shepherd with an unresolved situation today?"
+      "How does the poetic image of 'green pastures' remind you of God's abundant provision for your soul?",
+      "In what areas of your daily life are you tempted to strive in self-reliance rather than resting in the Shepherd's care?",
+      "What would it look like practically to pause and accept God's gift of spiritual rest today?"
 ],
-    guided_prayer: "Good Shepherd, thank You for Your gentle and watchful presence over my life. Forgive me for pacing with worry and exhaustion, trying to manage outcomes in my own fragile strength. Lead me into the green pastures of Your grace. Quiet my restless fears, satisfy my spiritual hunger, and give rest to my weary heart today. I trust in Your faithful provision. Amen.",
-    daily_intention: "I will lie down in God's green pastures today, trusting my Good Shepherd to protect and nourish my life.",
-    practical_action: "Take a quiet ten-minute break today outdoors or near a window, breathing slowly and visualizing yourself resting in green pastures.",
-    evening_reflection_prompt: "Did letting the Shepherd calm your fears bring physical and mental relaxation to your afternoon?"
+    guided_prayer: "Good Shepherd, thank You for Your faithful care and abundant provision over my life. Forgive my anxious striving and my tendency to hurry through life without resting in Your presence. Lead my soul into the green pastures of Your grace today. Quiet my restless heart with the assurance that You know my needs and watch over my steps. I choose to lay down my burdens and rest securely in Your love. In Jesus' name, Amen.",
+    daily_intention: "I will rest in the Good Shepherd's care, trusting His abundant provision for my soul.",
+    practical_action: "Take a five-minute pause today to sit in stillness, thanking the Good Shepherd for His provision.",
+    evening_reflection_prompt: "Did resting your heart in the Good Shepherd's care bring calm to your thoughts today?"
   },
   {
     day_number: 235,
@@ -4828,18 +4828,18 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     weekly_subtheme: "Restoring the Weary Nervous System",
     title: "Beside the Still Waters",
     scripture_primary_reference: "Psalm 23:2",
-    scripture_primary_text: "He leads me beside still waters.",
+    scripture_primary_text: "He makes me lie down in green pastures. He leads me beside still waters.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In Psalm 23:2, David continues his pastoral meditation with a tender image of divine guidance: 'He leads me beside still waters.' In the rugged wilderness of the ancient Near East, finding safe drinking water for a flock was a continuous challenge. Rapidly flowing mountain streams could be intimidating to livestock and difficult to approach safely along steep banks. A wise, attentive shepherd would seek out quiet, sheltered pools or gentle waters where his sheep could drink without fear or distress. In Hebrew, the phrase mei menuchot evokes 'waters of quiet rest' or 'peaceful resting places' (BDB p. 629). This poetic image speaks directly to the hurried pace of our lives. When our schedules are overcrowded and our minds are crowded with noise, Jesus gently leads us toward the quiet sanctuary of His presence. Still waters do not mean that the surrounding world becomes instantly serene; rather, they represent an inner resting place where our thirsty souls can receive divine peace. Stop running alongside the turbulent currents of hurry today; allow the Good Shepherd to lead you beside the still waters of His grace.",
+    reflection_body: "In Psalm 23:2, David pairs the blessing of green pastures with a second luminous image of divine guidance: 'He leads me beside still waters.' In the Hebrew text, the phrase translated 'still waters' is mei menuchot, literally evoking 'waters of quiet rest' or 'waters of resting places' (BDB p. 629). This poetic phrase describes not a turbulent, deafening torrent, but serene, restful waters where thirsty souls can drink deeply without agitation or fear. In biblical poetry, water is a classic symbol of life, spiritual refreshment, and renewal. When our schedules become overcrowded, our minds clouded with noise, and our hearts weary with responsibilities, Jesus gently leads us toward the quiet sanctuary of His presence. Still waters do not suggest that outward life is devoid of challenges; rather, they point to an inner oasis of peace that flows from communion with God. We are invited to step away from the clamor of the world, silence our anxious thoughts, and receive the calming refreshment that only Christ can provide. Let the Good Shepherd lead you beside the still waters of His grace today.",
     reflection_questions: [
-      "Where does life currently feel like a roaring, turbulent river that threatens to pull you under?",
-      "Why is it impossible for your soul to drink deeply from God's presence when your environment is constantly chaotic?",
-      "How can you intentionally step away from digital noise today to drink from the 'still waters' of Christ?"
-    ],
-    guided_prayer: "Gentle Shepherd, lead my hurried soul beside the still waters today. Forgive me for standing beside the roaring, chaotic rapids of this world until my mind is deafened by fear and noise. Take me by the hand and lead me into the quiet sanctuary of Your presence. Calm the rushing waters of my thoughts. Let me kneel beside Your pools of peace and drink deeply of Your grace. Amen.",
-    daily_intention: "I will drink from the still waters of Christ's peace today, stepping away from the world's turbulent noise.",
-    practical_action: "Mute all non-urgent phone notifications for three hours today, creating a calm pool of 'still waters' in your schedule.",
-    evening_reflection_prompt: "Did stepping away from constant digital noise allow your soul to drink deeply of God's peace today?"
+      "What noisy distractions or rushing demands are currently crowding out your inner peace?",
+      "How does the Hebrew image of 'mei menuchot' (waters of quiet rest) speak to your current need for spiritual refreshment?",
+      "How can you intentionally create a quiet moment to drink from the living water of Christ's presence today?"
+],
+    guided_prayer: "Gentle Shepherd, lead my hurried heart beside the still waters of Your presence today. Forgive me for lingering near the noise and rushing currents of this world until my soul is overwhelmed. Take me by the hand and draw me into quiet communion with You. Calm the racing thoughts within my mind and satisfy my spiritual thirst with Your grace. I rest my spirit in Your deep, abiding peace today. In Jesus' name, Amen.",
+    daily_intention: "I will follow the Good Shepherd to quiet resting places, drinking deeply of His peace.",
+    practical_action: "Turn off background noise for fifteen minutes today and sit quietly in God's presence.",
+    evening_reflection_prompt: "Did stepping away from noise help your soul drink from the still waters of God's peace today?"
   },
   {
     day_number: 236,
@@ -4848,38 +4848,38 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     weekly_subtheme: "Restoring the Weary Nervous System",
     title: "Restoring My Fragile Soul",
     scripture_primary_reference: "Psalm 23:3",
-    scripture_primary_text: "He restores my soul. He guides me in the paths of righteousness for his name’s sake.",
+    scripture_primary_text: "He restores my soul. He guides me in paths of righteousness for his name’s sake.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In Psalm 23:3, David writes four simple, restorative words that have brought comfort to weary believers across generations: 'He restores my soul. He guides me in paths of righteousness for his name’s sake.' In the Hebrew text, the verb translated 'restores' (shuv) literally means to bring back, return, or refresh (BDB p. 996). In the pastoral world of ancient Israel, sheep were prone to wandering off the path, losing their orientation in rocky gullies, or becoming immobilized by exhaustion. The shepherd was responsible for seeking out the lost, returning the wanderer to the safety of the flock, and reviving the tired animal with attentive care. David recognizes that human souls experience similar moments of spiritual disorientation, emotional fatigue, and moral vulnerability. When grief, heavy responsibilities, or sudden failures leave you feeling helpless, God does not abandon you to despair. His covenant character compels Him to seek you out, revive your fainting spirit, and guide your steps back onto 'paths of righteousness.' This restoration is rooted not in our merit, but 'for his name’s sake'—because His faithful character is on the line. Trust the Good Shepherd to restore your soul today.",
+    reflection_body: "In Psalm 23:3, David writes four restorative words that have comforted believers through every generation: 'He restores my soul. He guides me in paths of righteousness for his name’s sake.' In the Hebrew text, the verb translated 'restores' is shuv, a rich term carrying the core meaning of turning back, returning, or reviving (BDB p. 996). In the poetic framework of the psalm, it portrays God reviving a weary life, bringing back fainting vitality, and reorienting the heart toward life and peace. Human beings naturally experience seasons of emotional depletion, spiritual fatigue, and disorientation. When heavy demands or unexpected sorrows leave you feeling empty, God does not treat you with harsh impatience. His covenant character moves Him to seek you out, revive your fainting spirit, and guide your steps back onto righteous, life-giving paths. Notice that this gracious restoration is anchored 'for his name’s sake'—not in our flawless performance, but in His own unchanging faithfulness. You do not have to repair your exhausted soul by human effort alone. Look to the Good Shepherd, who delights to revive your heart and guide your way.",
     reflection_questions: [
-      "Have you ever experienced a season of life where you felt 'cast'—completely upside down and unable to get up?",
-      "How does the Shepherd's gentle restoration of a cast sheep comfort your heart when you feel helpless?",
-      "In what specific area does your soul need the restoring touch and healing circulation of the Holy Spirit right now?"
-    ],
-    guided_prayer: "Restorer of My Soul, thank You that when I am disoriented, weary, or discouraged, You do not abandon me to despair. Thank You for seeking out the faint of heart and reviving my spirit for Your name's sake. Forgive my foolish wandering and my self-reliance. Guide my feet back onto paths of righteousness today, and fill my life with Your restoring peace. In Jesus' name, Amen.",
-    daily_intention: "The Good Shepherd restores my fragile soul today; He rights my path and sets my feet on solid ground.",
-    practical_action: "Identify one area where you have felt defeated or 'turned upside down,' and invite the Shepherd to restore you.",
-    evening_reflection_prompt: "Did you sense the gentle, restoring touch of God renewing your hope and stability throughout today?"
+      "In what specific way does your soul feel in need of God's gentle restoration (shuv) today?",
+      "Why is it liberating to know that God restores you 'for his name's sake' rather than based on your own perfect performance?",
+      "What is one righteous, peaceful step you can take today under the Good Shepherd's guidance?"
+],
+    guided_prayer: "Faithful Shepherd, thank You that when my energy is depleted and my spirit feels faint, You do not abandon me to exhaustion. Thank You for reviving my soul and restoring my hope for Your name's sake. Forgive my foolish self-reliance and my attempts to carry burdens in my own strength. Guide my feet back onto paths of righteousness today, and replenish my heart with Your steadfast love. In Jesus' name, Amen.",
+    daily_intention: "I will let the Good Shepherd restore my soul today, trusting His faithful guidance.",
+    practical_action: "Write down one area where you feel depleted and commit it to God, asking Him to revive your spirit.",
+    evening_reflection_prompt: "Did you sense the Good Shepherd steadying and restoring your soul throughout the day?"
   },
   {
     day_number: 237,
     month_number: 8,
     day_of_month: 25,
     weekly_subtheme: "Restoring the Weary Nervous System",
-    title: "Casting All Cares Upon Him",
-    scripture_primary_reference: "1 Peter 5:7",
-    scripture_primary_text: "casting all your worries on him, because he cares for you.",
+    title: "Resting Under the Juniper Tree",
+    scripture_primary_reference: "1 Kings 19:4-5",
+    scripture_primary_text: "He himself went a day’s journey into the wilderness, and came and sat down under a juniper tree. He requested for himself that he might die, and said, 'It is enough; now, Yahweh, take away my life; for I am not better than my fathers.' He lay down and slept under the juniper tree; and behold, an angel touched him, and said to him, 'Arise and eat.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "Writing to early Christian communities enduring social hostility and intense trials across Asia Minor, the Apostle Peter offers a word of profound pastoral comfort in 1 Peter 5:7: 'casting all your worries on him, because he cares for you.' In the Greek text, the participle epiripsantes ('having cast' or 'casting') appears in the context of humble submission to God's mighty hand (1 Peter 5:6). Lexically, the verb denotes placing, throwing, or transferring something onto another (BDAG p. 378), echoing the language of Psalm 55:22 in the Septuagint. The imagery invites believers to consciously transfer the weight of their anxieties into the care of God rather than attempting to bear life's heavy burdens alone. This practice does not mean that every anxious feeling will magically dissolve without effort, nor does it replace professional support when facing clinical anxiety or exhaustion. Rather, it represents an ongoing spiritual discipline of trust. And Peter provides the comforting theological reason: 'because he cares for you.' The original phrase conveys that our lives are a matter of personal concern to God (BDAG p. 627). In the middle of demanding responsibilities and uncertainties, bring your burdens to the Father who faithfully cares for you.",
+    reflection_body: "Even God's most dedicated servants reach moments of profound exhaustion. In 1 Kings 19, the prophet Elijah, having endured intense spiritual battles, collapses in the wilderness under a solitary juniper tree. Overwhelmed by fear, loneliness, and depleted reserves, he pours out his despair: 'It is enough; now, Yahweh, take away my life.' Notice with profound comfort how God responds. The Lord does not reprimand Elijah for his honest anguish, nor does He issue a stern rebuke about lack of faith. God recognizes that His servant is an exhausted human creature who has reached the end of his physical and emotional strength. The Lord's immediate prescription is simple, compassionate grace: sleep and sustenance. An angel arrives with a gentle touch, waking Elijah only to offer him freshly baked bread, cool water, and permission to rest again. If you feel weary, overwhelmed, or tempted to say 'it is enough' today, remember that God does not judge your exhaustion. He knows your frame and remembers that you are dust. Give yourself permission to pause, rest your body, and receive God's gentle, sustaining care.",
     reflection_questions: [
-      "What specific worry or burden have you been carrying in your hands instead of hurling it onto God?",
-      "Why is it so hard to completely let go of our worries when we pray, often picking them right back up?",
-      "How does knowing that 'it matters to Him concerning you' make it safe to cast every care upon God?"
-    ],
-    guided_prayer: "Caring Father, I have carried my worries, fears, and responsibilities for far too long until my heart is heavy under the strain. I take Peter's instruction to heart today. With decisive faith, I transfer every worry off my shoulders and cast it upon You. Thank You that my life, my household, and my smallest concerns matter to You. I release control and rest in Your loving care. In Jesus' name, Amen.",
-    daily_intention: "I will cast all my anxieties decisively onto God today, knowing that He cares for me with infinite tenderness.",
-    practical_action: "Write down your heaviest worry on a scrap of paper, physically throw it into a wastebasket, and declare: 'I cast this on God.'",
-    evening_reflection_prompt: "Did physically and spiritually casting your cares onto God bring a tangible lightening of your mood today?"
+      "Have you ever felt so exhausted that you whispered, 'It is enough'? How does God's gentle response to Elijah comfort you?",
+      "Why is it vital to recognize that physical and emotional rest is an act of humble faith rather than spiritual defeat?",
+      "What practical boundary or pause do you need to embrace today to care for your weary body and heart?"
+],
+    guided_prayer: "Compassionate Father, thank You for Your tender mercy toward me when I reach the end of my strength. Forgive me for believing that fatigue is a spiritual failure. When demands feel overwhelming and I am tempted to cry 'it is enough,' remind me that You understand my human limits. Grant me the humble grace to pause, rest my body, and receive Your quiet, nourishing comfort today. In Jesus' name, Amen.",
+    daily_intention: "I will honor my human limits today, trusting that God meets my exhaustion with gentle compassion.",
+    practical_action: "Identify one exhausting task that can wait, and dedicate that time to rest and quiet prayer.",
+    evening_reflection_prompt: "Did giving yourself permission to rest bring relief and a sense of God's gentle presence tonight?"
   },
   {
     day_number: 238,
@@ -4892,74 +4892,74 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     scripture_translation: "World English Bible (WEB)",
     reflection_body: "Psalm 4 closes with a quiet, luminous expression of evening trust: 'In peace I will both lay myself down and sleep, for you, Yahweh alone, make me live in safety.' In this psalm, the writer calls upon God amidst distress, facing the taunts of adversaries and the pressures of an uncertain world. Rather than nursing resentment or obsessing over circumstances in the dark, the psalmist chooses to surrender his vulnerability into the hands of God. Sleep is a physical act of surrender. When we sleep, we relinquish conscious control, acknowledging our human limitations and our complete dependence on the Keeper of our lives. While faithful believers may still experience sleepless nights, physical insomnia, or the racing thoughts that accompany times of intense grief and anxiety, this passage reminds us where our ultimate security resides. Earthly defenses, financial savings, and human assurances cannot secure our eternal soul; Yahweh alone makes us dwell in true safety. When you lay down to rest tonight, you are invited to entrust your unfinished tasks, your loved ones, and your tomorrows to the sovereign Lord. Even when sleep is elusive, His steadfast peace is available to sustain your heart.",
     reflection_questions: [
-      "What keeps you awake at night—anxiety about family, finances, health, or unresolved conflicts?",
-      "How could David sleep soundly on the cold ground while an army was hunting him, and what does that teach you?",
-      "What does it mean for your peace that Yahweh ALONE makes you live in safety?"
-    ],
+      "What concerns or racing thoughts most often disrupt your peace when you lie down to sleep?",
+      "How is going to sleep an act of spiritual surrender and trust in God's sovereign control?",
+      "What does it mean for your heart that Yahweh ALONE makes you live in true safety?"
+],
     guided_prayer: "Yahweh of Peace, I thank You that my safety does not depend on earthly defenses or human assurances. You alone make me dwell in unshakeable safety. When nighttime fears and anxious thoughts gather around my bed, banish them with Your presence. Grant me the grace to lay myself down and sleep in peace tonight, knowing my life is held securely in Your covenant love. In Jesus' name, Amen.",
-    daily_intention: "I will lie down in peace and sleep tonight, for Yahweh alone makes me dwell in safety.",
-    practical_action: "Before turning out your bedside lamp tonight, recite Psalm 4:8 aloud and exhale every tension from your body.",
-    evening_reflection_prompt: "Did resting in God's solitary power to keep you safe allow you to sleep with deep, restorative peace?"
+    daily_intention: "I will surrender my worries to God tonight, resting peacefully in His sovereign keeping.",
+    practical_action: "As you lay your head on your pillow tonight, breathe out your unfinished tasks and whisper Psalm 4:8.",
+    evening_reflection_prompt: "Were you able to surrender your unfinished work and trust God with your tomorrow tonight?"
   },
   {
     day_number: 239,
     month_number: 8,
     day_of_month: 27,
     weekly_subtheme: "Restoring the Weary Nervous System",
-    title: "Breathing the Life of God",
-    scripture_primary_reference: "Ezekiel 37:5",
-    scripture_primary_text: "Thus says the Lord Yahweh to these bones: 'Behold, I will cause breath to enter into you, and you will live.'",
+    title: "Saturating the Weary Soul",
+    scripture_primary_reference: "Jeremiah 31:25",
+    scripture_primary_text: "For I have saturated the weary soul, and I have replenished every sorrowful soul.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In Ezekiel 37, the prophet is led in a vision to a valley filled with dry, scattered bones. In its original historical context, this powerful vision was given to comfort Jewish exiles in Babylon who felt utterly cut off and hopeless. As God explicitly explains in Ezekiel 37:11–14, the dry bones represented the house of Israel crying, 'Our bones are dried up, and our hope is lost; we are completely cut off.' God answered their national despair with a prophetic promise of restoration: 'Behold, I will cause breath to enter into you, and you will live.' In Hebrew, the word Ruach encompasses breath, wind, and Spirit (BDB p. 924). God was promising to revive His covenant people and bring them back to their land. While Christian theology has long recognized in this passage a profound shadow of spiritual renewal and the resurrection power revealed in Christ, the text does not function as a formula guaranteeing immediate physical or emotional recovery in our individual circumstances. Instead, it reveals the heart of God toward those who feel spiritually depleted and empty. When our reserves feel completely spent, we can look to the God who breathes hope into the most desolate landscapes of life.",
+    reflection_body: "In Jeremiah 31:25, God speaks a promise of tender restorative grace to a people worn down by grief, exile, and prolonged hardship: 'For I have saturated the weary soul, and I have replenished every sorrowful soul.' In the Hebrew text, the verb translated 'saturated' is ravah, conveying the rich imagery of abundant watering, quenching deep thirst, and drenching dry ground until it can hold no more (BDB p. 924). The paired verb male' denotes filling something until it is completely replenished. God does not offer a meager trickle of consolation to the exhausted heart; He promises to saturate what is parched and satisfy what is languishing. Many women carry a silent, chronic exhaustion that sleep alone cannot resolve—a deep weariness of heart from emotional burdens, lingering sorrows, and relentless responsibilities. When your internal reserves are thoroughly spent, human advice often tells you to push harder. But God's covenant promise offers something far deeper: divine replenishment. He invites you to bring your empty vessel to Him, trusting that His grace can saturate your dry places. Receive the replenishing presence of God into your weary soul today.",
     reflection_questions: [
-      "In what areas of your life (energy, marriage, joy, faith) do you feel like a valley of 'dry bones'?",
-      "How does the Hebrew word 'Ruach' (Breath, Spirit, Wind) remind you of God's power to revive dead things?",
-      "What does it mean to consciously 'inhale the breath of God' when you feel depleted and exhausted?"
-    ],
-    guided_prayer: "Lord Yahweh, Breath of Heaven and Spirit of Life, look upon the weary, dry places in my heart today. When my energy is exhausted and my spirit feels parched, breathe Your Holy Spirit into me! Renew my hope and revive my faith. Help me remember that You are the God who restores what is barren and brings life out of desolation. I rest my heart in Your unfailing grace. Amen.",
-    daily_intention: "I receive the breath of Almighty God into my weary soul today; I will live and not faint.",
-    practical_action: "Take three slow, intentional deep breaths today, visualizing the Holy Spirit breathing fresh life and vigor into your spirit.",
-    evening_reflection_prompt: "Did you sense the renewing breath of God reviving your energy and clearing mental fog today?"
+      "In what specific area does your soul feel parched and in need of God's saturating grace today?",
+      "How does the promise of Jeremiah 31:25 reassure you that God notices and cares for your sorrowful exhaustion?",
+      "What would it look like to present your empty vessel to God in quiet prayer instead of striving harder?"
+],
+    guided_prayer: "Faithful Father, You see the deep places of weariness and sorrow that I carry in my heart. Forgive me for trying to quench my spiritual thirst at broken cisterns that leave me dry. I bring my empty soul to You today. Fulfill Your gracious promise in my life: saturate my weary heart and replenish my sorrowful spirit with the living water of Your Holy Spirit. I rest in Your abundance today. In Jesus' name, Amen.",
+    daily_intention: "I will come to God with an open heart, trusting Him to saturate my weary soul with His grace.",
+    practical_action: "Pause during a moment of thirst today, take a slow drink of water, and pray: 'Lord, saturate my soul with Your peace.'",
+    evening_reflection_prompt: "Did you experience God replenishing your inner strength and calming your heart today?"
   },
   {
     day_number: 240,
     month_number: 8,
     day_of_month: 28,
     weekly_subtheme: "Restoring the Weary Nervous System",
-    title: "He Gives Sleep to His Beloved",
-    scripture_primary_reference: "Psalm 127:2",
-    scripture_primary_text: "It is vain for you to rise up early, to stay up late, eating the bread of toil; for he gives sleep to his beloved.",
+    title: "Strength for the Road Ahead",
+    scripture_primary_reference: "1 Kings 19:7",
+    scripture_primary_text: "Yahweh’s angel came again a second time, and touched him, and said, 'Arise and eat, because the journey is too great for you.'",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "In Psalm 127:2, the psalmist addresses the futility of anxious, self-reliant toil: 'It is vain for you to rise up early, to stay up late, eating the bread of toil; for he gives sleep to his beloved.' In the Hebrew text, the final clause presents a well-known translation nuance. The standard and most widely accepted rendering (reflected in the Septuagint and the WEB) translates shenah as an accusative of the thing given: God gives sleep or rest to those He loves. Alternatively, some modern commentators and versions (such as the ESV footnote and NASB) note that shenah can function adverbially ('he gives to his beloved in sleep' or 'while they sleep'), emphasizing God's providential provision while humans rest. Whichever translational nuance is highlighted, the central theological point remains clear: excessive, frantic striving driven by anxiety is empty vanity. God does not demand that we work ourselves into chronic exhaustion to prove our worth or secure our future. Recognizing our human limits and accepting the gift of sleep is an act of humble faith in God's ongoing, providential care. We can lay down the bread of anxious toil, trusting that the Lord who watches over us is at work even when we rest.",
+    reflection_body: "In 1 Kings 19:7, the angel of the Lord returns to the sleeping prophet Elijah with a word of extraordinary divine realism: 'Arise and eat, because the journey is too great for you.' Notice the gentleness of heaven. God does not pretend that life is easy, nor does He expect us to travel arduous roads in our own fragile stamina. He frankly acknowledges: 'the journey is too great for you.' You were never designed to navigate heavy family responsibilities, personal griefs, and demanding callings solely on human willpower. Trying to shoulder life's journey in self-reliance inevitably leads to burnout and collapse. But look at what accompanies God's honest assessment: divine provision. The angel provides warm bread and water a second time, allowing Elijah to rest until his strength is renewed. Scripture records that nourished by that divine food, Elijah traveled forty days to the mountain of God. Accepting rest, nourishment, and holy pauses is not an admission of defeat; it is how God equips us for the road ahead. When the journey before you feels daunting today, receive the nourishment of God's Word and rest in His sustaining grace.",
     reflection_questions: [
-      "Are you guilty of 'rising early and staying up late, eating the bread of toil' in anxious striving?",
-      "How does the truth that God provides for you while you sleep dismantle the pressure to work endlessly?",
-      "What does being God's 'beloved' mean for the way you treat your physical need for rest?"
-    ],
-    guided_prayer: "Faithful Provider, forgive my anxious striving and my foolish attempts to control outcomes by working myself into exhaustion. Thank You for calling me Your beloved. I lay down the bitter bread of anxious toil today. I trust that You are watching over my life and caring for my needs even while I rest. Grant me the sweet gift of peaceful sleep tonight, knowing I am held securely in Your love. In Jesus' name, Amen.",
-    daily_intention: "I am God's beloved; I will rest in peace, knowing He is working on my behalf even while I sleep.",
-    practical_action: "Refuse to check work emails or social media after 8:00 PM tonight, honoring God's gift of peaceful rest.",
-    evening_reflection_prompt: "Did releasing the pressure of anxious work bring a deep, restful calm to your evening?"
+      "What current challenge or responsibility makes you feel that 'the journey is too great for you'?",
+      "Why is accepting physical and spiritual nourishment an act of obedience rather than weakness?",
+      "How can you allow God to feed your spirit with His Word before facing today's demands?"
+],
+    guided_prayer: "Gracious Lord, thank You for acknowledging that the journey of life is often too great for my fragile strength. Forgive my stubborn pride that tries to press forward on empty reserves. I accept Your invitation to arise, receive nourishment from Your Word, and rest in Your presence. Feed my heart with Your truth today, that I may walk forward in Your strength rather than my own. In Jesus' name, Amen.",
+    daily_intention: "I will acknowledge my limitations and lean on God's supernatural strength for the road ahead.",
+    practical_action: "Read a nourishing passage of Scripture slowly today, treating it as spiritual food for your journey.",
+    evening_reflection_prompt: "Did acknowledging that the journey is too great without God help you lean on His strength today?"
   },
   {
     day_number: 241,
     month_number: 8,
     day_of_month: 29,
     weekly_subtheme: "Walking in the Unforced Rhythms of Grace",
-    title: "Returning to Your Rest, O My Soul",
-    scripture_primary_reference: "Psalm 116:7",
-    scripture_primary_text: "Return to your rest, my soul, for Yahweh has dealt bountifully with you.",
+    title: "A Sabbath Rest for God's People",
+    scripture_primary_reference: "Hebrews 4:9-11",
+    scripture_primary_text: "There remains therefore a Sabbath rest for the people of God. For he who has entered into his rest has himself also rested from his works, as God did from his. Let us therefore give diligence to enter into that rest, lest anyone fall after the same example of disobedience.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "As August draws toward its conclusion, the psalmist speaks directly to his own inner being in Psalm 116:7: 'Return to your rest, my soul, for Yahweh has dealt bountifully with you.' Notice the self-counsel: the psalmist does not wait for his emotions to wander aimlessly into anxiety; he preaches to his own soul. He commands his spirit: 'Return to your rest!' Why? Because our default human tendency in a fallen world is to drift away from rest. We drift into worry, we drift into self-reliance, we drift into comparison, and we drift into panic. Notice the anchor that pulls his soul back into rest: 'for Yahweh has dealt bountifully with you.' When your soul begins to drift into anxious striving, the cure is remembrance. You look back over the landscape of your life and count the bountiful blessings of God. You remember how He provided when you were broke; how He healed when you were sick; how He comforted when you were heartbroken; how He saved you by His blood. When you rehearse God's bountiful track record, the panic subsides. Your soul returns to its safe harbor of rest.",
+    reflection_body: "In Hebrews 4, the author traces the great biblical theme of rest to its theological climax: 'There remains therefore a Sabbath rest for the people of God. For he who has entered into his rest has himself also rested from his works, as God did from his.' Throughout biblical history, God provided Sabbath rhythms as signs pointing toward a deeper, eternal reality. In Christ, that spiritual rest has arrived. To 'rest from works' in the context of Hebrews means ceasing from the exhausting, anxious treadmill of attempting to earn God's favor through moral performance or religious striving. Just as God completed His creative work on the seventh day and rested, so Jesus Christ completed the work of our redemption. When you place your trust in Christ, you are welcomed into the peaceful sanctuary of His grace. The author urges us to 'give diligence to enter into that rest'—which paradoxically means being intentional about not slipping back into self-reliant anxiety. You do not need to prove your worth through constant spiritual hustle today. Enter into the sacred rest of faith, trusting that you are fully accepted in the Beloved.",
     reflection_questions: [
-      "Where has your soul been drifting away from rest into anxious striving recently?",
-      "How does preaching to your own soul with Scripture differ from listening to your anxious feelings?",
-      "What specific 'bountiful dealings' of God in your past can you call to remembrance right now to anchor your peace?"
-    ],
-    guided_prayer: "Bountiful God, my soul so easily drifts away from Your quiet harbor into the choppy seas of worry and striving. I command my soul to return to its rest today! Forgive my forgetfulness. You have dealt so bountifully with me through every year of my life. You have never failed me, and You will not start failing me now. I drop anchor in Your past faithfulness and rest my heart in Your sovereign grace. Amen.",
-    daily_intention: "I command my soul to return to its rest today, celebrating how bountifully Yahweh has dealt with me.",
-    practical_action: "Make a list of five specific times in your life where God dealt bountifully with you, and thank Him aloud.",
-    evening_reflection_prompt: "Did commanding your soul to remember God's past goodness restore your peace during a moment of worry today?"
+      "In what ways do you still catch yourself trying to 'earn' God's acceptance through performance or striving?",
+      "What does it mean practically for you to 'rest from your works' in the light of Christ's finished salvation?",
+      "How can you practice the holy diligence of entering into God's rest today?"
+],
+    guided_prayer: "Lord Jesus, thank You for the promised Sabbath rest that You have purchased for Your people. Forgive my relentless impulse to earn Your love through human striving and performance. I cease from my anxious works today. I rest my entire soul upon Your finished redemptive work. Teach me the holy discipline of trusting Your grace, and let my heart dwell in the tranquil peace of Your presence. In Your name, Amen.",
+    daily_intention: "I will cease from anxious striving and enter into the peaceful Sabbath rest of Christ's finished work.",
+    practical_action: "Whenever you feel the urge to prove yourself today, mentally declare: 'Christ's work is finished, and I rest in Him.'",
+    evening_reflection_prompt: "Did resting in Christ's finished work bring freedom from performance anxiety to your soul today?"
   },
   {
     day_number: 242,
@@ -4967,39 +4967,39 @@ export const DEVOTIONAL_ENTRIES: DevotionalEntry[] = [
     day_of_month: 30,
     weekly_subtheme: "Walking in the Unforced Rhythms of Grace",
     title: "No Condemnation in Christ",
-    scripture_primary_reference: "Romans 8:1",
-    scripture_primary_text: "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
+    scripture_primary_reference: "Romans 8:1-2",
+    scripture_primary_text: "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit. For the law of the Spirit of life in Christ Jesus made me free from the law of sin and of death.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "One of the greatest thieves of human rest is condemnation. You can take vacations, go to day spas, and sleep eight hours a night, but if your soul is burdened by an internal courtroom where a merciless prosecutor accuses you of being a failure, a bad mother, an unworthy Christian, or fundamentally flawed, you will never truly rest. The Apostle Paul opens Romans 8 with the most glorious, definitive verdict in the history of the universe: 'There is therefore now no condemnation to those who are in Christ Jesus.' Notice the word: 'now.' Not in fifty years when you achieve spiritual perfection; right now! And notice the amount: 'no condemnation.' Zero. None. In Christ, the gavel has already struck the bench of heaven. The Judge of all the earth has declared you fully pardoned, justified, and adopted as His beloved child. The blood of Jesus has satisfied every legal demand of God's holy law. When the enemy whispers condemnation into your ear, remind him that the courtroom is permanently closed. The case has been dismissed forever. You are free. Step into the unshakeable rest of God's unconditional acceptance.",
+    reflection_body: "Few spiritual burdens are more exhausting to the human heart than the heavy weight of condemnation, guilt, and lingering shame. When we stumble, fail our own expectations, or fall short of God's holy standards, an inner voice often whispers that we are disqualified and unloved. But in Romans 8:1–2, the Apostle Paul sounds the triumphant trumpet of gospel freedom: 'There is therefore now no condemnation to those who are in Christ Jesus... For the law of the Spirit of life in Christ Jesus made me free from the law of sin and of death.' Notice the absolute, unconditional verdict: 'no condemnation.' Not a reduced sentence, not probation, but complete acquittal. Because Christ took your condemnation upon Himself, God looks upon you with tender favor. The law of the Spirit of life has shattered the tyrannical power of guilt and death. True soul-rest is impossible as long as you believe God is angry with you. But when you receive the truth that there is no condemnation in Christ Jesus, your weary heart can exhale. You are forgiven, secure, and free. Walk in the life-giving freedom of the Spirit today.",
     reflection_questions: [
-      "What lingering accusation or guilt has been acting as a merciless prosecutor in your mind?",
-      "How does the definitive declaration of 'NO condemnation' in Christ permanently silence the voice of shame?",
-      "What does it feel like to know that God's courtroom regarding your eternal standing is permanently closed?"
-    ],
-    guided_prayer: "Righteous Judge and Loving Father, I rejoice today in the glorious freedom of Romans 8:1! Thank You that because I am in Christ Jesus, there is now zero condemnation against my soul. The penalty has been paid in full; my sins are cast into the depths of the sea. Silence the accuser when he tries to drag me back into the courtroom of guilt. Teach me to walk in the holy freedom, rest, and joy of Your redeemed daughters. Amen.",
-    daily_intention: "I walk in absolute freedom today, knowing there is zero condemnation against my life in Christ Jesus.",
-    practical_action: "Whenever a voice of condemnation or guilt attacks your mind today, verbally declare: 'There is now no condemnation for me in Christ.'",
-    evening_reflection_prompt: "Did resting in the complete absence of condemnation bring deep joy and freedom to your walk with God today?"
+      "What past failure or regret does the enemy most frequently use to whisper condemnation to your heart?",
+      "How does the truth of 'no condemnation in Christ' liberate you to experience genuine spiritual rest?",
+      "How will you walk today as someone who is completely acquitted and beloved by God?"
+],
+    guided_prayer: "Precious Savior, thank You for bearing my judgment on the cross so that I might hear the glorious verdict of 'no condemnation.' Forgive me for re-crucifying myself with self-punishing guilt and shame. I silence the accusing voice of the enemy with the blood of Jesus. Fill my heart with the liberating joy of the Spirit of life, and let me live today in the unshakeable peace of Your grace. In Your holy name, Amen.",
+    daily_intention: "I will walk in the freedom of the Spirit today, rejoicing that there is no condemnation in Christ.",
+    practical_action: "Whenever a thought of guilt or unworthiness arises today, speak aloud: 'There is now no condemnation in Christ Jesus.'",
+    evening_reflection_prompt: "Did meditating on freedom from condemnation bring deep, unburdened peace to your spirit today?"
   },
   {
     day_number: 243,
     month_number: 8,
     day_of_month: 31,
     weekly_subtheme: "Walking in the Unforced Rhythms of Grace",
-    title: "The Unforced Rhythms of Grace",
-    scripture_primary_reference: "Galatians 5:25",
-    scripture_primary_text: "If we live by the Spirit, let’s also walk by the Spirit.",
+    title: "The Law of the Spirit of Life",
+    scripture_primary_reference: "Romans 8:3-4",
+    scripture_primary_text: "For what the law couldn’t do, in that it was weak through the flesh, God did, sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh; that the ordinance of the law might be fulfilled in us, who walk not after the flesh, but after the Spirit.",
     scripture_translation: "World English Bible (WEB)",
-    reflection_body: "As August draws to a close, marking the end of our journey through the restful heart of Jesus, Paul leaves us with a simple, transformative cadence: 'If we live by the Spirit, let’s also walk by the Spirit.' In Eugene Peterson's beloved paraphrase of Matthew 11, Jesus invites us to 'learn the unforced rhythms of grace.' Consider that phrase: unforced rhythms. Religion is forced, frantic, performative, and exhausting; it operates on legalistic guilt and human willpower. But the Holy Spirit operates on unforced rhythms of grace—like the natural rhythm of breathing, where inhaling and exhaling happen without strain; like the ocean tides that rise and fall without human effort; like the changing of the seasons. Walking by the Spirit means matching your stride to the gentle, unhurried pace of Jesus. It means knowing when to work with passion, and knowing when to fold your hands and rest in trust. You have survived the heat of summer. You have learned that rest is a holy commandment, that Jesus' yoke is easy, and that your Shepherd restores your soul. Walk out of this month with your head held high, breathing deeply, keeping step with the gentle Spirit of God.",
+    reflection_body: "In Romans 8:3–4, the Apostle Paul brings the believer's journey of rest to its majestic foundation: 'For what the law couldn’t do, in that it was weak through the flesh, God did, sending his own Son... that the ordinance of the law might be fulfilled in us, who walk not after the flesh, but after the Spirit.' The law was holy and just, yet it could never grant rest because human frailty could never fully keep its demands. The law diagnosed our weakness, but could not heal it. But look at three glorious words that transform all of human history: 'God did.' What you could never achieve through frantic effort, perfectionism, or moral striving, God accomplished fully in His Son. Christ fulfilled the righteous requirement on your behalf. Now, you are invited to walk not in the exhausting energy of the flesh, but in the gentle, life-giving power of the Holy Spirit. As we conclude our month on rest, let this profound truth anchor your soul: true rest is trusting what God has already done. You do not have to perform to be loved; you are loved, therefore you can rest. Live in the triumph of His grace.",
     reflection_questions: [
-      "Looking back over August, what has God taught you about the difference between religious hustle and holy rest?",
-      "What 'forced, legalistic rhythm' are you ready to abandon as you enter the new season ahead?",
-      "How can you cultivate 'unforced rhythms of grace' in your schedule, work, and spiritual life starting tomorrow?"
-    ],
-    guided_prayer: "Holy Spirit, Breath of Grace and Gentle Guide, thank You for leading my weary heart through this sacred month of rest. Forgive my hurry, my striving, and my legalistic fears. Teach me to walk in step with Your unforced rhythms of grace every single day. Give me wisdom to work with diligence and rest with delight. May my life be an evergreen testimony of Christ's restorative peace to everyone I encounter. In Jesus' name, Amen.",
-    daily_intention: "I will walk in the unforced rhythms of the Holy Spirit today, matching my stride to the gentle pace of Jesus.",
-    practical_action: "Take fifteen quiet minutes today to celebrate the end of August, thanking God for the rest He has planted in your soul.",
-    evening_reflection_prompt: "How has meditating on rest throughout August transformed your relationship with hurry and productivity?"
+      "How do the words 'God did' relieve the pressure to produce your own righteousness and worth?",
+      "What is the difference between living in the striving energy of the flesh and walking in the rest of the Spirit?",
+      "As you conclude this month on 'Rest for the Weary Heart,' what is the greatest truth God has taught you about resting in Him?"
+],
+    guided_prayer: "Almighty and Loving God, what my weak, striving flesh could never accomplish, You did through Your beloved Son! Thank You that my righteousness and peace rest entirely in what Christ has done. Forgive my foolish attempts to save myself through anxious works. As I step forward, teach me to walk continually in the gentle rhythms of Your Holy Spirit, resting deeply in the fullness of Your grace. In Jesus' triumphant name, Amen.",
+    daily_intention: "I will walk in the power of the Spirit today, resting completely in what God has done through Christ.",
+    practical_action: "Reflect on the phrase 'God did' throughout the day, releasing every need to prove yourself.",
+    evening_reflection_prompt: "Are you able to close this month with a heart deeply anchored in God's completed work and restful grace?"
   },
   {
     day_number: 244,
