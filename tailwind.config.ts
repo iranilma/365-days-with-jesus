@@ -22,6 +22,13 @@ const config: Config = {
           sageLight: "#E8EBE3",   // Sage background pill
           cocoa: "#55443F",       // High-contrast primary readable body text
           cocoaLight: "#73605A",  // Secondary text
+          plum: "#754057",        // Deep Plum - headlines, hero CTA, offer card
+          plumDark: "#5E3346",    // Deep Plum Dark - hover states
+          plumLight: "#8F526D",   // Plum Light - subtle hover highlights
+          gold: "#C69A56",        // Warm Gold - decorative accents, price badge
+          goldLight: "#DFB87A",   // Gold Light
+          goldDark: "#A87E3E",    // Gold Dark
+          goldPale: "#F9F4EB",    // Gold Pale / cream tint
         },
       },
       fontFamily: {

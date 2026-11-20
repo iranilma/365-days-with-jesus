@@ -18,7 +18,7 @@ export function Navigation() {
   const pathname = usePathname();
 
   const navItems = [
-    { label: "Dashboard", href: "/", icon: Home },
+    { label: "Dashboard", href: "/app", icon: Home },
     { label: "Devotional", href: "/devotional/1", icon: BookOpen },
     { label: "Calendar", href: "/calendar", icon: Calendar },
     { label: "Prayer Wall", href: "/prayer", icon: Heart },
@@ -28,7 +28,7 @@ export function Navigation() {
   ];
 
   const isActive = (href: string) => {
-    if (href === "/") return pathname === "/";
+    if (href === "/app") return pathname === "/app" || pathname === "/";
     return pathname.startsWith(href.split("/")[1] ? `/${href.split("/")[1]}` : href);
   };
 
