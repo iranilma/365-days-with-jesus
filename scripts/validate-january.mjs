@@ -66,7 +66,8 @@ vm.runInContext(
 const { DEVOTIONAL_ENTRIES, getDevotionalEntry, getDayMonthMapping, getDevotionalByDay } = vmContext;
 
 assert(Array.isArray(DEVOTIONAL_ENTRIES), "DEVOTIONAL_ENTRIES is an array");
-assert(DEVOTIONAL_ENTRIES.length === 31, "Exactly 31 authored records in DEVOTIONAL_ENTRIES", `Found ${DEVOTIONAL_ENTRIES.length}`);
+const januaryEntries = DEVOTIONAL_ENTRIES.filter((e) => e.month_number === 1);
+assert(januaryEntries.length === 31, "Exactly 31 authored records in January", `Found ${januaryEntries.length}`);
 
 // -----------------------------------------------------------------------------
 // 2. Authoritative Registry Schema & Literary Verification (Days 1–31)
@@ -75,7 +76,7 @@ console.log("\n--- SUITE 2: Schema, Content Boundaries & Literary Quality (Days 
 const dayNumbers = [];
 const titles = [];
 
-DEVOTIONAL_ENTRIES.forEach((entry) => {
+januaryEntries.forEach((entry) => {
   const day = entry.day_number;
   dayNumbers.push(day);
   titles.push(entry.title);
@@ -128,21 +129,21 @@ assert(typeof getDevotionalByDay === "function", "getDevotionalByDay is exported
 assert(getDevotionalByDay(1).title === getDevotionalEntry(1).title, "getDevotionalByDay alias works identically to getDevotionalEntry");
 
 const boundaryCases = [
-  { day: 32, expectedMonth: 2, expectedDayOfMonth: 1, desc: "Feb 1" },
-  { day: 59, expectedMonth: 2, expectedDayOfMonth: 28, desc: "Feb 28" },
-  { day: 60, expectedMonth: 3, expectedDayOfMonth: 1, desc: "Mar 1" },
-  { day: 90, expectedMonth: 3, expectedDayOfMonth: 31, desc: "Mar 31" },
-  { day: 91, expectedMonth: 4, expectedDayOfMonth: 1, desc: "Apr 1" },
-  { day: 181, expectedMonth: 6, expectedDayOfMonth: 30, desc: "Jun 30" },
-  { day: 182, expectedMonth: 7, expectedDayOfMonth: 1, desc: "Jul 1" },
-  { day: 273, expectedMonth: 9, expectedDayOfMonth: 30, desc: "Sep 30" },
-  { day: 274, expectedMonth: 10, expectedDayOfMonth: 1, desc: "Oct 1" },
-  { day: 334, expectedMonth: 11, expectedDayOfMonth: 30, desc: "Nov 30" },
-  { day: 335, expectedMonth: 12, expectedDayOfMonth: 1, desc: "Dec 1" },
-  { day: 365, expectedMonth: 12, expectedDayOfMonth: 31, desc: "Dec 31" },
+  { day: 32, expectedMonth: 2, expectedDayOfMonth: 1, desc: "Feb 1", isPlaceholder: false },
+  { day: 59, expectedMonth: 2, expectedDayOfMonth: 28, desc: "Feb 28", isPlaceholder: false },
+  { day: 60, expectedMonth: 3, expectedDayOfMonth: 1, desc: "Mar 1", isPlaceholder: true },
+  { day: 90, expectedMonth: 3, expectedDayOfMonth: 31, desc: "Mar 31", isPlaceholder: true },
+  { day: 91, expectedMonth: 4, expectedDayOfMonth: 1, desc: "Apr 1", isPlaceholder: true },
+  { day: 181, expectedMonth: 6, expectedDayOfMonth: 30, desc: "Jun 30", isPlaceholder: true },
+  { day: 182, expectedMonth: 7, expectedDayOfMonth: 1, desc: "Jul 1", isPlaceholder: true },
+  { day: 273, expectedMonth: 9, expectedDayOfMonth: 30, desc: "Sep 30", isPlaceholder: true },
+  { day: 274, expectedMonth: 10, expectedDayOfMonth: 1, desc: "Oct 1", isPlaceholder: true },
+  { day: 334, expectedMonth: 11, expectedDayOfMonth: 30, desc: "Nov 30", isPlaceholder: true },
+  { day: 335, expectedMonth: 12, expectedDayOfMonth: 1, desc: "Dec 1", isPlaceholder: true },
+  { day: 365, expectedMonth: 12, expectedDayOfMonth: 31, desc: "Dec 31", isPlaceholder: true },
 ];
 
-boundaryCases.forEach(({ day, expectedMonth, expectedDayOfMonth, desc }) => {
+boundaryCases.forEach(({ day, expectedMonth, expectedDayOfMonth, desc, isPlaceholder }) => {
   const mapping = getDayMonthMapping(day);
   assert(
     mapping.monthNumber === expectedMonth && mapping.dayOfMonth === expectedDayOfMonth,
@@ -150,12 +151,17 @@ boundaryCases.forEach(({ day, expectedMonth, expectedDayOfMonth, desc }) => {
   );
 
   const entry = getDevotionalEntry(day);
-  assert(entry.is_placeholder === true, `Day ${day} (${desc}) has is_placeholder: true`);
+  if (isPlaceholder) {
+    assert(entry.is_placeholder === true, `Day ${day} (${desc}) has is_placeholder: true`);
+    assert(entry.reflection_questions.length === 3, `Day ${day} placeholder includes 3 structured reflection questions`);
+  } else {
+    assert(!entry.is_placeholder, `Day ${day} (${desc}) is authored with is_placeholder: false`);
+    assert(entry.reflection_questions.length === 3, `Day ${day} authored entry includes 3 structured reflection questions`);
+  }
   assert(entry.day_number === day, `Day ${day} (${desc}) returns requested day_number: ${day}`);
   assert(entry.month_number === expectedMonth, `Day ${day} (${desc}) returns month_number: ${expectedMonth}`);
   assert(entry.day_of_month === expectedDayOfMonth, `Day ${day} (${desc}) returns day_of_month: ${expectedDayOfMonth}`);
   assert(!entry.title.includes("Day 1:"), `Day ${day} does NOT fallback to Day 1 title`);
-  assert(entry.reflection_questions.length === 3, `Day ${day} placeholder includes 3 structured reflection questions`);
 });
 
 // -----------------------------------------------------------------------------
@@ -203,10 +209,10 @@ const htmlVmContext = vm.createContext({});
 vm.runInContext("const DEVOTIONALS = {" + htmlDevMatch[1] + "}; globalThis.DEVOTIONALS = DEVOTIONALS;", htmlVmContext);
 const htmlDevotionals = htmlVmContext.DEVOTIONALS;
 
-assert(Object.keys(htmlDevotionals).length === 31, "Standalone HTML contains exactly 31 authored records", `Found ${Object.keys(htmlDevotionals).length}`);
+assert(Object.keys(htmlDevotionals).length >= 31, "Standalone HTML contains at least 31 authored records", `Found ${Object.keys(htmlDevotionals).length}`);
 
-// Compare each day in standalone HTML against authoritative TypeScript registry
-DEVOTIONAL_ENTRIES.forEach((tsEntry) => {
+// Compare each January day in standalone HTML against authoritative TypeScript registry
+januaryEntries.forEach((tsEntry) => {
   const d = tsEntry.day_number;
   const htmlEntry = htmlDevotionals[d];
 

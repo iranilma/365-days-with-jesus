@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test:january": "node scripts/validate-january.mjs",
+    "test:february": "node scripts/validate-february.mjs",
+    "test:all": "npm run test:january && npm run test:february && npm run test:content",
     "test:content": "node scripts/validate-content.mjs",
     "sync:html": "python3 scripts/sync_standalone_html.py"
   },
