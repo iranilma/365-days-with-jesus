@@ -12,9 +12,10 @@
     "test:march": "node scripts/validate-march.mjs",
     "test:april": "node scripts/validate-april.mjs",
     "test:full-year": "node scripts/validate-full-year.mjs",
-    "test:all": "npm run test:january && npm run test:february && npm run test:march && npm run test:april && npm run test:full-year && npm run test:content",
+    "test:all": "npm run test:january && npm run test:february && npm run test:march && npm run test:april && npm run test:may && npm run test:full-year && npm run test:content",
     "test:content": "node scripts/validate-content.mjs",
-    "sync:html": "python3 scripts/sync_standalone_html.py"
+    "sync:html": "python3 scripts/sync_standalone_html.py",
+    "test:may": "node scripts/validate-may.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",

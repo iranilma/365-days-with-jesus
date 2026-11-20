@@ -36,7 +36,7 @@ export const MONTHLY_THEMES: MonthlyTheme[] = [
   {
     month_number: 5,
     theme_title: "The Garden of the Spirit",
-    spiritual_focus: "Spiritual Fruitfulness, Gentleness & Patience",
+    spiritual_focus: "Spiritual Fruitfulness, Gentleness, Kindness & Self-Control",
     key_scripture_reference: "Galatians 5:22-23",
     key_scripture_text: "The fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control. Against such things there is no law.",
     overview_description: "Like blossoms opening in spring, spiritual maturity is cultivated by abiding in the Vine. May focuses on yielding sweet, life-giving fruit in our relationships and speech."
