@@ -670,7 +670,10 @@
             </div>
             <div class="border border-sanctuary-taupeLight rounded-xl p-4 space-y-2">
               <h4 class="font-serif text-sm font-bold uppercase tracking-wider border-b border-sanctuary-taupeLight/40 pb-1">Heart Reflections</h4>
-              <p class="text-[11px] font-medium" id="printQuestion">What lingering burden from the past season is God inviting you to release into His hands this morning?</p>
+              <ol class="space-y-1.5 text-[11px] font-medium list-none" id="printQuestionsList">
+                <li class="flex items-start gap-1"><span class="font-bold text-sanctuary-rose">1.</span> <span>What lingering burden from the past season is God inviting you to release into His hands this morning?</span></li>
+              </ol>
+              <p class="hidden" id="printQuestion"></p>
               <div class="space-y-3 pt-2">
                 <div class="ruled-line"></div>
                 <div class="ruled-line"></div>
@@ -1501,7 +1504,16 @@
       document.getElementById('printScriptureText').innerHTML = "&ldquo;" + d.text + "&rdquo;";
       document.getElementById('printScriptureRef').innerText = "— " + d.ref + " (WEB)";
       document.getElementById('printReflection').innerText = d.body;
-      document.getElementById('printQuestion').innerText = d.questions[0];
+      if (document.getElementById('printQuestionsList')) {
+        let printQHtml = "";
+        d.questions.forEach((q, idx) => {
+          printQHtml += `<li class="flex items-start gap-1"><span class="font-bold text-sanctuary-rose">${idx + 1}.</span> <span>${q}</span></li>`;
+        });
+        document.getElementById('printQuestionsList').innerHTML = printQHtml;
+      }
+      if (document.getElementById('printQuestion')) {
+        document.getElementById('printQuestion').innerText = d.questions[0];
+      }
       document.getElementById('printPrayer').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
       document.getElementById('printIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
       document.getElementById('printAction').innerText = d.action;

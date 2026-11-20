@@ -137,6 +137,15 @@ def sync_html_file(html_file: Path, entries: list):
         </div>"""
         html_text = re.sub(subtheme_pattern, placeholder_banner, html_text, count=1)
 
+    # 3b. Ensure all 3 reflection questions appear in printable sheet as #printQuestionsList
+    if 'id="printQuestionsList"' not in html_text:
+        print_q_old = r'<p class="text-\[11px\] font-medium" id="printQuestion">[\s\S]*?</p>'
+        print_q_new = """<ol class="space-y-1.5 text-[11px] font-medium list-none" id="printQuestionsList">
+                <li class="flex items-start gap-1"><span class="font-bold text-sanctuary-rose">1.</span> <span>What lingering burden from the past season is God inviting you to release into His hands this morning?</span></li>
+              </ol>
+              <p class="hidden" id="printQuestion"></p>"""
+        html_text = re.sub(print_q_old, print_q_new, html_text, count=1)
+
     # 4. Synchronise switchDay function and placeholder logic
     new_switch_day = """    function switchDay(num) {
       const parsed = typeof num === "number" && !isNaN(num) ? Math.floor(num) : parseInt(String(num), 10);
@@ -224,7 +233,16 @@ def sync_html_file(html_file: Path, entries: list):
       document.getElementById('printScriptureText').innerHTML = "&ldquo;" + d.text + "&rdquo;";
       document.getElementById('printScriptureRef').innerText = "— " + d.ref + " (WEB)";
       document.getElementById('printReflection').innerText = d.body;
-      document.getElementById('printQuestion').innerText = d.questions[0];
+      if (document.getElementById('printQuestionsList')) {
+        let printQHtml = "";
+        d.questions.forEach((q, idx) => {
+          printQHtml += `<li class="flex items-start gap-1"><span class="font-bold text-sanctuary-rose">${idx + 1}.</span> <span>${q}</span></li>`;
+        });
+        document.getElementById('printQuestionsList').innerHTML = printQHtml;
+      }
+      if (document.getElementById('printQuestion')) {
+        document.getElementById('printQuestion').innerText = d.questions[0];
+      }
       document.getElementById('printPrayer').innerHTML = "&ldquo;" + d.prayer + "&rdquo;";
       document.getElementById('printIntention').innerHTML = "&ldquo;" + d.intention + "&rdquo;";
       document.getElementById('printAction').innerText = d.action;

@@ -242,22 +242,30 @@ assert(
 // Verify HTML placeholder UI banner
 assert(htmlContent.includes('id="devPlaceholderNotice"'), "HTML contains #devPlaceholderNotice banner element");
 
+// Verify all 3 reflection questions appear in both interactive and printable views in HTML
+assert(htmlContent.includes('id="devQuestionsList"'), "HTML contains #devQuestionsList for interactive reflections");
+assert(htmlContent.includes('id="printQuestionsList"'), "HTML contains #printQuestionsList for printable reflections");
+assert(htmlContent.includes("d.questions.forEach"), "HTML switchDay iterates through all questions for interactive and printable display");
+
 // -----------------------------------------------------------------------------
-// 6. Zero Silent Fallbacks Audit across Application Routes
+// 6. Zero Silent Fallbacks & Reflection Questions Audit across Application Routes
 // -----------------------------------------------------------------------------
-console.log("\n--- SUITE 6: Zero Silent Fallbacks Audit ---");
+console.log("\n--- SUITE 6: Zero Silent Fallbacks & Reflection Questions Audit ---");
 const routesToCheck = [
-  { file: "src/app/devotional/[day]/page.tsx", mustInclude: "getDevotionalEntry(dayNumber)" },
-  { file: "src/app/printables/[day]/page.tsx", mustInclude: "getDevotionalEntry(dayNumber)" },
-  { file: "src/app/page.tsx", mustInclude: "getDevotionalEntry(1)" },
+  { file: "src/app/devotional/[day]/page.tsx", mustInclude: "getDevotionalEntry(dayNumber)", questionCheck: "entry.reflection_questions.map" },
+  { file: "src/app/printables/[day]/page.tsx", mustInclude: "getDevotionalEntry(dayNumber)", questionCheck: "entry.reflection_questions.map" },
+  { file: "src/app/page.tsx", mustInclude: "getDevotionalEntry(1)", questionCheck: null },
 ];
 
-routesToCheck.forEach(({ file, mustInclude }) => {
+routesToCheck.forEach(({ file, mustInclude, questionCheck }) => {
   const fullPath = path.join(projectRoot, file);
   assert(fs.existsSync(fullPath), `Route file exists: ${file}`);
   const content = fs.readFileSync(fullPath, "utf-8");
   assert(content.includes(mustInclude), `${file} calls resolver via ${mustInclude}`);
   assert(!content.includes("|| DEVOTIONAL_ENTRIES[0]"), `${file} contains ZERO silent Day 1 fallback`);
+  if (questionCheck) {
+    assert(content.includes(questionCheck), `${file} renders all 3 reflection questions via ${questionCheck}`);
+  }
 });
 
 // Check HTML switchDay implementation for fallback
