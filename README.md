@@ -104,3 +104,26 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📄 Standalone Single-File Distribution
+
+For offline use, personal quiet time on a laptop without Node.js installed, or archiving:
+- Open `365_Days_With_Jesus.html` directly in any web browser (Chrome, Safari, Edge, Firefox).
+- Contains all 31 complete January entries, full 12-month calendar and themes, daily liturgical questions, prayers, intentions, and printable planner sheets.
+
+---
+
+## 🧪 Testing & Synchronisation
+
+```bash
+# Run comprehensive January validation (authoritative content, schema, HTML parity)
+npm run test:january
+
+# Run content & monthly themes suite
+npm run test:content
+
+# Synchronise standalone HTML from authoritative TypeScript registry (devotionals.ts)
+npm run sync:html
+```
