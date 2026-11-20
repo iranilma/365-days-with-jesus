@@ -27,8 +27,8 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 |---|:---:|:---:|:---:|
 | **April Authored Days** | 30 Days (Days 91–120) | 30 Days | PASS (100%) |
 | **Full Year Authored Days** | 365 Days (Days 1–365) | 365 Days | PASS (100%) |
-| **Reflection Body Word Count** | 150–250 words | 158–194 words (avg: 174w) | PASS (100%) |
-| **Guided Prayer Word Count** | 50–100 words | 53–73 words (avg: 61w) | PASS (100%) |
+| **Reflection Body Word Count** | 150–250 words | 158–194 words (avg: 178w) | PASS (100%) |
+| **Guided Prayer Word Count** | 50–100 words | 54–73 words (avg: 63w) | PASS (100%) |
 | **Reflection Questions per Day** | Exactly 3 questions | 3 questions (90 total, 100% ending in '?') | PASS (100%) |
 | **Translation Standard** | World English Bible (WEB) | 100% Independently Verified WEB | PASS (100%) |
 | **Single Source of Truth** | `src/lib/content/devotionals.ts` | Authoritative | PASS (100%) |
@@ -71,24 +71,24 @@ April develops the monthly theme **Living the Resurrection** across five purpose
 | Day | Date | Title | Scripture Ref | Words (R / P) | Daily Intention Summary |
 |:---:|:---:|:---|:---|:---:|:---|
 | **Day 91** | Apr 1 | Wounded for Our Transgressions | `Isaiah 53:5` | 188w / 73w | I will rest in the peace and reconciliation secured for m... |
-| **Day 92** | Apr 2 | Not My Will, but Yours Be Done | `Luke 22:42` | 185w / 56w | I surrender my personal timeline and preferences to the p... |
-| **Day 93** | Apr 3 | The Humility of the Servant King | `Philippians 2:8` | 176w / 53w | I will embrace the gentle posture of a humble servant, fi... |
-| **Day 94** | Apr 4 | Father, Forgive Them | `Luke 23:34` | 172w / 57w | I choose to forgive today, releasing all resentment into ... |
+| **Day 92** | Apr 2 | Not My Will, but Yours Be Done | `Luke 22:42` | 191w / 65w | I will entrust my unresolved circumstances and honest pra... |
+| **Day 93** | Apr 3 | The Humility of the Servant King | `Philippians 2:8` | 179w / 62w | I will reflect Christ's gentle humility today, serving ot... |
+| **Day 94** | Apr 4 | Father, Forgive Them | `Luke 23:34` | 183w / 68w | I will entrust all judgment and vengeance to God, seeking... |
 | **Day 95** | Apr 5 | It Is Finished | `John 19:30` | 173w / 58w | I will rest in the complete, finished work of Christ, ref... |
 | **Day 96** | Apr 6 | The Veil Torn in Two | `Matthew 27:51` | 172w / 58w | I will boldly enter God's presence today, rejoicing that ... |
 | **Day 97** | Apr 7 | Resting in the Sabbath Tomb | `Luke 23:55-56` | 194w / 60w | I will practice quiet trust in God today, releasing the n... |
 | **Day 98** | Apr 8 | Born Again to a Living Hope | `1 Peter 1:3` | 166w / 58w | I will walk today in the vibrant joy of a living hope, an... |
 | **Day 99** | Apr 9 | Hearing Your Name in the Garden | `John 20:15-16` | 184w / 63w | I will seek the presence of the risen Christ, knowing He ... |
-| **Day 100** | Apr 10 | Why Seek the Living Among the Dead? | `Luke 24:5-6` | 162w / 58w | I will stop seeking life in dead places; I choose to foll... |
+| **Day 100** | Apr 10 | Why Seek the Living Among the Dead? | `Luke 24:5-6` | 184w / 66w | I will hold onto the living hope of the resurrection, all... |
 | **Day 101** | Apr 11 | The First Fruits of Resurrection | `1 Corinthians 15:20` | 172w / 56w | I will face earthly frailty with hope, knowing Christ's r... |
 | **Day 102** | Apr 12 | Walking in Newness of Life | `Romans 6:4` | 164w / 54w | I am dead to old habits of defeat; I walk today in the vi... |
-| **Day 103** | Apr 13 | Death Swallowed Up in Victory | `1 Corinthians 15:55, 57` | 165w / 53w | I will live without dread today, knowing that Christ has ... |
-| **Day 104** | Apr 14 | Alive Forevermore | `Revelation 1:17-18` | 169w / 57w | I will not fear what tomorrow holds, for Jesus is alive f... |
-| **Day 105** | Apr 15 | Anointed to Bind Up the Brokenhearted | `Isaiah 61:1` | 166w / 61w | I will bring my broken places to Jesus today, confident i... |
+| **Day 103** | Apr 13 | Death Swallowed Up in Victory | `1 Corinthians 15:55, 57` | 179w / 67w | I will face the day with quiet courage, anchored in Chris... |
+| **Day 104** | Apr 14 | Alive Forevermore | `Revelation 1:17-18` | 181w / 63w | I will rest in the comforting presence of Christ, trustin... |
+| **Day 105** | Apr 15 | Anointed to Bind Up the Brokenhearted | `Isaiah 61:1` | 182w / 67w | I will bring my authentic sorrow and weakness to Christ, ... |
 | **Day 106** | Apr 16 | A Garland for Your Ashes | `Isaiah 61:3` | 182w / 64w | I will look to God for comfort, allowing His grace to sus... |
 | **Day 107** | Apr 17 | Joy Comes with the Morning | `Psalm 30:5` | 182w / 62w | I will trust in God's enduring favor, knowing that His st... |
-| **Day 108** | Apr 18 | Mourning Turned into Dancing | `Psalm 30:11-12` | 171w / 60w | I will remove the sackcloth of discouragement and put on ... |
-| **Day 109** | Apr 19 | Comforted to Comfort Others | `2 Corinthians 1:3-4` | 161w / 63w | I receive God's comfort today so that I may freely extend... |
+| **Day 108** | Apr 18 | Mourning Turned into Dancing | `Psalm 30:11-12` | 175w / 67w | I will trust God with my grief and my healing, knowing Hi... |
+| **Day 109** | Apr 19 | Comforted to Comfort Others | `2 Corinthians 1:3-4` | 181w / 70w | I will rest in the comfort and mercy of the Father today,... |
 | **Day 110** | Apr 20 | Restoring the Years the Locusts Ate | `Joel 2:25` | 174w / 69w | I will focus on serving God faithfully today, trusting Hi... |
 | **Day 111** | Apr 21 | All Things Working for Good | `Romans 8:28` | 182w / 64w | I will trust that God's redemptive grace is greater than ... |
 | **Day 112** | Apr 22 | The Exceeding Greatness of His Power | `Ephesians 1:19-20` | 174w / 66w | I will rely on God's sovereign power to sustain my faith ... |
