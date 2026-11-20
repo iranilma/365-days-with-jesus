@@ -1,6 +1,6 @@
 # 365 DAYS WITH JESUS — AUGUST SCRIPTURE VERIFICATION REPORT
 
-**Document Version:** 1.0.0  
+**Document Version:** 1.1.0  
 **Project:** 365 Days With Jesus  
 **Month:** Month 8 (August, Days 213–243)  
 **Theme:** Rest for the Weary Heart  

@@ -1,6 +1,6 @@
 # 365 DAYS WITH JESUS — JULY SCRIPTURE VERIFICATION REPORT
 
-**Document Version:** 1.0.0  
+**Document Version:** 1.1.0  
 **Project:** 365 Days With Jesus  
 **Month:** Month 7 (July, Days 182–212)  
 **Theme:** Refuge in the High Places  

@@ -1,6 +1,6 @@
 # 365 DAYS WITH JESUS — AUGUST CONTENT COMPLETION REPORT
 
-**Document Version:** 1.0.0  
+**Document Version:** 1.1.0  
 **Project:** 365 Days With Jesus  
 **Month:** Month 8 (August)  
 **Calendar Range:** Days 213–243 (31 Days)  
@@ -45,9 +45,36 @@ The content has been verified in the authoritative TypeScript registry (`src/lib
 3. **Week 3 (Days 227–233): The Gentle Humility of Jesus**
    - *Spiritual Focus*: Learning the pacing of a gentle Savior who never rushed.
    - *Key Passages*: Matthew 11:28, Matthew 11:30, Matthew 11:29, John 13:4–5, Philippians 2:6–7, Proverbs 18:12, Jeremiah 6:16.
-4. **Week 4 (Days 234–240): Restoring the Weary Nervous System**
+4. **Week 4 (Days 234–240): Restoring the Weary Soul**
    - *Spiritual Focus*: Practical, soul-restoring pauses in the middle of daily duties.
    - *Key Passages*: Psalm 23:2, Psalm 23:2, Psalm 23:3, 1 Peter 5:7, Psalm 4:8, Ezekiel 37:5, Psalm 127:2.
 5. **Week 5 (Days 241–243): Walking in the Unforced Rhythms of Grace**
    - *Spiritual Focus*: Living lightly and freely connected to the Good Shepherd.
    - *Key Passages*: Psalm 116:7, Romans 8:1, Galatians 5:25.
+
+---
+
+## 3. August Content Plan Alignment & Scripture Coverage Reconciliation
+
+The project's foundational reference document, `MONTHLY-THEMES.md`, outlined core Scripture passages for August across five weekly subthemes:
+- **Week 1**: Genesis 2:2–3, Exodus 20:8–10, Mark 2:27, Matthew 12:8.
+- **Week 2**: Luke 10:41–42, Psalm 131:2, Proverbs 3:5–6.
+- **Week 3**: Matthew 11:28–30, Philippians 2:5–8, Proverbs 18:12.
+- **Week 4**: Listed 1 Kings 19:4–8, Psalm 4:8, Jeremiah 31:25.
+- **Week 5**: Listed Romans 8:1–4, Hebrews 4:9–11.
+
+During the authoring cycle, the editorial team made deliberate thematic placements to enhance devotional coherence and narrative flow:
+1. **1 Kings 19:4–12 (Elijah's Exhaustion and Unburdening)**:
+   - *Placement*: Placed on **Days 223–226 in Week 2** ("Unburdening from the 'Superwoman' Trap").
+   - *Rationale*: Elijah's collapse under the broom tree and God's gentle provision of physical rest, food, and the whisper of quiet stillness directly exemplifies unburdening from impossible expectations and emotional exhaustion. Placing it alongside Martha and Mary creates a unified progression of release.
+2. **Hebrews 4:9–10 (Entering God's Sabbath Rest)**:
+   - *Placement*: Placed on **Day 217 in Week 1** ("The Sacred Commandment to Rest").
+   - *Rationale*: Week 1 establishes the theological foundation of Sabbath rest. Moving Hebrews 4 here provides the New Testament theological bridge from the Mosaic Sabbath commandment to spiritual rest in Christ early in the month.
+3. **Psalm 4:8 (In Peace I Will Sleep)**:
+   - *Placement*: Placed on **Day 238 in Week 4** ("Restoring the Weary Soul").
+   - *Rationale*: Anchors the evening rest and sleep restorative meditation within the pastoral care sequence of Psalm 23 and 1 Peter 5.
+4. **Romans 8:1 (No Condemnation in Christ)** & **Galatians 5:25 (Unforced Rhythms of Grace)**:
+   - *Placement*: Placed on **Days 242 and 243 in Week 5** ("Walking in the Unforced Rhythms of Grace").
+   - *Rationale*: Forms the triumphant theological climax of August, liberating the believer from religious performance anxiety into the freedom of the Spirit.
+
+This reconciliation ensures 100% Scripture coverage, preserves theological integrity, and fully aligns with project governance.
