@@ -69,7 +69,8 @@ export function getDayMonthMapping(dayNumber: number): { monthNumber: number; da
  * If the day has not yet been authored, returns a structured development placeholder.
  */
 export function getDevotionalEntry(dayNumber: number): DevotionalEntry {
-  const safeDay = Math.max(1, Math.min(365, dayNumber));
+  const parsed = typeof dayNumber === "number" && !isNaN(dayNumber) ? Math.floor(dayNumber) : parseInt(String(dayNumber), 10);
+  const safeDay = Math.max(1, Math.min(365, isNaN(parsed) ? 1 : parsed));
   const existing = DEVOTIONAL_ENTRIES.find((d) => d.day_number === safeDay);
   if (existing) {
     return existing;
