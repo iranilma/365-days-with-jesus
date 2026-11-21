@@ -39,6 +39,7 @@ export function DashboardView({ edition }: DashboardViewProps) {
   const basePrefix = isPt ? "/pt-br" : "/en";
 
   const [mounted, setMounted] = useState(false);
+  const [fontSize, setFontSize] = useState<"normal" | "large" | "xlarge">("normal");
   const [userState, setUserState] = useState<UserDevotionalState | null>(null);
   const [prayers, setPrayers] = useState<PrayerItem[]>([]);
   const [todayGratitude, setTodayGratitude] = useState<Partial<GratitudeEntry>>({
@@ -63,6 +64,13 @@ export function DashboardView({ edition }: DashboardViewProps) {
 
   useEffect(() => {
     setMounted(true);
+    try {
+      const saved = localStorage.getItem("sanctuary_font_size") as "normal" | "large" | "xlarge" | null;
+      if (saved && ["normal", "large", "xlarge"].includes(saved)) {
+        setFontSize(saved);
+      }
+    } catch {}
+
     const state = getUserState();
     setUserState(state);
 
@@ -76,6 +84,19 @@ export function DashboardView({ edition }: DashboardViewProps) {
       setTodayGratitude(found);
     }
   }, []);
+
+  const handleSetFontSize = (size: "normal" | "large" | "xlarge") => {
+    setFontSize(size);
+    try {
+      localStorage.setItem("sanctuary_font_size", size);
+    } catch {}
+  };
+
+  const getFontSizeClass = () => {
+    if (fontSize === "large") return "text-lg leading-relaxed";
+    if (fontSize === "xlarge") return "text-xl leading-loose";
+    return "text-base leading-relaxed";
+  };
 
   const handleToggleComplete = () => {
     if (!todayDevotional) return;
@@ -131,15 +152,67 @@ export function DashboardView({ edition }: DashboardViewProps) {
             &ldquo;{t("common.tagline")}&rdquo;
           </p>
 
-          <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-sanctuary-taupe">
-            <span className="flex items-center gap-1.5">
-              <Calendar className="w-3.5 h-3.5 text-sanctuary-rose" />
-              {formatFullDevotionalDate(new Date(), activeLang)}
-            </span>
-            <span>•</span>
-            <span className="font-medium text-sanctuary-cocoa">
-              {t("common.monthCount", { month: 1 })}: {currentTheme.theme_title}
-            </span>
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3 pt-1">
+            <div className="flex flex-wrap items-center gap-3 text-xs text-sanctuary-taupe">
+              <span className="flex items-center gap-1.5">
+                <Calendar className="w-3.5 h-3.5 text-sanctuary-rose" />
+                {formatFullDevotionalDate(new Date(), activeLang)}
+              </span>
+              <span>•</span>
+              <span className="font-medium text-sanctuary-cocoa">
+                {t("common.monthCount", { month: 1 })}: {currentTheme.theme_title}
+              </span>
+            </div>
+
+            {/* Compact Text Size Selector (A / A+ / A++) */}
+            <div
+              className="inline-flex items-center bg-white border border-sanctuary-taupeLight/80 rounded-full px-2.5 py-1 shadow-xs"
+              role="group"
+              aria-label={isPt ? "Tamanho do texto" : "Text size options"}
+            >
+              <span className="text-[11px] mr-1.5 text-sanctuary-taupe select-none font-medium">
+                {isPt ? "Texto:" : "Text:"}
+              </span>
+              <button
+                type="button"
+                onClick={() => handleSetFontSize("normal")}
+                className={`px-2 py-0.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+                  fontSize === "normal"
+                    ? "bg-sanctuary-rose text-white shadow-xs"
+                    : "text-sanctuary-cocoa hover:text-sanctuary-rose"
+                }`}
+                title={isPt ? "Tamanho normal (A)" : "Normal text size (A)"}
+                aria-pressed={fontSize === "normal"}
+              >
+                A
+              </button>
+              <button
+                type="button"
+                onClick={() => handleSetFontSize("large")}
+                className={`px-2 py-0.5 rounded-full text-sm font-bold transition-all cursor-pointer ${
+                  fontSize === "large"
+                    ? "bg-sanctuary-rose text-white shadow-xs"
+                    : "text-sanctuary-cocoa hover:text-sanctuary-rose"
+                }`}
+                title={isPt ? "Tamanho grande (A+)" : "Large text size (A+)"}
+                aria-pressed={fontSize === "large"}
+              >
+                A+
+              </button>
+              <button
+                type="button"
+                onClick={() => handleSetFontSize("xlarge")}
+                className={`px-2 py-0.5 rounded-full text-base font-bold transition-all cursor-pointer ${
+                  fontSize === "xlarge"
+                    ? "bg-sanctuary-rose text-white shadow-xs"
+                    : "text-sanctuary-cocoa hover:text-sanctuary-rose"
+                }`}
+                title={isPt ? "Tamanho extra grande (A++)" : "Extra large text size (A++)"}
+                aria-pressed={fontSize === "xlarge"}
+              >
+                A++
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -232,7 +305,7 @@ export function DashboardView({ edition }: DashboardViewProps) {
           </div>
 
           {/* Reflection Snippet & Actions */}
-          <p className="text-sm sm:text-base text-sanctuary-cocoaLight leading-relaxed line-clamp-3">
+          <p className={`text-sanctuary-cocoaLight line-clamp-3 ${getFontSizeClass()}`}>
             {todayDevotional.reflection_body}
           </p>
 

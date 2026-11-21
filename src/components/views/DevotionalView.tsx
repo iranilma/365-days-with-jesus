@@ -227,42 +227,8 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
           </p>
         </div>
 
-        {/* Toolbar: Font Size, Complete Toggle, Favorite & Share */}
-        <div className="flex flex-wrap items-center justify-between gap-4 py-3 px-4 bg-sanctuary-ivoryLight rounded-2xl border border-sanctuary-taupeLight/50 text-xs">
-          <div className="flex items-center gap-2">
-            <span className="text-sanctuary-taupe font-medium">{t("devotional.textSizeLabel")}:</span>
-            <button
-              onClick={() => handleSetFontSize("normal")}
-              className={`px-2 py-1 rounded-md text-xs font-medium transition-colors ${
-                fontSize === "normal"
-                  ? "bg-sanctuary-rose text-white shadow-xs"
-                  : "bg-white text-sanctuary-cocoa border border-sanctuary-taupeLight"
-              }`}
-            >
-              {t("devotional.textSizeNormal")}
-            </button>
-            <button
-              onClick={() => handleSetFontSize("large")}
-              className={`px-2 py-1 rounded-md text-sm font-medium transition-colors ${
-                fontSize === "large"
-                  ? "bg-sanctuary-rose text-white shadow-xs"
-                  : "bg-white text-sanctuary-cocoa border border-sanctuary-taupeLight"
-              }`}
-            >
-              {t("devotional.textSizeLarge")}
-            </button>
-            <button
-              onClick={() => handleSetFontSize("xlarge")}
-              className={`px-2 py-1 rounded-md text-base font-medium transition-colors ${
-                fontSize === "xlarge"
-                  ? "bg-sanctuary-rose text-white shadow-xs"
-                  : "bg-white text-sanctuary-cocoa border border-sanctuary-taupeLight"
-              }`}
-            >
-              {t("devotional.textSizeExtraLarge")}
-            </button>
-          </div>
-
+        {/* Action Toolbar: Favorite, Complete Toggle, Share & Print */}
+        <div className="flex flex-wrap items-center justify-between gap-3 py-3 px-4 bg-sanctuary-ivoryLight rounded-2xl border border-sanctuary-taupeLight/50 text-xs">
           <div className="flex items-center gap-2">
             <button
               onClick={handleToggleFavorite}
@@ -290,7 +256,9 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
               />
               <span>{completed ? t("common.markedCompleted") : t("common.markAsCompleted")}</span>
             </button>
+          </div>
 
+          <div className="flex items-center gap-2">
             <button
               onClick={handleShare}
               className="p-2 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
