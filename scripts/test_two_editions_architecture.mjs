@@ -49,20 +49,20 @@ assert(
   "Portal presents both editions clearly: '365 Days With Jesus' & '365 Dias com Jesus'"
 );
 assert(
-  portalContent.includes("/en/app") || portalContent.includes('href="/en/app"'),
-  "Portal links directly to English Edition entry point (/en/app)"
+  portalContent.includes('href="/en"') || portalContent.includes('"/en"'),
+  "Portal links directly to English Edition entry point (/en)"
 );
 assert(
-  portalContent.includes("/pt-br/app") || portalContent.includes('href="/pt-br/app"'),
-  "Portal links directly to Portuguese Edition entry point (/pt-br/app)"
+  portalContent.includes('href="/pt-br"') || portalContent.includes('"/pt-br"'),
+  "Portal links directly to Portuguese Edition entry point (/pt-br)"
 );
 assert(
-  portalContent.includes("An English devotional journey"),
-  "Portal describes English edition as 'An English devotional journey'"
+  portalContent.includes("English devotional journey"),
+  "Portal describes English edition as 'English devotional journey'"
 );
 assert(
-  portalContent.includes("Uma jornada devocional em português"),
-  "Portal describes Portuguese edition as 'Uma jornada devocional em português'"
+  portalContent.includes("Jornada devocional em português"),
+  "Portal describes Portuguese edition as 'Jornada devocional em português'"
 );
 
 // Check English routes tree

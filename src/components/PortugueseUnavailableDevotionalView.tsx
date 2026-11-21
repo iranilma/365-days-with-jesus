@@ -18,7 +18,6 @@ interface PortugueseUnavailableDevotionalViewProps {
   dayNumber: number;
   monthNumber: number;
   monthThemeTitle: string;
-  onSwitchToEnglish?: () => void;
   basePrefix?: string;
 }
 

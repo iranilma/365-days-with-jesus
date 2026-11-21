@@ -30,6 +30,10 @@ export function SanctuaryFooter() {
             : "Scripture quotations are taken from the World English Bible (WEB), dedicated to the public domain."}
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-xs text-sanctuary-cocoaLight mt-2">
+          <Link href={prefix} className="hover:text-sanctuary-rose">
+            {isPt ? "Início do Santuário" : "Dashboard"}
+          </Link>
+          <span>•</span>
           <Link href={`${prefix}/devotional/1`} className="hover:text-sanctuary-rose">
             {isPt ? "Devocional de Hoje" : "Today's Devotional"}
           </Link>

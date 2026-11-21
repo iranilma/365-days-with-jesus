@@ -84,7 +84,7 @@ export default function EditionSelectionPage() {
                   365 Days With Jesus
                 </h2>
                 <p className="font-serif italic text-sm text-sanctuary-rose mt-1">
-                  An English devotional journey.
+                  English devotional journey.
                 </p>
                 <p className="text-xs sm:text-sm text-sanctuary-cocoaLight mt-3 leading-relaxed">
                   A full-year sacred pilgrimage through the World English Bible (WEB), spanning all 12
@@ -114,7 +114,7 @@ export default function EditionSelectionPage() {
 
             <div className="pt-8 space-y-3 relative z-10">
               <Link
-                href="/en/app"
+                href="/en"
                 className="w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-full bg-sanctuary-rose text-white text-xs sm:text-sm font-semibold shadow-sm hover:bg-sanctuary-roseDark transition-all"
               >
                 <BookOpen className="w-4 h-4" />
@@ -160,7 +160,7 @@ export default function EditionSelectionPage() {
                   365 Dias com Jesus
                 </h2>
                 <p className="font-serif italic text-sm text-sanctuary-rose mt-1">
-                  Uma jornada devocional em português.
+                  Jornada devocional em português.
                 </p>
                 <p className="text-xs sm:text-sm text-sanctuary-cocoaLight mt-3 leading-relaxed">
                   Edição dedicada integralmente ao público de língua portuguesa, traduzida com reverência
@@ -190,7 +190,7 @@ export default function EditionSelectionPage() {
 
             <div className="pt-8 space-y-3 relative z-10">
               <Link
-                href="/pt-br/app"
+                href="/pt-br"
                 className="w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-full bg-sanctuary-rose text-white text-xs sm:text-sm font-semibold shadow-sm hover:bg-sanctuary-roseDark transition-all"
               >
                 <BookOpen className="w-4 h-4" />

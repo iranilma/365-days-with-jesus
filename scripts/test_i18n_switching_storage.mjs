@@ -131,12 +131,13 @@ assert(
   "Portuguese browser locale automatically detects 'pt-BR' when no prior preference stored"
 );
 
-// Scenario H: LanguageSelector component inspection
-const selectorPath = path.join(projectRoot, "src/components/LanguageSelector.tsx");
-assert(fs.existsSync(selectorPath), "LanguageSelector.tsx exists in src/components/");
-const selectorContent = fs.readFileSync(selectorPath, "utf-8");
-assert(selectorContent.includes("setLanguage"), "LanguageSelector wires setLanguage action");
-assert(selectorContent.includes("pt-BR") && selectorContent.includes("en"), "LanguageSelector supports both 'en' and 'pt-BR'");
+// Scenario H: LanguageSelector component isolation & absence from Navigation
+const navPath = path.join(projectRoot, "src/components/Navigation.tsx");
+const navContent = fs.readFileSync(navPath, "utf-8");
+assert(
+  !navContent.includes("<LanguageSelector"),
+  "LanguageSelector is absent from Navigation.tsx (no internal toggle in devotional experiences)"
+);
 
 console.log(`\nSwitching & Persistence Test Results: ${passed} passed, ${failed} failed.\n`);
 if (failed > 0) process.exit(1);

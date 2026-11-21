@@ -25,7 +25,7 @@ export function Navigation() {
   const prefix = isPt ? "/pt-br" : "/en";
 
   const navItems = [
-    { label: t("nav.dashboard"), href: `${prefix}/app`, icon: Home },
+    { label: t("nav.dashboard"), href: `${prefix}`, icon: Home },
     { label: t("nav.devotional"), href: `${prefix}/devotional/1`, icon: BookOpen },
     { label: t("nav.calendar"), href: `${prefix}/calendar`, icon: Calendar },
     { label: t("nav.prayerWall"), href: `${prefix}/prayer`, icon: Heart },
@@ -36,9 +36,10 @@ export function Navigation() {
 
   const isActive = (href: string) => {
     if (pathname === href) return true;
+    if (href === prefix && (pathname === prefix || pathname === `${prefix}/app` || pathname === `${prefix}/`)) return true;
     const baseTarget = href.replace(/^\/(en|pt-br|pt)/, "");
     const currentBase = pathname.replace(/^\/(en|pt-br|pt)/, "");
-    if (baseTarget === "/app" && (currentBase === "/app" || currentBase === "")) return true;
+    if ((baseTarget === "" || baseTarget === "/app") && (currentBase === "" || currentBase === "/app")) return true;
     if (baseTarget && baseTarget !== "/" && currentBase.startsWith(baseTarget)) return true;
     return false;
   };
