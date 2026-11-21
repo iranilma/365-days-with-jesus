@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Menu, Sparkles, X } from "lucide-react";
 import { BotanicalSprig } from "@/components/BotanicalElements";
+import { EditionSelector } from "@/components/EditionSelector";
 
 interface SalesNavigationProps {
   onOpenCheckout: () => void;
@@ -63,8 +64,9 @@ export function SalesNavigation({ onOpenCheckout }: SalesNavigationProps) {
           </Link>
         </nav>
 
-        {/* Primary CTA */}
+        {/* Primary CTA & Edition Selector */}
         <div className="hidden sm:flex items-center gap-3">
+          <EditionSelector />
           <button
             onClick={onOpenCheckout}
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-sanctuary-plum text-white text-xs font-bold uppercase tracking-wider shadow-sm hover:bg-sanctuary-plumDark hover:shadow-md transition-all transform hover:-translate-y-0.5 active:translate-y-0"
@@ -116,7 +118,11 @@ export function SalesNavigation({ onOpenCheckout }: SalesNavigationProps) {
               <span>Open Interactive Devotional</span>
             </Link>
 
-            <div className="pt-2 border-t border-sanctuary-taupeLight/40">
+            <div className="pt-2 border-t border-sanctuary-taupeLight/40 space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs text-sanctuary-taupe font-medium">Edition:</span>
+                <EditionSelector />
+              </div>
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);

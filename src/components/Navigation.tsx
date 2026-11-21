@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { BotanicalSprig } from "./BotanicalElements";
 import { useLanguage } from "@/lib/i18n";
-import { LanguageSelector } from "./LanguageSelector";
+import { EditionSelector } from "./EditionSelector";
 
 export function Navigation() {
   const pathname = usePathname();
@@ -75,9 +75,9 @@ export function Navigation() {
             })}
           </nav>
 
-          {/* Right Action: Language Selector & Today's Quiet Time Quick Anchor */}
+          {/* Right Action: Edition Selector & Today's Quiet Time Quick Anchor */}
           <div className="flex items-center gap-2">
-            <LanguageSelector />
+            <EditionSelector />
             <Link
               href="/devotional/1"
               className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-sanctuary-rose text-white text-xs font-semibold shadow-sm hover:bg-sanctuary-roseDark transition-colors"

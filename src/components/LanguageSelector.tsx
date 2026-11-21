@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Check, Globe } from "lucide-react";
 import { SupportedLanguage, useLanguage } from "@/lib/i18n";
+import { EditionSelector } from "./EditionSelector";
 
 export function LanguageSelector({ className = "" }: { className?: string }) {
   const { language, setLanguage } = useLanguage();
@@ -21,7 +22,7 @@ export function LanguageSelector({ className = "" }: { className?: string }) {
         className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-sanctuary-taupeLight/80 text-sanctuary-cocoa text-xs font-medium hover:bg-sanctuary-blushLight transition-colors shadow-sm cursor-pointer"
         aria-expanded={isOpen}
         aria-haspopup="true"
-        title={language === "pt-BR" ? "Escolher idioma" : "Choose Language"}
+        title={language === "pt-BR" ? "Escolher idioma / Edição" : "Choose Language / Edition"}
       >
         <span className="text-xs" role="img" aria-hidden="true">
           {language === "pt-BR" ? "🇧🇷" : "🇬🇧"}
@@ -70,3 +71,5 @@ export function LanguageSelector({ className = "" }: { className?: string }) {
     </div>
   );
 }
+
+export { EditionSelector };

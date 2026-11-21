@@ -9,6 +9,7 @@ import {
   Printer,
 } from "lucide-react";
 import { BotanicalSprig } from "@/components/BotanicalElements";
+import { PortugueseUnavailableDevotionalView } from "@/components/PortugueseUnavailableDevotionalView";
 import { getDevotionalEntry } from "@/lib/content/devotionals";
 import { getPortugueseDevotional } from "@/lib/content/portuguese/resolver";
 import { useLanguage } from "@/lib/i18n";
@@ -49,7 +50,19 @@ export default function PrintableDevotionalPage({
   const isPt = language === "pt-BR";
   const ptAvailability = isPt ? getPortugueseDevotional(dayNumber) : null;
   const isPtAvailable = ptAvailability?.available && ptAvailability?.entry && ptAvailability?.status === "published";
-  const entry = isPt && isPtAvailable && ptAvailability?.entry ? ptAvailability.entry : englishEntry;
+
+  if (isPt && (!isPtAvailable || !ptAvailability?.entry)) {
+    return (
+      <PortugueseUnavailableDevotionalView
+        dayNumber={dayNumber}
+        monthNumber={theme.month_number}
+        monthThemeTitle={theme.theme_title}
+        onSwitchToEnglish={() => setLanguage("en")}
+      />
+    );
+  }
+
+  const entry = isPt && ptAvailability?.entry ? ptAvailability.entry : englishEntry;
 
   return (
     <div className="space-y-6 max-w-4xl mx-auto">

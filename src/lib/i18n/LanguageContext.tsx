@@ -11,7 +11,14 @@ import React, {
 import { enDictionary } from "./dictionaries/en";
 import { ptBRDictionary } from "./dictionaries/pt-BR";
 import { MONTHLY_THEMES_PT } from "./themes-pt";
-import { MonthlyThemeI18n, SupportedLanguage, TranslationDictionary } from "./types";
+import {
+  EDITIONS,
+  EditionInfo,
+  MonthlyThemeI18n,
+  ProductEdition,
+  SupportedLanguage,
+  TranslationDictionary,
+} from "./types";
 import { MONTHLY_THEMES } from "@/lib/content/themes";
 
 const STORAGE_KEY = "sanctuary_preferred_language";
@@ -19,6 +26,9 @@ const STORAGE_KEY = "sanctuary_preferred_language";
 interface LanguageContextValue {
   language: SupportedLanguage;
   setLanguage: (lang: SupportedLanguage) => void;
+  edition: EditionInfo;
+  activeEdition: ProductEdition;
+  setEdition: (edition: ProductEdition) => void;
   t: (key: string, params?: Record<string, string | number>) => string;
   getTheme: (monthNumber: number) => MonthlyThemeI18n;
   allThemes: MonthlyThemeI18n[];
@@ -61,15 +71,42 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     setMounted(true);
     try {
+      // 1. URL search param check (e.g. ?edition=pt or ?edition=en)
+      if (typeof window !== "undefined") {
+        const urlParams = new URLSearchParams(window.location.search);
+        const editionParam = urlParams.get("edition") || urlParams.get("lang");
+        if (editionParam === "pt" || editionParam === "pt-BR" || editionParam === "pt_BR") {
+          setLanguageState("pt-BR");
+          localStorage.setItem(STORAGE_KEY, "pt-BR");
+          return;
+        } else if (editionParam === "en") {
+          setLanguageState("en");
+          localStorage.setItem(STORAGE_KEY, "en");
+          return;
+        }
+
+        // 2. Path prefix check
+        if (window.location.pathname.startsWith("/pt")) {
+          setLanguageState("pt-BR");
+          localStorage.setItem(STORAGE_KEY, "pt-BR");
+          return;
+        } else if (window.location.pathname.startsWith("/en")) {
+          setLanguageState("en");
+          localStorage.setItem(STORAGE_KEY, "en");
+          return;
+        }
+      }
+
+      // 3. Stored preference
       const saved = localStorage.getItem(STORAGE_KEY) as SupportedLanguage | null;
       if (saved && (saved === "en" || saved === "pt-BR")) {
         setLanguageState(saved);
-      } else {
-        // Detect browser language if no explicit preference is stored
-        const browserLang = navigator.language;
-        if (browserLang.startsWith("pt")) {
-          setLanguageState("pt-BR");
-        }
+        return;
+      }
+
+      // 4. Browser language detection
+      if (typeof navigator !== "undefined" && navigator.language?.startsWith("pt")) {
+        setLanguageState("pt-BR");
       }
     } catch {
       // Fallback silently if localStorage is restricted
@@ -82,6 +119,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem(STORAGE_KEY, lang);
     } catch {}
   }, []);
+
+  const setEdition = useCallback((edition: ProductEdition) => {
+    setLanguage(edition);
+  }, [setLanguage]);
 
   const t = useCallback(
     (key: string, params?: Record<string, string | number>): string => {
@@ -123,16 +164,21 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     return language === "pt-BR" ? MONTHLY_THEMES_PT : MONTHLY_THEMES;
   }, [language]);
 
+  const edition = useMemo(() => EDITIONS[language], [language]);
+
   const value = useMemo(
     () => ({
       language,
       setLanguage,
+      edition,
+      activeEdition: language,
+      setEdition,
       t,
       getTheme,
       allThemes,
       isPortuguese: language === "pt-BR",
     }),
-    [language, setLanguage, t, getTheme, allThemes]
+    [language, setLanguage, edition, setEdition, t, getTheme, allThemes]
   );
 
   return (
@@ -149,6 +195,9 @@ export function useLanguage(): LanguageContextValue {
     return {
       language: "en",
       setLanguage: () => {},
+      edition: EDITIONS.en,
+      activeEdition: "en",
+      setEdition: () => {},
       t: (key: string, params?: Record<string, string | number>) => {
         const val = getNestedValue(enDictionary, key) || key;
         return interpolate(val, params);

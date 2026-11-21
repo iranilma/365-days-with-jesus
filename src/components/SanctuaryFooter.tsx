@@ -20,7 +20,7 @@ export function SanctuaryFooter() {
         </p>
         <p className="text-xs text-sanctuary-taupe">
           {isPt
-            ? "Citações bíblicas na edição original em inglês extraídas da World English Bible (WEB), dedicada ao domínio público."
+            ? "Citações bíblicas na edição em português extraídas da Almeida Bíblia Livre (ABL), dedicada ao domínio público. Edição em inglês: World English Bible (WEB)."
             : "Scripture quotations are taken from the World English Bible (WEB), dedicated to the public domain."}
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-xs text-sanctuary-cocoaLight mt-2">

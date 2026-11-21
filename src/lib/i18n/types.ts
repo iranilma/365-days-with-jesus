@@ -1,4 +1,45 @@
 export type SupportedLanguage = "en" | "pt-BR";
+export type ProductEdition = "en" | "pt-BR";
+
+export interface EditionInfo {
+  id: ProductEdition;
+  name: string;
+  shortName: string;
+  locale: "en" | "pt-BR";
+  flag: string;
+  tagline: string;
+  editionBadge: string;
+  totalDays: number;
+  availableDays: number;
+  statusDescription: string;
+}
+
+export const EDITIONS: Record<ProductEdition, EditionInfo> = {
+  en: {
+    id: "en",
+    name: "365 Days With Jesus",
+    shortName: "English Edition",
+    locale: "en",
+    flag: "🇬🇧",
+    tagline: "A Year-Long Journey of Grace, Reflection & Divine Fellowship",
+    editionBadge: "Complete 365 Days",
+    totalDays: 365,
+    availableDays: 365,
+    statusDescription: "Complete 365-Day Devotional Sanctuary (Jan–Dec)",
+  },
+  "pt-BR": {
+    id: "pt-BR",
+    name: "365 Dias com Jesus",
+    shortName: "Edição em Português",
+    locale: "pt-BR",
+    flag: "🇧🇷",
+    tagline: "Uma Jornada de Fé, Graça e Comunhão Diária com Cristo",
+    editionBadge: "Janeiro (Dias 1–31)",
+    totalDays: 365,
+    availableDays: 31,
+    statusDescription: "Edição Brasileira • Janeiro Completo (Dias 1–31)",
+  },
+};
 
 export interface MonthlyThemeI18n {
   month_number: number;

@@ -12,7 +12,7 @@ import { getUserState } from "@/lib/storage";
 import { UserDevotionalState } from "@/lib/types";
 
 export default function CalendarPage() {
-  const { t, getTheme, language } = useLanguage();
+  const { t, getTheme, language, allThemes } = useLanguage();
   const [userState, setUserState] = useState<UserDevotionalState | null>(null);
   const [selectedMonth, setSelectedMonth] = useState<number>(1);
 
@@ -55,7 +55,7 @@ export default function CalendarPage() {
 
       {/* Month Selector Tabs */}
       <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
-        {MONTHLY_THEMES.map((theme) => {
+        {allThemes.map((theme) => {
           const active = selectedMonth === theme.month_number;
           return (
             <button

@@ -90,6 +90,93 @@ const defaultJournals: JournalEntry[] = [
   },
 ];
 
+// Portuguese default initial states
+const defaultUserStatePt: UserDevotionalState = {
+  completed_days: [1],
+  favorite_verses: [
+    {
+      day_number: 1,
+      reference: "Lamentações 3:22-23",
+      text: "As misericórdias do Senhor são a causa de não sermos consumidos, porque as suas misericórdias não têm fim; renovam-se a cada manhã. Grande é a tua fidelidade.",
+    },
+  ],
+  current_day: 1,
+};
+
+const defaultPrayersPt: PrayerItem[] = [
+  {
+    id: "prayer-1-pt",
+    title: "Paz e discernimento para a caminhada de nossa família",
+    description: "Pedindo ao Espírito Santo que guarde os corações e nos conceda santa sabedoria nas decisões diárias.",
+    category: "family",
+    is_answered: false,
+    created_at: new Date(Date.now() - 86400000 * 3).toISOString(),
+    last_prayed_at: new Date().toISOString(),
+    prayer_count: 4,
+  },
+  {
+    id: "prayer-2-pt",
+    title: "Restauração de saúde e renovo para quem amamos",
+    description: "Orando por rápida recuperação física e profundo consolo emocional do Senhor durante o tratamento.",
+    category: "health",
+    is_answered: true,
+    answered_at: new Date().toISOString(),
+    praise_report: "O Senhor respondeu às nossas orações e concedeu alívio e renovação completa. Glória a Deus!",
+    created_at: new Date(Date.now() - 86400000 * 14).toISOString(),
+    last_prayed_at: new Date().toISOString(),
+    prayer_count: 12,
+  },
+  {
+    id: "prayer-3-pt",
+    title: "Serenidade de alma e descanso no Senhor",
+    description: "Senhor, firma os meus passos na Tua presença mesmo em meio às demandas inesperadas.",
+    category: "personal",
+    is_answered: false,
+    created_at: new Date(Date.now() - 86400000).toISOString(),
+    last_prayed_at: new Date().toISOString(),
+    prayer_count: 2,
+  },
+];
+
+const defaultGratitudesPt: GratitudeEntry[] = [
+  {
+    id: "gratitude-1-pt",
+    date: new Date().toISOString().split("T")[0],
+    item_1: "A dádiva da luz da manhã que renova as misericórdias do Senhor.",
+    item_2: "A paz no coração e o abraço carinhoso da família ao começar o dia.",
+    item_3: "A promessa em Lamentações de que o amor de Deus nunca tem fim.",
+    evening_moment_of_peace: "Sentar-se ao fim da tarde em quietude, agradecendo a Deus por Sua graça sustentadora.",
+    created_at: new Date().toISOString(),
+  },
+];
+
+const defaultJournalsPt: JournalEntry[] = [
+  {
+    id: "journal-1-pt",
+    day_number: 1,
+    date: new Date().toISOString().split("T")[0],
+    title: "Dia 1: Entrando no Santo Ritmo da Graça",
+    content: "Hoje senti um alívio profundo ao lembrar que as misericórdias do Senhor se renovam a cada manhã. Não preciso carregar o cansaço do mês que passou. Obrigado, Pai, por me encontrar neste lugar de paz.",
+    is_favorite: true,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+  },
+];
+
+function isPortugueseContext(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    const lang = localStorage.getItem("sanctuary_preferred_language");
+    if (lang === "pt-BR") return true;
+    if (window.location.pathname.startsWith("/pt")) return true;
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get("edition") === "pt" || urlParams.get("lang") === "pt") return true;
+    return false;
+  } catch {
+    return false;
+  }
+}
+
 // Helper to safely access localStorage
 function getLocalItem<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
@@ -112,7 +199,8 @@ function setLocalItem<T>(key: string, value: T): void {
 
 // User state operations
 export function getUserState(): UserDevotionalState {
-  return getLocalItem<UserDevotionalState>(STORAGE_KEYS.USER_STATE, defaultUserState);
+  const fallback = isPortugueseContext() ? defaultUserStatePt : defaultUserState;
+  return getLocalItem<UserDevotionalState>(STORAGE_KEYS.USER_STATE, fallback);
 }
 
 export function saveUserState(state: UserDevotionalState): void {
@@ -157,7 +245,8 @@ export function toggleFavoriteVerse(verse: { day_number: number; reference: stri
 
 // Prayer operations
 export function getPrayers(): PrayerItem[] {
-  return getLocalItem<PrayerItem[]>(STORAGE_KEYS.PRAYERS, defaultPrayers);
+  const fallback = isPortugueseContext() ? defaultPrayersPt : defaultPrayers;
+  return getLocalItem<PrayerItem[]>(STORAGE_KEYS.PRAYERS, fallback);
 }
 
 export function savePrayer(prayer: Omit<PrayerItem, "id" | "created_at" | "prayer_count">): PrayerItem {
@@ -214,7 +303,8 @@ export function deletePrayer(id: string): PrayerItem[] {
 
 // Gratitude operations
 export function getGratitudes(): GratitudeEntry[] {
-  return getLocalItem<GratitudeEntry[]>(STORAGE_KEYS.GRATITUDES, defaultGratitudes);
+  const fallback = isPortugueseContext() ? defaultGratitudesPt : defaultGratitudes;
+  return getLocalItem<GratitudeEntry[]>(STORAGE_KEYS.GRATITUDES, fallback);
 }
 
 export function saveGratitude(entry: Omit<GratitudeEntry, "id" | "created_at">): GratitudeEntry {
@@ -243,7 +333,8 @@ export function saveGratitude(entry: Omit<GratitudeEntry, "id" | "created_at">):
 
 // Journal operations
 export function getJournals(): JournalEntry[] {
-  return getLocalItem<JournalEntry[]>(STORAGE_KEYS.JOURNALS, defaultJournals);
+  const fallback = isPortugueseContext() ? defaultJournalsPt : defaultJournals;
+  return getLocalItem<JournalEntry[]>(STORAGE_KEYS.JOURNALS, fallback);
 }
 
 export function saveJournal(entry: Omit<JournalEntry, "id" | "created_at" | "updated_at"> & { id?: string }): JournalEntry {

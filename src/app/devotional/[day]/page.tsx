@@ -110,7 +110,10 @@ export default function DevotionalDayPage({
     saveJournal({
       day_number: entry.day_number,
       date: new Date().toISOString().split("T")[0],
-      title: `Day ${entry.day_number}: Reflection on ${entry.scripture_primary_reference}`,
+      title:
+        language === "pt-BR"
+          ? `Dia ${entry.day_number}: Reflexão sobre ${entry.scripture_primary_reference}`
+          : `Day ${entry.day_number}: Reflection on ${entry.scripture_primary_reference}`,
       content: reflectionAnswer,
       is_favorite: false,
     });
@@ -121,9 +124,12 @@ export default function DevotionalDayPage({
 
   const handleShare = () => {
     if (navigator.clipboard) {
-      navigator.clipboard.writeText(
-        `"${entry.scripture_primary_text}" — ${entry.scripture_primary_reference} (${entry.scripture_translation})\n\nRead more on 365 Days With Jesus: https://365dayswithjesus.com/devotional/${entry.day_number}`
-      );
+      const shareUrl = typeof window !== "undefined" ? window.location.href : `https://365dayswithjesus.com/devotional/${entry.day_number}`;
+      const citation =
+        language === "pt-BR"
+          ? `"${entry.scripture_primary_text}" — ${entry.scripture_primary_reference} (${entry.scripture_translation})\n\nLeia mais em 365 Dias com Jesus: ${shareUrl}`
+          : `"${entry.scripture_primary_text}" — ${entry.scripture_primary_reference} (${entry.scripture_translation})\n\nRead more on 365 Days With Jesus: ${shareUrl}`;
+      navigator.clipboard.writeText(citation);
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
     }
