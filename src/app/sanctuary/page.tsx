@@ -41,12 +41,13 @@ export default function DashboardPage() {
   const [gratitudeSaved, setGratitudeSaved] = useState(false);
 
   // Authoritative English Day 1 entry (preserves test signature for validate-december)
-  const todayDevotional = getDevotionalEntry(1);
+  const englishDevotional = getDevotionalEntry(1);
   const currentTheme = getTheme(1); // Month 1
 
   const isPt = language === "pt-BR";
-  const ptAvailability = isPt ? getPortugueseDevotional(todayDevotional.day_number) : null;
-  const isPtDevotionalPublished = ptAvailability?.available && ptAvailability?.entry;
+  const ptAvailability = isPt ? getPortugueseDevotional(1) : null;
+  const isPtDevotionalPublished = ptAvailability?.available && ptAvailability?.entry && ptAvailability?.status === "published";
+  const todayDevotional = isPt && isPtDevotionalPublished && ptAvailability?.entry ? ptAvailability.entry : englishDevotional;
 
   useEffect(() => {
     setMounted(true);

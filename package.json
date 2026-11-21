@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test:january": "node scripts/validate-january.mjs",
+    "test:january-pt": "node scripts/validate-january-portuguese.mjs",
     "test:february": "node scripts/validate-february.mjs",
     "test:march": "node scripts/validate-march.mjs",
     "test:april": "node scripts/validate-april.mjs",
@@ -22,7 +23,7 @@
     "test:full-year": "node scripts/validate-full-year.mjs",
     "test:i18n": "node scripts/validate-i18n.mjs && node scripts/run_all_i18n_tests.mjs",
     "test:qa": "node scripts/run_all_i18n_tests.mjs",
-    "test:all": "npm run test:january && npm run test:february && npm run test:march && npm run test:april && npm run test:may && npm run test:june && npm run test:july && npm run test:august && npm run test:september && npm run test:october && npm run test:november && npm run test:december && npm run test:full-year && npm run test:content && npm run test:i18n",
+    "test:all": "npm run test:january && npm run test:january-pt && npm run test:february && npm run test:march && npm run test:april && npm run test:may && npm run test:june && npm run test:july && npm run test:august && npm run test:september && npm run test:october && npm run test:november && npm run test:december && npm run test:full-year && npm run test:content && npm run test:i18n",
     "test:content": "node scripts/validate-content.mjs",
     "sync:html": "python3 scripts/sync_standalone_html.py"
   },

@@ -25,8 +25,8 @@ export default function PrintableDevotionalPage({
   const { t, getTheme, language, setLanguage } = useLanguage();
 
   // Use authoritative resolver (never silently falls back to Day 1)
-  const entry = getDevotionalEntry(dayNumber);
-  const theme = getTheme(entry.month_number);
+  const englishEntry = getDevotionalEntry(dayNumber);
+  const theme = getTheme(englishEntry.month_number);
 
   const [format, setFormat] = useState<PrintPageFormat>("US_Letter");
   const [includeBlankLines, setIncludeBlankLines] = useState(true);
@@ -47,8 +47,9 @@ export default function PrintableDevotionalPage({
   };
 
   const isPt = language === "pt-BR";
-  const ptAvailability = isPt ? getPortugueseDevotional(entry.day_number) : null;
-  const isPtAvailable = ptAvailability?.available && ptAvailability?.entry;
+  const ptAvailability = isPt ? getPortugueseDevotional(dayNumber) : null;
+  const isPtAvailable = ptAvailability?.available && ptAvailability?.entry && ptAvailability?.status === "published";
+  const entry = isPt && isPtAvailable && ptAvailability?.entry ? ptAvailability.entry : englishEntry;
 
   return (
     <div className="space-y-6 max-w-4xl mx-auto">

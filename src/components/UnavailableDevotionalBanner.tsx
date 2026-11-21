@@ -3,15 +3,18 @@
 import React from "react";
 import { BookOpen, Globe } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
+import { isPortugueseDevotionalAvailable } from "@/lib/content/portuguese";
 
 interface UnavailableDevotionalBannerProps {
   onSwitchToEnglish?: () => void;
   className?: string;
+  dayNumber?: number;
 }
 
 export function UnavailableDevotionalBanner({
   onSwitchToEnglish,
   className = "",
+  dayNumber,
 }: UnavailableDevotionalBannerProps) {
   const { setLanguage, language } = useLanguage();
 
@@ -23,6 +26,11 @@ export function UnavailableDevotionalBanner({
   };
 
   if (language !== "pt-BR") {
+    return null;
+  }
+
+  // If dayNumber is provided, suppress banner if that day is already published and available in Portuguese
+  if (dayNumber !== undefined && isPortugueseDevotionalAvailable(dayNumber)) {
     return null;
   }
 

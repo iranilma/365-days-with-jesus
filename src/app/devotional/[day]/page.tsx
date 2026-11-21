@@ -43,7 +43,10 @@ export default function DevotionalDayPage({
   const { t, getTheme, language, setLanguage } = useLanguage();
 
   // Use authoritative resolver (never silently falls back to Day 1)
-  const entry = getDevotionalEntry(dayNumber);
+  const englishEntry = getDevotionalEntry(dayNumber);
+  const ptResult = language === "pt-BR" ? getPortugueseDevotional(dayNumber) : null;
+  const isPtActive = language === "pt-BR" && ptResult?.available && ptResult?.entry && ptResult?.status === "published";
+  const entry = isPtActive && ptResult?.entry ? ptResult.entry : englishEntry;
 
   const theme = getTheme(entry.month_number);
 
@@ -128,12 +131,11 @@ export default function DevotionalDayPage({
 
   // Check Portuguese content availability
   if (language === "pt-BR") {
-    const ptResult = getPortugueseDevotional(entry.day_number);
-    if (!ptResult.available || !ptResult.entry) {
+    if (!isPtActive || !ptResult?.entry) {
       return (
         <PortugueseUnavailableDevotionalView
-          dayNumber={entry.day_number}
-          monthNumber={entry.month_number}
+          dayNumber={englishEntry.day_number}
+          monthNumber={englishEntry.month_number}
           monthThemeTitle={theme.theme_title}
           onSwitchToEnglish={() => setLanguage("en")}
         />

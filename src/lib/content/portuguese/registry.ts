@@ -1,11 +1,11 @@
 import { PortugueseDevotionalEntry, TranslationStatus } from "./types";
+import { JANUARY_PORTUGUESE_DEVOTIONALS } from "./january";
 
 /**
  * Portuguese Devotional Registry
  *
- * NOTE: As mandated by editorial guidelines, devotional translations and theological review
- * are handled in a dedicated project phase.
- * All 365 days are registered here with strict workflow tracking.
+ * January (Days 1–31): Approved & Published (Conselho Editorial & Teológico Antigravity)
+ * February–December (Days 32–365): Initialized as "not_started" awaiting future editorial phases.
  * Unapproved or unpublished entries are NEVER exposed as live devotional text to end users.
  */
 
@@ -23,11 +23,11 @@ function getMonthAndDay(dayNumber: number): { month: number; dayOfMonth: number 
   return { month: 12, dayOfMonth: 31 };
 }
 
-// Generate the 365 entries initialized as "not_started"
-export const PORTUGUESE_DEVOTIONAL_REGISTRY: PortugueseDevotionalEntry[] = Array.from(
-  { length: 365 },
+// Generate remaining entries (Days 32–365) initialized as "not_started"
+const REMAINING_PORTUGUESE_DEVOTIONALS: PortugueseDevotionalEntry[] = Array.from(
+  { length: 365 - 31 },
   (_, i) => {
-    const dayNumber = i + 1;
+    const dayNumber = i + 32;
     const { month, dayOfMonth } = getMonthAndDay(dayNumber);
     return {
       day_number: dayNumber,
@@ -50,3 +50,9 @@ export const PORTUGUESE_DEVOTIONAL_REGISTRY: PortugueseDevotionalEntry[] = Array
     };
   }
 );
+
+// Unified 365-day Portuguese Devotional Registry
+export const PORTUGUESE_DEVOTIONAL_REGISTRY: PortugueseDevotionalEntry[] = [
+  ...JANUARY_PORTUGUESE_DEVOTIONALS,
+  ...REMAINING_PORTUGUESE_DEVOTIONALS,
+];
