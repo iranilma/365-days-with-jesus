@@ -65,12 +65,18 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem("sanctuary_font_size") as "normal" | "large" | "xlarge" | null;
-      if (saved && ["normal", "large", "xlarge"].includes(saved)) {
-        setFontSizeState(saved);
-      }
-    } catch {}
+    const loadFontSize = () => {
+      try {
+        const saved = localStorage.getItem("sanctuary_font_size") as "normal" | "large" | "xlarge" | null;
+        if (saved && ["normal", "large", "xlarge"].includes(saved)) {
+          setFontSizeState(saved);
+        }
+      } catch {}
+    };
+
+    loadFontSize();
+    window.addEventListener("sanctuary_font_size_changed", loadFontSize);
+    window.addEventListener("storage", loadFontSize);
 
     const userState = getUserState();
     setCompleted(userState.completed_days.includes(dayNumber));
@@ -85,6 +91,11 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
     } else {
       setReflectionAnswer("");
     }
+
+    return () => {
+      window.removeEventListener("sanctuary_font_size_changed", loadFontSize);
+      window.removeEventListener("storage", loadFontSize);
+    };
   }, [dayNumber]);
 
   // If in Portuguese edition and day is not published, render complete Portuguese unavailable screen
@@ -106,6 +117,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
     setFontSizeState(size);
     try {
       localStorage.setItem("sanctuary_font_size", size);
+      window.dispatchEvent(new Event("sanctuary_font_size_changed"));
     } catch {}
   };
 
@@ -183,30 +195,82 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
           </span>
         </div>
 
-        {/* Previous / Next Day Navigation */}
-        <div className="flex items-center gap-2">
-          <Link
-            href={`${basePrefix}/devotional/${prevDay}`}
-            className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
-            title={isPt ? "Dia Anterior" : "Previous Day"}
+        {/* Previous / Next Day Navigation & Text Sizing */}
+        <div className="flex flex-wrap items-center gap-3">
+          {/* Compact Text Size Selector (A / A+ / A++) */}
+          <div
+            className="inline-flex items-center bg-white border border-sanctuary-taupeLight/80 rounded-full px-2 py-0.5 shadow-xs"
+            role="group"
+            aria-label={isPt ? "Tamanho do texto" : "Text size options"}
           >
-            <ArrowLeft className="w-3.5 h-3.5" />
-          </Link>
-          <span className="font-semibold text-sanctuary-cocoa text-xs">
-            {t("common.dayCount", { day: entry.day_number })}
-          </span>
-          <Link
-            href={`${basePrefix}/devotional/${nextDay}`}
-            className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
-            title={isPt ? "Próximo Dia" : "Next Day"}
-          >
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
+            <span className="text-[11px] mr-1 text-sanctuary-taupe select-none font-medium">
+              {isPt ? "Texto:" : "Text:"}
+            </span>
+            <button
+              type="button"
+              onClick={() => handleSetFontSize("normal")}
+              className={`px-2 py-0.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+                fontSize === "normal"
+                  ? "bg-sanctuary-rose text-white shadow-xs"
+                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
+              }`}
+              title={isPt ? "Tamanho normal (A)" : "Normal text size (A)"}
+              aria-pressed={fontSize === "normal"}
+            >
+              A
+            </button>
+            <button
+              type="button"
+              onClick={() => handleSetFontSize("large")}
+              className={`px-2 py-0.5 rounded-full text-sm font-bold transition-all cursor-pointer ${
+                fontSize === "large"
+                  ? "bg-sanctuary-rose text-white shadow-xs"
+                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
+              }`}
+              title={isPt ? "Tamanho grande (A+)" : "Large text size (A+)"}
+              aria-pressed={fontSize === "large"}
+            >
+              A+
+            </button>
+            <button
+              type="button"
+              onClick={() => handleSetFontSize("xlarge")}
+              className={`px-2 py-0.5 rounded-full text-base font-bold transition-all cursor-pointer ${
+                fontSize === "xlarge"
+                  ? "bg-sanctuary-rose text-white shadow-xs"
+                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
+              }`}
+              title={isPt ? "Tamanho extra grande (A++)" : "Extra large text size (A++)"}
+              aria-pressed={fontSize === "xlarge"}
+            >
+              A++
+            </button>
+          </div>
+
+          <div className="flex items-center gap-1.5">
+            <Link
+              href={`${basePrefix}/devotional/${prevDay}`}
+              className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
+              title={isPt ? "Dia Anterior" : "Previous Day"}
+            >
+              <ArrowLeft className="w-3.5 h-3.5" />
+            </Link>
+            <span className="font-semibold text-sanctuary-cocoa text-xs">
+              {t("common.dayCount", { day: entry.day_number })}
+            </span>
+            <Link
+              href={`${basePrefix}/devotional/${nextDay}`}
+              className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
+              title={isPt ? "Próximo Dia" : "Next Day"}
+            >
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
         </div>
       </div>
 
       {/* Main Devotional Container */}
-      <article className="bg-white border-2 border-sanctuary-blush rounded-3xl p-6 sm:p-10 md:p-12 shadow-sm space-y-8">
+      <article data-font-size={fontSize} className="bg-white border-2 border-sanctuary-blush rounded-3xl p-6 sm:p-10 md:p-12 shadow-sm space-y-8">
         {/* Title, Badge & Theme */}
         <div className="space-y-3 text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold">
@@ -291,7 +355,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
           </div>
 
           <div className="p-6 sm:p-8 bg-sanctuary-ivory rounded-2xl border-l-4 border-sanctuary-rose shadow-xs">
-            <p className="font-serif text-xl sm:text-2xl text-sanctuary-cocoa italic leading-relaxed">
+            <p className="font-serif dev-scripture-text text-xl sm:text-2xl text-sanctuary-cocoa italic leading-relaxed">
               &ldquo;{entry.scripture_primary_text}&rdquo;
             </p>
             <div className="mt-4 flex items-center justify-between text-xs text-sanctuary-taupe border-t border-sanctuary-taupeLight/40 pt-3">
@@ -311,7 +375,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
           </div>
 
           <div className={`text-sanctuary-cocoa font-sans space-y-4 ${getFontSizeClass()}`}>
-            <p className="whitespace-pre-line leading-relaxed">
+            <p className="dev-reflection-body whitespace-pre-line leading-relaxed">
               {entry.reflection_body}
             </p>
           </div>
@@ -340,7 +404,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
                 <span className="w-5 h-5 rounded-full bg-sanctuary-blush text-sanctuary-rose flex items-center justify-center text-xs font-bold shrink-0">
                   {qIdx + 1}
                 </span>
-                <span className="leading-relaxed">{question}</span>
+                <span className="dev-question-item leading-relaxed">{question}</span>
               </div>
             ))}
           </div>
@@ -383,7 +447,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
           </div>
 
           <div className="p-6 sm:p-8 bg-sanctuary-blushLight rounded-2xl border-l-4 border-sanctuary-rose space-y-3">
-            <p className="font-serif italic text-base sm:text-lg text-sanctuary-cocoa leading-relaxed">
+            <p className="font-serif italic dev-prayer-body text-base sm:text-lg text-sanctuary-cocoa leading-relaxed">
               &ldquo;{entry.guided_prayer}&rdquo;
             </p>
             <div className="pt-2 flex items-center justify-between text-xs text-sanctuary-taupe">
@@ -406,7 +470,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
               <Sparkles className="w-3.5 h-3.5" />
               <span>{t("devotional.dailyIntentionTitle")}</span>
             </div>
-            <p className="font-serif text-sm font-bold text-sanctuary-cocoa leading-snug">
+            <p className="font-serif dev-intention-text text-sm font-bold text-sanctuary-cocoa leading-snug">
               {entry.daily_intention}
             </p>
             <p className="text-[11px] text-sanctuary-taupe">
@@ -419,7 +483,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
               <CheckCircle2 className="w-3.5 h-3.5 text-sanctuary-sage" />
               <span>{t("devotional.practicalActionTitle")}</span>
             </div>
-            <p className="text-xs sm:text-sm text-sanctuary-cocoa leading-relaxed font-medium">
+            <p className="dev-action-text text-xs sm:text-sm text-sanctuary-cocoa leading-relaxed font-medium">
               {entry.practical_action}
             </p>
             <p className="text-[11px] text-sanctuary-taupe">
@@ -437,7 +501,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
             <h3 className="font-serif text-sm font-bold text-sanctuary-cocoa">
               {t("devotional.eveningReflectionTitle")}
             </h3>
-            <p className="font-serif italic text-xs sm:text-sm text-sanctuary-cocoaLight leading-relaxed">
+            <p className="font-serif italic dev-evening-text text-xs sm:text-sm text-sanctuary-cocoaLight leading-relaxed">
               &ldquo;{entry.evening_reflection_prompt}&rdquo;
             </p>
             <p className="text-[11px] text-sanctuary-taupe pt-1">

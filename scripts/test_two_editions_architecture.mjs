@@ -159,8 +159,8 @@ assert(
   "No global language dropdown selector exists inside edition Navigation.tsx"
 );
 assert(
-  navContent.includes('href="/"') || navContent.includes("href='/'"),
-  "Navigation provides deliberate edition badge button linking back to '/' (All Editions)"
+  !navContent.includes('href="/"') && !navContent.includes("href='/'"),
+  "Navigation top menu does not contain an editions button (clean top bar)"
 );
 
 // ============================================================================

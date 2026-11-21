@@ -83,22 +83,8 @@ export function Navigation() {
             })}
           </nav>
 
-          {/* Right Action: Edition Badge & Today's Quiet Time Quick Anchor */}
+          {/* Right Action: Today's Quiet Time Quick Anchor */}
           <div className="flex items-center gap-2">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-sanctuary-taupeLight/80 text-sanctuary-cocoa text-xs font-medium hover:bg-sanctuary-blushLight transition-colors shadow-xs"
-              title={isPt ? "Ver todas as edições do produto" : "View all product editions"}
-            >
-              <span className="font-serif font-bold text-xs text-sanctuary-cocoa">
-                <span className="hidden sm:inline">{isPt ? "365 Dias com Jesus" : "365 Days With Jesus"}</span>
-                <span className="sm:hidden">{isPt ? "Edições" : "Editions"}</span>
-              </span>
-              <span className="text-[10px] text-sanctuary-taupe hidden md:inline">
-                {isPt ? "• Edições" : "• Editions"}
-              </span>
-            </Link>
-
             <Link
               href={`${prefix}/devotional/1`}
               className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-sanctuary-rose text-white text-xs font-semibold shadow-sm hover:bg-sanctuary-roseDark transition-colors"

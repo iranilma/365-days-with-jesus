@@ -64,12 +64,18 @@ export function DashboardView({ edition }: DashboardViewProps) {
 
   useEffect(() => {
     setMounted(true);
-    try {
-      const saved = localStorage.getItem("sanctuary_font_size") as "normal" | "large" | "xlarge" | null;
-      if (saved && ["normal", "large", "xlarge"].includes(saved)) {
-        setFontSize(saved);
-      }
-    } catch {}
+    const loadFontSize = () => {
+      try {
+        const saved = localStorage.getItem("sanctuary_font_size") as "normal" | "large" | "xlarge" | null;
+        if (saved && ["normal", "large", "xlarge"].includes(saved)) {
+          setFontSize(saved);
+        }
+      } catch {}
+    };
+
+    loadFontSize();
+    window.addEventListener("sanctuary_font_size_changed", loadFontSize);
+    window.addEventListener("storage", loadFontSize);
 
     const state = getUserState();
     setUserState(state);
@@ -83,12 +89,18 @@ export function DashboardView({ edition }: DashboardViewProps) {
     if (found) {
       setTodayGratitude(found);
     }
+
+    return () => {
+      window.removeEventListener("sanctuary_font_size_changed", loadFontSize);
+      window.removeEventListener("storage", loadFontSize);
+    };
   }, []);
 
   const handleSetFontSize = (size: "normal" | "large" | "xlarge") => {
     setFontSize(size);
     try {
       localStorage.setItem("sanctuary_font_size", size);
+      window.dispatchEvent(new Event("sanctuary_font_size_changed"));
     } catch {}
   };
 
@@ -263,7 +275,7 @@ export function DashboardView({ edition }: DashboardViewProps) {
         </div>
       ) : todayDevotional ? (
         /* Published Devotional Card (Full Liturgy for English or Published Portuguese) */
-        <div className="bg-white border-2 border-sanctuary-blush rounded-3xl p-6 sm:p-8 shadow-sm transition-all hover:shadow-md">
+        <div data-font-size={fontSize} className="bg-white border-2 border-sanctuary-blush rounded-3xl p-6 sm:p-8 shadow-sm transition-all hover:shadow-md">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-sanctuary-taupeLight/40">
             <div>
               <span className="text-xs uppercase font-sans tracking-widest text-sanctuary-taupe font-semibold block">
@@ -293,7 +305,7 @@ export function DashboardView({ edition }: DashboardViewProps) {
 
           {/* Scripture Spotlight */}
           <div className="my-6 p-5 sm:p-6 bg-sanctuary-ivory rounded-2xl border-l-4 border-sanctuary-rose">
-            <p className="font-serif text-lg sm:text-xl text-sanctuary-cocoa italic leading-relaxed">
+            <p className="font-serif dev-scripture-text text-lg sm:text-xl text-sanctuary-cocoa italic leading-relaxed">
               &ldquo;{todayDevotional.scripture_primary_text}&rdquo;
             </p>
             <div className="mt-3 flex items-center justify-between text-xs text-sanctuary-taupe">
@@ -305,7 +317,7 @@ export function DashboardView({ edition }: DashboardViewProps) {
           </div>
 
           {/* Reflection Snippet & Actions */}
-          <p className={`text-sanctuary-cocoaLight line-clamp-3 ${getFontSizeClass()}`}>
+          <p className={`text-sanctuary-cocoaLight line-clamp-3 dev-reflection-body ${getFontSizeClass()}`}>
             {todayDevotional.reflection_body}
           </p>
 
