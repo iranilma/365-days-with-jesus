@@ -64,15 +64,39 @@ function interpolate(template: string, params?: Record<string, string | number>)
   }, template);
 }
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguageState] = useState<SupportedLanguage>("en");
+export function LanguageProvider({
+  children,
+  forcedEdition,
+}: {
+  children: React.ReactNode;
+  forcedEdition?: SupportedLanguage;
+}) {
+  const [language, setLanguageState] = useState<SupportedLanguage>(
+    forcedEdition || "en"
+  );
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
+    if (forcedEdition) {
+      setLanguageState(forcedEdition);
+      return;
+    }
+
     try {
-      // 1. URL search param check (e.g. ?edition=pt or ?edition=en)
       if (typeof window !== "undefined") {
+        // 1. Path prefix check (Authoritative over stored preferences)
+        const path = window.location.pathname;
+        if (path.startsWith("/pt-br") || path.startsWith("/pt")) {
+          setLanguageState("pt-BR");
+          return;
+        }
+        if (path.startsWith("/en")) {
+          setLanguageState("en");
+          return;
+        }
+
+        // 2. URL search param check (e.g. ?edition=pt or ?edition=en)
         const urlParams = new URLSearchParams(window.location.search);
         const editionParam = urlParams.get("edition") || urlParams.get("lang");
         if (editionParam === "pt" || editionParam === "pt-BR" || editionParam === "pt_BR") {
@@ -84,20 +108,9 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
           localStorage.setItem(STORAGE_KEY, "en");
           return;
         }
-
-        // 2. Path prefix check
-        if (window.location.pathname.startsWith("/pt")) {
-          setLanguageState("pt-BR");
-          localStorage.setItem(STORAGE_KEY, "pt-BR");
-          return;
-        } else if (window.location.pathname.startsWith("/en")) {
-          setLanguageState("en");
-          localStorage.setItem(STORAGE_KEY, "en");
-          return;
-        }
       }
 
-      // 3. Stored preference
+      // 3. Stored preference (Only for ambiguous routes)
       const saved = localStorage.getItem(STORAGE_KEY) as SupportedLanguage | null;
       if (saved && (saved === "en" || saved === "pt-BR")) {
         setLanguageState(saved);
@@ -111,7 +124,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     } catch {
       // Fallback silently if localStorage is restricted
     }
-  }, []);
+  }, [forcedEdition]);
 
   const setLanguage = useCallback((lang: SupportedLanguage) => {
     setLanguageState(lang);

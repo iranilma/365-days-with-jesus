@@ -9,33 +9,25 @@ import {
   Calendar,
   Globe,
   Heart,
+  Home,
   Sparkles,
 } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "./BotanicalElements";
-import { useLanguage } from "@/lib/i18n";
 
 interface PortugueseUnavailableDevotionalViewProps {
   dayNumber: number;
   monthNumber: number;
   monthThemeTitle: string;
-  onSwitchToEnglish: () => void;
+  onSwitchToEnglish?: () => void;
+  basePrefix?: string;
 }
 
 export function PortugueseUnavailableDevotionalView({
   dayNumber,
   monthNumber,
   monthThemeTitle,
-  onSwitchToEnglish,
+  basePrefix = "/pt-br",
 }: PortugueseUnavailableDevotionalViewProps) {
-  const { setLanguage } = useLanguage();
-
-  const handleReturnToEnglish = () => {
-    setLanguage("en");
-    if (onSwitchToEnglish) {
-      onSwitchToEnglish();
-    }
-  };
-
   const prevDay = dayNumber > 1 ? dayNumber - 1 : 365;
   const nextDay = dayNumber < 365 ? dayNumber + 1 : 1;
 
@@ -44,11 +36,11 @@ export function PortugueseUnavailableDevotionalView({
       {/* Top Breadcrumb & Day Pill */}
       <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-sanctuary-taupe border-b border-sanctuary-taupeLight/40 pb-4">
         <div className="flex items-center gap-2">
-          <Link href="/app" className="hover:text-sanctuary-cocoa font-medium">
+          <Link href={`${basePrefix}/app`} className="hover:text-sanctuary-cocoa font-medium">
             Início
           </Link>
           <span>/</span>
-          <Link href="/calendar" className="hover:text-sanctuary-cocoa">
+          <Link href={`${basePrefix}/calendar`} className="hover:text-sanctuary-cocoa">
             Mês {monthNumber}: {monthThemeTitle}
           </Link>
           <span>/</span>
@@ -57,7 +49,7 @@ export function PortugueseUnavailableDevotionalView({
 
         <div className="flex items-center gap-2">
           <Link
-            href={`/devotional/${prevDay}`}
+            href={`${basePrefix}/devotional/${prevDay}`}
             className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
             title="Dia Anterior"
           >
@@ -67,7 +59,7 @@ export function PortugueseUnavailableDevotionalView({
             Dia {dayNumber} de 365
           </span>
           <Link
-            href={`/devotional/${nextDay}`}
+            href={`${basePrefix}/devotional/${nextDay}`}
             className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
             title="Próximo Dia"
           >
@@ -85,7 +77,7 @@ export function PortugueseUnavailableDevotionalView({
         {/* Status Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-50 border border-amber-200/80 text-amber-900 text-xs font-semibold">
           <Globe className="w-4 h-4 text-amber-700" />
-          <span>Edição em Português em Preparação • Dia {dayNumber}</span>
+          <span>Edição em Português em Preparação • Dia {dayNumber} de 365</span>
         </div>
 
         {/* Headings */}
@@ -97,30 +89,41 @@ export function PortugueseUnavailableDevotionalView({
             Mês {monthNumber}: {monthThemeTitle}
           </p>
           <p className="text-sm sm:text-base text-sanctuary-cocoaLight leading-relaxed pt-2">
-            Este devocional ainda está sendo preparado em português. Enquanto isso, você pode continuar sua jornada na edição em inglês.
+            Este devocional da edição <strong>365 Dias com Jesus</strong> está atualmente sendo preparado
+            por nossa equipe com reverência bíblica e exegese cuidadosa na Almeida Bíblia Livre (ABL).
           </p>
           <p className="text-xs text-sanctuary-taupe leading-relaxed">
-            Estamos trabalhando com reverência bíblica e cuidado teológico na tradução completa dos 365 dias para que você viva sua jornada no seu idioma materno.
+            Todos os 31 devocionais de Janeiro já estão aprovados e publicados. Você pode retornar ao
+            calendário de leituras ou desfrutar dos outros espaços do santuário.
           </p>
         </div>
 
-        {/* Primary Action Button */}
+        {/* Primary Action Buttons */}
         <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
-          <button
-            type="button"
-            onClick={handleReturnToEnglish}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-sanctuary-rose text-white text-sm font-semibold shadow-md hover:bg-sanctuary-roseDark transition-all"
+          <Link
+            href={`${basePrefix}/calendar`}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-sanctuary-rose text-white text-sm font-semibold shadow-md hover:bg-sanctuary-roseDark transition-all"
           >
-            <BookOpen className="w-4 h-4" />
-            <span>Voltar para o inglês</span>
-          </button>
+            <Calendar className="w-4 h-4" />
+            <span>Ver Calendário de Janeiro</span>
+          </Link>
 
           <Link
-            href="/calendar"
+            href={`${basePrefix}/devotional/1`}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-sanctuary-ivory border border-sanctuary-taupeLight text-sanctuary-cocoa text-sm font-semibold hover:bg-sanctuary-blushLight transition-colors"
           >
-            <Calendar className="w-4 h-4 text-sanctuary-taupe" />
-            <span>Ver o Calendário</span>
+            <BookOpen className="w-4 h-4 text-sanctuary-taupe" />
+            <span>Ler Devocional do Dia 1</span>
+          </Link>
+        </div>
+
+        {/* Subtle Link to Editions Portal */}
+        <div className="pt-2">
+          <Link
+            href="/"
+            className="text-xs text-sanctuary-taupe hover:text-sanctuary-cocoa underline underline-offset-4"
+          >
+            Escolher ou alternar edição do produto
           </Link>
         </div>
       </div>
@@ -130,7 +133,7 @@ export function PortugueseUnavailableDevotionalView({
       {/* Alternative Quiet-Time Sanctuary Links */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <Link
-          href="/prayer"
+          href={`${basePrefix}/prayer`}
           className="p-5 bg-white border border-sanctuary-taupeLight/60 rounded-2xl hover:border-sanctuary-rose transition-all flex items-start gap-3 group"
         >
           <div className="p-2.5 rounded-xl bg-sanctuary-blushLight text-sanctuary-rose group-hover:scale-105 transition-transform">
@@ -147,7 +150,7 @@ export function PortugueseUnavailableDevotionalView({
         </Link>
 
         <Link
-          href="/gratitude"
+          href={`${basePrefix}/gratitude`}
           className="p-5 bg-white border border-sanctuary-taupeLight/60 rounded-2xl hover:border-sanctuary-rose transition-all flex items-start gap-3 group"
         >
           <div className="p-2.5 rounded-xl bg-sanctuary-sageLight text-sanctuary-sage group-hover:scale-105 transition-transform">
@@ -158,52 +161,26 @@ export function PortugueseUnavailableDevotionalView({
               Altar de Gratidão
             </h3>
             <p className="text-xs text-sanctuary-cocoaLight mt-0.5">
-              Registre suas três misericórdias matinais de hoje.
+              Registre três bênçãos diárias diante de Deus.
             </p>
           </div>
         </Link>
 
         <Link
-          href="/journal"
+          href={`${basePrefix}/app`}
           className="p-5 bg-white border border-sanctuary-taupeLight/60 rounded-2xl hover:border-sanctuary-rose transition-all flex items-start gap-3 group"
         >
-          <div className="p-2.5 rounded-xl bg-sanctuary-ivory text-sanctuary-taupe group-hover:scale-105 transition-transform">
-            <BookOpen className="w-5 h-5" />
+          <div className="p-2.5 rounded-xl bg-sanctuary-blushLight text-sanctuary-rose group-hover:scale-105 transition-transform">
+            <Home className="w-5 h-5" />
           </div>
           <div>
             <h3 className="font-serif text-base font-bold text-sanctuary-cocoa">
-              Meu Diário
+              Início do Santuário
             </h3>
             <p className="text-xs text-sanctuary-cocoaLight mt-0.5">
-              Anote o que Deus tem falado ao seu coração.
+              Retorne ao painel diário de comunhão.
             </p>
           </div>
-        </Link>
-      </div>
-
-      {/* Navigation Footer */}
-      <div className="pt-6 border-t border-sanctuary-taupeLight/40 flex items-center justify-between text-xs text-sanctuary-cocoa">
-        <Link
-          href={`/devotional/${prevDay}`}
-          className="inline-flex items-center gap-1.5 hover:text-sanctuary-rose font-medium"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Dia Anterior (Dia {prevDay})</span>
-        </Link>
-
-        <Link
-          href="/calendar"
-          className="hover:text-sanctuary-rose font-medium text-sanctuary-taupe"
-        >
-          Voltar ao Calendário
-        </Link>
-
-        <Link
-          href={`/devotional/${nextDay}`}
-          className="inline-flex items-center gap-1.5 hover:text-sanctuary-rose font-medium"
-        >
-          <span>Próximo Dia (Dia {nextDay})</span>
-          <ArrowRight className="w-3.5 h-3.5" />
         </Link>
       </div>
     </div>

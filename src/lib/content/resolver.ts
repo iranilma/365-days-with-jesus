@@ -64,8 +64,8 @@ export function resolveDevotionalContent(
     notice: {
       headline: "Seu devocional de hoje está sendo preparado em português.",
       message:
-        "Este devocional ainda está sendo preparado em português. Enquanto isso, você pode continuar sua jornada na edição em inglês.",
-      cta: "Voltar para o inglês",
+        "Este devocional da edição 365 Dias com Jesus está atualmente em preparação com rigor teológico e reverência pastoral. Explore os 31 dias disponíveis de Janeiro ou visite o Santuário de Oração.",
+      cta: "Ver Calendário de Janeiro",
     },
   };
 }

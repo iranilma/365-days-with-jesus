@@ -67,7 +67,7 @@ export default function PortugueseEditionPortalPage() {
         {/* Primary CTA Actions */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-lg mx-auto">
           <Link
-            href="/app"
+            href="/pt-br/app"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-sanctuary-rose text-white text-sm font-semibold shadow-md hover:bg-sanctuary-roseDark transition-all"
           >
             <BookOpen className="w-4 h-4" />
@@ -75,7 +75,7 @@ export default function PortugueseEditionPortalPage() {
           </Link>
 
           <Link
-            href="/devotional/1"
+            href="/pt-br/devotional/1"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa text-sm font-semibold hover:bg-sanctuary-blushLight transition-colors"
           >
             <Sparkles className="w-4 h-4 text-sanctuary-rose" />
@@ -89,7 +89,7 @@ export default function PortugueseEditionPortalPage() {
       {/* Quick Access Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         <Link
-          href="/calendar"
+          href="/pt-br/calendar"
           className="p-5 bg-white border border-sanctuary-taupeLight/60 rounded-2xl hover:border-sanctuary-rose transition-all group"
         >
           <div className="p-2.5 w-fit rounded-xl bg-sanctuary-blushLight text-sanctuary-rose group-hover:scale-105 transition-transform mb-3">
@@ -104,7 +104,7 @@ export default function PortugueseEditionPortalPage() {
         </Link>
 
         <Link
-          href="/prayer"
+          href="/pt-br/prayer"
           className="p-5 bg-white border border-sanctuary-taupeLight/60 rounded-2xl hover:border-sanctuary-rose transition-all group"
         >
           <div className="p-2.5 w-fit rounded-xl bg-sanctuary-blushLight text-sanctuary-rose group-hover:scale-105 transition-transform mb-3">
@@ -119,7 +119,7 @@ export default function PortugueseEditionPortalPage() {
         </Link>
 
         <Link
-          href="/gratitude"
+          href="/pt-br/gratitude"
           className="p-5 bg-white border border-sanctuary-taupeLight/60 rounded-2xl hover:border-sanctuary-rose transition-all group"
         >
           <div className="p-2.5 w-fit rounded-xl bg-sanctuary-sageLight text-sanctuary-sage group-hover:scale-105 transition-transform mb-3">
@@ -134,7 +134,7 @@ export default function PortugueseEditionPortalPage() {
         </Link>
 
         <Link
-          href="/journal"
+          href="/pt-br/journal"
           className="p-5 bg-white border border-sanctuary-taupeLight/60 rounded-2xl hover:border-sanctuary-rose transition-all group"
         >
           <div className="p-2.5 w-fit rounded-xl bg-sanctuary-blushLight text-sanctuary-rose group-hover:scale-105 transition-transform mb-3">

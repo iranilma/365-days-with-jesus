@@ -2,12 +2,18 @@
 
 import React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { BotanicalSprig } from "./BotanicalElements";
 import { useLanguage } from "@/lib/i18n";
 
 export function SanctuaryFooter() {
+  const pathname = usePathname() || "";
   const { language, t } = useLanguage();
-  const isPt = language === "pt-BR";
+
+  const isPtRoute = pathname.startsWith("/pt-br") || pathname.startsWith("/pt");
+  const isEnRoute = pathname.startsWith("/en");
+  const isPt = isPtRoute ? true : isEnRoute ? false : language === "pt-BR";
+  const prefix = isPt ? "/pt-br" : "/en";
 
   return (
     <footer className="w-full bg-sanctuary-ivoryLight border-t border-sanctuary-taupeLight/50 py-8 px-4 text-center print:hidden">
@@ -24,28 +30,32 @@ export function SanctuaryFooter() {
             : "Scripture quotations are taken from the World English Bible (WEB), dedicated to the public domain."}
         </p>
         <div className="flex flex-wrap justify-center gap-4 text-xs text-sanctuary-cocoaLight mt-2">
-          <Link href="/devotional/1" className="hover:text-sanctuary-rose">
+          <Link href={`${prefix}/devotional/1`} className="hover:text-sanctuary-rose">
             {isPt ? "Devocional de Hoje" : "Today's Devotional"}
           </Link>
           <span>•</span>
-          <Link href="/calendar" className="hover:text-sanctuary-rose">
+          <Link href={`${prefix}/calendar`} className="hover:text-sanctuary-rose">
             {isPt ? "Plano de 365 Dias" : "365-Day Plan"}
           </Link>
           <span>•</span>
-          <Link href="/prayer" className="hover:text-sanctuary-rose">
+          <Link href={`${prefix}/prayer`} className="hover:text-sanctuary-rose">
             {isPt ? "Mural de Oração" : "Prayer Wall"}
           </Link>
           <span>•</span>
-          <Link href="/gratitude" className="hover:text-sanctuary-rose">
+          <Link href={`${prefix}/gratitude`} className="hover:text-sanctuary-rose">
             {isPt ? "Altar de Gratidão" : "Gratitude"}
           </Link>
           <span>•</span>
-          <Link href="/journal" className="hover:text-sanctuary-rose">
+          <Link href={`${prefix}/journal`} className="hover:text-sanctuary-rose">
             {isPt ? "Meu Diário" : "Journal"}
           </Link>
           <span>•</span>
-          <Link href="/printables/1" className="hover:text-sanctuary-rose">
+          <Link href={`${prefix}/printables/1`} className="hover:text-sanctuary-rose">
             {isPt ? "Planejador para Imprimir" : "Printable Planner"}
+          </Link>
+          <span>•</span>
+          <Link href="/" className="hover:text-sanctuary-rose font-medium text-sanctuary-rose">
+            {isPt ? "Trocar Edição" : "Switch Edition"}
           </Link>
         </div>
         <p className="text-[11px] text-sanctuary-taupe mt-1">

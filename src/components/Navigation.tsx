@@ -14,26 +14,33 @@ import {
 } from "lucide-react";
 import { BotanicalSprig } from "./BotanicalElements";
 import { useLanguage } from "@/lib/i18n";
-import { EditionSelector } from "./EditionSelector";
 
 export function Navigation() {
-  const pathname = usePathname();
+  const pathname = usePathname() || "";
   const { t, language } = useLanguage();
-  const isPt = language === "pt-BR";
+
+  const isPtRoute = pathname.startsWith("/pt-br") || pathname.startsWith("/pt");
+  const isEnRoute = pathname.startsWith("/en");
+  const isPt = isPtRoute ? true : isEnRoute ? false : language === "pt-BR";
+  const prefix = isPt ? "/pt-br" : "/en";
 
   const navItems = [
-    { label: t("nav.dashboard"), href: "/app", icon: Home },
-    { label: t("nav.devotional"), href: "/devotional/1", icon: BookOpen },
-    { label: t("nav.calendar"), href: "/calendar", icon: Calendar },
-    { label: t("nav.prayerWall"), href: "/prayer", icon: Heart },
-    { label: t("nav.gratitude"), href: "/gratitude", icon: Sparkles },
-    { label: t("nav.journal"), href: "/journal", icon: PenTool },
-    { label: t("nav.printables"), href: "/printables/1", icon: Printer },
+    { label: t("nav.dashboard"), href: `${prefix}/app`, icon: Home },
+    { label: t("nav.devotional"), href: `${prefix}/devotional/1`, icon: BookOpen },
+    { label: t("nav.calendar"), href: `${prefix}/calendar`, icon: Calendar },
+    { label: t("nav.prayerWall"), href: `${prefix}/prayer`, icon: Heart },
+    { label: t("nav.gratitude"), href: `${prefix}/gratitude`, icon: Sparkles },
+    { label: t("nav.journal"), href: `${prefix}/journal`, icon: PenTool },
+    { label: t("nav.printables"), href: `${prefix}/printables/1`, icon: Printer },
   ];
 
   const isActive = (href: string) => {
-    if (href === "/app") return pathname === "/app" || pathname === "/";
-    return pathname.startsWith(href.split("/")[1] ? `/${href.split("/")[1]}` : href);
+    if (pathname === href) return true;
+    const baseTarget = href.replace(/^\/(en|pt-br|pt)/, "");
+    const currentBase = pathname.replace(/^\/(en|pt-br|pt)/, "");
+    if (baseTarget === "/app" && (currentBase === "/app" || currentBase === "")) return true;
+    if (baseTarget && baseTarget !== "/" && currentBase.startsWith(baseTarget)) return true;
+    return false;
   };
 
   return (
@@ -41,7 +48,7 @@ export function Navigation() {
       {/* Top Banner & Header (Desktop & Tablet) */}
       <header className="w-full bg-sanctuary-ivoryLight border-b border-sanctuary-taupeLight/60 sticky top-0 z-40 print:hidden backdrop-blur-md bg-opacity-95">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href={prefix === "/pt-br" ? "/pt-br" : "/en"} className="flex items-center gap-3 group">
             <BotanicalSprig className="w-7 h-7 text-sanctuary-rose group-hover:scale-105 transition-transform" />
             <div>
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-wider text-sanctuary-cocoa block leading-tight">
@@ -75,11 +82,26 @@ export function Navigation() {
             })}
           </nav>
 
-          {/* Right Action: Edition Selector & Today's Quiet Time Quick Anchor */}
+          {/* Right Action: Edition Badge & Today's Quiet Time Quick Anchor */}
           <div className="flex items-center gap-2">
-            <EditionSelector />
             <Link
-              href="/devotional/1"
+              href="/"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-sanctuary-taupeLight/80 text-sanctuary-cocoa text-xs font-medium hover:bg-sanctuary-blushLight transition-colors shadow-xs"
+              title={isPt ? "Ver todas as edições do produto" : "View all product editions"}
+            >
+              <span className="text-xs" role="img" aria-hidden="true">
+                {isPt ? "🇧🇷" : "🇬🇧"}
+              </span>
+              <span className="font-serif font-bold text-xs hidden sm:inline text-sanctuary-cocoa">
+                {isPt ? "365 Dias com Jesus" : "365 Days With Jesus"}
+              </span>
+              <span className="text-[10px] text-sanctuary-taupe hidden md:inline">
+                {isPt ? "• Edições" : "• Editions"}
+              </span>
+            </Link>
+
+            <Link
+              href={`${prefix}/devotional/1`}
               className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-sanctuary-rose text-white text-xs font-semibold shadow-sm hover:bg-sanctuary-roseDark transition-colors"
             >
               <BookOpen className="w-3.5 h-3.5" />
@@ -109,11 +131,11 @@ export function Navigation() {
             </Link>
           );
         })}
-        {/* More Options / Print quick icon */}
+        {/* Print quick icon */}
         <Link
-          href="/printables/1"
+          href={`${prefix}/printables/1`}
           className={`flex flex-col items-center justify-center py-1 px-2 rounded-xl transition-all ${
-            isActive("/printables")
+            isActive(`${prefix}/printables/1`)
               ? "text-sanctuary-rose font-bold"
               : "text-sanctuary-cocoaLight hover:text-sanctuary-cocoa"
           }`}
