@@ -20,8 +20,9 @@ import {
   Volume2,
 } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
-import { UnavailableDevotionalBanner } from "@/components/UnavailableDevotionalBanner";
+import { PortugueseUnavailableDevotionalView } from "@/components/PortugueseUnavailableDevotionalView";
 import { getDevotionalEntry } from "@/lib/content/devotionals";
+import { getPortugueseDevotional } from "@/lib/content/portuguese/resolver";
 import { useLanguage } from "@/lib/i18n";
 import {
   getJournals,
@@ -39,7 +40,7 @@ export default function DevotionalDayPage({
   const resolvedParams = use(params);
   const router = useRouter();
   const dayNumber = parseInt(resolvedParams.day, 10) || 1;
-  const { t, getTheme, language } = useLanguage();
+  const { t, getTheme, language, setLanguage } = useLanguage();
 
   // Use authoritative resolver (never silently falls back to Day 1)
   const entry = getDevotionalEntry(dayNumber);
@@ -118,48 +119,41 @@ export default function DevotionalDayPage({
   const handleShare = () => {
     if (navigator.clipboard) {
       navigator.clipboard.writeText(
-        `"${entry.scripture_primary_text}" — ${entry.scripture_primary_reference} (365 Days With Jesus, Day ${entry.day_number})`
+        `"${entry.scripture_primary_text}" — ${entry.scripture_primary_reference} (${entry.scripture_translation})\n\nRead more on 365 Days With Jesus: https://365dayswithjesus.com/devotional/${entry.day_number}`
       );
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      setTimeout(() => setCopied(false), 2500);
     }
   };
 
-  // Reader typography scaling across all devotional sections
-  const typography = {
-    normal: {
-      scripture: "text-xl sm:text-2xl leading-relaxed",
-      body: "text-base sm:text-lg leading-relaxed",
-      prayer: "text-base sm:text-lg leading-relaxed",
-      question: "text-xs sm:text-sm leading-relaxed",
-      intention: "text-lg",
-      action: "text-sm leading-relaxed",
-      evening: "text-xs sm:text-sm leading-relaxed",
-    },
-    large: {
-      scripture: "text-2xl sm:text-3xl leading-relaxed",
-      body: "text-lg sm:text-xl leading-relaxed",
-      prayer: "text-lg sm:text-xl leading-relaxed",
-      question: "text-sm sm:text-base leading-relaxed",
-      intention: "text-xl",
-      action: "text-base leading-relaxed",
-      evening: "text-sm sm:text-base leading-relaxed",
-    },
-    xlarge: {
-      scripture: "text-3xl sm:text-4xl leading-relaxed",
-      body: "text-xl sm:text-2xl leading-loose",
-      prayer: "text-xl sm:text-2xl leading-loose",
-      question: "text-base sm:text-lg leading-relaxed",
-      intention: "text-2xl",
-      action: "text-lg leading-relaxed",
-      evening: "text-base sm:text-lg leading-relaxed",
-    },
-  }[fontSize];
+  // Check Portuguese content availability
+  if (language === "pt-BR") {
+    const ptResult = getPortugueseDevotional(entry.day_number);
+    if (!ptResult.available || !ptResult.entry) {
+      return (
+        <PortugueseUnavailableDevotionalView
+          dayNumber={entry.day_number}
+          monthNumber={entry.month_number}
+          monthThemeTitle={theme.theme_title}
+          onSwitchToEnglish={() => setLanguage("en")}
+        />
+      );
+    }
+  }
+
+  const prevDay = entry.day_number > 1 ? entry.day_number - 1 : 365;
+  const nextDay = entry.day_number < 365 ? entry.day_number + 1 : 1;
+
+  const getFontSizeClass = () => {
+    if (fontSize === "large") return "text-lg leading-relaxed";
+    if (fontSize === "xlarge") return "text-xl leading-loose";
+    return "text-base leading-relaxed";
+  };
 
   return (
-    <article data-font-size={fontSize} className="max-w-4xl mx-auto space-y-8 animate-fade-in pb-12">
-      {/* Top Breadcrumb & Controls Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-sanctuary-taupe border-b border-sanctuary-taupeLight/50 pb-4">
+    <div className="space-y-8 animate-fade-in max-w-4xl mx-auto">
+      {/* Top Breadcrumb & Quick Controls */}
+      <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-sanctuary-taupe border-b border-sanctuary-taupeLight/40 pb-4">
         <div className="flex items-center gap-2">
           <Link
             href="/"
@@ -182,10 +176,10 @@ export default function DevotionalDayPage({
             <button
               type="button"
               onClick={() => handleSetFontSize("normal")}
-              aria-label="Normal text size"
+              aria-label="Standard text size"
               aria-pressed={fontSize === "normal"}
-              title="Normal text size (A)"
-              className={`px-2 py-0.5 rounded-full text-xs font-bold transition-all ${
+              title="Standard text size (A)"
+              className={`px-2 py-0.5 rounded-full text-xs font-semibold transition-all ${
                 fontSize === "normal"
                   ? "bg-sanctuary-rose text-white shadow-sm"
                   : "text-sanctuary-cocoa hover:text-sanctuary-rose"
@@ -233,9 +227,6 @@ export default function DevotionalDayPage({
         </div>
       </div>
 
-      {/* Unavailable Devotional Banner (when user is browsing in Portuguese) */}
-      <UnavailableDevotionalBanner />
-
       {/* Devotional Header */}
       <header className="text-center space-y-3 pt-2">
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold">
@@ -277,230 +268,218 @@ export default function DevotionalDayPage({
             onClick={handleToggleFavorite}
             className={`p-2 rounded-full border transition-all ${
               isFavorite
-                ? "bg-sanctuary-blush border-sanctuary-rose text-sanctuary-rose"
-                : "bg-white border-sanctuary-taupeLight text-sanctuary-taupe hover:text-sanctuary-rose"
+                ? "bg-sanctuary-rose text-white border-sanctuary-rose shadow-sm"
+                : "bg-white text-sanctuary-taupe border-sanctuary-taupeLight hover:text-sanctuary-rose"
             }`}
             title="Save scripture to favorites"
           >
-            <Bookmark className="w-4 h-4 fill-current" />
+            <Heart className={`w-4 h-4 ${isFavorite ? "fill-current" : ""}`} />
           </button>
 
           <button
             onClick={handleShare}
-            className="p-2 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-taupe hover:text-sanctuary-cocoa transition-all"
+            className="p-2 rounded-full bg-white text-sanctuary-taupe border border-sanctuary-taupeLight hover:text-sanctuary-cocoa transition-all"
             title="Copy scripture citation"
           >
             <Share2 className="w-4 h-4" />
           </button>
+
           {copied && (
-            <span className="text-xs text-sanctuary-rose font-medium animate-pulse">
-              Copied to clipboard!
+            <span className="text-xs text-sanctuary-sage font-medium animate-fade-in">
+              {t("common.copied")}
             </span>
           )}
         </div>
       </header>
 
-      {/* 1. Scripture Spotlight Box */}
-      <section className="bg-white border-2 border-sanctuary-blush rounded-3xl p-6 sm:p-8 shadow-sm relative overflow-hidden">
-        <div className="flex items-center justify-between pb-4 border-b border-sanctuary-taupeLight/40 mb-4">
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-rose">
-            <Bookmark className="w-4 h-4" />
-            <span>{t("devotional.todayScriptureTitle")}</span>
-          </div>
-          <span className="text-[11px] text-sanctuary-taupe font-medium">
-            {entry.scripture_translation}
+      {/* 1. Scripture Focus Card */}
+      <section className="bg-white border-2 border-sanctuary-blush rounded-3xl p-6 sm:p-10 shadow-sm relative overflow-hidden">
+        <div className="flex items-center justify-between pb-3 border-b border-sanctuary-taupeLight/30 mb-6">
+          <span className="text-xs uppercase font-sans tracking-widest text-sanctuary-taupe font-semibold flex items-center gap-1.5">
+            <Bookmark className="w-3.5 h-3.5 text-sanctuary-rose" />
+            {t("devotional.todayScriptureTitle")}
+          </span>
+          <span className="text-xs text-sanctuary-rose font-semibold tracking-wide">
+            {entry.scripture_primary_reference}
           </span>
         </div>
 
-        <blockquote className={`dev-scripture-text font-serif text-sanctuary-cocoa italic text-center sm:text-left px-2 sm:px-4 transition-all ${typography.scripture}`}>
+        <blockquote className="font-serif text-xl sm:text-2xl md:text-3xl text-sanctuary-cocoa italic leading-relaxed text-center max-w-2xl mx-auto my-4">
           &ldquo;{entry.scripture_primary_text}&rdquo;
         </blockquote>
 
-        <div className="mt-4 text-right pr-4">
-          <span className="font-serif text-base sm:text-lg font-bold text-sanctuary-rose">
-            — {entry.scripture_primary_reference}
+        <div className="text-center pt-4">
+          <span className="text-[11px] font-sans text-sanctuary-taupe">
+            {entry.scripture_translation}
           </span>
         </div>
       </section>
 
-      {/* 2. Pastoral Reflection Body */}
+      {/* 2. Morning Reflection Essay */}
       <section className="bg-sanctuary-ivoryLight border border-sanctuary-taupeLight/60 rounded-3xl p-6 sm:p-10 shadow-sm space-y-4">
-        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-taupe mb-2">
+        <div className="flex items-center gap-2 pb-3 border-b border-sanctuary-taupeLight/30">
           <Sun className="w-4 h-4 text-sanctuary-rose" />
-          <span>{t("devotional.morningReflectionTitle")}</span>
+          <h2 className="font-serif text-xl sm:text-2xl font-bold text-sanctuary-cocoa">
+            {t("devotional.morningReflectionTitle")}
+          </h2>
         </div>
 
-        <div className={`dev-reflection-body font-serif text-sanctuary-cocoa transition-all ${typography.body}`}>
-          <p className="first-letter:text-4xl first-letter:font-bold first-letter:text-sanctuary-rose first-letter:mr-1 first-letter:float-left">
+        <div className={`font-serif text-sanctuary-cocoa leading-relaxed space-y-4 pt-2 ${getFontSizeClass()}`}>
+          <p className="whitespace-pre-line first-letter:text-5xl first-letter:font-bold first-letter:font-serif first-letter:float-left first-letter:mr-3 first-letter:text-sanctuary-rose first-letter:leading-none">
             {entry.reflection_body}
           </p>
         </div>
       </section>
 
-      {/* 3. Reflection Questions & Inline Journaling */}
-      <section className="bg-white border border-sanctuary-taupeLight/60 rounded-3xl p-6 sm:p-8 shadow-sm space-y-5">
-        <div className="flex items-center justify-between border-b border-sanctuary-taupeLight/40 pb-3">
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-rose">
-            <PenTool className="w-4 h-4" />
-            <span>{t("devotional.reflectionQuestionsTitle")}</span>
-          </div>
-          <span className="text-xs text-sanctuary-taupe">{t("common.dayCount", { day: entry.day_number })}</span>
+      {/* 3. Heart Reflection Prompts & Interactive Response Box */}
+      <section className="bg-white border border-sanctuary-taupeLight/60 rounded-3xl p-6 sm:p-10 shadow-sm space-y-6">
+        <div className="flex items-center gap-2 pb-3 border-b border-sanctuary-taupeLight/30">
+          <PenTool className="w-4 h-4 text-sanctuary-rose" />
+          <h2 className="font-serif text-xl sm:text-2xl font-bold text-sanctuary-cocoa">
+            {t("devotional.reflectionQuestionsTitle")}
+          </h2>
         </div>
 
         <p className="text-xs sm:text-sm text-sanctuary-cocoaLight">
           {t("devotional.reflectionQuestionsSubtitle")}
         </p>
 
-        <ul className="space-y-3">
+        <div className="space-y-4">
           {entry.reflection_questions.map((q, idx) => (
-            <li
+            <div
               key={idx}
-              className={`dev-question-item flex items-start gap-3 p-3.5 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/40 text-sanctuary-cocoa transition-all ${typography.question}`}
+              className="p-4 bg-sanctuary-ivory rounded-2xl border border-sanctuary-taupeLight/50 flex items-start gap-3"
             >
-              <span className="w-5 h-5 rounded-full bg-sanctuary-blush text-sanctuary-cocoa font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">
+              <span className="w-6 h-6 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                 {idx + 1}
               </span>
-              <span className="font-medium leading-relaxed">{q}</span>
-            </li>
+              <p className="font-serif text-sm sm:text-base text-sanctuary-cocoa font-medium leading-snug">
+                {q}
+              </p>
+            </div>
           ))}
-        </ul>
+        </div>
 
-        {/* Private In-Page Journal Entry */}
-        <form onSubmit={handleSaveReflection} className="mt-4 pt-2 space-y-3">
-          <label className="block text-xs font-semibold text-sanctuary-cocoa">
-            {t("devotional.journalBoxLabel")}
-          </label>
+        {/* Private Personal Reflection Journal Box */}
+        <form onSubmit={handleSaveReflection} className="pt-4 space-y-3">
+          <div className="flex items-center justify-between">
+            <label className="text-xs font-semibold text-sanctuary-cocoa">
+              {t("common.dayCount", { day: entry.day_number })} {t("nav.journal")}
+            </label>
+            <span className="text-[11px] text-sanctuary-taupe">Saved privately on this device</span>
+          </div>
+
           <textarea
             rows={4}
             value={reflectionAnswer}
             onChange={(e) => setReflectionAnswer(e.target.value)}
-            placeholder={t("devotional.journalBoxPlaceholder")}
-            className="w-full text-sm p-4 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/70 focus:outline-none focus:border-sanctuary-rose leading-relaxed"
+            placeholder={t("devotional.journalPromptHelp")}
+            className="w-full text-sm p-4 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight focus:outline-none focus:border-sanctuary-rose leading-relaxed font-serif"
           />
-          <div className="flex items-center justify-between">
-            <span className="text-[11px] text-sanctuary-taupe">
-              {t("devotional.journalSavedNotice")}
+
+          <div className="flex items-center justify-between pt-1">
+            <span className="text-xs text-sanctuary-sage font-medium">
+              {reflectionSaved && t("devotional.savedToJournal")}
             </span>
             <button
               type="submit"
-              className="px-5 py-2 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold hover:bg-sanctuary-rose hover:text-white transition-colors cursor-pointer"
+              className="px-5 py-2 rounded-full bg-sanctuary-rose text-white text-xs font-semibold hover:bg-sanctuary-roseDark transition-colors shadow-sm"
             >
-              {reflectionSaved ? "✓ " + t("common.saved") : t("devotional.saveJournalEntry")}
+              {t("devotional.saveToJournal")}
             </button>
           </div>
         </form>
       </section>
 
       {/* 4. Guided Prayer Card */}
-      <section className="bg-sanctuary-ivory border-2 border-sanctuary-rose/30 rounded-3xl p-6 sm:p-8 shadow-sm space-y-3 relative overflow-hidden">
-        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-rose">
-          <Heart className="w-4 h-4 fill-current" />
-          <span>{t("devotional.guidedPrayerTitle")}</span>
+      <section className="bg-sanctuary-blushLight border border-sanctuary-rose/30 rounded-3xl p-6 sm:p-10 shadow-sm space-y-4 text-center">
+        <div className="flex items-center justify-center gap-2 pb-2">
+          <Heart className="w-4 h-4 text-sanctuary-rose fill-current" />
+          <h2 className="font-serif text-xl sm:text-2xl font-bold text-sanctuary-cocoa">
+            {t("devotional.guidedPrayerTitle")}
+          </h2>
         </div>
 
-        <p className={`dev-prayer-body font-serif text-sanctuary-cocoa italic transition-all ${typography.prayer}`}>
+        <p className="font-serif text-base sm:text-lg text-sanctuary-cocoa italic leading-relaxed max-w-2xl mx-auto">
           &ldquo;{entry.guided_prayer}&rdquo;
         </p>
 
-        <div className="pt-2 flex items-center justify-between">
-          <Link
-            href="/prayer"
-            className="text-xs font-medium text-sanctuary-rose hover:underline inline-flex items-center gap-1"
-          >
+        <div className="pt-2 text-xs text-sanctuary-taupe">
+          <Link href="/prayer" className="hover:text-sanctuary-rose font-medium">
             {t("devotional.addToPrayerWall")}
           </Link>
-          <span className="text-xs font-serif italic text-sanctuary-taupe">{t("common.amen")}</span>
         </div>
       </section>
 
-      {/* 5. Daily Intention & Practical Faith Action */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Intention */}
-        <div className="bg-white border border-sanctuary-taupeLight/60 rounded-3xl p-6 shadow-sm flex flex-col justify-between">
-          <div>
-            <span className="text-xs uppercase tracking-wider font-semibold text-sanctuary-rose flex items-center gap-1.5 mb-2">
-              <Sun className="w-4 h-4" />
+      {/* 5. Walking With Purpose Card */}
+      <section className="bg-white border border-sanctuary-taupeLight/60 rounded-3xl p-6 sm:p-8 shadow-sm">
+        <h2 className="font-serif text-xl font-bold text-sanctuary-cocoa mb-4 pb-2 border-b border-sanctuary-taupeLight/30">
+          Walking with Purpose
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="p-4 bg-sanctuary-ivory rounded-2xl border border-sanctuary-taupeLight/40">
+            <span className="text-xs uppercase font-sans tracking-widest text-sanctuary-rose font-bold block mb-1">
               {t("devotional.dailyIntentionTitle")}
             </span>
-            <p className={`dev-intention-text font-serif text-sanctuary-cocoa font-medium italic transition-all ${typography.intention}`}>
+            <p className="font-serif text-sm sm:text-base text-sanctuary-cocoa italic leading-relaxed">
               &ldquo;{entry.daily_intention}&rdquo;
             </p>
-          </div>
-          <p className="text-[11px] text-sanctuary-taupe mt-4">
-            {t("devotional.dailyIntentionHint")}
-          </p>
-        </div>
-
-        {/* Practical Action */}
-        <div className="bg-white border border-sanctuary-taupeLight/60 rounded-3xl p-6 shadow-sm flex flex-col justify-between">
-          <div>
-            <span className="text-xs uppercase tracking-wider font-semibold text-sanctuary-sage flex items-center gap-1.5 mb-2">
-              <Sparkles className="w-4 h-4" />
-              {t("devotional.practicalActionTitle")}
-            </span>
-            <p className={`dev-action-text text-sanctuary-cocoa font-medium transition-all ${typography.action}`}>
-              {entry.practical_action}
+            <p className="text-[11px] text-sanctuary-taupe mt-2">
+              {t("devotional.dailyIntentionHint")}
             </p>
           </div>
-          <p className="text-[11px] text-sanctuary-taupe mt-4">
-            {t("devotional.practicalActionHint")}
-          </p>
-        </div>
-      </div>
 
-      {/* 6. Evening Reflection Prompt */}
-      <section className="bg-sanctuary-ivoryLight border border-sanctuary-taupeLight/60 rounded-3xl p-6 shadow-sm flex items-start gap-4">
-        <Moon className="w-5 h-5 text-sanctuary-taupe shrink-0 mt-1" />
-        <div>
-          <span className="text-xs font-semibold uppercase tracking-wider text-sanctuary-taupe block mb-1">
-            {t("devotional.eveningReflectionTitle")}
-          </span>
-          <p className={`dev-evening-text text-sanctuary-cocoa italic transition-all ${typography.evening}`}>
-            &ldquo;{entry.evening_reflection_prompt}&rdquo;
-          </p>
+          <div className="p-4 bg-sanctuary-sageLight/50 rounded-2xl border border-sanctuary-sage/40">
+            <span className="text-xs uppercase font-sans tracking-widest text-sanctuary-sage font-bold block mb-1">
+              {t("devotional.practicalActionTitle")}
+            </span>
+            <p className="text-xs sm:text-sm text-sanctuary-cocoa leading-relaxed">
+              {entry.practical_action}
+            </p>
+            <p className="text-[11px] text-sanctuary-taupe mt-2">
+              {t("devotional.practicalActionHint")}
+            </p>
+          </div>
         </div>
       </section>
 
-      <BotanicalDivider />
+      {/* 6. Bedside Evening Examen */}
+      <section className="p-6 bg-sanctuary-ivory rounded-3xl border border-dashed border-sanctuary-taupeLight/80 text-center space-y-2">
+        <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-sanctuary-taupe uppercase tracking-wider">
+          <Moon className="w-3.5 h-3.5 text-sanctuary-rose" />
+          <span>{t("devotional.eveningReflectionTitle")}</span>
+        </div>
+        <p className="font-serif text-sm sm:text-base text-sanctuary-cocoa italic max-w-xl mx-auto">
+          &ldquo;{entry.evening_reflection_prompt}&rdquo;
+        </p>
+      </section>
 
-      {/* Bottom Navigation: Previous Day & Next Day */}
-      <nav className="flex items-center justify-between pt-4">
-        {entry.day_number > 1 ? (
-          <Link
-            href={`/devotional/${entry.day_number - 1}`}
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white border border-sanctuary-taupeLight text-xs font-semibold text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            <span>Previous: Day {entry.day_number - 1}</span>
-          </Link>
-        ) : (
-          <div />
-        )}
+      {/* Day Navigation Controls Footer */}
+      <footer className="pt-6 border-t border-sanctuary-taupeLight/40 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+        <Link
+          href={`/devotional/${prevDay}`}
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
+        >
+          <ArrowLeft className="w-3.5 h-3.5" />
+          <span>Previous: Day {prevDay}</span>
+        </Link>
 
         <button
           onClick={handleToggleComplete}
-          className={`inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-semibold shadow-sm transition-all ${
-            completed
-              ? "bg-sanctuary-sage text-white"
-              : "bg-sanctuary-rose text-white hover:bg-sanctuary-roseDark"
-          }`}
+          className="px-6 py-2.5 rounded-full bg-sanctuary-rose text-white font-semibold hover:bg-sanctuary-roseDark transition-colors shadow-sm"
         >
-          <CheckCircle2 className="w-4 h-4" />
-          <span>{completed ? "Quiet Time Completed ✓" : "Complete Today's Devotional"}</span>
+          {completed ? "Quiet Time Completed ✓" : "Complete Today's Devotional"}
         </button>
 
-        {entry.day_number < 365 ? (
-          <Link
-            href={`/devotional/${entry.day_number + 1}`}
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white border border-sanctuary-taupeLight text-xs font-semibold text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
-          >
-            <span>Next: Day {entry.day_number + 1}</span>
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        ) : (
-          <div />
-        )}
-      </nav>
-    </article>
+        <Link
+          href={`/devotional/${nextDay}`}
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
+        >
+          <span>Next: Day {nextDay}</span>
+          <ArrowRight className="w-3.5 h-3.5" />
+        </Link>
+      </footer>
+    </div>
   );
 }
