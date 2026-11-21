@@ -113,14 +113,6 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
   // Safety check (for English, entry is always defined)
   if (!entry) return null;
 
-  const handleSetFontSize = (size: "normal" | "large" | "xlarge") => {
-    setFontSizeState(size);
-    try {
-      localStorage.setItem("sanctuary_font_size", size);
-      window.dispatchEvent(new Event("sanctuary_font_size_changed"));
-    } catch {}
-  };
-
   const handleToggleComplete = () => {
     const updated = toggleDayCompleted(entry.day_number);
     setCompleted(updated.completed_days.includes(entry.day_number));
@@ -195,77 +187,25 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
           </span>
         </div>
 
-        {/* Previous / Next Day Navigation & Text Sizing */}
-        <div className="flex flex-wrap items-center gap-3">
-          {/* Compact Text Size Selector (A / A+ / A++) */}
-          <div
-            className="inline-flex items-center bg-white border border-sanctuary-taupeLight/80 rounded-full px-2 py-0.5 shadow-xs"
-            role="group"
-            aria-label={isPt ? "Tamanho do texto" : "Text size options"}
+        {/* Previous / Next Day Navigation */}
+        <div className="flex items-center gap-1.5">
+          <Link
+            href={`${basePrefix}/devotional/${prevDay}`}
+            className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
+            title={isPt ? "Dia Anterior" : "Previous Day"}
           >
-            <span className="text-[11px] mr-1 text-sanctuary-taupe select-none font-medium">
-              {isPt ? "Texto:" : "Text:"}
-            </span>
-            <button
-              type="button"
-              onClick={() => handleSetFontSize("normal")}
-              className={`px-2 py-0.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
-                fontSize === "normal"
-                  ? "bg-sanctuary-rose text-white shadow-xs"
-                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
-              }`}
-              title={isPt ? "Tamanho normal (A)" : "Normal text size (A)"}
-              aria-pressed={fontSize === "normal"}
-            >
-              A
-            </button>
-            <button
-              type="button"
-              onClick={() => handleSetFontSize("large")}
-              className={`px-2 py-0.5 rounded-full text-sm font-bold transition-all cursor-pointer ${
-                fontSize === "large"
-                  ? "bg-sanctuary-rose text-white shadow-xs"
-                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
-              }`}
-              title={isPt ? "Tamanho grande (A+)" : "Large text size (A+)"}
-              aria-pressed={fontSize === "large"}
-            >
-              A+
-            </button>
-            <button
-              type="button"
-              onClick={() => handleSetFontSize("xlarge")}
-              className={`px-2 py-0.5 rounded-full text-base font-bold transition-all cursor-pointer ${
-                fontSize === "xlarge"
-                  ? "bg-sanctuary-rose text-white shadow-xs"
-                  : "text-sanctuary-cocoa hover:text-sanctuary-rose"
-              }`}
-              title={isPt ? "Tamanho extra grande (A++)" : "Extra large text size (A++)"}
-              aria-pressed={fontSize === "xlarge"}
-            >
-              A++
-            </button>
-          </div>
-
-          <div className="flex items-center gap-1.5">
-            <Link
-              href={`${basePrefix}/devotional/${prevDay}`}
-              className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
-              title={isPt ? "Dia Anterior" : "Previous Day"}
-            >
-              <ArrowLeft className="w-3.5 h-3.5" />
-            </Link>
-            <span className="font-semibold text-sanctuary-cocoa text-xs">
-              {t("common.dayCount", { day: entry.day_number })}
-            </span>
-            <Link
-              href={`${basePrefix}/devotional/${nextDay}`}
-              className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
-              title={isPt ? "Próximo Dia" : "Next Day"}
-            >
-              <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
-          </div>
+            <ArrowLeft className="w-3.5 h-3.5" />
+          </Link>
+          <span className="font-semibold text-sanctuary-cocoa text-xs">
+            {t("common.dayCount", { day: entry.day_number })}
+          </span>
+          <Link
+            href={`${basePrefix}/devotional/${nextDay}`}
+            className="p-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
+            title={isPt ? "Próximo Dia" : "Next Day"}
+          >
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
         </div>
       </div>
 

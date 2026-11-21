@@ -80,14 +80,12 @@ export default function WelcomeOnboardingPage() {
                 nativeName: "English",
                 subtitle: "Original Approved Edition (World English Bible)",
                 sample: "“Come to me, all you who labor and are heavily burdened, and I will give you rest.” (Matthew 11:28)",
-                flag: "🇬🇧",
               },
               {
                 code: "pt-BR" as SupportedLanguage,
                 nativeName: "Português (Brasil)",
                 subtitle: "Edição em Português Brasileiro",
                 sample: "“Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso.” (Mateus 11:28)",
-                flag: "🇧🇷",
               },
             ].map((langOpt) => {
               const active = language === langOpt.code;
@@ -102,9 +100,6 @@ export default function WelcomeOnboardingPage() {
                       : "border-sanctuary-taupeLight/60 bg-white hover:bg-sanctuary-ivory"
                   }`}
                 >
-                  <span className="text-2xl mt-0.5" role="img" aria-hidden="true">
-                    {langOpt.flag}
-                  </span>
                   <div className="flex-1">
                     <span className="font-serif text-lg font-bold text-sanctuary-cocoa block">
                       {langOpt.nativeName}

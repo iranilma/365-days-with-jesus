@@ -70,8 +70,8 @@ export default function EditionSelectionPage() {
 
             <div className="space-y-6 relative z-10">
               <div className="flex items-center justify-between">
-                <span className="text-3xl" role="img" aria-label="United Kingdom flag">
-                  🇬🇧
+                <span className="font-serif font-bold text-xs uppercase tracking-wider text-sanctuary-taupe">
+                  English Edition
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-[11px] font-semibold">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
@@ -146,8 +146,8 @@ export default function EditionSelectionPage() {
 
             <div className="space-y-6 relative z-10">
               <div className="flex items-center justify-between">
-                <span className="text-3xl" role="img" aria-label="Bandeira do Brasil">
-                  🇧🇷
+                <span className="font-serif font-bold text-xs uppercase tracking-wider text-sanctuary-taupe">
+                  Edição em Português
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-[11px] font-semibold">
                   <Sparkles className="w-3.5 h-3.5 text-amber-600" />

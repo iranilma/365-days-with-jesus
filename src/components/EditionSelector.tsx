@@ -16,17 +16,15 @@ export function EditionSelector({
   const { edition, activeEdition, setEdition } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
 
-  const options: { id: ProductEdition; flag: string; name: string; subtitle: string; badge: string }[] = [
+  const options: { id: ProductEdition; name: string; subtitle: string; badge: string }[] = [
     {
       id: "en",
-      flag: EDITIONS.en.flag,
       name: EDITIONS.en.name,
       subtitle: "English Edition • Complete 365 Days",
       badge: "Full Year",
     },
     {
       id: "pt-BR",
-      flag: EDITIONS["pt-BR"].flag,
       name: EDITIONS["pt-BR"].name,
       subtitle: "Edição Brasileira • Janeiro Completo (Dias 1–31)",
       badge: "Janeiro Ativo",
@@ -43,9 +41,6 @@ export function EditionSelector({
         aria-haspopup="true"
         title={activeEdition === "pt-BR" ? "Mudar Edição do Produto" : "Change Product Edition"}
       >
-        <span className="text-sm" role="img" aria-hidden="true">
-          {edition.flag}
-        </span>
         <span className="font-serif font-bold text-xs tracking-wide hidden sm:inline text-sanctuary-cocoa">
           {edition.name}
         </span>
@@ -88,9 +83,6 @@ export function EditionSelector({
                     }`}
                   >
                     <div className="flex items-start gap-2.5">
-                      <span className="text-xl mt-0.5" role="img" aria-hidden="true">
-                        {opt.flag}
-                      </span>
                       <div>
                         <div className="font-serif font-bold text-sm text-sanctuary-cocoa flex items-center gap-1.5">
                           <span>{opt.name}</span>

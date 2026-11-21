@@ -43,6 +43,10 @@ const testSuites = [
     name: "Suite 7: Two-Edition Architecture Certification",
     script: "scripts/test_two_editions_architecture.mjs",
   },
+  {
+    name: "Suite 8: UI Corrections, Flags Removal & Text-Size Controls",
+    script: "scripts/test_ui_corrections_and_flags.mjs",
+  },
 ];
 
 let totalPassed = 0;

@@ -9,9 +9,9 @@ export function LanguageSelector({ className = "" }: { className?: string }) {
   const { language, setLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
 
-  const options: { code: SupportedLanguage; label: string; flag: string }[] = [
-    { code: "en", label: "English", flag: "🇬🇧" },
-    { code: "pt-BR", label: "Português (Brasil)", flag: "🇧🇷" },
+  const options: { code: SupportedLanguage; label: string }[] = [
+    { code: "en", label: "English" },
+    { code: "pt-BR", label: "Português (Brasil)" },
   ];
 
   return (
@@ -24,9 +24,6 @@ export function LanguageSelector({ className = "" }: { className?: string }) {
         aria-haspopup="true"
         title={language === "pt-BR" ? "Escolher idioma / Edição" : "Choose Language / Edition"}
       >
-        <span className="text-xs" role="img" aria-hidden="true">
-          {language === "pt-BR" ? "🇧🇷" : "🇬🇧"}
-        </span>
         <span className="font-semibold uppercase text-[11px] tracking-wider">
           {language === "pt-BR" ? "PT" : "EN"}
         </span>
@@ -56,10 +53,7 @@ export function LanguageSelector({ className = "" }: { className?: string }) {
                     : "text-sanctuary-cocoa hover:bg-sanctuary-blushLight"
                 }`}
               >
-                <span className="flex items-center gap-2">
-                  <span className="text-base">{opt.flag}</span>
-                  <span>{opt.label}</span>
-                </span>
+                <span>{opt.label}</span>
                 {language === opt.code && (
                   <Check className="w-3.5 h-3.5 text-sanctuary-rose" />
                 )}

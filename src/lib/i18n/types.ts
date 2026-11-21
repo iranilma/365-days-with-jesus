@@ -6,7 +6,6 @@ export interface EditionInfo {
   name: string;
   shortName: string;
   locale: "en" | "pt-BR";
-  flag: string;
   tagline: string;
   editionBadge: string;
   totalDays: number;
@@ -20,7 +19,6 @@ export const EDITIONS: Record<ProductEdition, EditionInfo> = {
     name: "365 Days With Jesus",
     shortName: "English Edition",
     locale: "en",
-    flag: "🇬🇧",
     tagline: "A Year-Long Journey of Grace, Reflection & Divine Fellowship",
     editionBadge: "Complete 365 Days",
     totalDays: 365,
@@ -32,7 +30,6 @@ export const EDITIONS: Record<ProductEdition, EditionInfo> = {
     name: "365 Dias com Jesus",
     shortName: "Edição em Português",
     locale: "pt-BR",
-    flag: "🇧🇷",
     tagline: "Uma Jornada de Fé, Graça e Comunhão Diária com Cristo",
     editionBadge: "Janeiro (Dias 1–31)",
     totalDays: 365,
