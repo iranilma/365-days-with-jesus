@@ -67,6 +67,27 @@ const requiredRoutes = [
   "src/app/printables/[day]/page.tsx",
   "src/app/sales/page.tsx",
   "src/app/sanctuary/page.tsx",
+  // English Dedicated Edition Routes
+  "src/app/en/layout.tsx",
+  "src/app/en/page.tsx",
+  "src/app/en/app/page.tsx",
+  "src/app/en/calendar/page.tsx",
+  "src/app/en/devotional/[day]/page.tsx",
+  "src/app/en/gratitude/page.tsx",
+  "src/app/en/journal/page.tsx",
+  "src/app/en/prayer/page.tsx",
+  "src/app/en/printables/[day]/page.tsx",
+  "src/app/en/sales/page.tsx",
+  // Portuguese Dedicated Edition Routes
+  "src/app/pt-br/layout.tsx",
+  "src/app/pt-br/page.tsx",
+  "src/app/pt-br/app/page.tsx",
+  "src/app/pt-br/calendar/page.tsx",
+  "src/app/pt-br/devotional/[day]/page.tsx",
+  "src/app/pt-br/gratitude/page.tsx",
+  "src/app/pt-br/journal/page.tsx",
+  "src/app/pt-br/prayer/page.tsx",
+  "src/app/pt-br/printables/[day]/page.tsx",
 ];
 
 for (const route of requiredRoutes) {

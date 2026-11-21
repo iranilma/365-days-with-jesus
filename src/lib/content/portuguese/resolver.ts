@@ -18,7 +18,9 @@ export function getPortugueseDevotional(dayNumber: number): PortugueseAvailabili
       badge: "Edição em Preparação",
       headline: "Edição em Português em Preparação",
       message:
-        "Este devocional ainda está sendo preparado em português. Enquanto isso, você pode continuar sua jornada na edição em inglês.",
+        "Este devocional ainda está sendo preparado em português com reverência e fidelidade bíblica.",
+      action_return_dashboard: "Voltar ao Início",
+      action_choose_edition: "Escolher Edição",
       action_return_english: "Voltar para o inglês",
     },
   };

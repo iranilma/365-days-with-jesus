@@ -99,12 +99,20 @@ export function PortugueseUnavailableDevotionalView({
         </div>
 
         {/* Primary Action Buttons */}
-        <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
+        <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-xl mx-auto">
+          <Link
+            href={`${basePrefix}/app`}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-sanctuary-rose text-white text-sm font-semibold shadow-md hover:bg-sanctuary-roseDark transition-all"
+          >
+            <Home className="w-4 h-4" />
+            <span>Voltar ao Santuário</span>
+          </Link>
+
           <Link
             href={`${basePrefix}/calendar`}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-sanctuary-rose text-white text-sm font-semibold shadow-md hover:bg-sanctuary-roseDark transition-all"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-sanctuary-ivory border border-sanctuary-taupeLight text-sanctuary-cocoa text-sm font-semibold hover:bg-sanctuary-blushLight transition-colors"
           >
-            <Calendar className="w-4 h-4" />
+            <Calendar className="w-4 h-4 text-sanctuary-taupe" />
             <span>Ver Calendário de Janeiro</span>
           </Link>
 
@@ -117,7 +125,7 @@ export function PortugueseUnavailableDevotionalView({
           </Link>
         </div>
 
-        {/* Subtle Link to Editions Portal */}
+        {/* Link to Editions Portal */}
         <div className="pt-2">
           <Link
             href="/"

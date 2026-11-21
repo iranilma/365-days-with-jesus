@@ -12,7 +12,6 @@ import {
   SunMedium,
 } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
-import { EditionSelector } from "@/components/EditionSelector";
 import { useLanguage } from "@/lib/i18n";
 
 export default function PortugueseEditionPortalPage() {
@@ -32,7 +31,12 @@ export default function PortugueseEditionPortalPage() {
           <span>•</span>
           <span className="text-sanctuary-rose font-medium">Português do Brasil (pt-BR)</span>
         </div>
-        <EditionSelector />
+        <Link
+          href="/"
+          className="text-xs text-sanctuary-taupe hover:text-sanctuary-cocoa underline underline-offset-4"
+        >
+          Ver Todas as Edições
+        </Link>
       </div>
 
       {/* Hero Welcome Card */}

@@ -45,16 +45,17 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
   const isPt = activeLang === "pt-BR";
   const basePrefix = isPt ? "/pt-br" : "/en";
 
-  // Portuguese resolution with zero fallback
+  // Portuguese resolution with strict zero-fallback boundary
   const ptResult = isPt ? getPortugueseDevotional(dayNumber) : null;
   const isPtPublished = Boolean(isPt && ptResult?.available && ptResult?.entry && ptResult?.status === "published");
 
-  // English resolution
-  const englishEntry = getDevotionalEntry(dayNumber);
+  // English resolution - strictly queried ONLY when active edition is English
+  const englishEntry = !isPt ? getDevotionalEntry(dayNumber) : null;
 
-  // Active entry
-  const entry = isPt ? ptResult?.entry : englishEntry;
-  const theme = getTheme(entry?.month_number || englishEntry.month_number);
+  // Active entry - strictly isolated by edition
+  const entry = isPt ? (isPtPublished ? ptResult?.entry : null) : englishEntry;
+  const monthNumber = isPt ? (ptResult?.month_number || 1) : (englishEntry?.month_number || 1);
+  const theme = getTheme(monthNumber);
 
   const [fontSize, setFontSizeState] = useState<"normal" | "large" | "xlarge">("normal");
   const [completed, setCompleted] = useState(false);
@@ -91,7 +92,7 @@ export function DevotionalView({ edition, dayNumber }: DevotionalViewProps) {
     return (
       <PortugueseUnavailableDevotionalView
         dayNumber={dayNumber}
-        monthNumber={englishEntry.month_number}
+        monthNumber={monthNumber}
         monthThemeTitle={theme.theme_title}
         basePrefix={basePrefix}
       />

@@ -39,6 +39,10 @@ const testSuites = [
     name: "Suite 6: Unavailable Devotional Fallback & Pastoral Notice",
     script: "scripts/test_i18n_unavailable_devotional.mjs",
   },
+  {
+    name: "Suite 7: Two-Edition Architecture Certification",
+    script: "scripts/test_two_editions_architecture.mjs",
+  },
 ];
 
 let totalPassed = 0;

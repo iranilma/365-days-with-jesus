@@ -36,6 +36,8 @@ export interface PortugueseAvailabilityResult {
     badge: string;
     headline: string;
     message: string;
-    action_return_english: string;
+    action_return_dashboard: string;
+    action_choose_edition: string;
+    action_return_english?: string;
   };
 }

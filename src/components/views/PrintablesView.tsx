@@ -25,11 +25,12 @@ export function PrintablesView({ edition, dayNumber }: PrintablesViewProps) {
   const isPt = activeLang === "pt-BR";
   const basePrefix = isPt ? "/pt-br" : "/en";
 
-  const englishEntry = getDevotionalEntry(dayNumber);
   const ptAvailability = isPt ? getPortugueseDevotional(dayNumber) : null;
   const isPtAvailable = Boolean(ptAvailability?.available && ptAvailability?.entry && ptAvailability?.status === "published");
+  const englishEntry = !isPt ? getDevotionalEntry(dayNumber) : null;
 
-  const theme = getTheme(englishEntry.month_number);
+  const monthNumber = isPt ? (ptAvailability?.month_number || 1) : (englishEntry?.month_number || 1);
+  const theme = getTheme(monthNumber);
   const [format, setFormat] = useState<PrintPageFormat>("US_Letter");
   const [includeBlankLines, setIncludeBlankLines] = useState(true);
 
@@ -60,6 +61,7 @@ export function PrintablesView({ edition, dayNumber }: PrintablesViewProps) {
   }
 
   const entry = isPt && ptAvailability?.entry ? ptAvailability.entry : englishEntry;
+  if (!entry) return null;
 
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
