@@ -3,15 +3,13 @@
 import React, { use, useEffect, useState } from "react";
 import Link from "next/link";
 import {
-  ArrowLeft,
   ChevronLeft,
-  FileText,
   Printer,
-  Sparkles,
 } from "lucide-react";
 import { BotanicalSprig } from "@/components/BotanicalElements";
 import { getDevotionalEntry } from "@/lib/content/devotionals";
 import { MONTHLY_THEMES } from "@/lib/content/themes";
+import { useLanguage } from "@/lib/i18n";
 import { getPrintFormat, setPrintFormat } from "@/lib/storage";
 import { PrintPageFormat } from "@/lib/types";
 
@@ -22,13 +20,12 @@ export default function PrintableDevotionalPage({
 }) {
   const resolvedParams = use(params);
   const dayNumber = parseInt(resolvedParams.day, 10) || 1;
+  const { t, getTheme, language } = useLanguage();
 
   // Use authoritative resolver (never silently falls back to Day 1)
   const entry = getDevotionalEntry(dayNumber);
 
-  const theme =
-    MONTHLY_THEMES.find((m) => m.month_number === entry.month_number) ||
-    MONTHLY_THEMES[0];
+  const theme = getTheme(entry.month_number);
 
   const [format, setFormat] = useState<PrintPageFormat>("US_Letter");
   const [includeBlankLines, setIncludeBlankLines] = useState(true);
@@ -59,14 +56,16 @@ export default function PrintableDevotionalPage({
                 href={`/devotional/${entry.day_number}`}
                 className="hover:text-sanctuary-cocoa flex items-center gap-1 font-medium"
               >
-                <ChevronLeft className="w-3.5 h-3.5" /> Back to Interactive Devotional
+                <ChevronLeft className="w-3.5 h-3.5" /> {language === "pt-BR" ? "Voltar ao Devocional Interativo" : "Back to Interactive Devotional"}
               </Link>
             </div>
             <h1 className="font-serif text-2xl font-bold text-sanctuary-cocoa">
-              Printable Devotional Planner • Day {entry.day_number}
+              {language === "pt-BR" ? `Planejador Devocional para Imprimir • Dia ${entry.day_number}` : `Printable Devotional Planner • Day ${entry.day_number}`}
             </h1>
             <p className="text-xs text-sanctuary-cocoaLight mt-0.5">
-              High-resolution layout calibrated for binders, quiet-time clipboards, and home printing.
+              {language === "pt-BR"
+                ? "Layout de alta resolução calibrado para fichários, pranchetas e impressão doméstica."
+                : "High-resolution layout calibrated for binders, quiet-time clipboards, and home printing."}
             </p>
           </div>
 
@@ -100,7 +99,7 @@ export default function PrintableDevotionalPage({
               className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-sanctuary-cocoa text-white text-xs font-semibold shadow hover:bg-black transition-colors"
             >
               <Printer className="w-4 h-4" />
-              <span>Print Page / Save PDF</span>
+              <span>{language === "pt-BR" ? "Imprimir Página / Salvar PDF" : "Print Page / Save PDF"}</span>
             </button>
           </div>
         </div>
@@ -118,46 +117,47 @@ export default function PrintableDevotionalPage({
             <div className="flex items-center gap-2">
               <BotanicalSprig className="w-6 h-6 text-sanctuary-rose" />
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-widest text-sanctuary-cocoa uppercase">
-                365 DAYS WITH JESUS
+                {language === "pt-BR" ? "365 DIAS COM JESUS" : "365 DAYS WITH JESUS"}
               </span>
             </div>
-            <p className="text-[10px] uppercase tracking-widest text-sanctuary-taupe mt-1">
-              Daily Quiet-Time Planner • Month {entry.month_number}: {theme.theme_title}
+            <p className="text-xs font-sans tracking-wide text-sanctuary-taupe uppercase mt-1">
+              {language === "pt-BR"
+                ? `Planejador Diário de Devoção • Mês ${entry.month_number}: ${theme.theme_title}`
+                : `Daily Quiet-Time Planner • Month ${entry.month_number}: ${theme.theme_title}`}
             </p>
           </div>
 
           <div className="text-right">
-            <span className="font-serif text-2xl font-bold text-sanctuary-rose block leading-tight">
-              DAY {entry.day_number}
+            <span className="font-serif text-2xl sm:text-3xl font-bold text-sanctuary-rose block">
+              {language === "pt-BR" ? `DIA ${entry.day_number}` : `DAY ${entry.day_number}`}
             </span>
-            <span className="text-[10px] text-sanctuary-taupe uppercase tracking-wider">
-              Date: ____________________
+            <span className="text-[11px] text-sanctuary-taupe font-mono">
+              {language === "pt-BR" ? "Data: ____________________" : "Date: ____________________"}
             </span>
           </div>
         </header>
 
-        {/* Day Title & Scripture Box */}
-        <div className="mb-6">
-          <h2 className="font-serif text-xl font-bold text-sanctuary-cocoa">
+        {/* Devotional Title & Scripture Banner */}
+        <div className="mb-6 p-4 rounded-xl bg-sanctuary-ivoryLight border-l-4 border-sanctuary-rose">
+          <h2 className="font-serif text-lg font-bold text-sanctuary-cocoa">
             {entry.title}
           </h2>
-          <div className="mt-2 p-4 bg-sanctuary-ivory border-l-4 border-sanctuary-rose rounded-r-xl">
-            <p className="font-serif text-base text-sanctuary-cocoa italic leading-relaxed">
-              &ldquo;{entry.scripture_primary_text}&rdquo;
-            </p>
-            <div className="mt-2 text-right text-xs font-semibold text-sanctuary-rose">
-              — {entry.scripture_primary_reference} ({entry.scripture_translation})
-            </div>
+          <div className="mt-2 text-xs text-sanctuary-cocoaLight">
+            <strong className="text-sanctuary-cocoa font-semibold">
+              {entry.scripture_primary_reference} ({entry.scripture_translation}):
+            </strong>{" "}
+            <span className="font-serif italic text-sm">&ldquo;{entry.scripture_primary_text}&rdquo;</span>
           </div>
         </div>
 
-        {/* 2-Column Printable Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-sanctuary-cocoa">
-          {/* Left Column: Pastoral Reflection & Heart Questions */}
+        {/* 2-Column Responsive / Print Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 print:grid-cols-2">
+          {/* Left Column: Morning Reflection & Inquiries */}
           <div className="space-y-4">
+            {/* Morning Reflection */}
             <div className="border border-sanctuary-taupeLight/80 rounded-xl p-4">
               <h3 className="font-serif text-sm font-bold text-sanctuary-cocoa uppercase tracking-wide border-b border-sanctuary-taupeLight/40 pb-1 mb-2">
-                Morning Reflection
+                {language === "pt-BR" ? "Reflexão da Manhã" : "Morning Reflection"}
               </h3>
               <p className="font-serif text-xs leading-relaxed text-sanctuary-cocoaLight">
                 {entry.reflection_body}
@@ -167,7 +167,7 @@ export default function PrintableDevotionalPage({
             {/* Heart Reflection Prompts & Ruled Writing Lines */}
             <div className="border border-sanctuary-taupeLight/80 rounded-xl p-4 space-y-2">
               <h3 className="font-serif text-sm font-bold text-sanctuary-cocoa uppercase tracking-wide border-b border-sanctuary-taupeLight/40 pb-1 mb-1">
-                Heart Reflections
+                {language === "pt-BR" ? "Perguntas para Reflexão" : "Heart Reflections"}
               </h3>
               <ul className="space-y-1.5 text-[11px] text-sanctuary-cocoa font-medium mb-3">
                 {entry.reflection_questions.map((q, idx) => (
@@ -193,7 +193,7 @@ export default function PrintableDevotionalPage({
             {/* Guided Prayer */}
             <div className="border border-sanctuary-taupeLight/80 rounded-xl p-4 bg-sanctuary-ivory/50">
               <h3 className="font-serif text-sm font-bold text-sanctuary-rose uppercase tracking-wide border-b border-sanctuary-taupeLight/40 pb-1 mb-2">
-                Guided Prayer
+                {language === "pt-BR" ? "Oração Guiada" : "Guided Prayer"}
               </h3>
               <p className="font-serif text-xs italic leading-relaxed text-sanctuary-cocoa">
                 &ldquo;{entry.guided_prayer}&rdquo;
@@ -203,7 +203,7 @@ export default function PrintableDevotionalPage({
             {/* Today's Gratitude & Blessings (3 Ruled Prompts) */}
             <div className="border border-sanctuary-taupeLight/80 rounded-xl p-4 space-y-2">
               <h3 className="font-serif text-sm font-bold text-sanctuary-sage uppercase tracking-wide border-b border-sanctuary-taupeLight/40 pb-1 mb-2">
-                Three Morning Blessings (Gratitude)
+                {language === "pt-BR" ? "Três Bênçãos da Manhã (Gratidão)" : "Three Morning Blessings (Gratitude)"}
               </h3>
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
@@ -224,15 +224,19 @@ export default function PrintableDevotionalPage({
             {/* Daily Intention & Practical Step */}
             <div className="border border-sanctuary-taupeLight/80 rounded-xl p-4">
               <h3 className="font-serif text-sm font-bold text-sanctuary-cocoa uppercase tracking-wide border-b border-sanctuary-taupeLight/40 pb-1 mb-2">
-                Walking with Purpose
+                {language === "pt-BR" ? "Caminhando com Propósito" : "Walking with Purpose"}
               </h3>
               <div className="text-[11px] space-y-1.5">
                 <p>
-                  <strong className="text-sanctuary-rose font-semibold">Today&apos;s Intention:</strong>{" "}
+                  <strong className="text-sanctuary-rose font-semibold">
+                    {language === "pt-BR" ? "Intenção de Hoje:" : "Today's Intention:"}
+                  </strong>{" "}
                   <span className="italic">&ldquo;{entry.daily_intention}&rdquo;</span>
                 </p>
                 <p>
-                  <strong className="text-sanctuary-sage font-semibold">Practical Action:</strong>{" "}
+                  <strong className="text-sanctuary-sage font-semibold">
+                    {language === "pt-BR" ? "Ação Prática:" : "Practical Action:"}
+                  </strong>{" "}
                   {entry.practical_action}
                 </p>
               </div>
@@ -240,16 +244,16 @@ export default function PrintableDevotionalPage({
 
             {/* Evening Benediction */}
             <div className="border border-dashed border-sanctuary-taupeLight rounded-xl p-3 text-[10px] text-sanctuary-taupe text-center italic">
-              Evening Benediction: &ldquo;{entry.evening_reflection_prompt}&rdquo;
+              {language === "pt-BR" ? "Bênção da Noite:" : "Evening Benediction:"} &ldquo;{entry.evening_reflection_prompt}&rdquo;
             </div>
           </div>
         </div>
 
         {/* Printable Footer */}
         <footer className="mt-8 pt-4 border-t border-sanctuary-taupeLight/70 flex items-center justify-between text-[10px] text-sanctuary-taupe">
-          <span>&copy; 365 Days With Jesus • Format: {format === "US_Letter" ? "US Letter (8.5×11\")" : "A4 (210×297mm)"}</span>
-          <span className="font-serif italic">&ldquo;Start your day with faith. Live with gratitude. Walk with purpose.&rdquo;</span>
-          <span>Day {entry.day_number} of 365</span>
+          <span>&copy; {language === "pt-BR" ? "365 Dias Com Jesus" : "365 Days With Jesus"} • Format: {format === "US_Letter" ? "US Letter (8.5×11\")" : "A4 (210×297mm)"}</span>
+          <span className="font-serif italic">&ldquo;{t("common.tagline")}&rdquo;</span>
+          <span>{language === "pt-BR" ? `Dia ${entry.day_number} de 365` : `Day ${entry.day_number} of 365`}</span>
         </footer>
       </div>
     </div>

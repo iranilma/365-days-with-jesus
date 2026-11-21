@@ -13,18 +13,21 @@ import {
   Sparkles,
 } from "lucide-react";
 import { BotanicalSprig } from "./BotanicalElements";
+import { useLanguage } from "@/lib/i18n";
+import { LanguageSelector } from "./LanguageSelector";
 
 export function Navigation() {
   const pathname = usePathname();
+  const { t } = useLanguage();
 
   const navItems = [
-    { label: "Dashboard", href: "/app", icon: Home },
-    { label: "Devotional", href: "/devotional/1", icon: BookOpen },
-    { label: "Calendar", href: "/calendar", icon: Calendar },
-    { label: "Prayer Wall", href: "/prayer", icon: Heart },
-    { label: "Gratitude", href: "/gratitude", icon: Sparkles },
-    { label: "Journal", href: "/journal", icon: PenTool },
-    { label: "Printables", href: "/printables/1", icon: Printer },
+    { label: t("nav.dashboard"), href: "/app", icon: Home },
+    { label: t("nav.devotional"), href: "/devotional/1", icon: BookOpen },
+    { label: t("nav.calendar"), href: "/calendar", icon: Calendar },
+    { label: t("nav.prayerWall"), href: "/prayer", icon: Heart },
+    { label: t("nav.gratitude"), href: "/gratitude", icon: Sparkles },
+    { label: t("nav.journal"), href: "/journal", icon: PenTool },
+    { label: t("nav.printables"), href: "/printables/1", icon: Printer },
   ];
 
   const isActive = (href: string) => {
@@ -44,7 +47,7 @@ export function Navigation() {
                 365 DAYS WITH JESUS
               </span>
               <span className="hidden md:block text-[11px] font-sans tracking-widest uppercase text-sanctuary-taupe">
-                Start with faith • Live with gratitude • Walk with purpose
+                {t("common.tagline")}
               </span>
             </div>
           </Link>
@@ -71,14 +74,15 @@ export function Navigation() {
             })}
           </nav>
 
-          {/* Right Action: Today's Quiet Time Quick Anchor */}
+          {/* Right Action: Language Selector & Today's Quiet Time Quick Anchor */}
           <div className="flex items-center gap-2">
+            <LanguageSelector />
             <Link
               href="/devotional/1"
               className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-sanctuary-rose text-white text-xs font-semibold shadow-sm hover:bg-sanctuary-roseDark transition-colors"
             >
               <BookOpen className="w-3.5 h-3.5" />
-              <span>Today: Day 1</span>
+              <span>{t("nav.todayAnchor", { day: 1 })}</span>
             </Link>
           </div>
         </div>
@@ -114,7 +118,7 @@ export function Navigation() {
           }`}
         >
           <Printer className="w-5 h-5 stroke-[1.5]" />
-          <span className="text-[10px] mt-0.5 tracking-tight">Print</span>
+          <span className="text-[10px] mt-0.5 tracking-tight">{t("nav.print")}</span>
         </Link>
       </nav>
     </>

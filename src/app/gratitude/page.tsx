@@ -3,10 +3,12 @@
 import React, { useEffect, useState } from "react";
 import { Calendar, Check, Heart, Sparkles } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
+import { useLanguage } from "@/lib/i18n";
 import { getGratitudes, saveGratitude } from "@/lib/storage";
 import { GratitudeEntry } from "@/lib/types";
 
 export default function GratitudePage() {
+  const { t, language } = useLanguage();
   const [gratitudes, setGratitudes] = useState<GratitudeEntry[]>([]);
   const [todayDate, setTodayDate] = useState("");
   const [item1, setItem1] = useState("");
@@ -37,7 +39,7 @@ export default function GratitudePage() {
 
     saveGratitude({
       date: todayDate,
-      item_1: item1.trim() || "The gift of life and breath today",
+      item_1: item1.trim() || (language === "pt-BR" ? "A dádiva da vida e do fôlego nesta manhã" : "The gift of life and breath today"),
       item_2: item2.trim(),
       item_3: item3.trim(),
       evening_moment_of_peace: eveningPeace.trim(),
@@ -54,13 +56,13 @@ export default function GratitudePage() {
       <div className="text-center space-y-2 max-w-2xl mx-auto">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sanctuary-sageLight text-sanctuary-cocoa text-xs font-semibold">
           <Sparkles className="w-3.5 h-3.5 text-sanctuary-sage" />
-          <span>The Altar of Thanksgiving</span>
+          <span>{language === "pt-BR" ? "Altar de Ação de Graças" : "The Altar of Thanksgiving"}</span>
         </div>
         <h1 className="font-serif text-3xl sm:text-4xl font-bold text-sanctuary-cocoa">
-          Daily Gratitude & Evening Peace
+          {t("gratitude.pageTitle")}
         </h1>
         <p className="text-xs sm:text-sm text-sanctuary-cocoaLight leading-relaxed">
-          &ldquo;In everything give thanks, for this is the will of God in Christ Jesus toward you.&rdquo; (1 Thessalonians 5:18)
+          {t("gratitude.pageSubtitle")}
         </p>
       </div>
 
@@ -68,11 +70,11 @@ export default function GratitudePage() {
       <div className="bg-white border-2 border-sanctuary-blush rounded-3xl p-6 sm:p-8 shadow-sm">
         <div className="flex items-center justify-between pb-4 border-b border-sanctuary-taupeLight/40 mb-4">
           <span className="font-serif text-xl font-bold text-sanctuary-cocoa">
-            Today&apos;s Three Morning Blessings
+            {t("gratitude.dailyAltarTitle")}
           </span>
           <span className="text-xs text-sanctuary-taupe flex items-center gap-1">
             <Calendar className="w-3.5 h-3.5" />
-            {new Date().toLocaleDateString("en-US", {
+            {new Date().toLocaleDateString(language === "pt-BR" ? "pt-BR" : "en-US", {
               month: "short",
               day: "numeric",
               year: "numeric",
@@ -82,58 +84,58 @@ export default function GratitudePage() {
 
         <form onSubmit={handleSave} className="space-y-4">
           <p className="text-xs text-sanctuary-cocoaLight">
-            Train your eyes to perceive God&apos;s fingerprints in your ordinary day.
+            {t("gratitude.promptText")}
           </p>
 
           <div className="space-y-3">
             <div>
               <label className="block text-xs font-semibold text-sanctuary-cocoa mb-1">
-                1. A Grace or Mercy I am grateful for:
+                {language === "pt-BR" ? "1. Uma Graça ou Misericórdia pela qual sou grata:" : "1. A Grace or Mercy I am grateful for:"}
               </label>
               <input
                 type="text"
                 value={item1}
                 onChange={(e) => setItem1(e.target.value)}
-                placeholder="e.g. A peaceful morning cup of tea, forgiving words, good health..."
+                placeholder={t("gratitude.item1Placeholder")}
                 className="w-full text-xs sm:text-sm px-4 py-2.5 rounded-xl bg-sanctuary-ivory border border-sanctuary-taupeLight/70 focus:outline-none focus:border-sanctuary-rose"
               />
             </div>
 
             <div>
               <label className="block text-xs font-semibold text-sanctuary-cocoa mb-1">
-                2. An Everyday Provision or Comfort:
+                {language === "pt-BR" ? "2. Uma Provisão ou Conforto do Cotidiano:" : "2. An Everyday Provision or Comfort:"}
               </label>
               <input
                 type="text"
                 value={item2}
                 onChange={(e) => setItem2(e.target.value)}
-                placeholder="e.g. A warm home, laughter around the dinner table, an unexpected text..."
+                placeholder={t("gratitude.item2Placeholder")}
                 className="w-full text-xs sm:text-sm px-4 py-2.5 rounded-xl bg-sanctuary-ivory border border-sanctuary-taupeLight/70 focus:outline-none focus:border-sanctuary-rose"
               />
             </div>
 
             <div>
               <label className="block text-xs font-semibold text-sanctuary-cocoa mb-1">
-                3. A Person or Relationship I Cherish:
+                {language === "pt-BR" ? "3. Uma Pessoa ou Relacionamento que Valorizo:" : "3. A Person or Relationship I Cherish:"}
               </label>
               <input
                 type="text"
                 value={item3}
                 onChange={(e) => setItem3(e.target.value)}
-                placeholder="e.g. My husband's encouragement, my daughter's smile, a faithful friend..."
+                placeholder={t("gratitude.item3Placeholder")}
                 className="w-full text-xs sm:text-sm px-4 py-2.5 rounded-xl bg-sanctuary-ivory border border-sanctuary-taupeLight/70 focus:outline-none focus:border-sanctuary-rose"
               />
             </div>
 
             <div className="pt-2">
               <label className="block text-xs font-semibold text-sanctuary-cocoa mb-1">
-                Evening Reflection: Today&apos;s Moment of Peace
+                {t("gratitude.eveningPeaceLabel")}
               </label>
               <textarea
                 rows={2}
                 value={eveningPeace}
                 onChange={(e) => setEveningPeace(e.target.value)}
-                placeholder="Where did you experience Christ's stillness in your spirit today?"
+                placeholder={t("gratitude.eveningPeacePlaceholder")}
                 className="w-full text-xs sm:text-sm p-3 rounded-xl bg-sanctuary-ivory border border-sanctuary-taupeLight/70 focus:outline-none focus:border-sanctuary-rose leading-relaxed"
               />
             </div>
@@ -141,13 +143,13 @@ export default function GratitudePage() {
 
           <div className="flex items-center justify-between pt-2">
             <span className="text-xs text-sanctuary-taupe">
-              {savedMessage ? "✓ Blessings saved securely to your timeline." : "Recorded privately on your device."}
+              {savedMessage ? t("gratitude.savedNotice") : (language === "pt-BR" ? "Registrado com privacidade em seu dispositivo." : "Recorded privately on your device.")}
             </span>
             <button
               type="submit"
               className="px-6 py-2.5 rounded-full bg-sanctuary-rose text-white text-xs font-semibold hover:bg-sanctuary-roseDark transition-colors shadow-sm"
             >
-              {savedMessage ? "Saved ✓" : "Save Today's Gratitudes"}
+              {savedMessage ? `${t("common.saved")} ✓` : t("gratitude.saveGratitudeBtn")}
             </button>
           </div>
         </form>
@@ -158,11 +160,11 @@ export default function GratitudePage() {
       {/* Gratitude Timeline History */}
       <div className="space-y-4">
         <h2 className="font-serif text-2xl font-bold text-sanctuary-cocoa">
-          Timeline of Holy Remembrance
+          {t("gratitude.pastEntriesTitle")}
         </h2>
 
         {gratitudes.length === 0 ? (
-          <p className="text-xs text-sanctuary-taupe">No gratitude entries recorded yet.</p>
+          <p className="text-xs text-sanctuary-taupe">{t("gratitude.noEntriesYet")}</p>
         ) : (
           <div className="space-y-4">
             {gratitudes.map((entry) => (
@@ -172,13 +174,15 @@ export default function GratitudePage() {
               >
                 <div className="flex items-center justify-between border-b border-sanctuary-taupeLight/30 pb-2">
                   <span className="text-xs font-bold uppercase tracking-wider text-sanctuary-rose">
-                    {new Date(entry.date).toLocaleDateString("en-US", {
+                    {new Date(entry.date).toLocaleDateString(language === "pt-BR" ? "pt-BR" : "en-US", {
                       weekday: "long",
                       month: "long",
                       day: "numeric",
                     })}
                   </span>
-                  <span className="text-[11px] text-sanctuary-taupe">3 Blessings</span>
+                  <span className="text-[11px] text-sanctuary-taupe">
+                    {language === "pt-BR" ? "3 Bênçãos" : "3 Blessings"}
+                  </span>
                 </div>
 
                 <ul className="space-y-1.5 text-xs sm:text-sm text-sanctuary-cocoa">

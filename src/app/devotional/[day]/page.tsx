@@ -20,8 +20,9 @@ import {
   Volume2,
 } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
+import { UnavailableDevotionalBanner } from "@/components/UnavailableDevotionalBanner";
 import { getDevotionalEntry } from "@/lib/content/devotionals";
-import { MONTHLY_THEMES } from "@/lib/content/themes";
+import { useLanguage } from "@/lib/i18n";
 import {
   getJournals,
   getUserState,
@@ -38,13 +39,12 @@ export default function DevotionalDayPage({
   const resolvedParams = use(params);
   const router = useRouter();
   const dayNumber = parseInt(resolvedParams.day, 10) || 1;
+  const { t, getTheme, language } = useLanguage();
 
   // Use authoritative resolver (never silently falls back to Day 1)
   const entry = getDevotionalEntry(dayNumber);
 
-  const theme =
-    MONTHLY_THEMES.find((m) => m.month_number === entry.month_number) ||
-    MONTHLY_THEMES[0];
+  const theme = getTheme(entry.month_number);
 
   const [fontSize, setFontSizeState] = useState<"normal" | "large" | "xlarge">("normal");
   const [completed, setCompleted] = useState(false);
@@ -165,20 +165,20 @@ export default function DevotionalDayPage({
             href="/"
             className="hover:text-sanctuary-cocoa flex items-center gap-1 font-medium"
           >
-            <ChevronLeft className="w-3.5 h-3.5" /> Dashboard
+            <ChevronLeft className="w-3.5 h-3.5" /> {t("nav.dashboard")}
           </Link>
           <span>/</span>
           <Link href="/calendar" className="hover:text-sanctuary-cocoa">
-            Month {entry.month_number}: {theme.theme_title}
+            {t("common.monthCount", { month: entry.month_number })}: {theme.theme_title}
           </Link>
           <span>/</span>
-          <span className="text-sanctuary-cocoa font-semibold">Day {entry.day_number}</span>
+          <span className="text-sanctuary-cocoa font-semibold">{t("common.dayCount", { day: entry.day_number })}</span>
         </div>
 
         {/* Reader Customization (Font Size & Print) */}
         <div className="flex items-center gap-2">
           <div className="flex items-center bg-white border border-sanctuary-taupeLight/70 rounded-full px-2 py-0.5 shadow-sm" role="group" aria-label="Text size options">
-            <span className="text-[11px] mr-1.5 text-sanctuary-taupe select-none">Text:</span>
+            <span className="text-[11px] mr-1.5 text-sanctuary-taupe select-none">{t("devotional.textSizeLabel")}</span>
             <button
               type="button"
               onClick={() => handleSetFontSize("normal")}
@@ -228,16 +228,19 @@ export default function DevotionalDayPage({
             className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-white border border-sanctuary-taupeLight text-sanctuary-cocoa hover:bg-sanctuary-blushLight transition-colors"
           >
             <Printer className="w-3.5 h-3.5 text-sanctuary-taupe" />
-            <span>Print Planner</span>
+            <span>{t("devotional.printDevotional")}</span>
           </Link>
         </div>
       </div>
+
+      {/* Unavailable Devotional Banner (when user is browsing in Portuguese) */}
+      <UnavailableDevotionalBanner />
 
       {/* Devotional Header */}
       <header className="text-center space-y-3 pt-2">
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold">
           <Sparkles className="w-3 h-3 text-sanctuary-rose" />
-          <span>Day {entry.day_number} of 365 • Quiet Time Sanctuary</span>
+          <span>{t("devotional.dayBadge", { day: entry.day_number })}</span>
         </div>
 
         <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-sanctuary-cocoa tracking-tight">
@@ -245,7 +248,7 @@ export default function DevotionalDayPage({
         </h1>
 
         <p className="text-sm font-sans tracking-wide text-sanctuary-taupe uppercase">
-          Theme of the Month: {theme.theme_title}
+          {t("devotional.themeOfMonth", { theme: theme.theme_title })}
         </p>
 
         {entry.is_placeholder && (
@@ -267,7 +270,7 @@ export default function DevotionalDayPage({
             <CheckCircle2
               className={`w-4 h-4 ${completed ? "text-sanctuary-sage" : "text-sanctuary-taupe"}`}
             />
-            <span>{completed ? "Quiet Time Completed" : "Mark as Completed"}</span>
+            <span>{completed ? t("common.markedCompleted") : t("common.markAsCompleted")}</span>
           </button>
 
           <button
@@ -302,7 +305,7 @@ export default function DevotionalDayPage({
         <div className="flex items-center justify-between pb-4 border-b border-sanctuary-taupeLight/40 mb-4">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-rose">
             <Bookmark className="w-4 h-4" />
-            <span>Today&apos;s Holy Scripture</span>
+            <span>{t("devotional.todayScriptureTitle")}</span>
           </div>
           <span className="text-[11px] text-sanctuary-taupe font-medium">
             {entry.scripture_translation}
@@ -324,7 +327,7 @@ export default function DevotionalDayPage({
       <section className="bg-sanctuary-ivoryLight border border-sanctuary-taupeLight/60 rounded-3xl p-6 sm:p-10 shadow-sm space-y-4">
         <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-taupe mb-2">
           <Sun className="w-4 h-4 text-sanctuary-rose" />
-          <span>Morning Reflection</span>
+          <span>{t("devotional.morningReflectionTitle")}</span>
         </div>
 
         <div className={`dev-reflection-body font-serif text-sanctuary-cocoa transition-all ${typography.body}`}>
@@ -339,13 +342,13 @@ export default function DevotionalDayPage({
         <div className="flex items-center justify-between border-b border-sanctuary-taupeLight/40 pb-3">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-rose">
             <PenTool className="w-4 h-4" />
-            <span>Heart Reflection & Personal Journal</span>
+            <span>{t("devotional.reflectionQuestionsTitle")}</span>
           </div>
-          <span className="text-xs text-sanctuary-taupe">Day {entry.day_number} Journal</span>
+          <span className="text-xs text-sanctuary-taupe">{t("common.dayCount", { day: entry.day_number })}</span>
         </div>
 
         <p className="text-xs sm:text-sm text-sanctuary-cocoaLight">
-          Take a quiet moment with the Holy Spirit to ponder these questions:
+          {t("devotional.reflectionQuestionsSubtitle")}
         </p>
 
         <ul className="space-y-3">
@@ -365,24 +368,24 @@ export default function DevotionalDayPage({
         {/* Private In-Page Journal Entry */}
         <form onSubmit={handleSaveReflection} className="mt-4 pt-2 space-y-3">
           <label className="block text-xs font-semibold text-sanctuary-cocoa">
-            Your Personal Reflections & Thoughts for Today:
+            {t("devotional.journalBoxLabel")}
           </label>
           <textarea
             rows={4}
             value={reflectionAnswer}
             onChange={(e) => setReflectionAnswer(e.target.value)}
-            placeholder="Write your prayers, thoughts, or what God is whispering to your heart this morning..."
+            placeholder={t("devotional.journalBoxPlaceholder")}
             className="w-full text-sm p-4 rounded-2xl bg-sanctuary-ivory border border-sanctuary-taupeLight/70 focus:outline-none focus:border-sanctuary-rose leading-relaxed"
           />
           <div className="flex items-center justify-between">
             <span className="text-[11px] text-sanctuary-taupe">
-              Entries are saved locally and securely.
+              {t("devotional.journalSavedNotice")}
             </span>
             <button
               type="submit"
-              className="px-5 py-2 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold hover:bg-sanctuary-rose hover:text-white transition-colors"
+              className="px-5 py-2 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold hover:bg-sanctuary-rose hover:text-white transition-colors cursor-pointer"
             >
-              {reflectionSaved ? "✓ Reflection Saved" : "Save Journal Entry"}
+              {reflectionSaved ? "✓ " + t("common.saved") : t("devotional.saveJournalEntry")}
             </button>
           </div>
         </form>
@@ -392,7 +395,7 @@ export default function DevotionalDayPage({
       <section className="bg-sanctuary-ivory border-2 border-sanctuary-rose/30 rounded-3xl p-6 sm:p-8 shadow-sm space-y-3 relative overflow-hidden">
         <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sanctuary-rose">
           <Heart className="w-4 h-4 fill-current" />
-          <span>Guided Quiet-Time Prayer</span>
+          <span>{t("devotional.guidedPrayerTitle")}</span>
         </div>
 
         <p className={`dev-prayer-body font-serif text-sanctuary-cocoa italic transition-all ${typography.prayer}`}>
@@ -404,9 +407,9 @@ export default function DevotionalDayPage({
             href="/prayer"
             className="text-xs font-medium text-sanctuary-rose hover:underline inline-flex items-center gap-1"
           >
-            + Add personal petition to Prayer Wall
+            {t("devotional.addToPrayerWall")}
           </Link>
-          <span className="text-xs font-serif italic text-sanctuary-taupe">Amen.</span>
+          <span className="text-xs font-serif italic text-sanctuary-taupe">{t("common.amen")}</span>
         </div>
       </section>
 
@@ -417,14 +420,14 @@ export default function DevotionalDayPage({
           <div>
             <span className="text-xs uppercase tracking-wider font-semibold text-sanctuary-rose flex items-center gap-1.5 mb-2">
               <Sun className="w-4 h-4" />
-              Daily Walk Intention
+              {t("devotional.dailyIntentionTitle")}
             </span>
             <p className={`dev-intention-text font-serif text-sanctuary-cocoa font-medium italic transition-all ${typography.intention}`}>
               &ldquo;{entry.daily_intention}&rdquo;
             </p>
           </div>
           <p className="text-[11px] text-sanctuary-taupe mt-4">
-            Repeat this gently throughout your day whenever worry surfaces.
+            {t("devotional.dailyIntentionHint")}
           </p>
         </div>
 
@@ -433,14 +436,14 @@ export default function DevotionalDayPage({
           <div>
             <span className="text-xs uppercase tracking-wider font-semibold text-sanctuary-sage flex items-center gap-1.5 mb-2">
               <Sparkles className="w-4 h-4" />
-              Practical Faith Step
+              {t("devotional.practicalActionTitle")}
             </span>
             <p className={`dev-action-text text-sanctuary-cocoa font-medium transition-all ${typography.action}`}>
               {entry.practical_action}
             </p>
           </div>
           <p className="text-[11px] text-sanctuary-taupe mt-4">
-            Living faith is woven into ordinary, loving actions.
+            {t("devotional.practicalActionHint")}
           </p>
         </div>
       </div>
@@ -450,7 +453,7 @@ export default function DevotionalDayPage({
         <Moon className="w-5 h-5 text-sanctuary-taupe shrink-0 mt-1" />
         <div>
           <span className="text-xs font-semibold uppercase tracking-wider text-sanctuary-taupe block mb-1">
-            Evening Benediction & Pondering
+            {t("devotional.eveningReflectionTitle")}
           </span>
           <p className={`dev-evening-text text-sanctuary-cocoa italic transition-all ${typography.evening}`}>
             &ldquo;{entry.evening_reflection_prompt}&rdquo;

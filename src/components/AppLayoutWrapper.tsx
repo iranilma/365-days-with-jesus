@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { Navigation } from "@/components/Navigation";
 import { BotanicalSprig } from "@/components/BotanicalElements";
 import Link from "next/link";
+import { LanguageProvider } from "@/lib/i18n";
 
 export function AppLayoutWrapper({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -17,16 +18,16 @@ export function AppLayoutWrapper({ children }: { children: React.ReactNode }) {
   const isSalesPage = pathname === "/" || pathname === "/sales";
 
   if (!mounted) {
-    // Return children directly during server render to prevent layout flash
-    return <>{children}</>;
+    // Return children wrapped with provider during server render to prevent layout flash
+    return <LanguageProvider>{children}</LanguageProvider>;
   }
 
   if (isSalesPage) {
-    return <>{children}</>;
+    return <LanguageProvider>{children}</LanguageProvider>;
   }
 
   return (
-    <>
+    <LanguageProvider>
       <Navigation />
 
       {/* Main Content Area for Devotional Sanctuary App */}
@@ -62,6 +63,6 @@ export function AppLayoutWrapper({ children }: { children: React.ReactNode }) {
           </p>
         </div>
       </footer>
-    </>
+    </LanguageProvider>
   );
 }

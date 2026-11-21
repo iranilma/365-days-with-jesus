@@ -3,18 +3,16 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import {
-  BookOpen,
   Calendar as CalendarIcon,
   CheckCircle2,
-  ChevronRight,
-  Sparkles,
 } from "lucide-react";
-import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
 import { MONTHLY_THEMES } from "@/lib/content/themes";
+import { useLanguage } from "@/lib/i18n";
 import { getUserState } from "@/lib/storage";
 import { UserDevotionalState } from "@/lib/types";
 
 export default function CalendarPage() {
+  const { t, getTheme, language } = useLanguage();
   const [userState, setUserState] = useState<UserDevotionalState | null>(null);
   const [selectedMonth, setSelectedMonth] = useState<number>(1);
 
@@ -22,9 +20,7 @@ export default function CalendarPage() {
     setUserState(getUserState());
   }, []);
 
-  const currentTheme =
-    MONTHLY_THEMES.find((m) => m.month_number === selectedMonth) ||
-    MONTHLY_THEMES[0];
+  const currentTheme = getTheme(selectedMonth);
 
   // Days in each month (30, 31, 28/29, etc. for 365 total)
   const daysInMonths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
@@ -47,13 +43,13 @@ export default function CalendarPage() {
       <div className="text-center space-y-2 max-w-2xl mx-auto">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold">
           <CalendarIcon className="w-3.5 h-3.5 text-sanctuary-rose" />
-          <span>365-Day Journey With Jesus</span>
+          <span>{t("calendar.pageTitle")}</span>
         </div>
         <h1 className="font-serif text-3xl sm:text-4xl font-bold text-sanctuary-cocoa">
-          Twelve Monthly Themes of Faith
+          {language === "pt-BR" ? "Doze Temas Mensais de Fé" : "Twelve Monthly Themes of Faith"}
         </h1>
         <p className="text-sm text-sanctuary-cocoaLight">
-          Walk through the entire year without fear of falling behind. Every day you enter the Word is sacred.
+          {t("calendar.pageSubtitle")}
         </p>
       </div>
 
@@ -71,7 +67,7 @@ export default function CalendarPage() {
                   : "bg-white border border-sanctuary-taupeLight text-sanctuary-cocoaLight hover:text-sanctuary-cocoa hover:bg-sanctuary-blushLight"
               }`}
             >
-              Month {theme.month_number}
+              {t("common.monthCount", { month: theme.month_number })}
             </button>
           );
         })}
@@ -81,7 +77,7 @@ export default function CalendarPage() {
       <div className="bg-sanctuary-ivoryLight border border-sanctuary-taupeLight/70 rounded-3xl p-6 sm:p-8 relative overflow-hidden shadow-sm">
         <div className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-sanctuary-rose">
-            Month {currentTheme.month_number} Spiritual Focus
+            {t("common.monthCount", { month: currentTheme.month_number })} {language === "pt-BR" ? "Foco Espiritual" : "Spiritual Focus"}
           </span>
           <h2 className="font-serif text-2xl sm:text-3xl font-bold text-sanctuary-cocoa mt-1">
             {currentTheme.theme_title}
@@ -96,7 +92,7 @@ export default function CalendarPage() {
 
           <div className="mt-4 p-4 bg-white/80 rounded-2xl border-l-4 border-sanctuary-rose text-xs">
             <span className="font-semibold text-sanctuary-cocoa block mb-1">
-              Monthly Anchor Scripture ({currentTheme.key_scripture_reference}):
+              {language === "pt-BR" ? "Texto Bíblico Âncora do Mês" : "Monthly Anchor Scripture"} ({currentTheme.key_scripture_reference}):
             </span>
             <p className="font-serif italic text-sanctuary-cocoaLight text-sm">
               &ldquo;{currentTheme.key_scripture_text}&rdquo;
@@ -109,10 +105,12 @@ export default function CalendarPage() {
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <h3 className="font-serif text-xl font-bold text-sanctuary-cocoa">
-            Daily Liturgies ({monthDayCount} Days)
+            {language === "pt-BR" ? `Liturgias Diárias (${monthDayCount} Dias)` : `Daily Liturgies (${monthDayCount} Days)`}
           </h3>
           <span className="text-xs text-sanctuary-taupe">
-            Days {startDayNumber} to {startDayNumber + monthDayCount - 1}
+            {language === "pt-BR"
+              ? `Dias ${startDayNumber} a ${startDayNumber + monthDayCount - 1}`
+              : `Days ${startDayNumber} to ${startDayNumber + monthDayCount - 1}`}
           </span>
         </div>
 
@@ -135,7 +133,7 @@ export default function CalendarPage() {
                 }`}
               >
                 <div className="flex items-center justify-between text-[10px] text-sanctuary-taupe">
-                  <span>Day {dayNum}</span>
+                  <span>{t("common.day")} {dayNum}</span>
                   {completed && <CheckCircle2 className="w-3.5 h-3.5 text-sanctuary-sage" />}
                 </div>
 
@@ -144,7 +142,7 @@ export default function CalendarPage() {
                 </span>
 
                 <span className="text-[10px] text-sanctuary-rose font-medium truncate">
-                  {completed ? "Completed" : "Read Day"}
+                  {completed ? t("common.completed") : t("calendar.startDevotional")}
                 </span>
               </Link>
             );

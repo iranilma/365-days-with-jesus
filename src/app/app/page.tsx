@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import { BotanicalDivider, BotanicalSprig } from "@/components/BotanicalElements";
 import { getDevotionalEntry } from "@/lib/content/devotionals";
-import { MONTHLY_THEMES } from "@/lib/content/themes";
+import { formatFullDevotionalDate, useLanguage } from "@/lib/i18n";
 import {
   getGratitudes,
   getPrayers,
@@ -27,6 +27,7 @@ import {
 import { GratitudeEntry, PrayerItem, UserDevotionalState } from "@/lib/types";
 
 export default function DashboardPage() {
+  const { t, getTheme, language } = useLanguage();
   const [mounted, setMounted] = useState(false);
   const [userState, setUserState] = useState<UserDevotionalState | null>(null);
   const [prayers, setPrayers] = useState<PrayerItem[]>([]);
@@ -38,7 +39,7 @@ export default function DashboardPage() {
   const [gratitudeSaved, setGratitudeSaved] = useState(false);
 
   const todayDevotional = getDevotionalEntry(1); // Authoritative Day 1
-  const currentTheme = MONTHLY_THEMES[0]; // Month 1
+  const currentTheme = getTheme(1); // Month 1
 
   useEffect(() => {
     setMounted(true);
@@ -93,28 +94,24 @@ export default function DashboardPage() {
         <div className="relative z-10 max-w-2xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sanctuary-blush text-sanctuary-cocoa text-xs font-semibold mb-3">
             <SunMedium className="w-3.5 h-3.5 text-sanctuary-rose" />
-            <span>Today&apos;s Morning Sanctuary • Day {todayDevotional.day_number} of 365</span>
+            <span>{t("dashboard.morningSanctuaryBadge", { day: todayDevotional.day_number })}</span>
           </div>
 
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-sanctuary-cocoa tracking-tight leading-tight">
-            Start your day with faith, beloved.
+            {t("dashboard.welcomeGreeting")}
           </h1>
           <p className="mt-2 text-sm sm:text-base text-sanctuary-cocoaLight leading-relaxed">
-            &ldquo;Start your day with faith. Live with gratitude. Walk with purpose.&rdquo;
+            &ldquo;{t("common.tagline")}&rdquo;
           </p>
 
           <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-sanctuary-taupe">
             <span className="flex items-center gap-1.5">
               <Calendar className="w-3.5 h-3.5 text-sanctuary-rose" />
-              {new Date().toLocaleDateString("en-US", {
-                weekday: "long",
-                month: "long",
-                day: "numeric",
-              })}
+              {formatFullDevotionalDate(new Date(), language)}
             </span>
             <span>•</span>
             <span className="font-medium text-sanctuary-cocoa">
-              Month 1: {currentTheme.theme_title}
+              {t("common.monthCount", { month: 1 })}: {currentTheme.theme_title}
             </span>
           </div>
         </div>
@@ -144,7 +141,7 @@ export default function DashboardPage() {
               <CheckCircle2
                 className={`w-4 h-4 ${isCompleted ? "text-sanctuary-sage" : "text-sanctuary-taupe"}`}
               />
-              <span>{isCompleted ? "Completed Today" : "Mark as Completed"}</span>
+              <span>{isCompleted ? t("common.markedCompleted") : t("common.markAsCompleted")}</span>
             </button>
           </div>
         </div>
@@ -174,7 +171,7 @@ export default function DashboardPage() {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-sanctuary-rose text-white text-sm font-semibold shadow-sm hover:bg-sanctuary-roseDark transition-all hover:gap-3"
             >
               <BookOpen className="w-4 h-4" />
-              <span>Begin Quiet Time</span>
+              <span>{t("dashboard.readDevotionalBtn")}</span>
               <ChevronRight className="w-4 h-4" />
             </Link>
 
@@ -183,7 +180,7 @@ export default function DashboardPage() {
               className="inline-flex items-center gap-1.5 px-4 py-3 rounded-full bg-sanctuary-ivory text-sanctuary-cocoa text-sm font-medium border border-sanctuary-taupeLight hover:bg-sanctuary-blushLight transition-colors"
             >
               <Printer className="w-4 h-4 text-sanctuary-taupe" />
-              <span>Printable Planner</span>
+              <span>{t("devotional.printDevotional")}</span>
             </Link>
           </div>
 
