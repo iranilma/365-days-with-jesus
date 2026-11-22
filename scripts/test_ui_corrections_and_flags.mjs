@@ -12,6 +12,10 @@ console.log("  UI CORRECTIONS, FLAGS REMOVAL & TEXT-SIZE SUITE");
 console.log("================================================================================");
 
 // 1. Check zero flags in src/
+const GB_FLAG = "\uD83C\uDDEC\uD83C\uDDF7";
+const US_FLAG = "\uD83C\uDDFA\uD83C\uDDF8";
+const BR_FLAG = "\uD83C\uDDE7\uD83C\uDDF7";
+
 let flagCount = 0;
 function scanForFlags(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -21,7 +25,7 @@ function scanForFlags(dir) {
       scanForFlags(fullPath);
     } else if (entry.name.endsWith(".tsx") || entry.name.endsWith(".ts")) {
       const content = fs.readFileSync(fullPath, "utf-8");
-      if (content.includes("🇬🇧") || content.includes("🇧🇷")) {
+      if (content.includes(GB_FLAG) || content.includes(US_FLAG) || content.includes(BR_FLAG)) {
         console.error(`Flag found in: ${fullPath}`);
         flagCount++;
       }
@@ -43,14 +47,15 @@ for (const file of inspectedFiles) {
   const fullPath = path.join(projectRoot, file);
   assert(fs.existsSync(fullPath), `File ${file} must exist`);
   const content = fs.readFileSync(fullPath, "utf-8");
-  assert(!content.includes("🇬🇧"), `No British flag in ${file}`);
-  assert(!content.includes("🇧🇷"), `No Brazilian flag in ${file}`);
+  assert(!content.includes(GB_FLAG), `No British flag in ${file}`);
+  assert(!content.includes(US_FLAG), `No US flag in ${file}`);
+  assert(!content.includes(BR_FLAG), `No Brazilian flag in ${file}`);
 }
 console.log("  [PASS] Task 1 files verified free of flags (LanguageSelector, Navigation, welcome, config.ts)");
 
 // 3. Navigation top menu
 const navContent = fs.readFileSync(path.join(projectRoot, "src/components/Navigation.tsx"), "utf-8");
-assert(!navContent.includes("🇬🇧") && !navContent.includes("🇧🇷"), "No flags in Navigation");
+assert(!navContent.includes(GB_FLAG) && !navContent.includes(BR_FLAG) && !navContent.includes(US_FLAG), "No flags in Navigation");
 assert(!navContent.includes('href="/"') && !navContent.includes("href='/'"), "No editions button on top menu in Navigation");
 console.log("  [PASS] Navigation has zero flags and no editions button on top menu");
 
@@ -95,7 +100,7 @@ console.log("  [PASS] DashboardView contains compact A / A+ / A++ controls with 
 
 // 7. Edition Portal (src/app/page.tsx)
 const portalContent = fs.readFileSync(path.join(projectRoot, "src/app/page.tsx"), "utf-8");
-assert(!portalContent.includes("🇬🇧") && !portalContent.includes("🇧🇷"), "Portal has zero flags");
+assert(!portalContent.includes(GB_FLAG) && !portalContent.includes(BR_FLAG) && !portalContent.includes(US_FLAG), "Portal has zero flags");
 assert(portalContent.includes('href="/en"'), "Portal links to /en");
 assert(portalContent.includes('href="/pt-br"'), "Portal links to /pt-br");
 console.log("  [PASS] Edition portal has zero flags and links cleanly to /en and /pt-br");
