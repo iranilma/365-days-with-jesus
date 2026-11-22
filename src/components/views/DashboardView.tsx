@@ -178,13 +178,10 @@ export function DashboardView({ edition }: DashboardViewProps) {
 
             {/* Compact Text Size Selector (A / A+ / A++) */}
             <div
-              className="inline-flex items-center bg-white border border-sanctuary-taupeLight/80 rounded-full px-2.5 py-1 shadow-xs"
+              className="inline-flex items-center bg-white border border-sanctuary-taupeLight/80 rounded-full px-2 py-0.5 shadow-xs"
               role="group"
               aria-label={isPt ? "Tamanho do texto" : "Text size options"}
             >
-              <span className="text-[11px] mr-1.5 text-sanctuary-taupe select-none font-medium">
-                {isPt ? "Texto:" : "Text:"}
-              </span>
               <button
                 type="button"
                 onClick={() => handleSetFontSize("normal")}
@@ -193,7 +190,8 @@ export function DashboardView({ edition }: DashboardViewProps) {
                     ? "bg-sanctuary-rose text-white shadow-xs"
                     : "text-sanctuary-cocoa hover:text-sanctuary-rose"
                 }`}
-                title={isPt ? "Tamanho normal (A)" : "Normal text size (A)"}
+                title="A"
+                aria-label="A"
                 aria-pressed={fontSize === "normal"}
               >
                 A
@@ -206,7 +204,8 @@ export function DashboardView({ edition }: DashboardViewProps) {
                     ? "bg-sanctuary-rose text-white shadow-xs"
                     : "text-sanctuary-cocoa hover:text-sanctuary-rose"
                 }`}
-                title={isPt ? "Tamanho grande (A+)" : "Large text size (A+)"}
+                title="A+"
+                aria-label="A+"
                 aria-pressed={fontSize === "large"}
               >
                 A+
@@ -219,7 +218,8 @@ export function DashboardView({ edition }: DashboardViewProps) {
                     ? "bg-sanctuary-rose text-white shadow-xs"
                     : "text-sanctuary-cocoa hover:text-sanctuary-rose"
                 }`}
-                title={isPt ? "Tamanho extra grande (A++)" : "Extra large text size (A++)"}
+                title="A++"
+                aria-label="A++"
                 aria-pressed={fontSize === "xlarge"}
               >
                 A++
